@@ -15,6 +15,24 @@
 
 <body>
 
+<div class="luminosity-panel">
+    <div class="luminosity-header">
+        SOL LUMINOSITY
+    </div>
+
+    <div class="luminosity-reading">
+        <span id="luminosity-value">100%</span>
+    </div>
+
+    <div class="luminosity-bar-container">
+        <div class="luminosity-bar" id="luminosity-bar"></div>
+    </div>
+
+    <div class="luminosity-status" id="luminosity-status">
+        NOMINAL
+    </div>
+</div>
+
 <nav class="timeline-nav">
 
     <a href="#intro" class="nav-dot active">
@@ -75,7 +93,7 @@
   </div>
 
   <div class="hud-right">
-    STATUS: ACTIVE
+    STATUS: COMPLETE
   </div>
 
 </header>
@@ -91,7 +109,7 @@
   <div class="content">
 
     <p class="eyebrow">
-      UNITED EARTH SCIENTIFIC COUNCIL
+      PETROVA TASK FORCE
     </p>
 
     <h1>
@@ -115,53 +133,190 @@
 
 <section class="panel petrova" id="petrova">
 
-  <div class="overlay"></div>
-  <div class="hud-data">
-    <div>
-        SOL LUMINOSITY
-        <span class="luminosity" data-value="100%">100%</span>
+    <div class="overlay"></div>
+
+    <div class="hud-data">
+        <div>
+            SOL LUMINOSITY
+            <span class="luminosity" data-value="99.7%">99.7%</span>
+        </div>
+
+        <div>
+            ARCHIVE STATUS
+            <span>INVESTIGATING</span>
+        </div>
+
+        <div>
+            CLASSIFICATION
+            <span>LEVEL 1</span>
+        </div>
     </div>
 
-    <div>
-        TAU CETI DISTANCE
-        <span>11.9 LY</span>
+    <div class="content">
+        <br>
+        <br>
+        <div class="mission-time">
+            T–13 YEARS
+        </div>
+
+        <p class="eyebrow">
+            PULKOVO OBSERVATORY — ST. PETERSBURG
+        </p>
+
+        <h1>
+            STRANGE INFRARED<br>GLOW DETECTED
+        </h1>
+
+        <p class="description">
+            A faint infrared arc stretching from Sol toward Venus
+            is independently confirmed by multiple observatories.
+            The phenomenon emits exclusively at 25.984 microns
+            and does not match any known interplanetary behavior.
+        </p>
+
+        <div class="console-box">
+            FIRST VERIFIED DETECTION OF THE PETROVA LINE
+        </div>
+
+        <!-- DOCUMENT BUTTON -->
+
+        <button
+            class="archive-button"
+            onclick="openArchive('petrova')">
+
+            OPEN INITIAL OBSERVATION REPORT
+
+        </button>
+
+    </div>
+</section>
+<br>
+<!-- ADDRESS -->
+<section class="panel address" id="address">
+ <br>
+    <div class="overlay"></div>
+
+    <div class="hud-data">
+
+        <div>
+            SOL LUMINOSITY
+            <span class="luminosity" data-value="99.98%">99.98%</span>
+        </div>
+
+        <div>
+            PETROVA LINE OUTPUT
+            <span>INCREASING</span>
+        </div>
+
+        <div>
+            ARCHIVE STATUS
+            <span>PUBLIC DISCLOSURE</span>
+        </div>
+
     </div>
 
-    <div>
-        ARCHIVE STATUS
-        <span>STABLE</span>
+    <div class="content">
+
+        <div class="mission-time">
+            T–12 YEARS
+        </div>
+
+        <p class="eyebrow">
+            INTERNATIONAL EMERGENCY BROADCAST
+        </p>
+
+        <h1>
+            THE PRESIDENT<br>ADDRESSES EARTH
+        </h1>
+
+        <p class="description">
+            Following confirmation from JAXA and multiple
+            international observatories, world governments
+            publicly acknowledge the existence of the Petrova Line
+            and a measurable decline in solar output. "ArcLight" probe launches next week to investigate the phenomenon up close.
+        </p>
+
+        <div class="warning-box">
+            SOLAR LUMINOSITY DECLINE:
+            0.01%
+        </div>
+
+        <!-- OPEN TRANSCRIPT -->
+
+        <button
+            class="archive-button"
+            onclick="openArchive('address')">
+
+            OPEN EMERGENCY BROADCAST TRANSCRIPT
+
+        </button>
+
     </div>
-</div>
-
-  <div class="content">
-
-    <div class="mission-time">
-      T–MINUS 13 YEARS
-    </div>
-
-    <p class="eyebrow">
-      SOL OBSERVATION ARRAY
-    </p>
-
-    <h1>
-      THE PETROVA<br>LINE IS FOUND
-    </h1>
-
-    <p class="description">
-      An anomalous infrared line surrounding the sun
-      is detected. Initial findings suggest the presence
-      of a stellar-energy-consuming organism.
-    </p>
-
-    <div class="console-box">
-      GLOBAL THREAT LEVEL UPDATED
-    </div>
-
-  </div>
 
 </section>
 
-<!-- SUN DIMMING -->
+<section class="panel arclight" id="arclight">
+
+    <div class="overlay"></div>
+
+    <div class="hud-data">
+
+        <div>
+            SOL LUMINOSITY
+            <span class="luminosity" data-value="99.91%">99.91%</span>
+        </div>
+
+        <div>
+            ARCLIGHT STATUS
+            <span>VENUS ORBIT</span>
+        </div>
+
+        <div>
+            GLOBAL VIEWERS
+            <span>2.8 BILLION</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T–11 YEARS
+        </div>
+
+        <p class="eyebrow">
+            NASA / JPL LIVE FEED
+        </p>
+
+        <h1>
+            ARCLIGHT<br>RETURNS DATA
+        </h1>
+
+        <p class="description">
+            Humanity watches live as the ArcLight probe
+            enters Venusian orbit and captures the first
+            close-range imagery of the Petrova Line.
+        </p>
+
+        <div class="terminal">
+            > LIVE TELEMETRY ACTIVE
+            <br>
+            > SAMPLE ANALYSIS IN PROGRESS
+        </div>
+
+        <button
+            class="archive-button"
+            onclick="openArchive('arclight')">
+
+            OPEN NASA LIVESTREAM TRANSCRIPT
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- SUN DIMMING 
 
 <section class="panel dimming" id="dimming">
 
@@ -187,7 +342,7 @@
   <div class="content">
 
     <div class="mission-time">
-      T–MINUS 11 YEARS
+      T–11 YEARS
     </div>
 
     <p class="eyebrow">
@@ -195,7 +350,7 @@
     </p>
 
     <h1>
-      THE SUN<br>BEGINS DIMMING
+      THE SUN<br>IS DIMMING
     </h1>
 
     <p class="description">
@@ -211,7 +366,7 @@
   </div>
 
 </section>
-
+-->
 <!-- ASTROPHAGE -->
 
 <section class="panel astrophage" id="astrophage">
@@ -237,7 +392,7 @@
   <div class="content">
 
     <div class="mission-time">
-      T–MINUS 9 YEARS
+      T–9 YEARS
     </div>
 
     <p class="eyebrow">
@@ -557,6 +712,27 @@
     </div>
 
 </section>
+
+<!-- ARCHIVE MODAL -->
+
+<div class="archive-modal" id="archive-modal">
+
+    <div class="archive-modal-content">
+
+        <button class="close-modal" onclick="closeArchive()">
+            ✕
+        </button>
+
+        <div class="archive-modal-header" id="modal-title">
+            ARCHIVE ENTRY
+        </div>
+
+        <div class="archive-modal-body" id="modal-body">
+        </div>
+
+    </div>
+
+</div>
 
 <script src="script.js"></script>
 
