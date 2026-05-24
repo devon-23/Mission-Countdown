@@ -296,6 +296,491 @@ DR. BROWNE: Oh—oh my god. Sorry, I have to go now.
 [END TRANSCRIPT]
 </pre>
 `
+},
+taskforce: {
+
+    title: 'UNITED NATIONS BRIEFING — PETROVA TASK FORCE',
+
+    body: `
+<pre>
+[GLOBAL NEWS ARTICLE — ARCHIVE COPY]
+
+UNITED NATIONS ANNOUNCES CREATION
+OF PETROVA TASK FORCE
+
+GENEVA —
+
+Following emergency negotiations between all major world powers,
+the United Nations today announced the formation of the Petrova
+Task Force, an international scientific authority tasked with
+investigating the rapidly intensifying Petrova Line phenomenon.
+
+The organization will operate independently of all national governments.
+
+In an unprecedented move, member nations have unanimously agreed
+to grant Task Force Director Eva Stratt extraordinary legal authority
+across international borders.
+
+Under the agreement:
+
+• The Petrova Task Force may requisition facilities,
+materials, transportation infrastructure, and personnel
+from any participating nation.
+
+• Task Force personnel will possess unrestricted diplomatic access.
+
+• Director Eva Stratt will receive full legal immunity
+in all cooperating countries.
+
+• National agencies are required to comply immediately
+with Task Force directives.
+
+The announcement has generated both widespread praise
+and deep concern among legal scholars and political leaders.
+
+Supporters argue that the accelerating decline in solar luminosity
+constitutes an existential threat requiring unprecedented coordination.
+
+Critics warn the agreement effectively places a single unelected official
+above international law.
+
+When questioned about the decision during a press conference,
+UN representatives responded:
+
+"Humanity no longer has the luxury of bureaucracy."
+
+WHO IS EVA STRATT?
+
+Eva Stratt previously served as a senior administrator
+within the European Space Agency and later coordinated
+multiple multinational emergency engineering initiatives.
+
+Colleagues describe her as:
+
+"brilliant"
+"ruthlessly efficient"
+and
+"absolutely terrifying."
+
+Sources within the UN describe Stratt as the only candidate
+capable of coordinating a scientific response at the required scale.
+
+FIRST OBJECTIVE: PROJECT ARCLIGHT
+
+The Petrova Task Force's immediate priority is the launch
+of a deep-space probe into the Petrova Line itself.
+
+The mission, now designated Project ArcLight,
+will attempt to collect physical samples from the anomaly
+near Venusian orbit.
+
+Construction has reportedly already begun.
+
+[END ARTICLE]
+</pre>
+`
+},
+astrophage: {
+
+    title: 'GLOBAL SCIENCE REPORT — WHAT IS ASTROPHAGE?',
+
+    body: `
+<pre>
+[GLOBAL SCIENCE REPORT]
+
+WHAT IS ASTROPHAGE?
+
+When samples from the ArcLight probe first touched down in laboratories around the world, scientists
+have attempted to understand the mysterious particles
+collected by the ArcLight probe near Venusian orbit.
+
+Now, humanity finally has an answer.
+
+The particles are alive.
+
+The discovery was confirmed simultaneously across
+multiple international research facilities after
+high-magnification microscopy revealed autonomous movement
+within the samples.
+
+Researchers initially struggled to examine the organism.
+
+Standard imaging techniques produced almost no results.
+
+X-rays, gamma rays, microwaves, and visible-spectrum analysis
+all failed to penetrate the organism’s outer structure.
+
+"It was like looking at a perfect black box,"
+one researcher stated.
+
+The breakthrough occurred after controlled sample death
+allowed scientists to finally examine the internal structure.
+
+The organism was revealed to be a microscopic alien cell.
+
+"It’s a cell! It’s a tiny alien cell!"
+reported biologist Dr. Ryland Grace during
+the now-famous laboratory recording.
+
+The moment has since been referred to by media outlets as:
+
+"The Day Humanity Discovered Alien Life."
+
+Further analysis revealed several shocking characteristics:
+
+• The organism emits infrared radiation
+at precisely the Petrova frequency.
+
+• It stores massive quantities of energy
+with near-perfect efficiency.
+
+• It expels infrared photons for propulsion.
+
+• Its internal composition consists almost entirely of water.
+
+Researchers now believe Astrophage absorbs energy directly
+from stars before transporting that energy elsewhere.
+
+This mechanism is believed to explain the ongoing
+decline in solar luminosity.
+
+The term "Astrophage" was first proposed by Dr. Ryland Grace,
+a molecular biologist working under the Petrova Task Force.
+
+The name combines:
+
+"astro" — relating to stars
+
+and
+
+"phage" — an organism that consumes.
+
+The designation was formally adopted by the international
+scientific community less than six hours later.
+
+Global scientific mobilization has since accelerated dramatically.
+
+More than 300 laboratories in 21 countries are now
+actively researching Astrophage biology, reproduction,
+propulsion, and energy storage.
+
+Scientists believe the organism may possess the highest
+energy density ever observed in nature.
+
+Some researchers have already suggested Astrophage
+could revolutionize space travel—if humanity survives
+long enough to understand it.
+
+[END REPORT]
+</pre>
+`
+},
+projections: {
+
+    title: 'GLOBAL MODELING REPORT — SUN DIMMING IMPACT PROJECTIONS',
+
+    body: `
+<pre>
+[CLASSIFIED EARTH SYSTEMS REPORT]
+
+SUBJECT: Solar Luminosity Decline — Human Impact Forecast
+
+The international climate and biosphere modeling consortium
+has finalized updated projections based on current solar output trends.
+
+KEY FINDINGS:
+
+Solar luminosity is decreasing in a non-natural pattern
+correlated with the Petrova Line energy extraction rate.
+
+This decline is accelerating.
+
+All standard solar cycle models have been invalidated.
+
+---
+
+CIVILIZATION IMPACT TIMELINE:
+
+YEAR 1–5:
+• Minor reductions in crop yield efficiency
+• Increased regional climate instability
+• Early economic disruption in agricultural export nations
+
+YEAR 5–10:
+• Major crop system failures across multiple continents
+• Mass migration from equatorial regions begins
+• Food supply chains destabilize globally
+• First geopolitical conflicts over arable land reported
+
+YEAR 10–15:
+• Global famine conditions in multiple regions
+• Breakdown of international trade stability
+• Energy infrastructure stress due to climate compensation
+• Large-scale governmental restructuring begins
+
+YEAR 15–19:
+• Predictive models converge on:
+  50% global population mortality
+
+CAUSES OF MORTALITY:
+• Famine
+• Resource conflict
+• Infrastructure collapse
+• Climate-induced displacement
+• Disease proliferation due to system failure
+
+---
+
+When asked to summarize the findings,
+lead researcher Dr. Harold Kline stated:
+
+"We're not talking about ecosystem disruption anymore.
+We're talking about civilization termination."
+
+---
+
+50% global mortality: 19-year horizon.
+
+No known mitigation strategy currently exists.
+
+[END REPORT]
+</pre>
+`
+},
+sahara: {
+
+    title: 'PROJECT SAHARA — TASK FORCE ETHICS & INFRASTRUCTURE REPORT',
+
+    body: `
+<pre>
+[CLASSIFIED PETROVA TASK FORCE REPORT]
+
+PROJECT: SAHARA DESERT SOLAR & ASTROPHAGE HARVESTING NETWORK
+
+OVERVIEW:
+
+The Sahara Desert spans approximately nine trillion square meters
+of some of the most consistently high solar irradiance on Earth.
+
+The Petrova Task Force has proposed a large-scale infrastructure
+deployment across designated regions of the Sahara Desert
+to support both energy production and Astrophage cultivation.
+
+---
+
+PRIMARY OBJECTIVES:
+
+1. Construct high-density solar collection fields ("black panels")
+   optimized for maximum Astrophage energy absorption.
+
+2. Establish controlled Astrophage breeding zones
+   under monitored thermal conditions.
+
+3. Utilize harvested energy to stabilize global power grids.
+
+---
+
+WHY THE SAHARA?
+
+As one Task Force engineer summarized:
+
+"The Sahara Desert is nine trillion square meters."
+
+Africa contains vast regions of land with extreme solar exposure
+and low population density.
+
+Combined with emerging partnerships with African governments,
+this makes the region ideal for large-scale deployment.
+
+---
+
+ETHICAL & POLITICAL REVIEW:
+
+The proposal required multinational negotiation.
+
+Many African states initially raised concerns regarding:
+• Land sovereignty
+• Environmental disruption
+• Resource ownership
+
+However, agreements were reached under the condition that:
+
+AFTER INITIAL ASTROPHAGE ENERGY DEPLOYMENT PHASE:
+
+• Infrastructure will remain in place
+• Energy output will be shared with host nations
+• Long-term ownership of solar power systems will transfer
+  to local governments
+
+Task Force conclusion:
+
+"This is not extraction. This is infrastructure acceleration."
+
+---
+
+FIELD INTERVIEW EXCERPT — EVA STRATT:
+
+"The Sahara Desert is just sitting there,
+waiting to give everything it needs.
+
+All we had to do was build the damn power plants."
+
+---
+
+ENGINEERING NOTE — REDELL (PROJECT LEAD):
+
+"Africa needs power. We need energy production at scale.
+
+Every government involved wanted a share of the project.
+Yes, there were negotiations. Yes, there were costs.
+
+But the alternative is collapse."
+
+---
+
+ACCIDENT REPORT EXCERPT:
+
+During initial pilot testing of a 1 km² solar array:
+
+• Mirror array misaligned during system initialization
+• Focused energy beam struck central water turbine tower
+• System overload occurred
+
+Resulting damage: classified
+
+System subsequently redesigned for full automation control locks.
+
+---
+
+FINAL ASSESSMENT:
+
+If successfully deployed, the Sahara network
+will represent the largest energy harvesting system
+ever constructed on Earth.
+
+It is considered essential for:
+
+• Astrophage containment research
+• Global energy stabilization
+• Civilization continuity
+
+[END REPORT]
+</pre>
+`
+},
+hailmary: {
+
+    title: 'PROJECT HAIL MARY — MISSION BRIEFING',
+
+    body: `
+<pre>
+[GLOBAL SPACE COALITION EMERGENCY BRIEFING]
+
+PROJECT: HAIL MARY
+
+MISSION OBJECTIVE:
+Investigate the Tau Ceti system to determine why its
+stellar luminosity has not been affected by the chain
+of stellar dimming observed throughout known space.
+
+---
+
+BACKGROUND:
+
+Observational analysis confirms a cascading chain of stellar
+energy depletion across multiple star systems:
+
+Our Sun → infected system
+WISE 0855–0714 → infected system
+Sirius → infected system
+Epsilon Eridani → infected system
+
+Beyond this point, the trail goes cold.
+
+No further propagation source has been identified.
+
+---
+
+MISSION DESIGN:
+
+Due to urgency constraints, a rapid-response interstellar
+expedition has been approved.
+
+Crew composition (final selection pending):
+
+• Science Officer — astrophage research specialist
+• Engineer — spacecraft systems & survival
+• Pilot — interstellar navigation & mission execution
+
+Crew will operate in extended cryogenic / suspended mission mode
+where applicable and transmit data via probe relay systems.
+
+---
+
+COMMUNICATION PLAN:
+
+Due to extreme distance limitations:
+
+• Direct real-time communication is impossible
+• Data will be transmitted via autonomous probe relays
+• Full dataset return is expected only upon mission completion
+
+---
+
+TIMELINE CONSTRAINT:
+
+• Tau Ceti distance: ~13 light years
+• One-way travel time: 13 years
+• Full mission cycle (travel + data return): minimum 26 years
+
+---
+
+THE PROBLEM:
+
+At current projections:
+
+Half of all human life is expected to be lost within
+a significantly shorter timeframe than mission completion.
+
+ESTIMATED 50% GLOBAL MORTALITY WINDOW:
+~19 YEARS
+
+---
+
+STRATEGIC QUESTION PRESENTED TO GLOBAL COUNCIL:
+
+What do we do when the only hope of understanding the threat
+will arrive AFTER half of humanity may already be gone?
+
+---
+
+COUNCIL RESPONSE:
+
+"No alternative mission paths exist with higher probability
+of success within required physics constraints."
+
+"Tau Ceti is the only known system outside the propagation chain
+that may contain answers."
+
+---
+
+FINAL STATEMENT FROM TASK FORCE DIRECTOR EVA STRATT:
+
+"We don’t get to choose between good options.
+
+We choose between extinction with curiosity…
+or extinction with ignorance."
+
+---
+
+MISSION STATUS:
+APPROVED
+
+PROJECT HAIL MARY INITIATED
+
+[END BRIEFING]
+</pre>
+`
 }
 };
 
