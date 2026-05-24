@@ -1,175 +1,561 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PROJECT HAIL MARY — Mission Countdown</title>
 
-  <link rel="stylesheet" href="style.css"/>
+  <title>PROJECT HAIL MARY — ARCHIVE</title>
+
+  <link rel="stylesheet" href="style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="stars"></div>
+<nav class="timeline-nav">
 
-<nav class="topbar">
-  <div class="logo">PROJECT HAIL MARY</div>
-  <div class="status">MISSION TIMELINE ARCHIVE</div>
+    <a href="#intro" class="nav-dot active">
+        <span>ARCHIVE</span>
+    </a>
+
+    <a href="#petrova" class="nav-dot">
+        <span>PETROVA</span>
+    </a>
+
+    <a href="#dimming" class="nav-dot">
+        <span>DIMMING</span>
+    </a>
+
+    <a href="#astrophage" class="nav-dot">
+        <span>ASTROPHAGE</span>
+    </a>
+
+    <a href="#launch" class="nav-dot">
+        <span>LAUNCH</span>
+    </a>
+
+    <a href="#war" class="nav-dot">
+        <span>WAR</span>
+    </a>
+
+    <a href="#tau" class="nav-dot">
+        <span>TAU CETI</span>
+    </a>
+
+    <a href="#taumoeba" class="nav-dot">
+        <span>TAUMOEBA</span>
+    </a>
+
+    <a href="#beetles" class="nav-dot">
+        <span>RETURN</span>
+    </a>
+
+    <a href="#recovery" class="nav-dot">
+        <span>RECOVERY</span>
+    </a>
+
 </nav>
 
-<!-- SECTION 1 -->
+<div class="scanlines"></div>
+<div class="stars"></div>
 
-<section class="panel intro">
+<!-- TOP HUD -->
+
+<header class="hud">
+
+  <div class="hud-left">
+    PROJECT HAIL MARY
+  </div>
+
+  <div class="hud-center">
+    MISSION ARCHIVE SYSTEM
+  </div>
+
+  <div class="hud-right">
+    STATUS: ACTIVE
+  </div>
+
+</header>
+
+<!-- INTRO -->
+
+<section class="panel intro" id="intro">
+
   <div class="overlay"></div>
 
+  <div class="grid"></div>
+
   <div class="content">
-    <p class="small">SOL SYSTEM OBSERVATION NETWORK</p>
 
-    <h1>THE PETROVA LINE IS DISCOVERED</h1>
-
-    <p class="description">
-      An impossible line of infrared radiation has been detected crossing the sun.
-      Initial findings indicate an unknown microorganism consuming stellar energy.
+    <p class="eyebrow">
+      UNITED EARTH SCIENTIFIC COUNCIL
     </p>
 
-    <div class="data-box">
-      <span>STATUS:</span>
-      GLOBAL INVESTIGATION INITIATED
-    </div>
-  </div>
-</section>
-
-<!-- SECTION 2 -->
-
-<section class="panel panic">
-  <div class="overlay"></div>
-
-  <div class="content">
-    <p class="small">YEAR 1</p>
-
-    <h1>THE SUN BEGINS TO DIM</h1>
+    <h1>
+      HAIL MARY<br>MISSION ARCHIVE
+    </h1>
 
     <p class="description">
-      Climate collapse projections become unavoidable.
-      Nations enter coordinated emergency response protocols.
+      Scroll to access the complete historical timeline
+      of humanity's final interstellar mission.
     </p>
 
-    <div class="warning">
-      PROJECTED HUMAN EXTINCTION WINDOW:
-      <strong>28 YEARS</strong>
+    <div class="console-box">
+      ARCHIVE ACCESS GRANTED
     </div>
+
   </div>
+
 </section>
 
-<!-- SECTION 3 -->
+<!-- PETROVA -->
 
-<section class="panel astrophage">
+<section class="panel petrova" id="petrova">
+
   <div class="overlay"></div>
+  <div class="hud-data">
+    <div>
+        SOL LUMINOSITY
+        <span class="luminosity" data-value="100%">100%</span>
+    </div>
+
+    <div>
+        TAU CETI DISTANCE
+        <span>11.9 LY</span>
+    </div>
+
+    <div>
+        ARCHIVE STATUS
+        <span>STABLE</span>
+    </div>
+</div>
 
   <div class="content">
-    <p class="small">LAB 7 — EVA STRATT COMMAND</p>
 
-    <h1>ASTROPHAGE IDENTIFIED</h1>
+    <div class="mission-time">
+      T–MINUS 13 YEARS
+    </div>
+
+    <p class="eyebrow">
+      SOL OBSERVATION ARRAY
+    </p>
+
+    <h1>
+      THE PETROVA<br>LINE IS FOUND
+    </h1>
 
     <p class="description">
-      The organism stores energy with near-perfect efficiency.
-      Scientific understanding of propulsion changes overnight.
+      An anomalous infrared line surrounding the sun
+      is detected. Initial findings suggest the presence
+      of a stellar-energy-consuming organism.
+    </p>
+
+    <div class="console-box">
+      GLOBAL THREAT LEVEL UPDATED
+    </div>
+
+  </div>
+
+</section>
+
+<!-- SUN DIMMING -->
+
+<section class="panel dimming" id="dimming">
+
+  <div class="overlay"></div>
+
+    <div class="hud-data">
+        <div>
+            SOL LUMINOSITY
+            <span class="luminosity" data-value="100%">100%</span>
+        </div>
+
+        <div>
+            TAU CETI DISTANCE
+            <span>11.9 LY</span>
+        </div>
+
+        <div>
+            ARCHIVE STATUS
+            <span>STABLE</span>
+        </div>
+    </div>
+
+  <div class="content">
+
+    <div class="mission-time">
+      T–MINUS 11 YEARS
+    </div>
+
+    <p class="eyebrow">
+      GLOBAL EMERGENCY SUMMIT
+    </p>
+
+    <h1>
+      THE SUN<br>BEGINS DIMMING
+    </h1>
+
+    <p class="description">
+      Agricultural collapse models become unavoidable.
+      Nations unite under emergency scientific authority.
+    </p>
+
+    <div class="warning-box">
+      PROJECTED HUMAN EXTINCTION:
+      28 YEARS
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ASTROPHAGE -->
+
+<section class="panel astrophage" id="astrophage">
+
+  <div class="overlay"></div>
+    <div class="hud-data">
+    <div>
+        SOL LUMINOSITY
+        <span class="luminosity" data-value="100%">100%</span>
+    </div>
+
+    <div>
+        TAU CETI DISTANCE
+        <span>11.9 LY</span>
+    </div>
+
+    <div>
+        ARCHIVE STATUS
+        <span>STABLE</span>
+    </div>
+</div>
+
+  <div class="content">
+
+    <div class="mission-time">
+      T–MINUS 9 YEARS
+    </div>
+
+    <p class="eyebrow">
+      EVA STRATT COMMAND
+    </p>
+
+    <h1>
+      ASTROPHAGE<br>IDENTIFIED
+    </h1>
+
+    <p class="description">
+      A microorganism capable of near-perfect energy
+      storage changes propulsion science forever.
     </p>
 
     <div class="terminal">
-      > ENERGY STORAGE CAPACITY EXCEEDS ALL KNOWN MATERIALS
+      > SPIN DRIVE PROTOTYPE SUCCESSFUL
       <br>
-      > SPIN DRIVE PROTOTYPE APPROVED
+      > INTERSTELLAR RANGE NOW POSSIBLE
     </div>
+
   </div>
+
 </section>
 
-<!-- SECTION 4 -->
+<!-- LAUNCH -->
 
-<section class="panel launch">
+<section class="panel launch" id="launch">
+
   <div class="overlay"></div>
+    <div class="hud-data">
+        <div>
+            SOL LUMINOSITY
+            <span class="luminosity" data-value="100%">100%</span>
+        </div>
+
+        <div>
+            TAU CETI DISTANCE
+            <span>11.9 LY</span>
+        </div>
+
+        <div>
+            ARCHIVE STATUS
+            <span>STABLE</span>
+        </div>
+    </div>
 
   <div class="content">
-    <p class="small">MISSION DAY 0</p>
 
-    <h1>HAIL MARY LAUNCHES</h1>
+    <div class="mission-time">
+      T+0
+    </div>
 
-    <p class="description">
-      Humanity sends its final gamble toward Tau Ceti.
+    <p class="eyebrow">
+      LAUNCH DAY
     </p>
 
-    <div class="countdown">
+    <h1>
+      HAIL MARY<br>LAUNCHES
+    </h1>
+
+    <p class="description">
+      Humanity sends its final hope toward Tau Ceti.
+    </p>
+
+    <div class="console-box">
       CREW STATUS: IN TRANSIT
     </div>
+
   </div>
+
 </section>
 
-<!-- SECTION 5 -->
+<section class="panel war" id="war">
 
-<section class="panel rocky">
-  <div class="overlay"></div>
+    <div class="overlay"></div>
 
-  <div class="content">
-    <p class="small">TAU CETI SYSTEM</p>
+    <div class="hud-data">
+        <div>
+            SOL LUMINOSITY
+            <span class="luminosity" data-value="91.4%">91.4%</span>
+        </div>
 
-    <h1>FIRST CONTACT</h1>
+        <div>
+            TAU CETI DISTANCE
+            <span>6.2 LY REMAINING</span>
+        </div>
 
-    <p class="description">
-      An alien engineer from the 40 Eridani system responds to the Hail Mary.
-    </p>
-
-    <div class="terminal">
-      > UNKNOWN VESSEL DETECTED
-      <br>
-      > COMMUNICATION ATTEMPTS SUCCESSFUL
+        <div>
+            EARTH STATUS
+            <span>UNSTABLE</span>
+        </div>
     </div>
-  </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+7 YEARS
+        </div>
+
+        <p class="eyebrow">
+            EARTH PRIORITY TRANSMISSION
+        </p>
+
+        <h1>
+            RESOURCE<br>WARS BEGIN
+        </h1>
+
+        <p class="description">
+            Multiple nations engage in military conflict
+            over arable land and remaining energy resources
+            as global temperatures continue falling.
+        </p>
+
+        <div class="warning-box">
+            GLOBAL CASUALTIES EXCEED:
+            212 MILLION
+        </div>
+
+    </div>
+
 </section>
 
-<!-- SECTION 6 -->
 
-<section class="panel beetles">
-  <div class="overlay"></div>
+<section class="panel tau" id="tau">
 
-  <div class="content">
-    <p class="small">RETURN TRANSMISSION</p>
+    <div class="overlay"></div>
 
-    <h1>BEETLES SENT TO EARTH</h1>
+    <div class="hud-data">
+        <div>
+            SOL LUMINOSITY
+            <span class="luminosity" data-value="89.8%">89.8%</span>
+        </div>
 
-    <p class="description">
-      Scientific data and Taumoeba samples are launched back toward Sol.
-    </p>
+        <div>
+            TAU CETI DISTANCE
+            <span>0.3 LY</span>
+        </div>
 
-    <div class="data-box">
-      ETA TO EARTH:
-      13 YEARS
+        <div>
+            SHIP STATUS
+            <span>APPROACH VECTOR LOCKED</span>
+        </div>
     </div>
-  </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+13 YEARS
+        </div>
+
+        <p class="eyebrow">
+            DEEP SPACE TELEMETRY
+        </p>
+
+        <h1>
+            HAIL MARY<br>REACHES TAU CETI
+        </h1>
+
+        <p class="description">
+            The Hail Mary enters the Tau Ceti system.
+            Long-range scans begin searching for the source
+            of stellar immunity.
+        </p>
+
+        <div class="console-box">
+            LOCAL STAR SYSTEM ENTERED
+        </div>
+
+    </div>
+
 </section>
 
-<!-- SECTION 7 -->
+<!-- BEETLES -->
 
-<section class="panel ending">
+<section class="panel beetles" id="beetles">
+
   <div class="overlay"></div>
+    <div class="hud-data">
+        <div>
+            SOL LUMINOSITY
+            <span class="luminosity" data-value="88.5%">88.5%</span>
+        </div>
+
+        <div>
+            TAU CETI DISTANCE
+            <span>0.1 LY</span>
+        </div>
+
+        <div>
+            SHIP STATUS
+            <span>BEETLE DEPLOYMENT IN PROGRESS</span>
+        </div>
+    </div>
 
   <div class="content">
-    <p class="small">SOL SYSTEM</p>
 
-    <h1>THE BEETLES RETURN</h1>
+    <div class="mission-time">
+      T+26 YEARS
+    </div>
 
-    <p class="description">
-      Humanity receives the cure.
-      The sun begins recovery.
+    <p class="eyebrow">
+      RETURN TRANSMISSION
     </p>
 
-    <div class="final">
-      MISSION STATUS:
-      SUCCESS
+    <h1>
+      BEETLES<br>RETURN TO EARTH
+    </h1>
+
+    <p class="description">
+      Taumoeba samples arrive safely.
+      Sol system recovery begins.
+    </p>
+
+    <div class="success-box">
+      MISSION STATUS: SUCCESS
     </div>
+
   </div>
+
+</section>
+
+<section class="panel taumoeba" id="taumoeba">
+
+    <div class="overlay"></div>
+
+    <div class="hud-data">
+        <div>
+            SOL LUMINOSITY
+            <span class="luminosity" data-value="87.2%">87.2%</span>
+        </div>
+
+        <div>
+            TAU CETI DISTANCE
+            <span>TRANSMISSION EN ROUTE</span>
+        </div>
+
+        <div>
+            BEETLE STATUS
+            <span>ACTIVE</span>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+14 YEARS
+        </div>
+
+        <p class="eyebrow">
+            INTERSTELLAR PAYLOAD LAUNCH
+        </p>
+
+        <h1>
+            TAUMOEBA<br>SENT TO SOL
+        </h1>
+
+        <p class="description">
+            Modified Taumoeba samples and scientific archives
+            are launched toward Earth aboard autonomous Beetles.
+        </p>
+
+        <div class="terminal">
+            > COURSE LOCKED
+            <br>
+            > ETA: 12 YEARS
+        </div>
+
+    </div>
+
+</section>
+
+<section class="panel recovery" id="recovery">
+
+    <div class="overlay"></div>
+
+    <div class="hud-data">
+        <div>
+            SOL LUMINOSITY
+            <span class="luminosity" data-value="94.9%">94.9%</span>
+        </div>
+
+        <div>
+            TAU CETI DISTANCE
+            <span>MISSION COMPLETE</span>
+        </div>
+
+        <div>
+            EARTH STATUS
+            <span>RECOVERING</span>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+28 YEARS
+        </div>
+
+        <p class="eyebrow">
+            SOL RECOVERY PHASE
+        </p>
+
+        <h1>
+            THE SUN<br>GROWS BRIGHTER
+        </h1>
+
+        <p class="description">
+            Taumoeba deployment successfully halts astrophage
+            spread across Sol. Global temperatures begin stabilizing.
+        </p>
+
+        <div class="success-box">
+            HUMAN CIVILIZATION SURVIVES
+        </div>
+
+    </div>
+
 </section>
 
 <script src="script.js"></script>
