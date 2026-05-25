@@ -1155,7 +1155,585 @@ T–9 DAYS UNTIL LAUNCH WINDOW
 [END REPORT]
 </pre>
 `
-}
+},
+disaster: {
+
+    title: 'KRAKÓW INCIDENT REPORT — FINAL CLASSIFICATION RELEASE',
+
+    body: `
+<pre>
+[PETROVA TASK FORCE INCIDENT REPORT]
+
+LOCATION:
+Kraków Astrophage Research Facility
+
+DATE:
+T–3 Days Before Launch
+
+STATUS:
+DECLASSIFIED
+
+---
+
+SUMMARY:
+
+At approximately 04:12 local time,
+an Astrophage containment experiment conducted
+within Laboratory Sector C resulted in a catastrophic
+energy release event.
+
+The explosion caused severe structural collapse
+throughout the eastern laboratory wing.
+
+Subsequent fires continued for several hours.
+
+---
+
+FATALITIES:
+
+First Science Officer Martin DuBois
+was overseeing the experiment alongside
+Alternate Science Officer Anne Shapiro.
+
+Both were killed in the initial blast.
+
+Physical Science Technician Jamie Davis
+sustained critical injuries during the collapse.
+
+He was rescued by emergency personnel
+but was pronounced dead before transport
+reached a medical facility.
+
+Additional casualties included emergency responders,
+laboratory staff, and support personnel.
+
+---
+
+INJURY REPORT:
+
+[REDACTED] Wang,
+junior laboratory assistant,
+suffered severe blast-related traumatic brain injury.
+
+At the time of report release,
+the subject remained in a coma.
+
+Firefighters battled the blaze on multiple fronts
+within the Kraków communications and laboratory sectors.
+
+Several injured personnel were unable to be evacuated
+through the western corridor due to structural collapse.
+
+Emergency triage zones were established externally
+under active fire conditions.
+
+---
+
+CAUSE OF INCIDENT:
+
+Initial theories included:
+• Astrophage containment breach
+• Deliberate sabotage
+• Foreign-state interference
+
+Task Force investigation later confirmed:
+
+NO EVIDENCE OF FOUL PLAY
+
+The explosion resulted from a catastrophic dosage error
+during live Astrophage energy interaction testing.
+
+Quartermaster distribution logs confirmed that:
+
+1 milligram of Astrophage material
+was mistakenly supplied instead of
+1 nanogram.
+
+The resulting energy release exceeded
+all laboratory containment tolerances.
+
+---
+
+MISSION IMPACT:
+
+The deaths of DuBois and Shapiro created
+an immediate crisis for Project Hail Mary.
+
+The launch window remained only three days away.
+
+Failure to launch within the current orbital window
+would delay the mission by several months.
+
+Task Force projections indicated humanity
+did not possess those months.
+
+---
+
+EMERGENCY RESPONSE:
+
+Petrova Task Force leadership immediately initiated
+review of tertiary and reserve science personnel.
+
+Discussion regarding mission cancellation
+was formally rejected less than two hours
+after the incident.
+
+---
+
+FINAL TASK FORCE DIRECTIVE:
+
+"Hail Mary launches in three days.
+
+Find another scientist."
+
+[END REPORT]
+</pre>
+`
+},grace: {
+
+    title: 'PROJECT HAIL MARY — PERSONNEL FILE: DR. RYLAND GRACE',
+
+    body: `
+<div class="crew-archive">
+
+    <div class="crew-card">
+
+        <div class="crew-photo">
+            <img class="crew-photo" src="assets/images-1.jpeg" alt="Photo of Dr. Ryland Grace">
+        </div>
+
+        <div class="crew-info">
+
+<pre>
+NAME:
+Dr. Ryland Grace
+
+MISSION ROLE:
+Primary Science Officer
+
+NATIONALITY:
+American
+
+EDUCATION:
+Doctorate in Molecular Biology
+
+PREVIOUS OCCUPATION:
+Science Teacher
+Grover Cleveland Middle School
+San Francisco, California
+
+---
+
+BACKGROUND:
+
+Dr. Grace initially joined the Petrova Task Force
+during the early Astrophage analysis phase.
+
+He became internationally recognized after contributing
+to the first successful biological analysis of Astrophage
+samples and formally introducing the term:
+
+"Astrophage"
+
+The designation was rapidly adopted by the global
+scientific community.
+
+Over the following years,
+Grace emerged as one of the world's leading authorities
+in Astrophage biology, energy behavior,
+and reproductive systems.
+
+Task Force records indicate he worked closely
+with Director Eva Stratt throughout the majority
+of Project Hail Mary development.
+
+---
+
+MISSION REASSIGNMENT:
+
+Following the Kraków laboratory disaster,
+Grace volunteered to replace the deceased
+science officers aboard Hail Mary.
+
+Task Force leadership approved reassignment
+approximately 43 hours before launch.
+
+---
+
+MISSION PLAN ADDENDUM:
+
+Due to limited astronaut training, Dr. Grace was worried that he'd
+panic during the launch so he elected to be unconscious for it.
+
+Coma induced early to maximize Dr. Grace's safety.
+
+Once aboard the Hail Mary, Yáo and Ilyukhina will secure Dr. Grace
+into the medical bed and start the coma procedure.
+
+---
+
+TASK FORCE NOTES:
+
+• Exceptional Astrophage expertise
+• Limited astronautics experience
+• Strong problem-solving adaptability
+• Psychological compatibility concerns noted
+
+Despite concerns,
+no alternative science personnel possessed
+comparable mission-critical knowledge.
+
+---
+
+MISSION STATUS:
+ACTIVE
+
+LAUNCH WINDOW:
+T–48 HOURS
+</pre>
+
+        </div>
+
+    </div>
+
+    <div class="redacted-file">
+
+        <button class="redacted-button"
+        onclick="toggleRedacted()">
+
+            [REDACTED — UNSEAL FILE]
+
+        </button>
+
+        <div class="redacted-content" id="redactedContent">
+
+<pre>
+[UNSEALED 32 YEARS AFTER INITIAL REPORT]
+
+SOURCE:
+Eva Stratt testimony deposition
+
+STATUS:
+DECLASSIFIED
+
+The official account stating that
+Dr. Ryland Grace voluntarily joined
+Project Hail Mary was false.
+
+According to Stratt's later testimony,
+Grace refused mandatory assignment
+during final mission preparation.
+
+Task Force leadership concluded that
+no viable replacement candidate existed.
+
+Stratt authorized forced mission induction.
+
+Grace was sedated and transferred
+to pre-launch medical containment
+against his will.
+
+When asked whether she regretted the decision,
+Stratt responded:
+
+"No.
+
+Humanity needed him more than he needed a choice."
+
+No criminal charges were ever filed.
+
+At the time of disclosure,
+Stratt stated she would make
+the same decision again.
+
+[END FILE]
+</pre>
+
+        </div>
+
+    </div>
+
+</div>
+`
+},
+launch: {
+
+    title: 'PROJECT HAIL MARY — LAUNCH DAY TRANSCRIPT',
+
+    body: `
+<div class="crew-archive">
+
+    <div class="crew-gallery">
+
+    <!-- YAO -->
+
+    <div class="crew-member">
+
+        <div class="crew-photo">
+            <img class="crew-photo" src="assets/yao.jpg" alt="Photo of Yao Li-Jie">
+        </div>
+
+        <div class="crew-label">
+
+            <h3>COMMANDER YAO LI-JIE</h3>
+
+            <p>PILOT / MISSION COMMANDER</p>
+
+        </div>
+
+    </div>
+
+    <!-- ILYUKHINA -->
+
+    <div class="crew-member">
+
+        <div class="crew-photo">
+            <img class="crew-photo" src="assets/ily.jpg" alt="Photo of Oksana Ilyukhina">
+        </div>
+
+        <div class="crew-label">
+
+            <h3>OKSANA ILYUKHINA</h3>
+
+            <p>ENGINEER / SYSTEMS SPECIALIST</p>
+
+        </div>
+
+    </div>
+
+    <!-- GRACE -->
+
+    <div class="crew-member">
+
+        <div class="crew-photo">
+            <img class="crew-photo" src="assets/images-1.jpeg" alt="Photo of Dr. Ryland Grace">
+        </div>
+
+        <div class="crew-label">
+
+            <h3>DR. RYLAND GRACE</h3>
+
+            <p>PRIMARY SCIENCE OFFICER</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<pre>
+[GLOBAL LIVE BROADCAST ARCHIVE]
+
+PROJECT HAIL MARY
+LAUNCH DAY
+
+LOCATION:
+Low Earth Orbit
+
+MISSION STATUS:
+ACTIVE
+
+---
+
+T–02:15:00
+
+Global broadcasts begin transmission.
+
+An estimated 4.2 billion viewers tune into launch coverage.
+
+Emergency generators power broadcast infrastructure
+across multiple blackout regions.
+
+---
+
+T–01:42:11
+
+News Anchor:
+"Today humanity sends its first interstellar mission
+toward Tau Ceti.
+
+For many watching around the world,
+this launch represents humanity's final hope."
+
+---
+
+T–01:03:55
+
+Visual confirmation received from orbital cameras.
+
+Hail Mary visible above Earth limb.
+
+Commentators note visible astrophage containment glow
+along propulsion chambers.
+
+---
+
+T–00:48:20
+
+Mission Control:
+"Commander Yao, comms check."
+
+Yao:
+"Reading you clear."
+
+Mission Control:
+"Specialist Ilyukhina?"
+
+Ilyukhina:
+"Still here."
+
+Laughter recorded in control room.
+
+---
+
+T–00:39:08
+
+News Anchor:
+"Primary Science Officer Dr. Ryland Grace
+entered medically induced coma procedures
+earlier today."
+
+"Grace became internationally recognized for his work
+on Astrophage biology after joining the Petrova Task Force."
+
+"He volunteered for the mission following the deaths
+of the original science officers just days ago."
+
+"Many now consider him one of the bravest individuals
+in human history."
+
+---
+
+T–00:18:44
+
+Mission Control:
+"Hail Mary, you are go for final rotation release."
+
+Yao:
+"Copy. Go for release."
+
+---
+
+T–00:11:03
+
+Worldwide church bells reported ringing
+across several major cities.
+
+Large public gatherings observed in:
+• New York
+• Paris
+• Lagos
+• Tokyo
+• São Paulo
+
+---
+
+T–00:05:00
+
+Mission Control begins final countdown.
+
+---
+
+T–00:04:59
+
+"Five minutes."
+
+---
+
+T–00:03:12
+
+News Anchor:
+"No human beings have ever traveled this far from Earth.
+
+If successful,
+Project Hail Mary may save our species.
+
+If it fails..."
+
+Broadcast pauses.
+
+---
+
+T–00:01:00
+
+Mission Control:
+"One minute to astrophage ignition."
+
+---
+
+T–00:00:30
+
+Yao:
+"See you in Tau Ceti."
+
+---
+
+T–00:00:10
+
+Mission Control:
+"Ten."
+
+"Nine."
+
+"Eight."
+
+---
+
+T–00:00:03
+
+Ilyukhina:
+"Oh God..."
+
+---
+
+T–00:00:00
+
+ASTROPHAGE IGNITION CONFIRMED
+
+HAIL MARY DEPARTURE BURN INITIATED
+
+---
+
+T+00:00:14
+
+Orbital cameras temporarily blinded
+by propulsion luminosity.
+
+---
+
+T+00:01:52
+
+Mission velocity exceeds all previous
+human spacecraft records.
+
+---
+
+T+00:04:10
+
+Mission Control confirms stable trajectory.
+
+Destination:
+Tau Ceti
+
+Estimated arrival:
+13 years
+
+---
+
+T+00:06:31
+
+News Anchor:
+
+"Humanity has left for the stars."
+
+"May God help us all."
+
+[END TRANSCRIPT]
+</pre>
+
+</div>
+`
+},
 };
 
 function openArchive(entry){
@@ -1172,3 +1750,10 @@ function closeArchive(){
     archiveModal.classList.remove('show');
 }
 
+function toggleRedacted(){
+
+    const content =
+    document.getElementById('redactedContent');
+
+    content.classList.toggle('show-redacted');
+}
