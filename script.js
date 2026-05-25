@@ -781,6 +781,380 @@ PROJECT HAIL MARY INITIATED
 [END BRIEFING]
 </pre>
 `
+},
+antarctica: {
+
+    title: 'TASK FORCE REPORT — ANTARCTIC METHANE RELEASE INITIATIVE',
+
+    body: `
+<pre>
+[PETROVA TASK FORCE — CLIMATE INTERVENTION REPORT]
+
+PROJECT STATUS:
+AUTHORIZED
+
+OBJECTIVE:
+Delay catastrophic global cooling long enough
+to complete Project Hail Mary launch operations.
+
+---
+
+BACKGROUND:
+
+As solar luminosity decline accelerated,
+global climate models converged on a critical conclusion:
+
+Human civilization would likely destabilize
+before Project Hail Mary could launch.
+
+Without intervention,
+crop collapse and global infrastructure failure
+would begin too early to sustain mission construction.
+
+Additional time was required.
+
+---
+
+PROPOSED SOLUTION:
+
+Controlled destruction of Antarctic ice shelves.
+
+The operation involves naval deployment of synchronized
+high-yield explosives along targeted Antarctic fracture zones.
+
+Result:
+
+• Massive ice shelf collapse
+• Rapid methane release from trapped under-ice deposits
+• Temporary greenhouse warming effect
+
+---
+
+TASK FORCE ASSESSMENT:
+
+"Methane is now our friend."
+
+Unlike carbon dioxide, atmospheric methane naturally
+degrades over approximately ten years.
+
+This allows climate warming to be adjusted in cycles
+through controlled Antarctic detonations.
+
+If Project Hail Mary succeeds,
+methane levels may eventually normalize naturally.
+
+---
+
+PROJECTED CONSEQUENCES:
+
+EXPECTED BENEFITS:
+• Delay severe global cooling
+• Extend agricultural viability
+• Preserve launch infrastructure stability
+• Buy additional years for mission readiness
+
+EXPECTED COSTS:
+• Massive ecosystem disruption
+• Violent weather instability
+• Accelerated sea level rise
+• Ocean temperature collapse
+• Biome destruction
+
+---
+
+FIELD NOTES:
+
+"The shelf will cleave at the explosion line
+and slowly work its way into the sea and melt."
+
+"Sea levels will rise approximately one centimeter
+within the first month."
+
+"The ocean temperature drop alone could trigger
+secondary ecological disasters."
+
+---
+
+GLOBAL REACTION:
+
+The operation has become one of the most controversial
+actions in human history.
+
+Supporters describe the intervention as:
+
+"Necessary survival engineering."
+
+Critics describe it as:
+
+"The deliberate destruction of Earth's climate system."
+
+---
+
+NAVAL OPERATION LOG:
+
+The Chinese Navy coordinated the primary exclusion zone
+around western Antarctica.
+
+All Antarctic research facilities were evacuated.
+
+At the time of detonation,
+the exclusion zone represented the largest restricted
+maritime region ever established.
+
+---
+
+FINAL TASK FORCE CONCLUSION:
+
+"No —
+this does not solve the problem.
+
+It only buys time.
+
+But time is the only resource humanity has left."
+
+[END REPORT]
+</pre>
+`
+},
+crew: {
+
+    title: 'PROJECT HAIL MARY — CREW BIOGRAPHIES',
+
+    body: `
+<div class="crew-archive">
+
+    <!-- YAO -->
+
+    <div class="crew-card">
+
+        <div class="crew-photo">
+            <img class="crew-photo" src="assets/yao.jpg" alt="Photo of Yao Li-Jie">
+        </div>
+
+        <div class="crew-info">
+
+<pre>
+COMMANDER YAO LI-JIE
+MISSION ROLE:
+Pilot / Mission Commander
+
+NATIONALITY:
+Chinese
+
+BACKGROUND:
+Former People's Liberation Army Air Force pilot
+with extensive long-duration orbital mission experience.
+
+Widely regarded as one of the most technically capable
+spacecraft pilots of his generation.
+
+Psychological evaluations repeatedly identified Yao
+as exceptionally calm under extreme stress conditions.
+
+TASK FORCE NOTES:
+"Reliable to a fault."
+
+Assigned command authority over Project Hail Mary
+approximately 742 days before launch window opening.
+</pre>
+
+        </div>
+
+    </div>
+
+    <!-- ILYUKHINA -->
+
+    <div class="crew-card">
+
+        <div class="crew-photo">
+            <img class="crew-photo" src="assets/ily.jpg" alt="Photo of Oksana Ilyukhina">
+        </div>
+
+        <div class="crew-info">
+
+<pre>
+SPECIALIST OKSANA ILYUKHINA
+MISSION ROLE:
+Engineer / Systems Specialist
+
+NATIONALITY:
+Russian
+
+BACKGROUND:
+Nuclear systems engineer and cosmonaut specializing
+in closed-loop spacecraft survival systems.
+
+Known within the Task Force for repeatedly solving
+critical propulsion and life-support failures during
+high-risk mission simulations.
+
+TASK FORCE NOTES:
+"Blunt. Aggressive. Brilliant."
+
+Frequently ranked highest overall in survival adaptation testing.
+
+Assigned primary engineering authority aboard Hail Mary.
+</pre>
+
+        </div>
+
+    </div>
+
+    <!-- DUBOIS -->
+
+    <div class="crew-card">
+
+        <div class="crew-photo">
+            <img class="crew-photo" src="assets/dubois.jpg" alt="Photo of François Dubois">
+        </div>
+
+        <div class="crew-info">
+
+<pre>
+SPECIALIST FRANÇOIS DUBOIS
+MISSION ROLE:
+Science Officer
+
+NATIONALITY:
+French
+
+BACKGROUND:
+ESA mission specialist and xenobiology researcher
+assigned to the Astrophage research initiative.
+
+Dubois played a major role in early Astrophage
+containment and metabolic analysis studies.
+
+TASK FORCE NOTES:
+"Most scientifically adaptable candidate."
+
+Selected to oversee Tau Ceti biological analysis
+and interstellar sample retrieval procedures.
+</pre>
+
+        </div>
+
+    </div>
+
+    <!-- BACKUPS -->
+
+<pre>
+BACKUP CREW ASSIGNMENTS:
+
+• SHAPIRO — Navigation & Flight Systems
+• LOKKEN — Planetary Systems
+• MARTINEZ — Engineering Reserve
+
+All backup crew members remained on Earth
+through launch preparation phases.
+
+At the time of crew finalization,
+global weather instability and food rationing
+had already begun affecting multiple nations.
+
+Despite worsening conditions,
+launch construction continued uninterrupted.
+
+No two members of the primary or backup crew shall ever be in the same location.
+
+MISSION CLOCK:
+742 DAYS UNTIL LAUNCH WINDOW
+</pre>
+
+</div>
+`
+},
+preparations: {
+
+    title: 'HAIL MARY ORBITAL PREPARATION REPORT',
+
+    body: `
+<pre>
+[PROJECT HAIL MARY — FINAL ORBITAL STATUS REPORT]
+
+STATUS:
+FLIGHT READY
+
+The interstellar vessel Hail Mary officially completed
+assembly in low Earth orbit following approximately
+four years of continuous multinational construction.
+
+Final spacecraft mass exceeded two million kilograms,
+making Hail Mary the largest crewed spacecraft
+ever assembled by humanity.
+
+For comparison:
+
+• Approximately four times the mass of the
+  International Space Station
+
+• Constructed in less than one-twentieth
+  the development time
+
+---
+
+COST ASSESSMENT:
+
+Public tracking agencies ceased calculating total mission costs
+after estimates surpassed 10 trillion USD equivalent.
+
+As one commentator summarized:
+
+"It stopped being an economic project.
+
+It became Earth versus Astrophage."
+
+---
+
+FINAL SYSTEM TESTING:
+
+ESA astronauts remained aboard Hail Mary
+during the final operational testing phase.
+
+More than 500 individual system faults were identified
+during integrated ship simulations.
+
+Reported issues included:
+
+• Cryogenic inconsistencies
+• Rotational gravity calibration drift
+• Astrophage containment fluctuations
+• Navigation synchronization failures
+• Radiation shielding anomalies
+
+None were classified as mission-ending failures.
+
+---
+
+TASK FORCE INTERNAL NOTE:
+
+"This is happening.
+
+Hail Mary is going to launch."
+
+---
+
+EARTH CONDITIONS DURING PREPARATION PHASE:
+
+• Global food rationing expanded to 31 countries
+• Severe weather events increased beyond projection models
+• Coastal evacuations continued following methane interventions
+• Major governments entered continuous emergency operation status
+
+Despite worsening global instability,
+construction of Hail Mary continued uninterrupted.
+
+The launch was considered humanity's highest-priority operation.
+
+---
+
+MISSION CLOCK:
+
+T–9 DAYS UNTIL LAUNCH WINDOW
+
+[END REPORT]
+</pre>
+`
 }
 };
 

@@ -332,6 +332,14 @@ h1{
     background-position:center;
 }
 
+.antarctica{
+
+    background: url('assets/ice.png');
+
+    background-size:cover;
+    background-position:center;
+}
+
 .sahara .overlay{
 
     background:
@@ -878,4 +886,116 @@ h1{
 
     background-size:cover;
     background-position:center;
+}
+
+/* CREW ARCHIVE */
+
+.crew {
+    background:
+    url('assets/astro.png');
+
+    background-size:cover;
+    background-position:center;
+}
+
+.crew-archive{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:40px;
+}
+
+/* CARD */
+
+.crew-card{
+
+    display:grid;
+
+    grid-template-columns:240px 1fr;
+
+    gap:30px;
+
+    align-items:start;
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    padding:25px;
+
+    background:rgba(255,255,255,0.02);
+}
+
+/* PHOTO */
+
+.crew-photo{
+
+    width:240px;
+    height:300px;
+
+    border:1px dashed rgba(109,231,255,0.4);
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    color:#6de7ff;
+
+    letter-spacing:2px;
+
+    font-size:0.8rem;
+}
+
+/* TEXT */
+
+.crew-info pre{
+
+    margin:0;
+
+    white-space:pre-wrap;
+
+    line-height:1.9;
+
+    font-size:0.92rem;
+
+    color:rgba(255,255,255,0.88);
+
+    font-family:'Share Tech Mono', monospace;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+    .crew-card{
+
+        grid-template-columns:1fr;
+    }
+
+    .crew-photo{
+
+        width:100%;
+        height:260px;
+    }
+}
+
+.crew .overlay{
+
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(20,30,50,0.28),
+        rgba(0,0,0,0.92)
+    );
+}
+
+.preparations .overlay{
+
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(30,40,60,0.30),
+        rgba(0,0,0,0.94)
+    );
 }
