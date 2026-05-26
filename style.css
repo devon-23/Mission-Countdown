@@ -285,7 +285,7 @@ h1{
 }
 
 .tau{
-    background:url('https://images.unsplash.com/photo-1462331321792-cc44368b8894?q=80&w=2070&auto=format&fit=crop');
+    background:url('assets/tauceti.png');
     background-size:cover;
     background-position:center;
 }
@@ -342,6 +342,12 @@ h1{
 
 .preparations {
     background: url('assets/launch.png');
+    background-size:cover;
+    background-position:center;
+}
+
+.wars {
+    background: url('assets/rainbow.png');
     background-size:cover;
     background-position:center;
 }
@@ -1212,6 +1218,1362 @@ h1{
 .grace {
     background:
     url('assets/ryland.png');
+
+    background-size:cover;
+    background-position:center;
+}
+
+.stratt .overlay{
+
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(60,60,70,0.25),
+        rgba(0,0,0,0.96)
+    );
+}
+
+.stratt {
+    background:
+    url('assets/stratt.png');
+
+    background-size:cover;
+    background-position:center;
+}
+
+/* COLLAPSE DASHBOARD */
+
+.collapse-dashboard{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+    margin-top:40px;
+}
+
+/* GRAPH CARD */
+
+.graph-card{
+
+    background:rgba(255,255,255,0.03);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    padding:20px;
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+.graph-card h3{
+
+    margin-bottom:20px;
+
+    font-size:0.9rem;
+
+    letter-spacing:2px;
+
+    color:#ffffff;
+}
+
+/* GRAPH AREA */
+
+.graph{
+
+    height:160px;
+
+    position:relative;
+
+    border-left:1px solid rgba(255,255,255,0.1);
+
+    border-bottom:1px solid rgba(255,255,255,0.1);
+
+    overflow:hidden;
+}
+
+/* LINE */
+
+.graph-line{
+
+    position:absolute;
+
+    width:140%;
+
+    height:3px;
+
+    top:50%;
+
+    left:-10%;
+
+    transform-origin:left center;
+
+    animation:graphPulse 4s infinite linear;
+}
+
+/* CROP DECLINE */
+
+.crop-line{
+
+    background:#ff5555;
+
+    transform:
+    rotate(-18deg)
+    scaleX(1.1);
+}
+
+/* REFUGEES */
+
+.refugee-line{
+
+    background:#ffaa33;
+
+    transform:
+    rotate(24deg)
+    scaleX(1.3);
+}
+
+/* OCEAN */
+
+.ocean-line{
+
+    background:#66ccff;
+
+    transform:
+    rotate(-32deg)
+    scaleX(1.2);
+}
+
+/* NUMBERS */
+
+.graph-card span{
+
+    display:block;
+
+    margin-top:16px;
+
+    font-size:0.8rem;
+
+    color:#ff6666;
+
+    letter-spacing:2px;
+}
+
+/* ANIMATION */
+
+@keyframes graphPulse{
+
+    0%{
+        opacity:0.4;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0.4;
+    }
+}
+
+/* PROJECTION GRID */
+
+.projection-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:40px;
+
+    margin:50px 0;
+}
+
+/* CARD */
+
+.projection-card{
+
+    border:1px solid rgba(109,231,255,0.15);
+
+    background:rgba(0,15,25,0.65);
+
+    padding:25px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    box-shadow:
+    0 0 20px rgba(0,255,255,0.05);
+}
+
+/* TITLE */
+
+.projection-card h3{
+
+    margin-bottom:25px;
+
+    color:#6de7ff;
+
+    font-size:0.9rem;
+
+    letter-spacing:3px;
+
+    font-family:'Orbitron', sans-serif;
+}
+
+/* GRAPH LAYOUT */
+
+.hud-graph{
+
+    display:flex;
+
+    gap:15px;
+
+    height:240px;
+}
+
+/* Y AXIS */
+
+.y-axis{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    font-size:0.7rem;
+
+    color:rgba(255,255,255,0.5);
+
+    padding-bottom:10px;
+}
+
+/* GRAPH AREA */
+
+.graph-area{
+
+    flex:1;
+
+    position:relative;
+
+    border-left:1px solid rgba(109,231,255,0.2);
+
+    border-bottom:1px solid rgba(109,231,255,0.2);
+
+    overflow:hidden;
+}
+
+/* GRID LINES */
+
+.grid-lines{
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+    linear-gradient(
+        rgba(255,255,255,0.05) 1px,
+        transparent 1px
+    ),
+    linear-gradient(
+        90deg,
+        rgba(255,255,255,0.05) 1px,
+        transparent 1px
+    );
+
+    background-size:40px 40px;
+
+    opacity:0.5;
+}
+
+/* SVG */
+
+.graph-area svg{
+
+    width:100%;
+
+    height:100%;
+
+    position:absolute;
+
+    inset:0;
+}
+
+/* LINES */
+
+.graph-path{
+
+    fill:none;
+
+    stroke-width:2.5;
+
+    stroke-linecap:round;
+
+    stroke-linejoin:round;
+
+    filter:drop-shadow(0 0 6px currentColor);
+
+    stroke-dasharray:200;
+
+    stroke-dashoffset:200;
+
+    animation:
+    drawGraph 3s ease forwards,
+    graphGlow 2s infinite alternate;
+}
+
+/* COLORS */
+
+.red-path{
+
+    stroke:#ff5555;
+
+    color:#ff5555;
+}
+
+.orange-path{
+
+    stroke:#ffb347;
+
+    color:#ffb347;
+}
+
+.blue-path{
+
+    stroke:#6de7ff;
+
+    color:#6de7ff;
+}
+
+/* X AXIS */
+
+.x-axis{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:14px;
+
+    padding-left:55px;
+
+    font-size:0.7rem;
+
+    color:rgba(255,255,255,0.5);
+}
+
+/* DRAW */
+
+@keyframes drawGraph{
+
+    to{
+        stroke-dashoffset:0;
+    }
+}
+
+/* GLOW */
+
+@keyframes graphGlow{
+
+    from{
+        opacity:0.6;
+    }
+
+    to{
+        opacity:1;
+    }
+}
+
+/* ARCHIVAL NOTE */
+
+.archive-note{
+
+    position:absolute;
+
+    top:30px;
+
+    right:30px;
+
+    border:1px solid rgba(255,255,255,0.12);
+
+    padding:10px 14px;
+
+    font-size:0.7rem;
+
+    letter-spacing:2px;
+
+    color:rgba(255,255,255,0.5);
+
+    background:rgba(255,255,255,0.03);
+
+    z-index:20;
+
+    font-family:'Share Tech Mono', monospace;
+}
+
+.yao .overlay{
+
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(20,30,40,0.35),
+        rgba(0,0,0,0.97)
+    );
+}
+
+.yao {
+    background:
+    url('assets/yao-dead.png');
+
+    background-size:cover;
+    background-position:center;
+}
+
+.ily .overlay{
+
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(10,20,35,0.40),
+        rgba(0,0,0,0.985)
+    );
+}
+
+.ily {
+    background:
+    url('assets/ily-dead.png');
+
+    background-size:cover;
+    background-position:center;
+}
+
+/* TAU UI */
+
+.tau-ui{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:40px;
+}
+
+/* HEADER */
+
+.tau-header{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+    border:1px solid rgba(109,231,255,0.15);
+
+    padding:20px;
+
+    background:rgba(0,20,40,0.45);
+
+    font-size:0.8rem;
+
+    letter-spacing:2px;
+}
+
+.tau-header span{
+
+    display:block;
+
+    margin-top:8px;
+
+    color:#6de7ff;
+
+    font-size:1rem;
+}
+
+/* STAR MAP */
+
+.star-map{
+
+    position:relative;
+
+    height:280px;
+
+    border:1px solid rgba(109,231,255,0.15);
+
+    background:
+    radial-gradient(circle at center,
+    rgba(0,30,60,0.6),
+    rgba(0,0,0,0.95));
+
+    overflow:hidden;
+}
+
+/* STARS */
+
+.star{
+
+    position:absolute;
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:50%;
+}
+
+/* EARTH */
+
+.earth{
+
+    left:8%;
+
+    top:50%;
+
+    background:#6de7ff;
+
+    box-shadow:0 0 25px #6de7ff;
+}
+
+/* TAU CETI */
+
+.tau-ceti{
+
+    right:8%;
+
+    top:50%;
+
+    background:#ffdd99;
+
+    box-shadow:0 0 35px #ffdd99;
+}
+
+/* TRAVEL LINE */
+
+.travel-line{
+
+    position:absolute;
+
+    left:10%;
+
+    top:50%;
+
+    width:80%;
+
+    height:2px;
+
+    background:
+    linear-gradient(
+        to right,
+        rgba(109,231,255,0.2),
+        rgba(255,255,255,0.8)
+    );
+}
+
+/* SHIP */
+
+.ship-marker{
+
+    position:absolute;
+
+    right:18%;
+
+    top:calc(50% - 8px);
+
+    width:16px;
+
+    height:16px;
+
+    border-radius:50%;
+
+    background:white;
+
+    box-shadow:0 0 20px white;
+
+    animation:pulseShip 2s infinite;
+}
+
+/* LABELS */
+
+.label{
+
+    position:absolute;
+
+    font-size:0.75rem;
+
+    letter-spacing:2px;
+
+    color:white;
+}
+
+.earth-label{
+
+    left:7%;
+
+    top:62%;
+}
+
+.tau-label{
+
+    right:5%;
+
+    top:62%;
+}
+
+/* DISTANCE */
+
+.distance-readout{
+
+    position:absolute;
+
+    bottom:20px;
+
+    left:20px;
+
+    font-size:0.75rem;
+
+    letter-spacing:2px;
+
+    color:#6de7ff;
+}
+
+/* GRID */
+
+.tau-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+}
+
+/* CARD */
+
+.tau-card{
+
+    border:1px solid rgba(109,231,255,0.15);
+
+    background:rgba(0,20,40,0.4);
+
+    padding:20px;
+}
+
+.tau-card h3{
+
+    margin-bottom:20px;
+
+    font-size:0.8rem;
+
+    letter-spacing:2px;
+
+    color:#6de7ff;
+}
+
+/* FUEL BAR */
+
+.fuel-bar{
+
+    width:100%;
+
+    height:18px;
+
+    border:1px solid rgba(255,255,255,0.15);
+
+    background:rgba(255,255,255,0.04);
+
+    overflow:hidden;
+}
+
+.fuel-fill{
+
+    width:38%;
+
+    height:100%;
+
+    background:
+    linear-gradient(
+        to right,
+        #6de7ff,
+        white
+    );
+
+    animation:fuelPulse 2s infinite;
+}
+
+/* STATS */
+
+.tau-stat{
+
+    font-size:1.4rem;
+
+    color:white;
+
+    letter-spacing:2px;
+}
+
+.warning{
+
+    color:#ff6666;
+}
+
+/* ANIMATION */
+
+@keyframes pulseShip{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.4);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+}
+
+@keyframes fuelPulse{
+
+    0%{
+        opacity:0.7;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0.7;
+    }
+}
+
+/* SONAR DISPLAY */
+
+.sonar-display{
+
+    position:relative;
+
+    width:280px;
+
+    height:280px;
+
+    margin:40px auto;
+
+    border-radius:50%;
+
+    border:1px solid rgba(109,231,255,0.15);
+
+    background:
+    radial-gradient(
+        circle,
+        rgba(0,30,40,0.8),
+        rgba(0,0,0,0.95)
+    );
+
+    overflow:hidden;
+}
+
+/* RINGS */
+
+.sonar-ring{
+
+    position:absolute;
+
+    border:1px solid rgba(109,231,255,0.18);
+
+    border-radius:50%;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+}
+
+.ring1{
+
+    width:90px;
+    height:90px;
+}
+
+.ring2{
+
+    width:170px;
+    height:170px;
+}
+
+.ring3{
+
+    width:240px;
+    height:240px;
+}
+
+/* CENTER */
+
+.sonar-center{
+
+    position:absolute;
+
+    width:10px;
+    height:10px;
+
+    border-radius:50%;
+
+    background:#6de7ff;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    box-shadow:0 0 20px #6de7ff;
+}
+
+/* BLIP */
+
+.contact-blip{
+
+    position:absolute;
+
+    width:14px;
+    height:14px;
+
+    border-radius:50%;
+
+    background:#ffdd99;
+
+    top:34%;
+    left:68%;
+
+    box-shadow:0 0 20px #ffdd99;
+
+    animation:blipPulse 1.5s infinite;
+}
+
+/* SIGNAL LINE */
+
+.signal-line{
+
+    position:absolute;
+
+    width:2px;
+
+    height:50%;
+
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(109,231,255,0),
+        rgba(109,231,255,0.8)
+    );
+
+    left:50%;
+
+    top:0;
+
+    transform-origin:bottom center;
+
+    animation:sonarSweep 5s linear infinite;
+}
+
+/* ALIEN PROFILE */
+
+.alien-profile{
+
+    display:flex;
+
+    flex-direction:column;
+
+
+    gap:30px;
+}
+
+/* TOP */
+
+.alien-top{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:25px;
+}
+
+/* IMAGE */
+
+.alien-photo{
+
+    height:280px;
+
+    border:1px dashed rgba(109,231,255,0.25);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    letter-spacing:3px;
+
+    color:#6de7ff;
+
+    background:rgba(255,255,255,0.02);
+}
+
+/* ANIMATION */
+
+@keyframes sonarSweep{
+
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes blipPulse{
+
+    0%{
+        transform:scale(1);
+        opacity:0.7;
+    }
+
+    50%{
+        transform:scale(1.5);
+        opacity:1;
+    }
+
+    100%{
+        transform:scale(1);
+        opacity:0.7;
+    }
+}
+
+/* LARGE SONAR */
+
+.large-sonar{
+
+    width:420px;
+    height:420px;
+}
+
+/* BLIP */
+
+.contact-blip{
+
+    position:absolute;
+
+    width:42px;
+    height:14px;
+
+    border-radius:20px;
+
+    background:#ffdd99;
+
+    top:36%;
+    left:67%;
+
+    box-shadow:
+    0 0 25px #ffdd99;
+
+    animation:blipPulse 1.5s infinite;
+}
+
+/* LABEL */
+
+.blip-label{
+
+    position:absolute;
+
+    top:31%;
+    left:73%;
+
+    font-size:0.7rem;
+
+    letter-spacing:2px;
+
+    color:#ffdd99;
+}
+
+/* HIDDEN FILE */
+
+.hidden-file{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    opacity:0;
+
+    transition:
+    max-height 1s ease,
+    opacity 0.6s ease;
+
+    margin-top:0;
+}
+
+/* SHOW */
+
+.show-file{
+
+    max-height:5000px;
+
+    opacity:1;
+
+    margin-top:40px;
+}
+
+/* HEADER */
+
+.declass-header{
+
+    border:1px solid rgba(255,255,255,0.12);
+
+    padding:14px;
+
+    margin-bottom:30px;
+
+    letter-spacing:3px;
+
+    color:#ff6666;
+
+    background:rgba(255,0,0,0.05);
+
+    animation:declassFlash 2s infinite;
+}
+
+/* FLASH */
+
+@keyframes declassFlash{
+
+    0%{
+        opacity:0.5;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0.5;
+    }
+}
+
+.contact {
+    background:
+    url('assets/ships.png');
+
+    background-size:cover;
+    background-position:center;
+}
+
+.contact .overlay{
+
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(20,30,50,0.28),
+        rgba(0,0,0,0.95)
+    );
+}
+
+/* BIO SCAN */
+
+.bio-scan{
+
+    position:relative;
+
+    width:300px;
+    height:300px;
+
+    margin:40px auto;
+
+    border-radius:50%;
+
+    background:
+    radial-gradient(
+        circle,
+        rgba(0,80,60,0.45),
+        rgba(0,0,0,0.95)
+    );
+
+    border:1px solid rgba(120,255,180,0.15);
+
+    overflow:hidden;
+}
+
+/* CORE */
+
+.scan-core{
+
+    position:absolute;
+
+    width:16px;
+    height:16px;
+
+    border-radius:50%;
+
+    background:#7affc1;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    box-shadow:0 0 25px #7affc1;
+}
+
+/* RINGS */
+
+.scan-ring{
+
+    position:absolute;
+
+    border:1px solid rgba(122,255,193,0.15);
+
+    border-radius:50%;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+}
+
+.ring-a{
+
+    width:120px;
+    height:120px;
+}
+
+.ring-b{
+
+    width:220px;
+    height:220px;
+}
+
+/* ORGANISMS */
+
+.organism{
+
+    position:absolute;
+
+    border-radius:50px;
+
+    background:#7affc1;
+
+    box-shadow:0 0 15px #7affc1;
+
+    opacity:0.8;
+}
+
+.organism-1{
+
+    width:26px;
+    height:10px;
+
+    top:30%;
+    left:60%;
+
+    animation:floatBio 7s infinite ease-in-out;
+}
+
+.organism-2{
+
+    width:18px;
+    height:8px;
+
+    top:62%;
+    left:35%;
+
+    animation:floatBio 9s infinite ease-in-out;
+}
+
+.organism-3{
+
+    width:30px;
+    height:12px;
+
+    top:52%;
+    left:72%;
+
+    animation:floatBio 6s infinite ease-in-out;
+}
+
+/* PHOTO */
+
+.bio-photo,
+.spacewalk-photo{
+
+    height:320px;
+
+    border:1px dashed rgba(122,255,193,0.25);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    letter-spacing:3px;
+
+    color:#7affc1;
+
+    margin-bottom:30px;
+
+    background:rgba(255,255,255,0.02);
+}
+
+/* FLOAT */
+
+@keyframes floatBio{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+.adrian {
+    background:
+    url('assets/protozoa.png');
+
+    background-size:cover;
+    background-position:center;
+}
+
+/* WARNING STREAM */
+
+.warning-stream{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+    margin-top:40px;
+}
+
+.warning-stream div{
+
+    border-left:4px solid #ff4444;
+
+    padding:12px 16px;
+
+    background:rgba(255,0,0,0.05);
+
+    color:#ff8888;
+
+    letter-spacing:2px;
+
+    animation:warningFlash 2s infinite;
+}
+
+/* TELEMETRY */
+
+.danger-log{
+
+    border:1px solid rgba(255,80,80,0.15);
+
+    background:rgba(255,0,0,0.04);
+
+    color:#ff9999;
+
+    padding:25px;
+}
+
+/* PLAN */
+
+.plan-box{
+
+    margin-top:40px;
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    padding:25px;
+
+    background:rgba(255,255,255,0.02);
+}
+
+.plan-box h2{
+
+    margin-bottom:20px;
+
+    letter-spacing:3px;
+
+    color:#6de7ff;
+}
+
+/* INJURIES */
+
+.injury-card{
+
+    margin-top:40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+}
+
+/* PHOTO */
+
+.injury-photo{
+
+    height:300px;
+
+    border:1px dashed rgba(255,120,120,0.25);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#ff8888;
+
+    letter-spacing:3px;
+
+    background:rgba(255,255,255,0.02);
+}
+
+/* FLASH */
+
+@keyframes warningFlash{
+
+    0%{
+        opacity:0.5;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0.5;
+    }
+}
+
+.fishing {
+    background:
+    url('assets/eva.png');
 
     background-size:cover;
     background-position:center;

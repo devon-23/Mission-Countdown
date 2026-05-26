@@ -967,13 +967,13 @@ approximately 742 days before launch window opening.
     <div class="crew-card">
 
         <div class="crew-photo">
-            <img class="crew-photo" src="assets/ily.jpg" alt="Photo of Oksana Ilyukhina">
+            <img class="crew-photo" src="assets/ily.jpg" alt="Photo of Olesya Ilyukhina">
         </div>
 
         <div class="crew-info">
 
 <pre>
-SPECIALIST OKSANA ILYUKHINA
+SPECIALIST OLESYA ILYUKHINA
 MISSION ROLE:
 Engineer / Systems Specialist
 
@@ -1005,13 +1005,13 @@ Assigned primary engineering authority aboard Hail Mary.
     <div class="crew-card">
 
         <div class="crew-photo">
-            <img class="crew-photo" src="assets/dubois.jpg" alt="Photo of François Dubois">
+            <img class="crew-photo" src="assets/dubois.jpg" alt="Photo of Martin Dubois">
         </div>
 
         <div class="crew-info">
 
 <pre>
-SPECIALIST FRANÇOIS DUBOIS
+SPECIALIST MARTIN DUBOIS
 MISSION ROLE:
 Science Officer
 
@@ -1488,12 +1488,12 @@ launch: {
     <div class="crew-member">
 
         <div class="crew-photo">
-            <img class="crew-photo" src="assets/ily.jpg" alt="Photo of Oksana Ilyukhina">
+            <img class="crew-photo" src="assets/ily.jpg" alt="Photo of Olesya Ilyukhina">
         </div>
 
         <div class="crew-label">
 
-            <h3>OKSANA ILYUKHINA</h3>
+            <h3>OLESYA ILYUKHINA</h3>
 
             <p>ENGINEER / SYSTEMS SPECIALIST</p>
 
@@ -1734,6 +1734,1243 @@ News Anchor:
 </div>
 `
 },
+stratt: {
+
+    title: 'UNITED NATIONS SPECIAL TRIBUNAL — EVA STRATT',
+
+    body: `
+<pre>
+[OFFICIAL TRANSCRIPT — DECLASSIFIED]
+
+LOCATION:
+United Nations Emergency Tribunal
+
+DATE:
+T+4 Months After Hail Mary Launch
+
+SUBJECT:
+Eva Stratt
+
+FORMER POSITION:
+Director, Petrova Task Force
+
+STATUS:
+DETAINED
+
+---
+
+Following expiration of emergency authority protections,
+Eva Stratt was formally arrested by international authorities.
+
+Charges included:
+
+• Crimes against environmental stability
+• Unauthorized military operations
+• Destruction of protected ecosystems
+• Economic coercion
+• Illegal seizure of private industry assets
+• Violations of international aviation law
+• Violations of maritime sovereignty
+• Forced personnel conscription
+• Human rights abuses
+• Reckless atmospheric manipulation
+
+Additional classified charges remain sealed.
+
+---
+
+TRANSCRIPT EXCERPT:
+
+TRIBUNAL: Do you deny responsibility for the destruction
+of Antarctic ice shelves?
+
+STRATT: No.
+
+TRIBUNAL: Do you deny authorizing illegal military operations
+within sovereign territory?
+
+STRATT: No.
+
+TRIBUNAL: Do you deny coercing scientists and governments
+under threat of imprisonment or execution?
+
+STRATT: No.
+
+---
+
+TRIBUNAL: Then by your own testimony,
+you knowingly committed crimes
+on a global scale.
+
+STRATT: Yes.
+
+---
+
+TRIBUNAL: Do you feel remorse for these actions?
+
+STRATT: No.
+
+---
+
+TRIBUNAL: Why?
+
+STRATT: Because the ship launched.
+
+---
+
+[Silence recorded for approximately 12 seconds.]
+
+---
+
+STRATT: You think people obey laws
+when extinction is coming? You think nations cooperate because they are good?"
+They cooperate because they are afraid.
+
+---
+
+TRIBUNAL: Millions suffered because of your decisions.
+
+STRATT: Billions would have died without them.
+
+---
+
+TRIBUNAL: You believe your actions were justified?
+
+STRATT: I believe humanity is still alive.
+
+---
+
+STRATT: Someone had to take responsibility
+for getting Hail Mary off the ground.
+So yes.
+I committed crimes.
+
+I stole.
+
+I threatened.
+
+I destroyed ecosystems.
+
+I forced governments to cooperate.
+
+And if it gives that mission even the smallest chance
+to succeed...
+
+I would commit every single crime again.
+
+---
+
+[END TRANSCRIPT]
+</pre>
+`
+},
+wars: {
+
+    title: 'GLOBAL RESOURCE COLLAPSE REPORT',
+
+    body: `
+<pre>
+[UNITED EARTH RESOURCE OBSERVATION NETWORK]
+
+DATE:
+T+1.5 Years After Hail Mary Launch
+
+STATUS:
+CRITICAL
+
+</pre>
+
+<div class="projection-grid">
+
+    <!-- CROPS -->
+
+    <div class="projection-card">
+
+        <h3>GLOBAL CROP OUTPUT</h3>
+
+        <div class="hud-graph">
+
+            <div class="y-axis">
+                <span>100%</span>
+                <span>75%</span>
+                <span>50%</span>
+                <span>25%</span>
+                <span>0%</span>
+            </div>
+
+            <div class="graph-area">
+
+                <div class="grid-lines"></div>
+
+                <svg viewBox="0 0 100 100"
+                preserveAspectRatio="none">
+
+                    <polyline
+                    points="0,10 20,18 40,30 60,48 80,72 100,92"
+                    class="graph-path red-path"/>
+
+                </svg>
+
+            </div>
+
+        </div>
+
+        <div class="x-axis">
+            <span>T+0</span>
+            <span>T+5Y</span>
+            <span>T+10Y</span>
+            <span>T+15Y</span>
+        </div>
+
+    </div>
+
+    <!-- REFUGEES -->
+
+    <div class="projection-card">
+
+        <h3>GLOBAL DISPLACEMENT</h3>
+
+        <div class="hud-graph">
+
+            <div class="y-axis">
+                <span>0</span>
+                <span>500M</span>
+                <span>1B</span>
+                <span>1.5B</span>
+                <span>2B</span>
+            </div>
+
+            <div class="graph-area">
+
+                <div class="grid-lines"></div>
+
+                <svg viewBox="0 0 100 100"
+                preserveAspectRatio="none">
+
+                    <polyline
+                    points="0,92 20,84 40,70 60,48 80,20 100,4"
+                    class="graph-path orange-path"/>
+
+                </svg>
+
+            </div>
+
+        </div>
+
+        <div class="x-axis">
+            <span>T+0</span>
+            <span>T+5Y</span>
+            <span>T+10Y</span>
+            <span>T+15Y</span>
+        </div>
+
+    </div>
+
+    <!-- TEMPERATURE -->
+
+    <div class="projection-card">
+
+        <h3>AVERAGE GLOBAL TEMPERATURE</h3>
+
+        <div class="hud-graph">
+
+            <div class="y-axis">
+                <span>15°C</span>
+                <span>10°C</span>
+                <span>5°C</span>
+                <span>0°C</span>
+                <span>-5°C</span>
+            </div>
+
+            <div class="graph-area">
+
+                <div class="grid-lines"></div>
+
+                <svg viewBox="0 0 100 100"
+                preserveAspectRatio="none">
+
+                    <polyline
+                    points="0,14 20,22 40,38 60,60 80,82 100,96"
+                    class="graph-path blue-path"/>
+
+                </svg>
+
+            </div>
+
+        </div>
+
+        <div class="x-axis">
+            <span>T+0</span>
+            <span>T+5Y</span>
+            <span>T+10Y</span>
+            <span>T+15Y</span>
+        </div>
+
+    </div>
+
+</div>
+
+<pre>
+
+---
+
+SUMMARY:
+
+Global agricultural production continued collapsing
+following ongoing solar luminosity reduction
+and severe atmospheric instability.
+
+Multiple staple crops experienced catastrophic failures.
+
+Marine ecosystems deteriorated rapidly due to:
+• Cooling oceans
+• Methane disruption effects
+• Food chain collapse
+
+Combined humanitarian pressures resulted in
+the largest migration crisis in recorded history.
+
+---
+
+ESTIMATED CONDITIONS:
+
+• 1.8 billion displaced persons
+• 41% decline in global crop output
+• 63 nations under emergency rationing
+• Major freshwater conflicts ongoing
+• Global fuel distribution severely disrupted
+
+---
+
+ACTIVE CONFLICT REGIONS:
+
+• Northern India
+• Siberian agricultural zones
+• Canadian grain territories
+• Mediterranean desalination networks
+• South American freshwater reserves
+
+---
+
+MILITARY ANALYSIS:
+
+Several governments formally collapsed
+during the first eighteen months following launch.
+
+Remaining major powers increasingly redirected
+military resources toward domestic stabilization.
+
+International cooperation continued deteriorating.
+
+---
+
+PUBLIC SENTIMENT:
+
+Project Hail Mary increasingly viewed
+as humanity's only remaining long-term survival strategy.
+
+Religious movements centered around the mission
+emerged across multiple continents.
+
+Several extremist organizations declared
+the mission either humanity's salvation
+or humanity's final betrayal.
+
+---
+
+MISSION STATUS:
+
+HAIL MARY remains en route to Tau Ceti.
+
+No communication expected for over a decade.
+
+[END REPORT]
+</pre>
+`
+},
+yao: {
+
+    title: 'HAIL MARY MEDICAL LOG — COMMANDER YAO LI-JIE',
+
+    body: `
+<div class="crew-archive">
+
+    <div class="crew-card">
+
+        <div class="crew-photo">
+            YAO PHOTO
+        </div>
+
+        <div class="crew-info">
+
+<pre>
+NAME:
+Commander Yao Li-Jie
+
+STATUS:
+DECEASED
+
+CAUSE OF DEATH:
+Nutritional failure during induced coma transit
+
+---
+
+ARCHIVAL NOTE:
+
+This entry was reconstructed using recovered
+Hail Mary internal logs following mission data return.
+
+At the time of death,
+Earth had no method of receiving live updates
+from the vessel.
+
+The information contained herein
+was added to the archive retrospectively
+for timeline continuity purposes.
+
+---
+
+MISSION LOG SUMMARY:
+
+Approximately 2.3 years into transit,
+automated medical systems aboard Hail Mary
+failed to properly dispense nutritional slurry
+to Commander Yao during induced coma.
+
+Subsequent diagnostic review identified
+a blockage within the feeding line system.
+
+The failure remained undetected
+for an extended period due to
+reduced automated monitoring sensitivity
+during deep transit operations.
+
+---
+
+AUTOMATED SYSTEM RECORD:
+
+"SUBJECT RECEIVING BELOW MINIMUM
+NUTRITIONAL REQUIREMENTS"
+
+"ALERT PRIORITY:
+NON-CRITICAL"
+
+---
+
+The issue escalated into catastrophic
+organ failure before medical intervention
+could occur.
+
+Commander Yao was pronounced deceased
+by onboard systems while still in induced coma.
+
+---
+
+RECOVERED INTERNAL NOTE:
+
+"Failure chain likely survivable
+under active crew supervision."
+
+---
+
+At the time of Yao's death,
+all remaining crew members
+were still unconscious.
+
+No human being witnessed his passing.
+
+---
+
+CREW STATUS FOLLOWING INCIDENT:
+
+• Olesya Ilyukhina — ALIVE
+• Ryland Grace — ALIVE
+
+MISSION CONTINUED.
+
+[END LOG]
+</pre>
+
+        </div>
+
+    </div>
+
+</div>
+`
+},
+ily: {
+
+    title: 'HAIL MARY MEDICAL REPORT — OLESYA ILYUKHINA',
+
+    body: `
+<div class="crew-archive">
+
+    <div class="crew-card">
+
+        <div class="crew-photo">
+            ILYUKHINA PHOTO
+        </div>
+
+        <div class="crew-info">
+
+<pre>
+NAME:
+Olesya Ilyukhina
+
+STATUS:
+DECEASED
+
+CAUSE OF DEATH:
+Pulmonary embolism during induced coma transit
+
+---
+
+ARCHIVAL NOTE:
+
+This report was reconstructed from recovered
+Hail Mary medical and telemetry records.
+
+At the time of incident,
+Earth possessed no active communication capability
+with the vessel.
+
+This entry was added retrospectively
+following mission archive reconstruction.
+
+---
+
+MISSION LOG SUMMARY:
+
+Approximately twelve years into interstellar transit,
+automated medical systems detected severe
+cardiovascular irregularities within
+Crewmember Ilyukhina.
+
+Diagnostic systems later concluded
+that prolonged coma-induced circulatory stress
+resulted in formation of a large blood clot.
+
+The clot migrated into pulmonary circulation,
+causing catastrophic respiratory failure.
+
+---
+
+AUTOMATED MEDICAL RECORD:
+
+"SUBJECT OXYGEN SATURATION FALLING"
+
+"ATTEMPTING CORRECTIVE INTERVENTION"
+
+"INTERVENTION FAILED"
+
+---
+
+Emergency autonomous medical procedures
+were initiated but proved unsuccessful.
+
+By the time onboard systems escalated
+the situation to critical status,
+irreversible neurological damage
+had already occurred.
+
+---
+
+RECOVERED INTERNAL NOTE:
+
+"Long-duration coma survival projections
+remain statistically unstable beyond
+ten-year thresholds."
+
+---
+
+At the time of death:
+
+• Commander Yao Li-Jie was already deceased
+• Ryland Grace remained in induced coma
+
+No conscious crew members
+were present aboard the vessel.
+
+---
+
+MISSION STATUS FOLLOWING INCIDENT:
+
+SOLE SURVIVING CREW MEMBER:
+Dr. Ryland Grace
+
+Estimated arrival at Tau Ceti:
+Less than one year
+
+MISSION CONTINUED.
+
+[END REPORT]
+</pre>
+
+        </div>
+
+    </div>
+
+</div>
+`
+},
+tau: {
+
+    title: 'HAIL MARY — NAVIGATION DISPLAY',
+
+    body: `
+<div class="tau-ui">
+
+    <div class="tau-header">
+
+        <div>
+            VESSEL:
+            <span>HAIL MARY</span>
+        </div>
+
+        <div>
+            DESTINATION:
+            <span>TAU CETI</span>
+        </div>
+
+        <div>
+            STATUS:
+            <span>ARRIVED</span>
+        </div>
+
+    </div>
+
+    <!-- STAR MAP -->
+
+    <div class="star-map">
+
+        <div class="star earth"></div>
+
+        <div class="travel-line"></div>
+
+        <div class="star tau-ceti"></div>
+
+        <div class="ship-marker"></div>
+
+        <div class="label earth-label">
+            SOL
+        </div>
+
+        <div class="label tau-label">
+            TAU CETI
+        </div>
+
+        <div class="distance-readout">
+            DISTANCE TRAVELED:
+            11.9 LIGHT YEARS
+        </div>
+
+    </div>
+
+    <!-- SYSTEMS -->
+
+    <div class="tau-grid">
+
+        <div class="tau-card">
+
+            <h3>ASTROPHAGE FUEL</h3>
+
+            <div class="fuel-bar">
+
+                <div class="fuel-fill"></div>
+
+            </div>
+
+            <span>38% REMAINING</span>
+
+        </div>
+
+        <div class="tau-card">
+
+            <h3>SHIP VELOCITY</h3>
+
+            <div class="tau-stat">
+                0.92c
+            </div>
+
+        </div>
+
+        <div class="tau-card">
+
+            <h3>CREW STATUS</h3>
+
+            <div class="tau-stat">
+                1 ALIVE
+            </div>
+
+        </div>
+
+        <div class="tau-card">
+
+            <h3>COMMUNICATION</h3>
+
+            <div class="tau-stat warning">
+                NO EARTH CONTACT
+            </div>
+
+        </div>
+
+    </div>
+
+    <pre>
+[RECOVERED FLIGHT TELEMETRY]
+
+MISSION TIME:
+T+13 YEARS
+
+Hail Mary successfully decelerated
+within the Tau Ceti system
+following interstellar transit.
+
+Recovered telemetry confirmed
+only one surviving crew member:
+Dr. Ryland Grace.
+
+No live communication with Earth
+was possible during arrival operations.
+
+Mission data was reconstructed decades later
+using returned Beetle probe archives.
+
+Primary mission objectives remained active.
+
+[END TRANSMISSION]
+</pre>
+
+</div>
+`
+},
+contact: {
+
+    title: 'EXTRATERRESTRIAL CONTACT FILE',
+
+    body: `
+
+<div class="contact-report">
+
+    <!-- SONAR -->
+
+    <div class="sonar-display large-sonar">
+
+        <div class="sonar-ring ring1"></div>
+        <div class="sonar-ring ring2"></div>
+        <div class="sonar-ring ring3"></div>
+
+        <div class="sonar-center"></div>
+
+        <!-- BLIP -->
+
+        <div class="contact-blip"></div>
+
+        <div class="blip-label">
+            BLIP-A
+        </div>
+
+        <div class="signal-line"></div>
+
+    </div>
+
+<pre>
+[RECOVERED HAIL MARY TELEMETRY]
+
+MISSION TIME:
+T+13.2 YEARS
+
+Unknown active signal source detected
+within the Tau Ceti system.
+
+Initial scans suggested:
+• Artificial structure
+• Controlled movement
+• Non-human origin
+
+Recovered telemetry confirmed
+the presence of an unidentified
+interstellar vessel operating
+within Tau Ceti orbital space.
+
+---
+
+SIGNAL DESIGNATION:
+BLIP-A
+
+ORIGIN:
+UNKNOWN
+
+THREAT STATUS:
+UNDETERMINED
+
+---
+
+Recovered logs later confirmed
+the object represented humanity's
+first encounter with intelligent
+extraterrestrial life.
+
+Additional xenological records
+remain classified.
+
+[END FILE]
+</pre>
+
+    <button class="archive-button"
+    onclick="toggleRockyFile()">
+
+        DECLASSIFY XENOLOGICAL FILES
+
+    </button>
+
+    <!-- HIDDEN -->
+
+    <div id="rockyFile" class="rocky-file hidden-file">
+
+        <div class="declass-header">
+
+            XENOLOGICAL FILES DECLASSIFIED
+
+        </div>
+
+        <div class="alien-top">
+
+            <div class="alien-photo">
+                ROCKY IMAGE
+            </div>
+
+            <div class="alien-photo">
+                ERIDIAN SHIP IMAGE
+            </div>
+
+        </div>
+
+<pre>
+CONTACT DESIGNATION:
+"ROCKY"
+
+SPECIES:
+ERIDIAN
+
+HOMEWORLD:
+ERID
+
+FIRST CONTACT LOCATION:
+TAU CETI SYSTEM
+
+DISCOVERED BY:
+Dr. Ryland Grace
+
+---
+
+SUMMARY:
+
+Recovered Hail Mary logs confirmed
+that Dr. Grace established direct contact
+with a surviving member
+of an extraterrestrial species.
+
+The alien individual identified himself
+through tonal acoustic communication
+approximated in English records as:
+
+"Rocky"
+
+---
+
+ERIDIAN BIOLOGY:
+
+• Ammonia-based life chemistry
+• Extreme pressure tolerance
+• Echolocation-based perception
+• No visual sensory organs
+• Metallic exoskeletal anatomy
+• Five-limbed body structure
+
+---
+
+ERIDIAN TECHNOLOGY:
+
+• Advanced materials engineering
+• Interstellar spacecraft capability
+• Mechanical computation systems
+• Sophisticated astrophage applications
+
+Recovered logs suggested
+Eridian civilization was independently
+attempting to solve stellar dimming
+within their own star system.
+
+---
+
+COMMUNICATION BREAKTHROUGH:
+
+Dr. Grace and Rocky established
+a shared scientific language using:
+
+• Mathematics
+• Chemistry
+• Physics
+• Engineering diagrams
+
+Communication later expanded
+into full conversational exchanges.
+
+---
+
+RECOVERED AUDIO TRANSCRIPT:
+
+"Grace question?"
+
+"Rocky help."
+
+"You are friend, Grace."
+
+---
+
+SIGNIFICANCE:
+
+FIRST CONFIRMED CONTACT
+BETWEEN HUMANITY
+AND EXTRATERRESTRIAL INTELLIGENCE
+
+[END FILE]
+</pre>
+
+    </div>
+
+</div>
+`
+},
+adrian: {
+
+    title: 'PETROVA LINE FINDINGS',
+
+    body: `
+
+<div class="alien-bio">
+
+    <div class="bio-photo">
+        ADRIAN BIOSPHERE IMAGE
+    </div>
+
+<pre>
+[RECOVERED SCIENCE LOG]
+
+LOCATION:
+ADRIAN PETROVA LINE
+
+PRIMARY SCIENTIST:
+Dr. Ryland Grace
+
+ASSISTING CONTACT:
+"Rocky" — Eridian Expeditionary Crew
+
+---
+
+SUMMARY:
+
+Extravehicular sampling operations
+conducted near Adrian's Petrova Line
+confirmed the presence of a complete,
+active extraterrestrial biosphere.
+
+Initial assumptions suggested Astrophage
+represented an isolated life form.
+
+Recovered findings instead demonstrated
+a functioning biological ecosystem.
+
+---
+
+RECOVERED TRANSCRIPT:
+
+GRACE:
+"If there’s a whole active biosphere
+in the Petrova line,
+it stands to reason that there’s
+a whole active biosphere on Adrian."
+
+GRACE:
+"Which means...
+there’s life on Adrian."
+
+ROCKY:
+"Is like cells, on Erid."
+
+GRACE:
+"And Earth."
+
+---
+
+BIOLOGICAL FINDINGS:
+
+Recovered samples indicated:
+
+• Microbial organisms
+• Multi-cellular analogues
+• Predator-prey interactions
+• Stable energy cycles
+• Astrophage ecological integration
+
+---
+
+SIGNIFICANCE:
+
+The discovery confirmed:
+
+• Life independently evolved
+  beyond Earth
+
+• Complex ecosystems exist
+  on alien worlds
+
+• Biology may be common
+  throughout the universe
+
+---
+
+STATUS:
+
+Adrian officially classified
+as first confirmed extraterrestrial
+living world documented by humanity.
+
+[END REPORT]
+</pre>
+
+    <button class="archive-button"
+    onclick="toggleSpacewalkReport()">
+
+        OPEN SPACEWALK REPORT
+
+    </button>
+
+    <!-- HIDDEN REPORT -->
+
+    <div id="spacewalkReport"
+    class="hidden-file">
+
+        <div class="declass-header">
+
+            EVA ACTIVITY REPORT
+
+        </div>
+
+        <div class="spacewalk-photo">
+            EVA IMAGE
+        </div>
+
+<pre>
+EXTRAVEHICULAR ACTIVITY REPORT
+
+VESSEL:
+HAIL MARY
+
+LOCATION:
+ADRIAN PETROVA LINE
+
+---
+
+AIRLOCK STATUS:
+
+Side door unlatched:
+07:14 UTC Ship Time
+
+Suit pressure stable.
+
+Tether secured.
+
+---
+
+OBJECTIVE:
+
+Collect Petrova Line biological samples
+for direct onboard analysis.
+
+---
+
+RECOVERED NOTES:
+
+Visual observation confirmed
+dense concentrations of biological activity
+within the Petrova Line.
+
+Numerous microscopic organisms observed
+moving independently through
+the astrophage-rich environment.
+
+Dr. Grace later described the exterior region as:
+
+"Like swimming through glowing alien plankton."
+
+---
+
+EVA STATUS:
+
+SUCCESSFUL
+
+BIOLOGICAL SAMPLES RETURNED:
+CONFIRMED
+
+[END EVA LOG]
+</pre>
+
+    </div>
+
+</div>
+`
+},
+fishing: {
+
+    title: 'HAIL MARY INCIDENT REPORT',
+
+    body: `
+
+<div class="incident-report">
+
+<pre class="danger-log">
+[[RECOVERED SHIP TELEMETRY]
+
+MARY[03:14:02.118]: MANUAL MODE ACTIVATED
+
+MARY[03:14:05.441]: ALTITUDE WARNING
+
+MARY[03:14:06.092]: WARNING.
+MARY[03:14:06.094]: EXTERIOR TEMPERATURE ELEVATED
+
+MARY[03:14:08.771]: WARNING.
+MARY[03:14:08.773]: HULL PRESSURE ANOMALY DETECTED
+
+MARY[03:14:09.106]: WARNING.
+MARY[03:14:09.248]: WARNING.
+MARY[03:14:09.411]: WARNING.
+
+MARY[03:14:10.027]: HULL BREACH DETECTED
+MARY[03:14:10.030]: LOCATION: PORTSIDE FUEL COMPARTMENTS ELEVEN AND TWELVE
+
+MARY[03:14:12.482]: JETTISON PORT FUEL TANK COMPARTMENT TWELVE
+MARY[03:14:12.486]: CONFIRM?
+
+MARY[03:14:16.093]: JETTISON CONFIRMED: COMPARTMENT TWELVE
+
+MARY[03:14:16.941]: JETTISON PORT FUEL TANK COMPARTMENT ELEVEN
+MARY[03:14:16.944]: CONFIRM?
+
+MARY[03:14:20.112]: JETTISON CONFIRMED: COMPARTMENT ELEVEN
+
+MARY[03:14:21.775]: CENTRIFUGE MODE ACTIVATE
+MARY[03:14:21.898]: CONFIRM?
+
+MARY[03:15:02.990]: CONTAMINANT DETECTED:
+MARY[03:15:02.991]: AMMONIA
+
+MARY[03:15:09.989]: CENTRIFUGE MODE ACTIVATED
+
+MARY[03:18:25.413]: AUTOMATED MEDICAL RESPONSE INITIATED
+
+[END TELEMETRY]
+
+</pre>
+
+    <!-- PLAN -->
+
+    <div class="plan-box">
+
+        <h2>MISSION CONCEPT</h2>
+
+<pre>
+ROCKY:
+"Hello Earth!
+Plan is like fishing.
+
+We get very close to Adrian atmosphere,
+and lower collector into clouds with chain,
+then Grace go on hull to reel it in.
+
+If ship not at precise angle and speed,
+we die! Example!"
+
+---
+
+Recovered mission logs confirmed
+the operation required the Hail Mary
+to perform sustained low-altitude flight
+inside Adrian's upper atmosphere.
+
+The maneuver was conducted manually.
+
+At the time of operation,
+Dr. Grace possessed no formal pilot training.
+
+The vessel was required to fly backwards
+to maintain proper atmospheric velocity
+during collection procedures.
+</pre>
+
+    </div>
+
+    <!-- INJURIES -->
+
+    <div class="injury-card">
+
+        <div class="injury-photo">
+            INJURY DOCUMENTATION IMAGE
+        </div>
+
+<pre>
+POST-INCIDENT MEDICAL SUMMARY
+
+PATIENT:
+Dr. Ryland Grace
+
+---
+
+INJURIES SUSTAINED:
+
+• Fractured nasal bone
+• Laceration — left orbital region
+• Third-degree thermal burns — left wrist
+• Severe bruising
+• Oxygen deprivation exposure
+• Pressure trauma
+
+---
+
+DIAGNOSIS:
+
+Patient survived catastrophic
+thermal and decompression exposure
+during extravehicular retrieval operation.
+
+Automated medical intervention systems
+prevented fatality.
+
+---
+
+TREATMENT ADMINISTERED:
+
+• Emergency sedation
+• Automated pharmaceutical injection
+• Burn treatment protocol
+• Oxygen stabilization
+• Internal pressure recovery
+
+---
+
+STATUS:
+
+SURVIVED
+
+[END MEDICAL FILE]
+</pre>
+
+    </div>
+
+</div>
+`
+}
 };
 
 function openArchive(entry){
@@ -1756,4 +2993,20 @@ function toggleRedacted(){
     document.getElementById('redactedContent');
 
     content.classList.toggle('show-redacted');
+}
+
+
+function toggleRockyFile(){
+
+    const file = document.getElementById("rockyFile");
+
+    file.classList.toggle("show-file");
+}
+
+function toggleSpacewalkReport(){
+
+    const report =
+    document.getElementById("spacewalkReport");
+
+    report.classList.toggle("show-file");
 }
