@@ -32,7 +32,7 @@
         NOMINAL
     </div>
 </div>
-
+<!-- Navagation
 <nav class="timeline-nav">
 
     <a href="#intro" class="nav-dot active">
@@ -43,18 +43,41 @@
         <span>PETROVA</span>
     </a>
 
-    <a href="#dimming" class="nav-dot">
-        <span>DIMMING</span>
+    <a href="#projections" class="nav-dot">
+        <span>PROJECTIONS</span>
     </a>
-
-    <a href="#astrophage" class="nav-dot">
-        <span>ASTROPHAGE</span>
+        <a href="#hailmary" class="nav-dot">
+        <span>HAIL MARY</span>
+    </a>
+    <a href="#crew" class="nav-dot">
+        <span>CREW</span>
+    </a>
+    <a href="#disaster" class="nav-dot">
+        <span>DISASTER</span>
+    </a>
+    <a href="#grace" class="nav-dot">
+        <span>GRACE</span>
     </a>
 
     <a href="#launch" class="nav-dot">
         <span>LAUNCH</span>
     </a>
 
+    <a href="#stratt" class="nav-dot">
+        <span>STRATT</span>
+    </a>
+    <a href="#yao" class="nav-dot">
+        <span>YAO</span>
+    </a>
+    <a href="#ily" class="nav-dot">
+        <span>ILYUKHINA</span>
+    </a>
+    <a href="#contact" class="nav-dot">
+        <span>CONTACT</span>
+    </a>
+    <a href="#adrian" class="nav-dot">
+        <span>ADRIAN</span>
+    </a>
     <a href="#war" class="nav-dot">
         <span>WAR</span>
     </a>
@@ -76,6 +99,7 @@
     </a>
 
 </nav>
+-->
 
 <div class="scanlines"></div>
 <div class="stars"></div>
@@ -168,7 +192,7 @@
         </p>
 
         <h1>
-            STRANGE INFRARED<br>GLOW DETECTED
+            INFRARED<br>GLOW DETECTED
         </h1>
 
         <p class="description">
@@ -204,7 +228,7 @@
 
         <div>
             SOL LUMINOSITY
-            <span class="luminosity" data-value="99.98%">99.98%</span>
+            <span class="luminosity" data-value="99.66%">99.66%</span>
         </div>
 
         <div>
@@ -1158,7 +1182,7 @@
         </p>
 
         <h1>
-            COMMANDER<br>YAO DECEASED
+            YAO LI-JIE<br>DECEASED
         </h1>
 
         <p class="description">
@@ -1489,13 +1513,12 @@
         </p>
 
         <h1>
-            EVA<br>#5
+            EVA<br>#3
         </h1>
 
         <p class="description">
-            During low-altitude atmospheric collection operations
-            above Adrian,
-            the Hail Mary suffered catastrophic hull damage,
+            Dr. Grace performs an extravehicular activity to collect samples from the .
+            The Hail Mary suffered catastrophic hull damage,
             pressure loss,
             thermal overload,
             and multiple systems failures.
@@ -1517,74 +1540,99 @@
 
 </section>
 
-<!-- BEETLES -->
-
-<section class="panel beetles" id="beetles">
-
-  <div class="overlay"></div>
-    <div class="hud-data">
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="88.5%">88.5%</span>
-        </div>
-
-        <div>
-            TAU CETI DISTANCE
-            <span>0.1 LY</span>
-        </div>
-
-        <div>
-            SHIP STATUS
-            <span>BEETLE DEPLOYMENT IN PROGRESS</span>
-        </div>
-    </div>
-
-  <div class="content">
-
-    <div class="mission-time">
-      T+26 YEARS
-    </div>
-
-    <p class="eyebrow">
-      RETURN TRANSMISSION
-    </p>
-
-    <h1>
-      BEETLES<br>RETURN TO EARTH
-    </h1>
-
-    <p class="description">
-      Taumoeba samples arrive safely.
-      Sol system recovery begins.
-    </p>
-
-    <div class="success-box">
-      MISSION STATUS: SUCCESS
-    </div>
-
-  </div>
-
-</section>
-
 <section class="panel taumoeba" id="taumoeba">
 
     <div class="overlay"></div>
 
+    <div class="archive-note">
+        RECOVERED BIOLOGICAL RESEARCH FILES
+    </div>
+
     <div class="hud-data">
+
         <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="87.2%">87.2%</span>
+            ORGANISM STATUS
+            <span>CONFIRMED</span>
         </div>
 
         <div>
-            TAU CETI DISTANCE
-            <span>TRANSMISSION EN ROUTE</span>
+            ASTROPHAGE PREDATOR
+            <span>DISCOVERED</span>
         </div>
 
         <div>
-            BEETLE STATUS
-            <span>ACTIVE</span>
+            MISSION STATUS
+            <span>POTENTIAL SOLUTION</span>
         </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+13.9 YEARS
+        </div>
+
+        <p class="eyebrow">
+            ADRIAN BIOSPHERE RESEARCH
+        </p>
+
+        <h1>
+            TAUMOEBA<br>DISCOVERED
+        </h1>
+
+        <p class="description">
+            Dr. Ryland Grace confirmed the existence
+            of a naturally occurring predator organism
+            capable of consuming astrophage.
+
+            The organism,
+            later designated “Taumoeba,”
+            represented the first viable solution
+            to the astrophage crisis.
+        </p>
+
+        <div class="warning-box">
+            ASTROPHAGE PREDATION:
+            CONFIRMED
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('taumoeba')">
+
+            OPEN EXPERIMENT LOGS
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel return" id="return">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        RECOVERED NAVIGATION LOGS
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            MISSION STATUS
+            <span>RETURN TRANSIT</span>
+        </div>
+
+        <div>
+            PRIMARY PAYLOAD
+            <span>TAUMOEBA-35</span>
+        </div>
+
+        <div>
+            CREW STATUS
+            <span>1 SURVIVOR</span>
+        </div>
+
     </div>
 
     <div class="content">
@@ -1594,71 +1642,937 @@
         </div>
 
         <p class="eyebrow">
-            INTERSTELLAR PAYLOAD LAUNCH
+            INTERSTELLAR RETURN TRANSIT
         </p>
 
         <h1>
-            TAUMOEBA<br>SENT TO SOL
+            HAIL MARY<br>EN ROUTE TO EARTH
         </h1>
 
         <p class="description">
-            Modified Taumoeba samples and scientific archives
-            are launched toward Earth aboard autonomous Beetles.
+            Following successful Taumoeba integration
+            into the Beetle probes,
+            the Hail Mary initiated return trajectory operations.
+
+            Recovered telemetry confirmed
+            Dr. Ryland Grace departed Tau Ceti
+            carrying the only surviving human-crewed
+            interstellar vessel in recorded history.
         </p>
 
-        <div class="terminal">
-            > COURSE LOCKED
-            <br>
-            > ETA: 12 YEARS
+        <div class="warning-box">
+            EARTH RETURN ETA:
+            4 YEARS, 2 MONTHS, 11 DAYS
         </div>
+
+        <button class="archive-button"
+        onclick="openArchive('return')">
+
+            OPEN NAVIGATION DASHBOARD
+
+        </button>
 
     </div>
 
 </section>
 
-<section class="panel recovery" id="recovery">
+<section class="panel contaminant" id="contaminant">
 
     <div class="overlay"></div>
 
+    <div class="archive-note">
+        RECOVERED INTERNAL SHIP ALERTS
+    </div>
+
     <div class="hud-data">
+
         <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="94.9%">94.9%</span>
+            SHIP STATUS
+            <span>BIOHAZARD EVENT</span>
         </div>
 
         <div>
-            TAU CETI DISTANCE
-            <span>MISSION COMPLETE</span>
+            LOCATION
+            <span>LABORATORY A</span>
         </div>
 
         <div>
-            EARTH STATUS
-            <span>RECOVERING</span>
+            ALERT LEVEL
+            <span>CRITICAL</span>
         </div>
+
     </div>
 
     <div class="content">
 
         <div class="mission-time">
-            T+28 YEARS
+            T+14.2 YEARS
         </div>
 
         <p class="eyebrow">
-            SOL RECOVERY PHASE
+            AUTOMATED SHIP EMERGENCY RESPONSE
         </p>
 
         <h1>
-            THE SUN<br>GROWS BRIGHTER
+            CONTAMINANT<br>DETECTED
         </h1>
 
         <p class="description">
-            Taumoeba deployment successfully halts astrophage
-            spread across Sol. Global temperatures begin stabilizing.
+            Recovered Hail Mary telemetry logs
+            documented a critical onboard contamination event
+            during return transit operations.
+
+            Automated emergency systems
+            initiated immediate containment protocols
+            within Laboratory A.
         </p>
 
-        <div class="success-box">
-            HUMAN CIVILIZATION SURVIVES
+        <div class="warning-box">
+            QUARANTINE PROTOCOL:
+            ACTIVE
         </div>
+
+        <button class="archive-button"
+        onclick="openArchive('contaminant')">
+
+            OPEN HAIL MARY LOGS
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel beetles" id="beetles">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        RECOVERED BEETLE TELEMETRY
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            PROBES DEPLOYED
+            <span>4</span>
+        </div>
+
+        <div>
+            PAYLOAD STATUS
+            <span>STABLE</span>
+        </div>
+
+        <div>
+            EARTH ETA
+            <span>13 YEARS</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+14.1 YEARS
+        </div>
+
+        <p class="eyebrow">
+            INTERSTELLAR PROBE DEPLOYMENT
+        </p>
+
+        <h1>
+            BEETLES<br>EN ROUTE TO EARTH
+        </h1>
+
+        <p class="description">
+            Following successful Taumoeba integration,
+            the Hail Mary deployed
+            the four Beetle probes:
+            John, Paul, George, and Ringo.
+
+            Each probe carried
+            astrophage samples,
+            Taumoeba-35 cultures,
+            mission telemetry,
+            and the complete Hail Mary archive
+            back toward Earth.
+        </p>
+
+        <div class="warning-box">
+            BEETLE TRAJECTORIES:
+            CONFIRMED
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('beetles')">
+
+            OPEN BEETLE DASHBOARD
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel collapse" id="collapse">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        UNITED NATIONS CRISIS ARCHIVE
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            GLOBAL STATUS
+            <span>DESTABILIZED</span>
+        </div>
+
+        <div>
+            FOOD SECURITY
+            <span>CRITICAL</span>
+        </div>
+
+        <div>
+            CONFLICT INDEX
+            <span>ESCALATING</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+18 YEARS
+        </div>
+
+        <p class="eyebrow">
+            EARTH COLLAPSE PROJECTIONS
+        </p>
+
+        <h1>
+            CLIMATE<br>COLLAPSE
+        </h1>
+
+        <p class="description">
+            By Year 18 of the Hail Mary mission,
+            global agricultural yields had collapsed
+            across multiple continents.
+
+            Resource conflicts,
+            forced migration,
+            famine,
+            and infrastructure breakdowns
+            escalated worldwide as governments
+            struggled to maintain social order.
+        </p>
+
+        <div class="warning-box">
+            PROJECTED POPULATION LOSS:
+            25–50%
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('collapse')">
+
+            OPEN CRISIS REPORTS
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel lastcontact" id="lastcontact">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        FINAL INTERSTELLAR COMMUNICATION
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            SIGNAL STATUS
+            <span>LOST</span>
+        </div>
+
+        <div>
+            VESSEL
+            <span>HAIL MARY</span>
+        </div>
+
+        <div>
+            CREW STATUS
+            <span>UNKNOWN</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+23 YEARS
+        </div>
+
+        <p class="eyebrow">
+            FINAL BEETLE TELEMETRY
+        </p>
+
+        <h1>
+            LAST CONTACT<br>W/HAIL MARY
+        </h1>
+
+        <p class="description">
+            Communication relays between the probes
+            and the Hail Mary permanently ceased.
+
+            At the time of signal loss,
+            the Hail Mary was traveling away from Sol
+            toward the 40 Eridani system.
+
+            No confirmed human interstellar return
+            has ever been recorded.
+        </p>
+
+        <div class="warning-box">
+            SIGNAL TERMINATION:
+            PERMANENT
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('lastcontact')">
+
+            OPEN FINAL TRANSMISSION
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel earthwaits" id="earthwaits">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        GLOBAL EMERGENCY BROADCAST ARCHIVE
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            GLOBAL DEATH TOLL
+            <span>3.9 BILLION</span>
+        </div>
+
+        <div>
+            BEETLE ETA WINDOW
+            <span>OPEN</span>
+        </div>
+
+        <div>
+            CIVIL STABILITY
+            <span>FAILING</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+24 YEARS
+        </div>
+
+        <p class="eyebrow">
+            EARTH-SIDE CONDITIONS
+        </p>
+
+        <h1>
+            EARTH WAITS<br>FOR THE BEETLES
+        </h1>
+
+        <p class="description">
+            The earliest possible return window
+            for the Beetle probes officially opened
+            during Year 24 of the Hail Mary mission.
+
+            Widespread famine,
+            riots,
+            conflict,
+            and infrastructure collapse
+            had destabilized much of the planet.
+
+            Public confidence in the mission
+            had sharply declined.
+        </p>
+
+        <div class="warning-box">
+            NO SIGNALS RECEIVED
+            FROM HAIL MARY
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('earthwaits')">
+
+            OPEN NEWS ARCHIVE
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel signalreceived" id="signalreceived">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        DEEP SPACE NETWORK ALERT
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            SIGNAL STATUS
+            <span>CONFIRMED</span>
+        </div>
+
+        <div>
+            OBJECT COUNT
+            <span>4</span>
+        </div>
+
+        <div>
+            IMPACT ETA
+            <span>34 DAYS</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+24.3 YEARS
+        </div>
+
+        <p class="eyebrow">
+            DEEP SPACE TELEMETRY
+        </p>
+
+        <h1>
+            SIGNAL RECEIVED<br>OUTSIDE SOL
+        </h1>
+
+        <p class="description">
+            Deep-space monitoring arrays
+            near Jupiter confirmed
+            four objects approaching the Solar System
+            at relativistic velocity.
+
+            Eva Stratt was released from prison on contingency.
+            Wars ceased worldwide as peace treaties were signed.
+        </p>
+
+        <div class="warning-box">
+            HUMANITY'S LAST HOPE:
+            INBOUND
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('signalreceived')">
+
+            OPEN ARRIVAL REPORTS
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<section class="panel splashdown" id="splashdown">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        INDIAN OCEAN RECOVERY OPERATION
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            PROBES RECOVERED
+            <span>4 / 4</span>
+        </div>
+
+        <div>
+            PAYLOAD STATUS
+            <span>INTACT</span>
+        </div>
+
+        <div>
+            RECOVERY TEAMS
+            <span>DEPLOYED</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+24.4 YEARS
+        </div>
+
+        <p class="eyebrow">
+            RETURN PROBE RECOVERY
+        </p>
+
+        <h1>
+            BEETLE SPLASHDOWN<br>& RECOVERY
+        </h1>
+
+        <p class="description">
+            The four Beetle probes
+            successfully splashed down
+            within the Indian Ocean Recovery Zone
+            following a 24-year interstellar journey.
+
+            Recovery crews retrieved
+            thousands of scientific records,
+            biological samples,
+            mission logs,
+            and the first confirmed evidence
+            of extraterrestrial intelligent life.
+        </p>
+
+        <div class="warning-box">
+            PAYLOAD INTEGRITY:
+            CONFIRMED
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('splashdown')">
+
+            OPEN RECOVERY INVENTORY
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel solution" id="solution">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        SOL RECOVERY INITIATIVE
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            TAUMOEBA STATUS
+            <span>VIABLE</span>
+        </div>
+
+        <div>
+            SOL RECOVERY
+            <span>INITIATED</span>
+        </div>
+
+        <div>
+            PUBLIC STATUS
+            <span>HOPE RESTORED</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+24.7 YEARS
+        </div>
+
+        <p class="eyebrow">
+            PLANETARY RECOVERY OPERATIONS
+        </p>
+
+        <h1>
+            THE SOLUTION<br>ARRIVES
+        </h1>
+
+        <p class="description">
+            Following analysis of recovered Beetle payloads,
+            global laboratories confirmed
+            Taumoeba-35 successfully consumed astrophage
+            under Venus-like atmospheric conditions.
+
+            Preparations immediately began
+            to breed Taumoeba at planetary scale
+            for deployment throughout the Solar System.
+        </p>
+
+        <div class="warning-box">
+            SOL LUMINOSITY LOSS:
+            REVERSIBLE
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('solution')">
+
+            OPEN RECOVERY REPORTS
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel arclight2" id="arclight2">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        SOL RECOVERY MISSION
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            MISSION STATUS
+            <span>LAUNCHED</span>
+        </div>
+
+        <div>
+            PAYLOAD
+            <span>TAUMOEBA-35</span>
+        </div>
+
+        <div>
+            TARGET
+            <span>PETROVA LINE</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+25 YEARS
+        </div>
+
+        <p class="eyebrow">
+            VENUS INTERCEPTION MISSION
+        </p>
+
+        <h1>
+            ARCLIGHT II<br>LAUNCHES
+        </h1>
+
+        <p class="description">
+            Following successful replication
+            of Taumoeba-35,
+            the international community launched
+            ArcLight II:
+            the first mission designed
+            to actively destroy astrophage
+            within the Petrova line.
+        </p>
+
+        <div class="warning-box">
+            PRIMARY OBJECTIVE:
+            SAVE SOL
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('arclight2')">
+
+            OPEN MISSION REPORT
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel solsaved" id="solsaved">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        PETROVA TASK FORCE FINAL BULLETIN
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            SOL STATUS
+            <span>RECOVERING</span>
+        </div>
+
+        <div>
+            ASTROPHAGE DENSITY
+            <span>COLLAPSING</span>
+        </div>
+
+        <div>
+            EXTINCTION EVENT
+            <span>AVERTED</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+25.3 YEARS
+        </div>
+
+        <p class="eyebrow">
+            SOL RECOVERY CONFIRMED
+        </p>
+
+        <h1>
+            SOL IS SAVED
+        </h1>
+
+        <p class="description">
+            Petrova Task Force monitoring stations
+            confirmed ArcLight II successfully dispersed
+            Taumoeba-35 throughout the Petrova line.
+
+            Within weeks,
+            astrophage density rapidly collapsed.
+
+            Solar luminosity decline
+            officially stopped.
+        </p>
+
+        <div class="warning-box">
+            PROJECTED FULL SOL RECOVERY:
+            13 MONTHS
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('solsaved')">
+
+            OPEN FINAL BULLETIN
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel earthheals" id="earthheals">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        GLOBAL RECOVERY PERIOD
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            AGRICULTURE
+            <span>RECOVERING</span>
+        </div>
+
+        <div>
+            GLOBAL TEMPERATURE
+            <span>STABILIZING</span>
+        </div>
+
+        <div>
+            FOOD PRODUCTION
+            <span>INCREASING</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+26.4 YEARS
+        </div>
+
+        <p class="eyebrow">
+            POST-PETROVA RECOVERY
+        </p>
+
+        <h1>
+            EARTH HEALS
+        </h1>
+
+        <p class="description">
+            As solar output continued to recover,
+            global temperatures slowly stabilized.
+
+            Emergency seed vaults were opened,
+            agricultural zones expanded,
+            and long-abandoned farmland
+            returned to production.
+
+            For the first time in decades,
+            humanity began rebuilding for the future
+            instead of merely surviving the present.
+        </p>
+
+        <div class="warning-box">
+            GLOBAL FAMINE STATUS:
+            DECLINING
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('earthheals')">
+
+            OPEN RECOVERY REPORT
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel celebration" id="celebration">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        GLOBAL COMMEMORATION EVENTS
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            GLOBAL STATUS
+            <span>STABLE</span>
+        </div>
+
+        <div>
+            MEMORIAL PROJECTS
+            <span>ONGOING</span>
+        </div>
+
+        <div>
+            PUBLIC RESPONSE
+            <span>WORLDWIDE</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+27 YEARS
+        </div>
+
+        <p class="eyebrow">
+            HUMANITY REMEMBERS
+        </p>
+
+        <h1>
+            THE WORLD<br>CELEBRATES
+        </h1>
+
+        <p class="description">
+            With Earth's recovery underway,
+            nations across the globe
+            honored the crews of Project Hail Mary.
+
+            Public memorials,
+            celebrations,
+            museums,
+            and monuments
+            appeared worldwide
+            as humanity recognized
+            the mission that saved civilization.
+        </p>
+
+        <div class="warning-box">
+            GLOBAL HOLIDAY ESTABLISHED:
+            MARCH 2
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('celebration')">
+
+            OPEN COMMEMORATION ARCHIVE
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="panel forty" id="forty">
+
+    <div class="overlay"></div>
+
+    <div class="archive-note">
+        DEEP SPACE OBSERVATION REPORT
+    </div>
+
+    <div class="hud-data">
+
+        <div>
+            40 ERIDANI STATUS
+            <span>RECOVERING</span>
+        </div>
+
+        <div>
+            HAIL MARY STATUS
+            <span>UNKNOWN</span>
+        </div>
+
+        <div>
+            SIGNAL DETECTION
+            <span>NONE</span>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="mission-time">
+            T+34 YEARS
+        </div>
+
+        <p class="eyebrow">
+            EXTRA-SOLAR OBSERVATIONS
+        </p>
+
+        <h1>
+            A DISTANT SUN<br>BRIGHTENS
+        </h1>
+
+        <p class="description">
+            Long-range observation arrays
+            confirmed increasing luminosity
+            from the 40 Eridani system.
+
+            The recovery pattern matched
+            post-Taumoeba astrophage collapse models,
+            strongly suggesting
+            the Hail Mary successfully reached Erid.
+        </p>
+
+        <div class="warning-box">
+            STATUS OF DR. RYLAND GRACE:
+            UNKNOWN
+        </div>
+
+        <button class="archive-button"
+        onclick="openArchive('forty')">
+
+            OPEN OBSERVATION REPORT
+
+        </button>
 
     </div>
 

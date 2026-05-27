@@ -114,88 +114,183 @@ const archiveEntries = {
         title: 'RECOVERED EMAIL — ARCHIVE ENTRY 001',
 
         body: `
-<pre>
-TO: Astronomy Curiosities
-astrocurious@scilists.org
 
-FROM:
-Irina Petrova, PhD
-ipetrova@gaoran.ru
+<div class="email-window">
 
-SUBJECT:
-The Thin Red Line
+    <div class="email-topbar">
 
+        <div class="email-dot red"></div>
+        <div class="email-dot yellow"></div>
+        <div class="email-dot green"></div>
 
-Hello, professionals.
+        <div class="email-title">
+            INCOMING MESSAGE // SCI-LISTS RELAY
+        </div>
 
-My name is Doctor Irina Petrova and I work at the
-Pulkovo Observatory in St. Petersburg, Russia.
+    </div>
 
-I am writing to you to ask for help.
+    <div class="email-header">
 
-For the past two years, I have been working on a theory related to
-infrared emissions from nebulae. As a result, I have made detailed
-observations in a few specific IR bands of light.
+    <div class="email-row">
 
-And I have found something odd—not in any nebula,
-but here in our own solar system.
+        <div class="email-label">
+            FROM
+        </div>
 
-There is a very faint, but detectable line in the solar
-system that emits infrared light at the 25.984 micron wavelength.
+        <div class="email-value">
+            Dr. Irina Petrova
+            &lt;ipetrova@gaoran.ru&gt;
+        </div>
 
-It seems to be solely that wavelength with no variance.
+    </div>
 
-Attached are Excel spreadsheets with my data.
-I have also provided a few renders of the data as a 3-D model.
+    <div class="email-row">
 
-You will see on the model that the line is a lopsided arc
-that rises straight up from the sun’s North Pole
-for 37 million kilometers.
+        <div class="email-label">
+            TO
+        </div>
 
-From there, it angles sharply down and away from the sun,
-toward Venus.
+        <div class="email-value">
+            Astronomy Curiosities
+            &lt;astrocurious@scilists.org&gt;
+        </div>
 
-After the arc’s apex, the cloud widens like a funnel.
-At Venus, the arc’s cross-section is as wide as the planet itself.
+    </div>
 
-The infrared glow is very faint.
+    <div class="email-row">
 
-I was only able to detect it at all because I was using
-extremely sensitive detection equipment while searching
-for IR emissions from nebulae.
+        <div class="email-label">
+            SUBJECT
+        </div>
 
-But to be certain, I called in a favor from the
-Atacama observatory in Chile—in my opinion the best IR
-observatory in the world.
+        <div class="email-value email-subject">
+            The Thin Red Line
+        </div>
 
-They confirmed my findings.
+    </div>
 
-There are many reasons one might see IR light
-in interplanetary space.
+    <div class="email-row">
 
-It could be space dust or other particles reflecting sunlight.
+        <div class="email-label">
+            DATE
+        </div>
 
-Or some molecular compound could be absorbing energy
-and re-emitting it in the infrared band.
+        <div class="email-value">
+            03 APR 20XX — 02:14 UTC
+        </div>
 
-That would even explain why it’s all the same wavelength.
+    </div>
 
-The shape of the arc is of particular interest.
+</div>
 
-My first guess was that it is a collection of particles
-moving along magnetic field lines.
+    <div class="email-body">
 
-But Venus has no magnetic field to speak of.
+        <p>Hello, professionals.</p>
 
-No magnetosphere, no ionosphere, nothing.
+        <p>
+            My name is Doctor Irina Petrova and I work at the
+            Pulkovo Observatory in St. Petersburg, Russia.
+        </p>
 
-What forces would make particles arc toward it?
-And why would they glow?
+        <p>
+            I am writing to you to ask for help.
+        </p>
 
-Any suggestions or theories would be welcome.
+        <p>
+            For the past two years, I have been working on a theory
+            related to infrared emissions from nebulae.
+        </p>
 
-— Dr. Irina Petrova
-</pre>
+        <p>
+            As a result, I have made detailed observations
+            in a few specific IR bands of light.
+        </p>
+
+        <p>
+            And I have found something odd —
+            not in any nebula,
+            but here in our own solar system.
+        </p>
+
+        <div class="email-highlight">
+            DETECTED:
+            Infrared emission line at
+            25.984 micron wavelength
+        </div>
+
+        <p>
+            There is a very faint, but detectable line in the solar
+            system that emits infrared light at the 25.984 micron wavelength.
+        </p>
+
+        <p>
+            It seems to be solely that wavelength with no variance.
+        </p>
+
+        <p>
+            Attached are Excel spreadsheets with my data.
+            I have also provided a few renders of the data as a 3-D model.
+        </p>
+
+        <p>
+            You will see on the model that the line is a lopsided arc
+            that rises straight up from the sun’s North Pole
+            for 37 million kilometers.
+        </p>
+
+        <p>
+            From there, it angles sharply down and away from the sun,
+            toward Venus.
+        </p>
+
+        <p>
+            After the arc’s apex, the cloud widens like a funnel.
+            At Venus, the arc’s cross-section is as wide as the planet itself.
+        </p>
+
+        <p>
+            The infrared glow is very faint.
+        </p>
+
+        <p>
+            I was only able to detect it because I was using
+            extremely sensitive detection equipment while searching
+            for IR emissions from nebulae.
+        </p>
+
+        <p>
+            To confirm the results,
+            I contacted the Atacama Observatory in Chile.
+            They independently confirmed my findings.
+        </p>
+
+        <p>
+            My first hypothesis was that these are particles moving
+            along magnetic field lines.
+        </p>
+
+        <p>
+            However, Venus possesses no magnetic field significant
+            enough to explain the phenomenon.
+        </p>
+
+        <div class="email-question">
+            What forces would make particles arc toward Venus?
+            And why would they glow?
+        </div>
+
+        <p>
+            Any suggestions or theories would be welcome.
+        </p>
+
+        <div class="email-signoff">
+            — Dr. Irina Petrova
+        </div>
+
+    </div>
+
+</div>
+
 `
     },
 
@@ -204,61 +299,147 @@ Any suggestions or theories would be welcome.
         title: 'GLOBAL ADDRESS — EMERGENCY TRANSCRIPT',
 
         body: `
-<pre>
-[BEGIN TRANSCRIPT]
+<div class="presidential-record">
 
-UNITED STATES PRESIDENTIAL EMERGENCY ADDRESS
-RECORDED 8:42 PM EST
+    <!-- HEADER -->
 
-"My fellow citizens—
+    <div class="pres-header">
 
-Tonight, the international scientific community has confirmed
-the existence of a previously unknown interplanetary phenomenon,
-now designated as the Petrova Line.
+        <div class="seal-area">
 
-This infrared structure extends from the sun toward Venus
-and has now been independently verified by observatories
-across the globe.
+            <div class="seal">
+                ☼
+            </div>
 
-At this time, we wish to emphasize that there is no immediate
-danger to the public.
+        </div>
 
-However—
+        <div class="pres-title">
 
-Data collected by the Japanese Aerospace Exploration Agency,
-using the Amaterasu solar probe, has revealed something deeply concerning.
+            <div class="pres-small">
+                EXECUTIVE OFFICE ARCHIVE
+            </div>
 
-The sun's energy output appears to be decreasing.
+            <h2>
+                UNITED STATES PRESIDENTIAL EMERGENCY ADDRESS
+            </h2>
 
-At present, the decline measures approximately 0.01 percent below
-expected solar luminosity levels.
+            <div class="pres-meta">
+                RECORDED 8:42 PM EST · NATIONAL BROADCAST
+            </div>
 
-That number may sound insignificant.
+        </div>
 
-But scientists monitoring the anomaly have observed
-that the rate of decline is accelerating.
+    </div>
 
-Simultaneously, the Petrova Line itself is increasing
-in infrared intensity at the exact same rate.
+    <!-- ALERT -->
 
-Researchers do not yet understand the mechanism behind this phenomenon.
+    <div class="pres-alert">
+        GLOBAL SCIENTIFIC EMERGENCY DECLARED
+    </div>
 
-But current working theories suggest that whatever forms
-the Petrova Line may somehow be extracting energy from the sun itself.
+    <!-- TRANSCRIPT -->
 
-Governments worldwide are coordinating scientific resources
-effective immediately.
+    <div class="pres-body">
 
-An international task force is now being assembled.
+        <p>
+            <span class="speaker">PRESIDENT:</span>
+            "My fellow citizens—
+        </p>
 
-Further updates will follow as more information becomes available.
+        <p>
+            Tonight, the international scientific community has confirmed
+            the existence of a previously unknown interplanetary phenomenon,
+            now designated as the Petrova Line.
+        </p>
 
-Thank you.
+        <p>
+            This infrared structure extends from the sun toward Venus
+            and has now been independently verified by observatories
+            across the globe.
+        </p>
 
-And may God watch over us all."
+        <p>
+            At this time, we wish to emphasize that there is no immediate
+            danger to the public.
+        </p>
 
-[END TRANSCRIPT]
-</pre>
+        <p class="pause">
+            However—
+        </p>
+
+        <p>
+            Data collected by the Japanese Aerospace Exploration Agency,
+            using the Amaterasu solar probe,
+            has revealed something deeply concerning.
+        </p>
+
+        <p>
+            The sun's energy output appears to be decreasing.
+        </p>
+
+        <div class="quote-panel">
+
+            CURRENT SOLAR DEVIATION:
+            <span>−0.34%</span>
+
+        </div>
+
+        <p>
+            At present, the decline measures approximately
+            0.34 percent below expected solar luminosity levels.
+        </p>
+
+        <p>
+            That number may sound insignificant.
+        </p>
+
+        <p>
+            But scientists monitoring the anomaly have observed
+            that the rate of decline is accelerating.
+        </p>
+
+        <p>
+            Simultaneously, the Petrova Line itself
+            is increasing in infrared intensity
+            at the exact same rate.
+        </p>
+
+        <p>
+            Researchers do not yet understand
+            the mechanism behind this phenomenon.
+        </p>
+
+        <p>
+            But current working theories suggest
+            that whatever forms the Petrova Line
+            may somehow be extracting energy
+            from the sun itself.
+        </p>
+
+        <p>
+            Governments worldwide are coordinating
+            scientific resources effective immediately.
+        </p>
+
+        <p>
+            An international task force
+            is now being assembled.
+        </p>
+
+        <p>
+            Further updates will follow
+            as more information becomes available.
+        </p>
+
+        <p class="final-line">
+            Thank you.
+            <br><br>
+            And may God watch over us all."
+        </p>
+
+    </div>
+
+</div>
 `
     },
     arclight: {
@@ -2831,9 +3012,9 @@ fishing: {
 <div class="incident-report">
 
 <pre class="danger-log">
-[[RECOVERED SHIP TELEMETRY]
+[RECOVERED SHIP TELEMETRY]
 
-MARY[03:14:02.118]: MANUAL MODE ACTIVATED
+MARY[03:03:02.118]: MANUAL MODE ACTIVATED
 
 MARY[03:14:05.441]: ALTITUDE WARNING
 
@@ -2860,8 +3041,8 @@ MARY[03:14:16.944]: CONFIRM?
 
 MARY[03:14:20.112]: JETTISON CONFIRMED: COMPARTMENT ELEVEN
 
-MARY[03:14:21.775]: CENTRIFUGE MODE ACTIVATE
-MARY[03:14:21.898]: CONFIRM?
+MARY[03:14:25.775]: CENTRIFUGE MODE ACTIVATE
+MARY[03:14:25.898]: CONFIRM?
 
 MARY[03:15:02.990]: CONTAMINANT DETECTED:
 MARY[03:15:02.991]: AMMONIA
@@ -2970,7 +3151,2383 @@ SURVIVED
 
 </div>
 `
-}
+},
+taumoeba: {
+
+    title: 'TAUMOEBA EXPERIMENT LOGS',
+
+    body: `
+
+<div class="taumoeba-report">
+
+    <div class="bio-photo">
+        TAUMOEBA MICROSCOPY IMAGE
+    </div>
+
+<pre>
+[RECOVERED SCIENCE LOG]
+
+PROJECT:
+TAUMOEBA ANALYSIS
+
+PRIMARY SCIENTIST:
+Dr. Ryland Grace
+
+ASSISTING ENGINEER:
+"Rocky"
+
+---
+
+SUMMARY:
+
+Recovered mission logs confirmed
+the discovery of a naturally occurring
+microorganism within Adrian's biosphere
+capable of consuming astrophage.
+
+The organism was later designated:
+
+"TAUMOEBA"
+
+---
+
+RECOVERED TRANSCRIPT:
+
+GRACE:
+"Taumoeba-35!"
+
+"Just an amoeba from Tau Ceti
+and we’re putting 'Tau'
+in front of 'amoeba.'"
+
+---
+
+INITIAL TESTING:
+
+Early samples proved incapable
+of surviving nitrogen exposure.
+
+Recovered logs confirmed
+multiple failed atmospheric tests.
+
+---
+
+GRACE:
+
+"I did tests at different atmospheric variables
+and, fun fact,
+every time I introduce nitrogen..."
+
+[blows raspberry]
+
+"...it died."
+
+---
+
+GRACE:
+
+"And I know what you’re thinking —
+well, that’s terrible,
+because we need it to survive
+in the conditions of Venus."
+
+---
+
+BREEDING PROGRAM:
+
+Recovered logs confirmed
+Dr. Grace utilized
+Eridian xenonite breeder tanks
+to develop nitrogen-resistant strains.
+
+---
+
+GRACE:
+
+"Obviously I had to figure out
+how to breed a new strain
+of nitrogen-resistant Taumoeba.
+
+And guess what I used?"
+
+"The breeder tanks that we made,
+with your xenonite."
+
+"And you know what?"
+
+[kisses]
+
+"Now we’re just a couple
+of very cool dudes
+with their very own strain
+of nitrogen-resistant Taumoeba."
+
+---
+
+TAUMOEBA-35:
+
+Final engineered strain capable of surviving:
+
+• 3.5% nitrogen atmosphere
+• 0.02 atmospheric pressure
+• Venus-equivalent conditions
+
+---
+
+SIGNIFICANCE:
+
+Taumoeba-35 represented
+the first confirmed biological weapon
+capable of halting astrophage proliferation
+within the Sol system.
+
+Recovered mission logs later confirmed
+the strain was successfully loaded
+into Beetle return probes
+for transport back to Earth.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+return: {
+
+    title: 'RETURN TRANSIT NAVIGATION DASHBOARD',
+
+    body: `
+
+<div class="return-dashboard">
+
+    <!-- HEADER -->
+
+    <div class="tau-header">
+
+        <div>
+            VESSEL
+            <span>HAIL MARY</span>
+        </div>
+
+        <div>
+            TRAJECTORY
+            <span>SOL SYSTEM</span>
+        </div>
+
+        <div>
+            STATUS
+            <span>RETURNING</span>
+        </div>
+
+    </div>
+
+    <!-- STAR MAP -->
+
+    <div class="return-map">
+
+        <div class="star tau-home"></div>
+
+        <div class="travel-line"></div>
+
+        <div class="star sol-home"></div>
+
+        <div class="return-ship"></div>
+
+        <div class="label tau-home-label">
+            TAU CETI
+        </div>
+
+        <div class="label sol-home-label">
+            SOL
+        </div>
+
+        <div class="distance-readout">
+            RETURN TRANSIT ACTIVE
+        </div>
+
+    </div>
+
+    <!-- STATS -->
+
+    <div class="tau-grid">
+
+        <div class="tau-card">
+
+            <h3>RETURN ETA</h3>
+
+            <div class="tau-stat">
+                4Y 2M 11D
+            </div>
+
+        </div>
+
+        <div class="tau-card">
+
+            <h3>ASTROPHAGE FUEL</h3>
+
+            <div class="tau-stat">
+                STABLE
+            </div>
+
+        </div>
+
+        <div class="tau-card">
+
+            <h3>BEETLE STATUS</h3>
+
+            <div class="tau-stat">
+                DEPLOYED
+            </div>
+
+        </div>
+
+        <div class="tau-card">
+
+            <h3>CREW</h3>
+
+            <div class="tau-stat">
+                DR. GRACE
+            </div>
+
+        </div>
+
+    </div>
+
+<pre>
+[RECOVERED NAVIGATION LOG]
+
+MISSION STATUS:
+RETURN TRANSIT ACTIVE
+
+Recovered telemetry confirmed
+the Hail Mary departed the Tau Ceti system
+following successful Taumoeba integration
+within the Beetle return probes.
+
+---
+
+PRIMARY OBJECTIVE:
+
+Return to Sol system.
+
+---
+
+ESTIMATED ARRIVAL TIME:
+
+4 YEARS
+2 MONTHS
+11 DAYS
+
+---
+
+PAYLOAD STATUS:
+
+TAUMOEBA-35:
+STABLE
+
+BEETLE PROBES:
+DEPLOYED
+
+---
+
+RECOVERED NOTES:
+
+At the time of departure,
+Dr. Ryland Grace represented:
+
+• Sole surviving Hail Mary crew member
+• First human to survive interstellar travel
+• First human to establish extraterrestrial contact
+
+---
+
+ARCHIVAL NOTE:
+
+Recovered logs suggest
+Dr. Grace ultimately altered course
+before reaching Earth.
+
+Destination changes were not understood
+until later Beetle telemetry recovery.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+contaminant: {
+
+    title: 'HAIL MARY INTERNAL ALERT LOGS',
+
+    body: `
+
+<div class="contam-dashboard">
+
+    <!-- ALERT HEADER -->
+
+    <div class="declass-header">
+        ACTIVE BIOHAZARD CONTAINMENT
+    </div>
+
+    <!-- GRAPH PANEL -->
+
+    <div class="contam-grid">
+
+        <!-- OXYGEN -->
+
+        <div class="contam-card">
+
+            <h3>OXYGEN LEVELS</h3>
+
+            <div class="oxygen-graph">
+
+                <div class="oxygen-line"></div>
+
+                <div class="graph-label graph-top">
+                    100%
+                </div>
+
+                <div class="graph-label graph-bottom">
+                    42%
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- UNKNOWN SUBSTANCE -->
+
+        <div class="contam-card">
+
+            <h3>CLEANROOM</h3>
+
+            <div class="biohazard-display">
+
+                <div class="hazard-core"></div>
+
+                <div class="hazard-pulse"></div>
+
+                <div class="hazard-text">
+                    UNKNOWN SUBSTANCE
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<pre class="danger-log">
+[RECOVERED SHIP TELEMETRY]
+
+MARY[03:14:06.092]: WARNING.
+MARY[03:14:06.417]: CONTAMINANT DETECTED.
+
+MARY[03:14:09.774]: CONTAMINANT DETECTED.
+MARY[03:14:12.551]: CONTAMINANT DETECTED.
+
+MARY[03:14:15.030]: ENVIRONMENTAL SENSORS OFFLINE.
+MARY[03:14:16.224]: ATTEMPTING BACKUP ANALYSIS...
+
+MARY[03:14:18.778]: CONTAMINANT DETECTED.
+MARY[03:14:20.914]: CONTAMINANT DETECTED.
+MARY[03:14:23.092]: CONTAMINANT DETECTED.
+
+MARY[03:14:27.031]: CONTAMINANT SOURCE ESTIMATED:
+MARY[03:14:27.033]: CLEANROOM
+
+MARY[03:14:29.661]: HATCH OPEN.
+MARY[03:14:29.662]: CONFIRM?
+
+MARY[03:14:38.118]: CONTAMINANT DETECTED.
+MARY[03:14:40.230]: CONTAMINANT DETECTED.
+
+MARY[03:14:42.804]: MANUAL OVERRIDE REQUIRED.
+MARY[03:14:42.805]: CAUTION.
+
+MARY[03:14:46.911]: DEPRESSURIZATION IN PROGRESS.
+MARY[03:14:46.912]: WARNING.
+
+MARY[03:14:49.313]: CONTAINMENT FAILURE.
+MARY[03:14:50.901]: PRESSURE DROP DETECTED:
+MARY[03:14:50.902]: CLEANROOM
+
+MARY[03:14:53.221]: CONTAMINANT DETECTED.
+MARY[03:14:54.991]: CONTAMINANT DETECTED.
+MARY[03:14:56.420]: CONTAMINANT DETECTED.
+
+MARY[03:15:02.114]: INTERNAL ATMOSPHERE UNSTABLE.
+MARY[03:15:04.222]: VENTING IN PROGRESS.
+
+MARY[03:15:07.771]: CONTAMINANT DETECTED.
+
+MARY[03:15:11.883]: ENGINE PERFORMANCE DEGRADED.
+
+MARY[03:15:16.002]: CAUTION:
+MARY[03:15:16.004]: FUEL MIXTURE INSTABILITY.
+
+MARY[03:15:19.762]: CONTAMINANT DETECTED.
+MARY[03:15:21.551]: CONTAMINANT DETECTED.
+
+MARY[03:15:40.103]: CONTAMINANT DETECTED.
+MARY[03:15:41.912]: CONTAMINANT DETECTED.
+MARY[03:15:43.664]: CONTAMINANT DETECTED.
+
+MARY[03:15:50.022]: ENGINE CONTROL RESPONSE DELAYED.
+MARY[03:15:55.022]: ENGINE SHUTOFF.
+MARY[03:19:30.991]: ENGINE SYSTEMS OFFLINE.
+
+MARY[03:16:09.228]: CONTAMINANT DETECTED.
+MARY[03:16:10.330]: CONTAMINANT DETECTED.
+
+MARY[03:16:18.448]: WARNING.
+
+MARY[03:16:42.881]: CONTAMINANT DETECTED.
+MARY[03:16:44.661]: CONTAMINANT DETECTED.
+MARY[03:16:45.993]: CONTAMINANT DETECTED.
+
+MARY[03:17:36.228]: CONTAMINANT DETECTED.
+MARY[03:17:37.990]: CONTAMINANT DETECTED.
+
+MARY[03:18:02.778]: CENTRIFUGAL MODE ACTIVATE?
+MARY[03:18:02.780]: CONFIRM?
+
+MARY[03:18:11.901]: CENTRIFUGAL MODE ACTIVATED.
+
+MARY[03:18:16.114]: CONTAMINANT DETECTED.
+MARY[03:18:17.001]: CONTAMINANT DETECTED.
+MARY[03:20:10.101]: CONTAMINANT DETECTED.
+
+MARY[03:23:06.092]: LOG SEGMENT ENDED.
+
+[END TELEMETRY]
+
+---
+
+ATMOSPHERIC STATUS:
+UNSTABLE
+
+OXYGEN LOSS DETECTED
+
+CONTAINMENT ACTIVE
+
+---
+
+AUTOMATED RESPONSE:
+
+• Laboratory decompression
+• Internal atmosphere purge
+• Medical monitoring initiated
+• Rotational stabilization enabled
+
+---
+
+ARCHIVAL NOTE:
+
+Recovered logs did not conclusively identify
+the nature of the contaminant event.
+
+Multiple sections of telemetry
+were later determined corrupted
+during transmission recovery.
+
+[END LOG]
+</pre>
+
+</div>
+`
+},
+beetles: {
+
+    title: 'BEETLE RETURN PROBE DASHBOARD',
+
+    body: `
+
+<div class="beetle-dashboard">
+
+    <!-- HEADER -->
+
+    <div class="tau-header">
+
+        <div>
+            PROBE STATUS
+            <span>ACTIVE</span>
+        </div>
+
+        <div>
+            DESTINATION
+            <span>SOL SYSTEM</span>
+        </div>
+
+        <div>
+            PAYLOAD
+            <span>TAUMOEBA-35</span>
+        </div>
+
+    </div>
+
+    <!-- BEETLES -->
+
+    <div class="beetle-grid">
+
+        <!-- JOHN -->
+
+        <div class="beetle-card">
+
+            <div class="beetle-photo">
+                <img class="beetle-image" src="assets/john.png" alt="John Beetle Image">
+            </div>
+
+            <h3>JOHN</h3>
+
+            <div class="beetle-stats">
+
+                <div>
+                    MASS
+                    <span>1,480 KG</span>
+                </div>
+
+                <div>
+                    VELOCITY
+                    <span>0.93 C</span>
+                </div>
+
+                <div>
+                    DATA STORAGE
+                    <span>91 TB</span>
+                </div>
+
+                <div>
+                    ETA TO EARTH
+                    <span>13 YEARS</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- PAUL -->
+
+        <div class="beetle-card">
+
+            <div class="beetle-photo">
+                <img class="beetle-image" src="assets/paul.png" alt="Paul Image">
+            </div>
+
+            <h3>PAUL</h3>
+
+            <div class="beetle-stats">
+
+                <div>
+                    MASS
+                    <span>1,477 KG</span>
+                </div>
+
+                <div>
+                    VELOCITY
+                    <span>0.93 C</span>
+                </div>
+
+                <div>
+                    DATA STORAGE
+                    <span>91 TB</span>
+                </div>
+
+                <div>
+                    ETA TO EARTH
+                    <span>13 YEARS</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- GEORGE -->
+
+        <div class="beetle-card">
+
+            <div class="beetle-photo">
+                <img class="beetle-image" src="assets/george.png"
+                alt="George Beetle Image">
+            </div>
+
+            <h3>GEORGE</h3>
+
+            <div class="beetle-stats">
+
+                <div>
+                    MASS
+                    <span>1,481 KG</span>
+                </div>
+
+                <div>
+                    VELOCITY
+                    <span>0.93 C</span>
+                </div>
+
+                <div>
+                    DATA STORAGE
+                    <span>91 TB</span>
+                </div>
+
+                <div>
+                    ETA TO EARTH
+                    <span>13 YEARS</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- RINGO -->
+
+        <div class="beetle-card">
+
+            <div class="beetle-photo">
+                <img class="beetle-image" src="assets/ringo.png" alt="Ringo Image">
+            </div>
+
+            <h3>RINGO</h3>
+
+            <div class="beetle-stats">
+
+                <div>
+                    MASS
+                    <span>1,479 KG</span>
+                </div>
+
+                <div>
+                    VELOCITY
+                    <span>0.93 C</span>
+                </div>
+
+                <div>
+                    DATA STORAGE
+                    <span>91 TB</span>
+                </div>
+
+                <div>
+                    ETA TO EARTH
+                    <span>13 YEARS</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<pre>
+[RECOVERED TRANSMISSION SUMMARY]
+
+The four Beetle probes successfully departed
+the Tau Ceti system carrying:
+
+• Taumoeba-35 cultures
+• Astrophage samples
+• Full Hail Mary telemetry
+• Scientific archives
+• Crew records
+
+---
+
+INITIAL ASSUMPTION:
+
+Recovered Earth-side telemetry initially suggested
+the Hail Mary itself remained on return trajectory
+toward Sol.
+
+Later recovered navigation logs revealed
+Dr. Ryland Grace altered course shortly
+after Beetle deployment.
+
+---
+
+DESTINATION CHANGE:
+
+40 ERIDANI SYSTEM
+
+---
+
+RECOVERED MISSION NOTES:
+
+Grace returned after learning
+the Eridian vessel Blip-A
+lacked sufficient astrophage reserves
+for independent survival.
+
+Recovered logs indicate
+the Hail Mary transferred fuel
+to Rocky's vessel,
+preventing total mission loss.
+
+---
+
+ARCHIVAL NOTE:
+
+At the time of Beetle arrival,
+Earth believed Dr. Grace deceased.
+
+The full circumstances surrounding
+the course change would not become known
+until decades later.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+collapse: {
+
+    title: 'GLOBAL COLLAPSE PROJECTIONS',
+
+    body: `
+
+<div class="collapse-dashboard">
+
+    <!-- CONFLICT LIST -->
+
+    <div class="war-list">
+
+        <div>
+            SOUTH ASIAN WATER CONFLICTS
+            <span>ACTIVE</span>
+        </div>
+
+        <div>
+            NORTHERN AFRICAN FAMINE CRISIS
+            <span>ESCALATING</span>
+        </div>
+
+        <div>
+            ARCTIC RESOURCE DISPUTES
+            <span>ACTIVE</span>
+        </div>
+
+        <div>
+            PACIFIC FOOD ROUTE COLLAPSE
+            <span>CRITICAL</span>
+        </div>
+
+        <div>
+            GLOBAL REFUGEE DISPLACEMENT
+            <span>1.2 BILLION</span>
+        </div>
+
+    </div>
+
+<pre>
+[UNITED NATIONS CRISIS SUMMARY]
+
+Recovered global projections estimated
+Earth would lose approximately
+25% of its population within thirty years
+under ideal international cooperation conditions.
+
+Internal Petrova Task Force estimates
+later doubled those projections.
+
+---
+
+RECOVERED EVA STRATT TRANSCRIPT:
+
+"Of course.
+Leclerc’s estimate assumes all nations
+work together to share resources
+and ration food.
+
+But do you think that will happen?"
+
+"Do you think the United States
+is going to sit idly by
+while half their population starves?"
+
+"Do you think China
+will simply leave weaker neighbors alone?"
+
+---
+
+"There will be wars."
+
+"Fought for the same reason
+most ancient wars were fought:
+
+Food."
+
+---
+
+Recovered Earth-side reports confirmed:
+
+• Agricultural collapse
+• Forced migration
+• Regional famine
+• Resource wars
+• Energy shortages
+• Medical infrastructure failure
+• Uncontrolled disease outbreaks
+
+---
+
+RECOVERED STRATT STATEMENT:
+
+"War, famine, pestilence, and death.
+
+Astrophage is literally the apocalypse.
+
+The Hail Mary is all we have now."
+
+---
+
+ARCHIVAL NOTE:
+
+By this stage of the crisis,
+multiple governments had enacted:
+
+• Martial law
+• Military-controlled rationing
+• Border closures
+• Forced agricultural labor programs
+
+Several nation-states ceased functioning entirely.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+lastcontact: {
+
+    title: 'FINAL HAIL MARY COMMUNICATION',
+
+    body: `
+
+<div class="lastcontact-dashboard">
+
+    <!-- SIGNAL PANEL -->
+
+    <div class="signal-panel">
+
+        <div class="signal-line"></div>
+
+        <div class="signal-noise"></div>
+
+        <div class="signal-status">
+            SIGNAL LOST
+        </div>
+
+    </div>
+
+    <!-- TRANSMISSION -->
+
+<pre class="danger-log">
+[FINAL RECOVERED BEETLE TRANSMISSION]
+
+TIMESTAMP:
+T+23 YEARS
+
+SOURCE:
+HAIL MARY
+
+DESTINATION:
+BEETLE RETURN PROBES
+
+---
+
+NAVIGATION STATUS:
+
+BEETLES:
+TRAJECTORY STABLE
+DESTINATION:
+SOL SYSTEM
+
+HAIL MARY:
+COURSE DIVERGENCE CONFIRMED
+
+DESTINATION:
+40 ERIDANI SYSTEM
+
+---
+
+COMMUNICATION STATUS:
+
+Long-range telemetry quality degraded
+over extended interstellar distance.
+
+Signal fragmentation increased
+over multiple years.
+
+---
+
+LAST RECOVERED TRANSMISSION:
+
+"...fuel transfer stable..."
+
+"...Rocky..."
+
+"...see you on Erid..."
+
+[TRANSMISSION CORRUPTED]
+
+---
+
+SIGNAL LOSS EVENT:
+
+Recovered records confirmed
+the Hail Mary officially ceased
+all detectable transmissions shortly afterward.
+
+No further communication
+was ever received by the Beetle probes.
+
+---
+
+ARCHIVAL SUMMARY:
+
+At the time of final contact,
+mission analysts believed
+Dr. Ryland Grace was attempting
+to reach the Eridian vessel Blip-A
+to prevent loss of crew and ship.
+
+Mission outcome:
+UNKNOWN
+
+---
+
+ARCHIVAL NOTE:
+
+No verified return
+of the Hail Mary spacecraft
+has ever occurred.
+
+Dr. Ryland Grace
+was officially declared deceased in absentia
+41 years after launch.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+earthwaits: {
+
+    title: 'GLOBAL NEWS BROADCASTS — YEAR 24',
+
+    body: `
+
+<div class="broadcast-dashboard">
+
+    <!-- LIVE STATUS -->
+
+    <div class="broadcast-header">
+
+        <div>
+            BROADCAST STATUS
+            <span>LIVE ARCHIVE</span>
+        </div>
+
+        <div>
+            PLANETARY CONDITION
+            <span>CRITICAL</span>
+        </div>
+
+        <div>
+            SIGNAL WATCH
+            <span>ACTIVE</span>
+        </div>
+
+    </div>
+
+    <!-- ALERT TICKER -->
+
+    <div class="news-ticker">
+        FOOD RIOTS REPORTED IN 19 MAJOR CITIES •
+        MARTIAL LAW EXTENDED IN MULTIPLE REGIONS •
+        GLOBAL DEATH TOLL EXCEEDS 3.9 BILLION •
+        NO SIGNALS RECEIVED FROM HAIL MARY •
+        BEETLE RETURN WINDOW NOW OPEN
+    </div>
+
+<pre class="danger-log">
+[RECOVERED EARTH BROADCAST TRANSCRIPT]
+
+GLOBAL NEWS NETWORK
+YEAR 24
+LIVE FEED ARCHIVE
+
+---
+
+ANCHOR:
+
+"Tonight marks the first possible
+return window for the Beetle probes
+launched from the Hail Mary mission
+more than two decades ago."
+
+"Humanity continues to wait
+for any sign that the mission succeeded."
+
+---
+
+"However,
+mission analysts caution
+there are countless ways
+the operation could have failed."
+
+---
+
+POSSIBLE FAILURE SCENARIOS:
+
+• Crew mortality during transit
+• Astrophage containment failure
+• Probe launch malfunction
+• Radiation exposure
+• Mechanical system collapse
+• Failure to reach Tau Ceti
+• Failure to locate a solution
+• Fuel depletion
+• Communication loss
+
+---
+
+ANCHOR:
+
+"No signals have been received
+from the Hail Mary
+since Year 23."
+
+"Public confidence in the mission
+has deteriorated significantly."
+
+---
+
+[FOOTAGE DESCRIPTION]
+
+Crowds gathered outside
+Petrova Task Force facilities
+in multiple cities.
+
+Several riots erupted after rumors spread
+that the mission had failed years earlier.
+
+Military forces dispersed demonstrations
+in New York,
+London,
+Delhi,
+and Shanghai.
+
+---
+
+ANCHOR:
+
+"Global agricultural output
+continues to decline."
+
+"Several governments confirmed
+additional emergency ration reductions
+this week."
+
+---
+
+[RECOVERED STREET INTERVIEW]
+
+REPORTER:
+"Do you still believe
+the Beetles are coming home?"
+
+CIVILIAN:
+"...I don't know anymore."
+
+"We sent them out there
+to save us."
+
+"I just hope someone made it."
+
+---
+
+ARCHIVAL NOTE:
+
+Despite worsening planetary conditions,
+deep-space monitoring arrays
+remained active worldwide
+in continuous search
+for Beetle telemetry signatures.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+signalreceived: {
+
+    title: 'BEETLE ARRIVAL CONFIRMATION',
+
+    body: `
+
+<div class="signal-dashboard">
+
+    <!-- RADAR -->
+
+    <div class="arrival-radar">
+
+        <div class="radar-ring ring1"></div>
+        <div class="radar-ring ring2"></div>
+        <div class="radar-ring ring3"></div>
+
+        <div class="beetle-blip b1"></div>
+        <div class="beetle-blip b2"></div>
+        <div class="beetle-blip b3"></div>
+        <div class="beetle-blip b4"></div>
+
+        <div class="radar-center"></div>
+
+    </div>
+
+<pre class="danger-log">
+[UNITED NATIONS EMERGENCY BULLETIN]
+
+PRIORITY:
+ABSOLUTE
+
+SOURCE:
+DEEP SPACE NETWORK
+
+---
+
+At 04:14 UTC,
+multiple monitoring arrays
+near Jupiter orbit
+confirmed four relativistic objects
+entering the Solar System.
+
+Trajectory analysis confirms
+origin vector alignment
+with the Tau Ceti system.
+
+---
+
+THERMAL SIGNATURE MATCH:
+99.92%
+
+OBJECT CLASSIFICATION:
+BEETLE RETURN PROBES
+
+---
+
+PROJECTED TOUCHDOWN:
+
+34 DAYS
+
+LOCATION:
+INDIAN OCEAN RECOVERY ZONE
+
+---
+
+GLOBAL RESPONSE:
+
+Within hours of confirmation,
+multiple ongoing military conflicts
+announced temporary ceasefires.
+
+Emergency peace negotiations began
+under United Nations oversight.
+
+---
+
+ARCHIVAL NOTE:
+
+The announcement triggered
+the largest spontaneous celebrations
+recorded since the Petrova discovery.
+
+Crowds gathered worldwide
+to watch live trajectory updates.
+
+---
+
+SPECIAL AUTHORIZATION ORDER:
+
+Former Petrova Task Force Director
+Eva Stratt was released from prison
+under emergency executive authority.
+
+Stratt immediately resumed advisory duties
+for Beetle recovery operations.
+
+---
+
+[RECOVERED PRESS BRIEFING]
+
+REPORTER:
+"Dr. Stratt,
+after everything that happened,
+do you believe the mission succeeded?"
+
+STRATT:
+"...They came home."
+
+---
+
+ARCHIVAL NOTE:
+
+Former Petrova Task Force personnel,
+scientists,
+flight controllers,
+and surviving Hail Mary support crews
+reassembled for recovery operations.
+
+For the first time in decades,
+humanity had reason to hope.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+splashdown: {
+
+    title: 'BEETLE RECOVERY INVENTORY',
+
+    body: `
+
+<div class="recovery-dashboard">
+
+    <!-- STATUS -->
+
+    <div class="recovery-header">
+
+        <div>
+            RECOVERY STATUS
+            <span>SUCCESSFUL</span>
+        </div>
+
+        <div>
+            OCEAN CONDITION
+            <span>STABLE</span>
+        </div>
+
+        <div>
+            DECONTAMINATION
+            <span>ACTIVE</span>
+        </div>
+
+    </div>
+
+    <!-- PROBE GRID -->
+
+    <div class="inventory-grid">
+
+        <!-- JOHN -->
+
+        <div class="inventory-card">
+
+            <h3>BEETLE — JOHN</h3>
+
+            <ul>
+                <li>Astrophage samples</li>
+                <li>Taumoeba-35 cultures</li>
+                <li>Hail Mary telemetry logs</li>
+                <li>Xenonite fragments</li>
+                <li>Hull repair schematics</li>
+            </ul>
+
+        </div>
+
+        <!-- PAUL -->
+
+        <div class="inventory-card">
+
+            <h3>BEETLE — PAUL</h3>
+
+            <ul>
+                <li>Shipboard video archives</li>
+                <li>Life support diagnostics</li>
+                <li>Crew medical records</li>
+                <li>Navigation telemetry</li>
+                <li>Adrian biosphere scans</li>
+            </ul>
+
+        </div>
+
+        <!-- GEORGE -->
+
+        <div class="inventory-card">
+
+            <h3>BEETLE — GEORGE</h3>
+
+            <ul>
+                <li>Eridian language files</li>
+                <li>Blip-A schematics</li>
+                <li>First contact recordings</li>
+                <li>Rocky communication logs</li>
+                <li>Astrophage breeding data</li>
+            </ul>
+
+        </div>
+
+        <!-- RINGO -->
+
+        <div class="inventory-card">
+
+            <h3>BEETLE — RINGO</h3>
+
+            <ul>
+                <li>Scientific papers by Grace</li>
+                <li>Adrian ecosystem research</li>
+                <li>Taumoeba experiments</li>
+                <li>Personal mission journals</li>
+                <li>Final Hail Mary logs</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+<pre class="danger-log">
+[RECOVERY SUMMARY]
+
+All four Beetle probes
+were recovered successfully.
+
+Payload integrity remained above
+94% across all probes.
+
+---
+
+RECOVERED MATERIAL INCLUDED:
+
+• Live Taumoeba-35 samples
+• Astrophage cultures
+• Xenonite material samples
+• Complete Hail Mary telemetry
+• Thousands of hours of onboard recordings
+• Extraterrestrial linguistic data
+• Eridian engineering schematics
+• Biological analysis from Adrian
+• Personal journals from Dr. Ryland Grace
+
+---
+
+ARCHIVAL NOTE:
+
+Recovered scientific papers authored by Grace
+included extensive documentation regarding:
+
+• Astrophage biology
+• Adrian ecosystem structures
+• Taumoeba breeding
+• Xenonite applications
+• Eridian mathematics
+• Eridian social structures
+• Interstellar engineering systems
+
+---
+
+FIRST CONTACT CONFIRMATION:
+
+Recovered files conclusively proved
+humanity had encountered
+extraterrestrial intelligent life.
+
+Species designation:
+ERIDIAN
+
+Primary recovered individual:
+"ROCKY"
+
+---
+
+[RECOVERED VIDEO DESCRIPTION]
+
+One recovered recording showed
+Dr. Grace and Rocky
+working together
+inside a shared engineering compartment.
+
+The footage became one of the most viewed
+pieces of media in human history.
+
+---
+
+ARCHIVAL NOTE:
+
+Dr. Ryland Grace's final status
+remained officially unknown.
+
+No evidence confirmed whether
+the Hail Mary successfully reached Erid.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+solution: {
+
+    title: 'SOL RECOVERY OPERATIONS',
+
+    body: `
+
+<div class="solution-dashboard">
+
+    <!-- STATUS -->
+
+    <div class="solution-header">
+
+        <div>
+            TAUMOEBA BREEDING
+            <span>ACTIVE</span>
+        </div>
+
+        <div>
+            VENUS DEPLOYMENT
+            <span>PENDING</span>
+        </div>
+
+        <div>
+            SOL PROGNOSIS
+            <span>STABILIZING</span>
+        </div>
+
+    </div>
+
+    <!-- LUMINOSITY -->
+
+    <div class="luminosity-panel">
+
+        <div class="luminosity-label">
+            SOL LUMINOSITY PROJECTION
+        </div>
+
+        <div class="luminosity-graph">
+
+            <div class="lum-line"></div>
+
+            <div class="lum-dot d1"></div>
+            <div class="lum-dot d2"></div>
+            <div class="lum-dot d3"></div>
+
+        </div>
+
+    </div>
+
+<pre class="danger-log">
+[GLOBAL RECOVERY BULLETIN]
+
+Recovered Taumoeba-35 cultures
+were successfully replicated
+in multiple secure laboratories.
+
+Planetary-scale breeding operations
+began immediately.
+
+---
+
+MISSION OBJECTIVE:
+
+Deploy Taumoeba-35
+throughout the Petrova line
+near Venus orbit.
+
+Projected result:
+
+• Astrophage population collapse
+• Solar energy restoration
+• Gradual climate stabilization
+
+---
+
+PUBLIC DISCLOSURE EVENT:
+
+For the first time in 24 years,
+world governments publicly confirmed:
+
+PROJECT HAIL MARY SUCCEEDED
+
+---
+
+Recovered mission logs revealed:
+
+Dr. Ryland Grace
+was the sole surviving crew member
+following the deaths of
+Commander Yao
+and Olesya Ilyukhina.
+
+---
+
+Recovered archives showed
+Grace continued the mission alone
+within the Tau Ceti system.
+
+Additional records confirmed
+Grace received assistance from:
+
+[REDACTED]
+
+---
+
+ARCHIVAL NOTE:
+
+The existence of intelligent extraterrestrial life
+remained partially classified
+during initial recovery operations.
+
+Limited information regarding
+the Eridian species
+was withheld pending international review.
+
+---
+
+[RECOVERED PUBLIC BROADCAST]
+
+ANCHOR:
+
+"For the first time in decades,
+humanity has a future again."
+
+---
+
+[RECOVERED STREET FOOTAGE]
+
+Crowds gathered worldwide
+during announcement broadcasts.
+
+Multiple cities suspended rationing curfews
+for public celebrations.
+
+Church bells rang
+across dozens of nations.
+
+In several locations,
+people reportedly stood outside
+simply to watch the sunrise.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+arclight2: {
+
+    title: 'ARCLIGHT II MISSION REPORT',
+
+    body: `
+
+<div class="arclight-dashboard">
+
+    <!-- STATUS -->
+
+    <div class="arclight-header">
+
+        <div>
+            LAUNCH STATUS
+            <span>SUCCESSFUL</span>
+        </div>
+
+        <div>
+            TAUMOEBA PAYLOAD
+            <span>8.4 MILLION KG</span>
+        </div>
+
+        <div>
+            TARGET ETA
+            <span>41 DAYS</span>
+        </div>
+
+    </div>
+
+    <!-- PAYLOAD GRAPH -->
+
+    <div class="payload-panel">
+
+        <div class="payload-title">
+            GLOBAL TAUMOEBA BREEDING OUTPUT
+        </div>
+
+        <div class="payload-graph">
+
+            <div class="payload-bar p1"></div>
+            <div class="payload-bar p2"></div>
+            <div class="payload-bar p3"></div>
+            <div class="payload-bar p4"></div>
+            <div class="payload-bar p5"></div>
+
+        </div>
+
+    </div>
+
+<pre class="danger-log">
+[ARCLIGHT II MISSION SUMMARY]
+
+MISSION:
+ARCLIGHT II
+
+OBJECTIVE:
+Deliver Taumoeba-35 cultures
+directly into the Petrova line
+near Venus orbit.
+
+---
+
+Recovered Taumoeba-35 cultures
+were bred continuously
+across multiple facilities worldwide.
+
+Major breeding operations included:
+
+• Sahara blackpanel farms
+• Antarctic thermal stations
+• Petrova Task Force laboratories
+• Orbital zero-gravity culture systems
+
+---
+
+TOTAL PAYLOAD:
+
+8.4 million kilograms
+of active Taumoeba-35 cultures.
+
+---
+
+MISSION DESIGN:
+
+ArcLight II incorporated
+multiple technologies recovered
+from the Beetle probes:
+
+• Xenonite containment systems
+• Eridian thermal shielding methods
+• Advanced astrophage fuel systems
+
+---
+
+[RECOVERED LAUNCH TRANSCRIPT]
+
+MISSION CONTROL:
+
+"T-minus ten...
+nine...
+eight..."
+
+---
+
+"All payload containment systems stable."
+
+---
+
+"Telemetry green across all systems."
+
+---
+
+"Three...
+two...
+one..."
+
+---
+
+"ArcLight II ignition confirmed."
+
+---
+
+[VIDEO DESCRIPTION]
+
+Recovered footage showed
+millions gathered worldwide
+to watch the launch live.
+
+For many survivors,
+the launch represented
+the first direct attempt
+to save the Sun itself.
+
+---
+
+MISSION CONTROL:
+
+"Vehicle clear of tower."
+
+"ArcLight II now en route
+to the Petrova line."
+
+---
+
+ARCHIVAL NOTE:
+
+The launch occurred exactly
+25 years after
+the original ArcLight mission
+first identified extraterrestrial microorganisms
+within the Petrova line.
+
+---
+
+[RECOVERED EVA STRATT STATEMENT]
+
+"We spent twenty-five years
+trying not to die."
+
+"Now we finally get to fight back."
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+solsaved: {
+
+    title: 'SOL RECOVERY CONFIRMATION',
+
+    body: `
+
+<div class="sol-dashboard">
+
+    <!-- STATUS -->
+
+    <div class="sol-header">
+
+        <div>
+            SOL LUMINOSITY
+            <span>RISING</span>
+        </div>
+
+        <div>
+            TAUMOEBA STATUS
+            <span>PROPAGATING</span>
+        </div>
+
+        <div>
+            GLOBAL STATUS
+            <span>STABILIZING</span>
+        </div>
+
+    </div>
+
+    <!-- GRAPH -->
+
+    <div class="recovery-panel">
+
+        <div class="recovery-title">
+            SOL LUMINOSITY RECOVERY
+        </div>
+
+        <div class="recovery-graph">
+
+            <div class="recovery-line"></div>
+
+            <div class="recovery-dot r1"></div>
+            <div class="recovery-dot r2"></div>
+            <div class="recovery-dot r3"></div>
+            <div class="recovery-dot r4"></div>
+
+        </div>
+
+    </div>
+
+<pre class="danger-log">
+[PETROVA TASK FORCE BULLETIN]
+
+ArcLight II successfully entered
+Venus orbit
+and deployed Taumoeba-35 cultures
+into the Petrova line.
+
+---
+
+Within 11 days,
+monitoring satellites confirmed
+massive astrophage population collapse.
+
+---
+
+SOLAR OUTPUT REPORT:
+
+Solar luminosity decline
+has officially stopped.
+
+For the first time in over two decades,
+the Sun is getting brighter.
+
+---
+
+PROJECTED RECOVERY TIMELINE:
+
+• 13 months until full luminosity restoration
+• Global temperature stabilization projected within 4 years
+• Major agricultural recovery projected within 6 years
+
+---
+
+[GLOBAL RESPONSE]
+
+Ceasefires expanded worldwide
+within hours of the announcement.
+
+Several remaining wartime governments
+declared immediate armistices.
+
+Stock markets reopened
+for the first time in years.
+
+---
+
+[RECOVERED PUBLIC BROADCAST]
+
+ANCHOR:
+
+"After twenty-five years,
+humanity will survive."
+
+---
+
+[RECOVERED STREET FOOTAGE]
+
+Large crowds gathered globally
+during sunrise events.
+
+In many cities,
+people openly wept
+as the Sun appeared visibly brighter
+for the first time in years.
+
+---
+
+ARCHIVAL NOTE:
+
+The Petrova Task Force
+officially declared
+the extinction threat ended
+at 08:14 UTC.
+
+---
+
+[INTERNAL TASK FORCE MESSAGE]
+
+MISSION STATUS:
+
+SUCCESSFUL
+
+---
+
+[FINAL EVA STRATT STATEMENT]
+
+"We asked the world
+to sacrifice everything."
+
+"They did."
+
+"And somehow...
+it was enough."
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+earthheals: {
+
+    title: 'EARTH RECOVERY REPORT',
+
+    body: `
+
+<div class="earth-dashboard">
+
+    <!-- STATUS -->
+
+    <div class="earth-header">
+
+        <div>
+            CROP OUTPUT
+            <span>+214%</span>
+        </div>
+
+        <div>
+            SEED VAULT STATUS
+            <span>OPENED</span>
+        </div>
+
+        <div>
+            RATIONING STATUS
+            <span>ENDING</span>
+        </div>
+
+    </div>
+
+    <!-- FOOD GRAPH -->
+
+    <div class="food-panel">
+
+        <div class="food-title">
+            GLOBAL FOOD PRODUCTION
+        </div>
+
+        <div class="food-graph">
+
+            <div class="food-line"></div>
+
+            <div class="food-dot f1"></div>
+            <div class="food-dot f2"></div>
+            <div class="food-dot f3"></div>
+            <div class="food-dot f4"></div>
+
+        </div>
+
+    </div>
+
+<pre class="danger-log">
+[GLOBAL RECOVERY SUMMARY]
+
+Following restoration of solar luminosity,
+global agricultural recovery accelerated rapidly.
+
+---
+
+Major emergency seed vaults
+were opened worldwide,
+including reserves stored for over two decades.
+
+Recovered crop strains included:
+
+• Wheat
+• Rice
+• Corn
+• Soybean
+• Potato
+• Millet
+• Coffee
+• Cocoa
+
+---
+
+[RECOVERED NEWS FOOTAGE]
+
+Large crowds gathered
+to witness the first planting ceremonies.
+
+In several regions,
+children participated in planting crops
+for the first time in their lives.
+
+---
+
+GLOBAL CONDITIONS:
+
+• Average temperatures stabilizing
+• Weather volatility decreasing
+• Oceanic recovery underway
+• International trade routes reopening
+
+---
+
+ARCHIVAL NOTE:
+
+Multiple wartime governments collapsed
+during the recovery years,
+replaced by international reconstruction coalitions.
+
+---
+
+[RECOVERED PUBLIC BROADCAST]
+
+ANCHOR:
+
+"For an entire generation,
+humanity believed the future had ended."
+
+"Today,
+farmers are planting again."
+
+---
+
+[RECOVERED STREET FOOTAGE]
+
+Former ration distribution centers
+were converted into open-air markets.
+
+Several cities held public festivals
+celebrating the first successful harvests.
+
+---
+
+[RECOVERED TASK FORCE MEMO]
+
+Projected extinction probability:
+
+0.02%
+
+---
+
+[FINAL ENTRY]
+
+Sunrise is no longer feared.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+celebration: {
+
+    title: 'GLOBAL COMMEMORATION ARCHIVE',
+
+    body: `
+
+<div class="celebration-dashboard">
+
+    <!-- STATUS -->
+
+    <div class="celebration-header">
+
+        <div>
+            GLOBAL PARADES
+            <span>314 CITIES</span>
+        </div>
+
+        <div>
+            MEMORIAL STATUS
+            <span>ACTIVE</span>
+        </div>
+
+        <div>
+            PUBLIC APPROVAL
+            <span>98%</span>
+        </div>
+
+    </div>
+
+    <!-- MEMORIAL GRID -->
+
+    <div class="memorial-grid">
+
+        <div class="memorial-card">
+            <h3>COMMANDER YAO</h3>
+            <p>
+                Military academies and orbital facilities
+                renamed in his honor.
+            </p>
+        </div>
+
+        <div class="memorial-card">
+            <h3>OLESYA ILYUKHINA</h3>
+            <p>
+                Russian aerospace institutions
+                established annual engineering scholarships.
+            </p>
+        </div>
+
+        <div class="memorial-card">
+            <h3>DR. RYLAND GRACE</h3>
+            <p>
+                Grover Cleveland Middle School
+                officially renamed:
+                Ryland Grace Middle School.
+            </p>
+        </div>
+
+        <div class="memorial-card">
+            <h3>ROCKY</h3>
+            <p>
+                Statues honoring the Eridian engineer
+                appeared worldwide
+                beside the Hail Mary crew.
+            </p>
+        </div>
+
+    </div>
+
+<pre class="danger-log">
+[GLOBAL COMMEMORATION SUMMARY]
+
+Public celebrations occurred globally
+following confirmation
+that Earth's extinction event
+had been fully averted.
+
+---
+
+Multiple nations declared
+March 2nd —
+Dr. Ryland Grace's birthday —
+an international holiday.
+
+Official designation:
+
+SOL DAY
+
+---
+
+Recovered mission footage
+featuring Grace and Rocky
+became mandatory curriculum material
+in schools worldwide.
+
+---
+
+STATUES AND MEMORIALS:
+
+• New York City
+• Moscow
+• Tokyo
+• Paris
+• Nairobi
+• New Delhi
+• São Paulo
+• San Francisco
+
+All erected memorial statues
+honoring:
+
+Commander Yao
+Olesya Ilyukhina
+Dr. Ryland Grace
+and Rocky
+
+---
+
+ARCHIVAL NOTE:
+
+Recovered financial records showed
+the Hail Mary crew's accumulated salaries
+were donated posthumously
+to:
+
+• Public schools
+• Agricultural recovery programs
+• Climate restoration initiatives
+• International science academies
+
+---
+
+[RECOVERED INTERVIEW]
+
+JASMINE TRAN
+Age 40
+Former student of Ryland Grace
+
+"He made science fun."
+
+"I remember thinking
+he was just some weird middle-school teacher."
+
+Turns out he saved the world.
+
+---
+
+[RECOVERED INTERVIEW]
+
+MIGUEL ORTIZ
+Age 41
+Former student
+
+"None of us knew
+he was working on the Petrova problem."
+
+"He used to tell us
+science matters because people matter."
+
+Now we're alive because of him.
+
+---
+
+[RECOVERED INTERVIEW]
+
+LEAH PARK
+Age 39
+Former student
+
+"My daughter goes to
+Ryland Grace Middle School now."
+
+"That's still insane to say out loud."
+
+---
+
+[RECOVERED PUBLIC BROADCAST]
+
+ANCHOR:
+
+"For most of human history,
+heroes returned home."
+
+"Ryland Grace never did."
+
+---
+
+[RECOVERED STREET FOOTAGE]
+
+Crowds gathered during annual celebrations
+holding lanterns shaped like Beetle probes.
+
+Children carried models
+of the Hail Mary through city streets.
+
+---
+
+[FINAL ENTRY]
+
+Humanity survived
+because three astronauts
+boarded a ship
+and flew into the dark.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
+forty: {
+
+    title: '40 ERIDANI OBSERVATION REPORT',
+
+    body: `
+
+<div class="forty-dashboard">
+
+    <!-- STATUS -->
+
+    <div class="forty-header">
+
+        <div>
+            STAR LUMINOSITY
+            <span>INCREASING</span>
+        </div>
+
+        <div>
+            ERID STATUS
+            <span>STABILIZING</span>
+        </div>
+
+        <div>
+            CONTACT STATUS
+            <span>NONE</span>
+        </div>
+
+    </div>
+
+    <!-- GRAPH -->
+
+    <div class="forty-panel">
+
+        <div class="forty-title">
+            40 ERIDANI LUMINOSITY ANALYSIS
+        </div>
+
+        <div class="forty-graph">
+
+            <div class="forty-line"></div>
+
+            <div class="forty-dot t1"></div>
+            <div class="forty-dot t2"></div>
+            <div class="forty-dot t3"></div>
+            <div class="forty-dot t4"></div>
+
+        </div>
+
+    </div>
+
+<pre class="danger-log">
+[DEEP SPACE OBSERVATION SUMMARY]
+
+Observation arrays confirmed
+increasing luminosity
+within the 40 Eridani system.
+
+Recovery curves closely matched
+post-Taumoeba deployment models
+previously observed in Sol.
+
+---
+
+CONCLUSION:
+
+High confidence
+that Dr. Ryland Grace
+successfully delivered
+Taumoeba cultures
+to the Eridian home system.
+
+---
+
+ARCHIVAL NOTE:
+
+Recovered Beetle telemetry indicated
+Grace redirected the Hail Mary
+toward 40 Eridani
+after choosing to rescue Rocky.
+
+No confirmed transmissions
+were ever received afterward.
+
+---
+
+OFFICIAL STATUS:
+
+DR. RYLAND GRACE
+Presumed deceased
+
+Reason:
+Projected depletion
+of onboard food supplies
+and medical resources.
+
+---
+
+However:
+
+No visual confirmation,
+telemetry,
+or wreckage
+has ever been recovered.
+
+---
+
+[RECOVERED TASK FORCE MEMO]
+
+"We now possess strong evidence
+that two civilizations survived
+because one man refused
+to leave his friend behind."
+
+---
+
+[RECOVERED PUBLIC BROADCAST]
+
+ANCHOR:
+
+"The Sun at Erid is getting brighter."
+
+"Somewhere out there,
+against impossible odds,
+Ryland Grace succeeded."
+
+---
+
+[ARCHIVAL FOOTNOTE]
+
+No further signals
+from the Hail Mary
+have ever been detected.
+
+Its final fate remains unknown.
+
+[END FILE]
+</pre>
+
+</div>
+`
+},
 };
 
 function openArchive(entry){
