@@ -447,35 +447,327 @@ const archiveEntries = {
     title: 'NASA LIVESTREAM — ARCLIGHT VENUS INSERTION',
 
     body: `
+<div class="arclight-live-archive">
+
+    <!-- HEADER -->
+
+    <div class="arclight-hero">
+
+        <div class="arclight-noise"></div>
+
+        <div class="arclight-title">
+
+            <span class="broadcast-tag">
+                LIVE GLOBAL BROADCAST ARCHIVE
+            </span>
+
+            <h1>PROJECT ARCLIGHT</h1>
+
+            <p>
+                FIRST CONTACT WITH EXTRATERRESTRIAL LIFE
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- STATS -->
+
+    <div class="broadcast-stats-grid">
+
+        <div class="broadcast-stat-card">
+
+            <span>LIVE VIEWERS</span>
+
+            <strong>6.8 BILLION</strong>
+
+            <p>
+                Largest simultaneous broadcast
+                in human history
+            </p>
+
+        </div>
+
+        <div class="broadcast-stat-card">
+
+            <span>TRANSMISSION SOURCE</span>
+
+            <strong>ARCLIGHT PROBE</strong>
+
+            <p>
+                Venusian Petrova Line flyby
+            </p>
+
+        </div>
+
+        <div class="broadcast-stat-card">
+
+            <span>MICROSCOPE MAGNIFICATION</span>
+
+            <strong>10,000×</strong>
+
+            <p>
+                Internal onboard biological imaging
+            </p>
+
+        </div>
+
+        <div class="broadcast-stat-card">
+
+            <span>HISTORICAL DESIGNATION</span>
+
+            <strong>FIRST CONTACT EVENT</strong>
+
+            <p>
+                First confirmed extraterrestrial organism
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- MAIN GRID -->
+
+    <div class="arclight-main-grid">
+
+        <!-- LEFT SIDE -->
+
+        <div class="arclight-left-panel">
+
+            <!-- LIVE TRANSCRIPT -->
+
+            <div class="live-terminal-panel">
+
+                <div class="terminal-topbar">
+
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+
+                    <div class="terminal-title">
+                        NASA/JPL LIVE FEED
+                    </div>
+
+                </div>
+
 <pre>
 [BEGIN NASA/JPL LIVE TRANSCRIPT]
 
-REPORTER: We are just minutes away from the flyby through the Petrova line near Venus. So, what can you tell us about the ArcLight probe? What do we expect to find?
+REPORTER:
+We are just minutes away from the flyby
+through the Petrova line near Venus.
 
-DR. BROWNE: The image we see will be coming from the onboard microscope.
+So what can you tell us about the ArcLight probe?
+What do we expect to find?
 
-The screen changed to a black-and-white microscope image.
+DR. BROWNE:
+The image we see will be coming from
+the onboard microscope.
+
+---
+
+[ONBOARD MICROSCOPY FEED ACTIVATED]
+
+The screen changed to a black-and-white
+microscope image.
 
 Tiny dark particles drifted across the display.
 
-REPORTER: What are we looking at, Doctor?
+REPORTER:
+What are we looking at, Doctor?
 
-DR. BROWNE: This is from the internal microscope, It's magnified ten thousand times.
+DR. BROWNE:
+This is from the internal microscope.
+It's magnified ten thousand times.
 
-The room fell silent. One of the particles moved.
+---
 
-DR. BROWNE: Oh my God...
+[4.2 seconds of silence]
 
-REPORTER: Are those particles moving?
+One of the particles moved.
 
-The black dots twisted and shifted through the sample.
+DR. BROWNE:
+Oh my God...
 
-DR. BROWNE: Oh—oh my god. Sorry, I have to go now.
+REPORTER:
+Are those particles moving?
 
-"What the fuck?!" shouted someone in the background.
+The black dots twisted and shifted
+through the sample.
+
+DR. BROWNE:
+Oh—oh my god.
+
+Sorry, I have to go now.
+
+UNKNOWN VOICE:
+"What the fuck?!"
+
+[AUDIO DISTORTION DETECTED]
+
+[GLOBAL BROADCAST CHAOS RECORDED]
 
 [END TRANSCRIPT]
 </pre>
+
+            </div>
+
+            <!-- VIEWER RESPONSE -->
+
+            <div class="world-reaction-panel">
+
+                <h3>GLOBAL RESPONSE</h3>
+
+                <div class="reaction-grid">
+
+                    <div class="reaction-card">
+                        <span>NEW YORK</span>
+                        <p>
+                            Crowds gathered in Times Square
+                            reportedly fell silent simultaneously.
+                        </p>
+                    </div>
+
+                    <div class="reaction-card">
+                        <span>TOKYO</span>
+                        <p>
+                            Public rail systems experienced delays
+                            due to passengers watching station monitors.
+                        </p>
+                    </div>
+
+                    <div class="reaction-card">
+                        <span>LONDON</span>
+                        <p>
+                            BBC emergency coverage interrupted
+                            all scheduled programming.
+                        </p>
+                    </div>
+
+                    <div class="reaction-card">
+                        <span>GLOBAL INTERNET</span>
+                        <p>
+                            Largest traffic spike ever recorded
+                            across civilian networks.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+
+        <div class="arclight-right-panel">
+
+            <!-- PHOTO ARCHIVE -->
+
+            <div class="photo-archive-panel">
+
+                <div class="panel-header">
+                    ONBOARD PHOTO ARCHIVE
+                </div>
+
+                <div class="photo-grid">
+
+                    <div class="photo-placeholder">
+                        <span>INSERT:</span>
+                        ARC LIGHT PROBE
+                    </div>
+
+                    <div class="photo-placeholder">
+                        <span>INSERT:</span>
+                        MICROSCOPY FEED
+                    </div>
+
+                    <div class="photo-placeholder">
+                        <span>INSERT:</span>
+                        MISSION CONTROL
+                    </div>
+
+                    <div class="photo-placeholder">
+                        <span>INSERT:</span>
+                        FIRST MOVEMENT FRAME
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- EVENT DATA -->
+
+            <div class="event-data-panel">
+
+                <div class="panel-header">
+                    EVENT METRICS
+                </div>
+
+                <div class="metric-row">
+
+                    <span>Signal Delay</span>
+                    <strong>14m 32s</strong>
+
+                </div>
+
+                <div class="metric-row">
+
+                    <span>Sample Temperature</span>
+                    <strong>96°C</strong>
+
+                </div>
+
+                <div class="metric-row">
+
+                    <span>Petrova Density</span>
+                    <strong>EXTREME</strong>
+
+                </div>
+
+                <div class="metric-row">
+
+                    <span>Biological Movement</span>
+                    <strong>CONFIRMED</strong>
+
+                </div>
+
+                <div class="metric-row">
+
+                    <span>Mission Outcome</span>
+                    <strong>SUCCESS</strong>
+
+                </div>
+
+            </div>
+
+            <!-- HISTORICAL NOTE -->
+
+            <div class="history-note-panel">
+
+                <div class="history-glow"></div>
+
+                <h3>HISTORICAL NOTE</h3>
+
+                <p>
+                    Historians later identified this transmission
+                    as the exact moment humanity realized
+                    it was not alone in the universe.
+                </p>
+
+                <p>
+                    Multiple world governments reportedly entered
+                    emergency session less than fifteen minutes
+                    after the feed ended.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 `
 },
 taskforce: {
@@ -483,82 +775,221 @@ taskforce: {
     title: 'UNITED NATIONS BRIEFING — PETROVA TASK FORCE',
 
     body: `
-<pre>
-[GLOBAL NEWS ARTICLE — ARCHIVE COPY]
+<div class="stratt-dashboard">
 
-UNITED NATIONS ANNOUNCES CREATION
-OF PETROVA TASK FORCE
+    <!-- TOP PANEL -->
 
-GENEVA —
+    <div class="stratt-top">
 
-Following emergency negotiations between all major world powers,
-the United Nations today announced the formation of the Petrova
-Task Force, an international scientific authority tasked with
-investigating the rapidly intensifying Petrova Line phenomenon.
+        <!-- PHOTO -->
 
-The organization will operate independently of all national governments.
+        <div class="stratt-photo-panel">
 
-In an unprecedented move, member nations have unanimously agreed
-to grant Task Force Director Eva Stratt extraordinary legal authority
-across international borders.
+            <div class="stratt-photo">
+                PLACE EVA STRATT IMAGE HERE
+            </div>
 
-Under the agreement:
+            <div class="status-tag">
+                ACTIVE CLEARANCE
+            </div>
 
-• The Petrova Task Force may requisition facilities,
-materials, transportation infrastructure, and personnel
-from any participating nation.
+        </div>
 
-• Task Force personnel will possess unrestricted diplomatic access.
+        <!-- PROFILE -->
 
-• Director Eva Stratt will receive full legal immunity
-in all cooperating countries.
+        <div class="stratt-profile">
 
-• National agencies are required to comply immediately
-with Task Force directives.
+            <div class="profile-small">
+                UNITED NATIONS APPOINTMENT RECORD
+            </div>
 
-The announcement has generated both widespread praise
-and deep concern among legal scholars and political leaders.
+            <h2>
+                EVA STRATT
+            </h2>
 
-Supporters argue that the accelerating decline in solar luminosity
-constitutes an existential threat requiring unprecedented coordination.
+            <div class="profile-role">
+                Director — Petrova Task Force
+            </div>
 
-Critics warn the agreement effectively places a single unelected official
-above international law.
+            <div class="profile-grid">
 
-When questioned about the decision during a press conference,
-UN representatives responded:
+                <div class="profile-stat">
+                    <span>AUTHORITY</span>
+                    INTERNATIONAL
+                </div>
 
-"Humanity no longer has the luxury of bureaucracy."
+                <div class="profile-stat">
+                    <span>STATUS</span>
+                    IMMUNITY GRANTED
+                </div>
 
-WHO IS EVA STRATT?
+                <div class="profile-stat">
+                    <span>ACCESS</span>
+                    UNRESTRICTED
+                </div>
 
-Eva Stratt previously served as a senior administrator
-within the European Space Agency and later coordinated
-multiple multinational emergency engineering initiatives.
+                <div class="profile-stat">
+                    <span>THREAT LEVEL</span>
+                    EXISTENTIAL
+                </div>
 
-Colleagues describe her as:
+            </div>
 
-"brilliant"
-"ruthlessly efficient"
-and
-"absolutely terrifying."
+            <div class="profile-description">
 
-Sources within the UN describe Stratt as the only candidate
-capable of coordinating a scientific response at the required scale.
+                Eva Stratt previously served as a senior administrator
+                within the European Space Agency before coordinating
+                several multinational emergency engineering initiatives.
 
-FIRST OBJECTIVE: PROJECT ARCLIGHT
+                <br><br>
 
-The Petrova Task Force's immediate priority is the launch
-of a deep-space probe into the Petrova Line itself.
+                Following confirmation that the Petrova Line was linked
+                to a measurable decrease in solar luminosity,
+                the United Nations unanimously appointed Stratt
+                to lead the global response effort.
 
-The mission, now designated Project ArcLight,
-will attempt to collect physical samples from the anomaly
-near Venusian orbit.
+                <br><br>
 
-Construction has reportedly already begun.
+                Internal UN memorandums described her as:
 
-[END ARTICLE]
-</pre>
+                <div class="quote-tags">
+
+                    <span>"brilliant"</span>
+                    <span>"ruthlessly efficient"</span>
+                    <span>"absolutely terrifying"</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- PURPOSE -->
+
+    <div class="taskforce-panel">
+
+        <div class="panel-header">
+
+            <div class="panel-line"></div>
+
+            <h3>
+                PETROVA TASK FORCE MANDATE
+            </h3>
+
+        </div>
+
+        <div class="taskforce-grid">
+
+            <div class="task-card">
+
+                <div class="task-icon">
+                    ◉
+                </div>
+
+                <div class="task-title">
+                    SCIENTIFIC COORDINATION
+                </div>
+
+                <p>
+                    Unite observatories, laboratories,
+                    aerospace agencies, and universities
+                    under a single operational structure.
+                </p>
+
+            </div>
+
+            <div class="task-card">
+
+                <div class="task-icon">
+                    ◎
+                </div>
+
+                <div class="task-title">
+                    PLANETARY SURVIVAL
+                </div>
+
+                <p>
+                    Prevent biosphere collapse resulting
+                    from accelerated solar dimming
+                    linked to the Petrova Line.
+                </p>
+
+            </div>
+
+            <div class="task-card">
+
+                <div class="task-icon">
+                    ◌
+                </div>
+
+                <div class="task-title">
+                    PROJECT ARCLIGHT
+                </div>
+
+                <p>
+                    Launch a deep-space probe
+                    capable of intercepting the Petrova Line
+                    near Venusian orbit.
+                </p>
+
+            </div>
+
+            <div class="task-card">
+
+                <div class="task-icon">
+                    ⊘
+                </div>
+
+                <div class="task-title">
+                    EMERGENCY AUTHORITY
+                </div>
+
+                <p>
+                    Requisition infrastructure,
+                    transportation systems,
+                    manufacturing facilities,
+                    and personnel from all participating nations.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LEGAL -->
+
+    <div class="legal-panel">
+
+        <div class="legal-title">
+            EMERGENCY POWERS GRANTED
+        </div>
+
+        <div class="legal-list">
+
+            <div class="legal-item">
+                FULL DIPLOMATIC IMMUNITY IN ALL COOPERATING NATIONS
+            </div>
+
+            <div class="legal-item">
+                PRIORITY ACCESS TO GLOBAL TRANSPORTATION NETWORKS
+            </div>
+
+            <div class="legal-item">
+                AUTHORITY TO OVERRIDE NATIONAL BUREAUCRATIC RESTRICTIONS
+            </div>
+
+            <div class="legal-item">
+                CONTROL OVER PETROVA-RELATED RESEARCH INITIATIVES
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 `
 },
 astrophage: {
@@ -566,94 +997,278 @@ astrophage: {
     title: 'GLOBAL SCIENCE REPORT — WHAT IS ASTROPHAGE?',
 
     body: `
-<pre>
-[GLOBAL SCIENCE REPORT]
+<div class="astrophage-report">
 
-WHAT IS ASTROPHAGE?
+    <!-- HEADER -->
 
-When samples from the ArcLight probe first touched down in laboratories around the world, scientists
-have attempted to understand the mysterious particles
-collected by the ArcLight probe near Venusian orbit.
+    <div class="astro-header">
 
-Now, humanity finally has an answer.
+        <div class="astro-title-block">
 
-The particles are alive.
+            <div class="astro-kicker">
+                PETROVA TASK FORCE · BIOLOGICAL ANALYSIS DIVISION
+            </div>
 
-The discovery was confirmed simultaneously across
-multiple international research facilities after
-high-magnification microscopy revealed autonomous movement
-within the samples.
+            <h1>
+                ASTROPHAGE
+            </h1>
 
-Researchers initially struggled to examine the organism.
+            <div class="astro-subtitle">
+                FIRST CONFIRMED EXTRATERRESTRIAL ORGANISM
+            </div>
 
-Standard imaging techniques produced almost no results.
+        </div>
 
-X-rays, gamma rays, microwaves, and visible-spectrum analysis
-all failed to penetrate the organism’s outer structure.
+        <div class="threat-box">
 
-"It was like looking at a perfect black box,"
-one researcher stated.
+            <div class="threat-label">
+                CLASSIFICATION
+            </div>
 
-The breakthrough occurred after controlled sample death
-allowed scientists to finally examine the internal structure.
+            <div class="threat-value">
+                EXISTENTIAL
+            </div>
 
-The organism was revealed to be a microscopic alien cell.
+        </div>
 
-"It’s a cell! It’s a tiny alien cell!"
-reported biologist Dr. Ryland Grace during
-the now-famous laboratory recording.
+    </div>
 
-The moment has since been referred to by media outlets as:
+    <!-- IMAGE STRIP -->
 
-"The Day Humanity Discovered Alien Life."
+    <div class="astro-image-strip">
 
-Further analysis revealed several shocking characteristics:
+        <div class="astro-image">
+            SAMPLE IMAGE
+        </div>
 
-• The organism emits infrared radiation
-at precisely the Petrova frequency.
+        <div class="astro-image">
+            MICROSCOPY IMAGE
+        </div>
 
-• It stores massive quantities of energy
-with near-perfect efficiency.
+        <div class="astro-image">
+            CELL STRUCTURE
+        </div>
 
-• It expels infrared photons for propulsion.
+    </div>
 
-• Its internal composition consists almost entirely of water.
+    <!-- MAIN GRID -->
 
-Researchers now believe Astrophage absorbs energy directly
-from stars before transporting that energy elsewhere.
+    <div class="astro-grid">
 
-This mechanism is believed to explain the ongoing
-decline in solar luminosity.
+        <!-- LEFT -->
 
-The term "Astrophage" was first proposed by Dr. Ryland Grace,
-a molecular biologist working under the Petrova Task Force.
+        <div class="astro-main">
 
-The name combines:
+            <div class="section-tag">
+                GLOBAL SCIENCE REPORT
+            </div>
 
-"astro" — relating to stars
+            <p>
+                When samples recovered by the ArcLight probe
+                first arrived in laboratories around the world,
+                researchers immediately began attempting to identify
+                the mysterious particles collected near Venusian orbit.
+            </p>
 
-and
+            <p>
+                Initial scans produced almost no usable information.
+            </p>
 
-"phage" — an organism that consumes.
+            <div class="scan-failure">
 
-The designation was formally adopted by the international
-scientific community less than six hours later.
+                X-RAYS ........ FAILED<br>
+                GAMMA ANALYSIS ........ FAILED<br>
+                MICROWAVE IMAGING ........ FAILED<br>
+                VISIBLE LIGHT PENETRATION ........ FAILED
 
-Global scientific mobilization has since accelerated dramatically.
+            </div>
 
-More than 300 laboratories in 21 countries are now
-actively researching Astrophage biology, reproduction,
-propulsion, and energy storage.
+            <p>
+                Scientists described the organism as behaving
+                like a "perfect black box" —
+                completely resistant to traditional imaging methods.
+            </p>
 
-Scientists believe the organism may possess the highest
-energy density ever observed in nature.
+            <p>
+                The breakthrough occurred only after a controlled
+                sample death event allowed researchers
+                to examine the organism internally.
+            </p>
 
-Some researchers have already suggested Astrophage
-could revolutionize space travel—if humanity survives
-long enough to understand it.
+            <div class="quote-block">
 
-[END REPORT]
-</pre>
+                “It’s a cell.
+                It’s a tiny alien cell.”
+
+                <span>
+                    — Dr. Ryland Grace
+                </span>
+
+            </div>
+
+            <p>
+                The laboratory recording of the discovery rapidly spread
+                across the scientific community and global media.
+            </p>
+
+            <p>
+                News organizations would later refer to the moment as:
+            </p>
+
+            <div class="headline-panel">
+                THE DAY HUMANITY DISCOVERED ALIEN LIFE
+            </div>
+
+            <p>
+                Further biological analysis revealed that the organism:
+            </p>
+
+            <div class="findings-grid">
+
+                <div class="finding-card">
+                    Emits infrared radiation at the exact Petrova frequency
+                </div>
+
+                <div class="finding-card">
+                    Stores energy with near-perfect efficiency
+                </div>
+
+                <div class="finding-card">
+                    Uses infrared photon emission for propulsion
+                </div>
+
+                <div class="finding-card">
+                    Consists almost entirely of water internally
+                </div>
+
+            </div>
+
+            <p>
+                Researchers now believe Astrophage absorbs energy
+                directly from stars before transporting that energy elsewhere.
+            </p>
+
+            <p>
+                This mechanism is believed to explain
+                the ongoing decline in solar luminosity.
+            </p>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="astro-sidebar">
+
+            <!-- PROFILE -->
+
+            <div class="grace-profile">
+
+                <div class="profile-label">
+                    LEAD RESEARCHER
+                </div>
+
+                <div class="grace-photo">
+                    PLACE DR. GRACE IMAGE HERE
+                </div>
+
+                <div class="grace-name">
+                    DR. RYLAND GRACE
+                </div>
+
+                <div class="grace-role">
+                    Molecular Biologist · Petrova Task Force
+                </div>
+
+                <div class="grace-desc">
+
+                    Former middle school science teacher
+                    turned leading Astrophage specialist.
+
+                    <br><br>
+
+                    Credited with coining the term
+                    <span>“Astrophage”</span> during early analysis
+                    of ArcLight biological samples.
+
+                </div>
+
+            </div>
+
+            <!-- ASTROPHAGE INFO -->
+
+            <div class="species-panel">
+
+                <div class="species-header">
+                    ORGANISM PROFILE
+                </div>
+
+                <div class="species-item">
+                    <span>DESIGNATION</span>
+                    ASTROPHAGE
+                </div>
+
+                <div class="species-item">
+                    <span>TYPE</span>
+                    EXTRATERRESTRIAL MICROORGANISM
+                </div>
+
+                <div class="species-item">
+                    <span>ENERGY SOURCE</span>
+                    STELLAR RADIATION
+                </div>
+
+                <div class="species-item">
+                    <span>PROPULSION</span>
+                    INFRARED PHOTON EMISSION
+                </div>
+
+                <div class="species-item">
+                    <span>COMPOSITION</span>
+                    WATER-DOMINANT CELL STRUCTURE
+                </div>
+
+                <div class="species-item">
+                    <span>DISCOVERED BY</span>
+                    PROJECT ARCLIGHT
+                </div>
+
+            </div>
+
+            <!-- LAB STATUS -->
+
+            <div class="lab-status">
+
+                <div class="lab-title">
+                    GLOBAL RESEARCH STATUS
+                </div>
+
+                <div class="lab-stat">
+                    ACTIVE LABS
+                    <span>347</span>
+                </div>
+
+                <div class="lab-stat">
+                    COUNTRIES
+                    <span>21</span>
+                </div>
+
+                <div class="lab-stat">
+                    CONTAINMENT LEVEL
+                    <span>MAXIMUM</span>
+                </div>
+
+                <div class="lab-stat">
+                    PRIORITY
+                    <span>SPECIES SURVIVAL</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 `
 },
 projections: {
@@ -661,71 +1276,315 @@ projections: {
     title: 'GLOBAL MODELING REPORT — SUN DIMMING IMPACT PROJECTIONS',
 
     body: `
-<pre>
-[CLASSIFIED EARTH SYSTEMS REPORT]
+<div class="collapse-report">
 
-SUBJECT: Solar Luminosity Decline — Human Impact Forecast
+    <!-- HEADER -->
 
-The international climate and biosphere modeling consortium
-has finalized updated projections based on current solar output trends.
+    <div class="collapse-header">
 
-KEY FINDINGS:
+        <div class="collapse-title-area">
 
-Solar luminosity is decreasing in a non-natural pattern
-correlated with the Petrova Line energy extraction rate.
+            <div class="collapse-kicker">
+                CLASSIFIED EARTH SYSTEMS REPORT
+            </div>
 
-This decline is accelerating.
+            <h1>
+                HUMAN IMPACT FORECAST
+            </h1>
 
-All standard solar cycle models have been invalidated.
+            <div class="collapse-subtitle">
+                SOLAR LUMINOSITY DECLINE · CIVILIZATION STABILITY ANALYSIS
+            </div>
 
----
+        </div>
 
-CIVILIZATION IMPACT TIMELINE:
+        <div class="clearance-box">
 
-YEAR 1–5:
-• Minor reductions in crop yield efficiency
-• Increased regional climate instability
-• Early economic disruption in agricultural export nations
+            <div class="clearance-label">
+                CLEARANCE
+            </div>
 
-YEAR 5–10:
-• Major crop system failures across multiple continents
-• Mass migration from equatorial regions begins
-• Food supply chains destabilize globally
-• First geopolitical conflicts over arable land reported
+            <div class="clearance-value">
+                OMEGA
+            </div>
 
-YEAR 10–15:
-• Global famine conditions in multiple regions
-• Breakdown of international trade stability
-• Energy infrastructure stress due to climate compensation
-• Large-scale governmental restructuring begins
+        </div>
 
-YEAR 15–19:
-• Predictive models converge on:
-  50% global population mortality
+    </div>
 
-CAUSES OF MORTALITY:
-• Famine
-• Resource conflict
-• Infrastructure collapse
-• Climate-induced displacement
-• Disease proliferation due to system failure
+    <!-- WARNING -->
 
----
+    <div class="warning-banner">
 
-When asked to summarize the findings,
-lead researcher Dr. Harold Kline stated:
+        <div class="warning-pulse"></div>
 
-"We're not talking about ecosystem disruption anymore.
-We're talking about civilization termination."
+        EXISTENTIAL CIVILIZATION THREAT DETECTED
 
----
+    </div>
 
-50% global mortality: 19-year horizon.
+    <!-- TOP GRID -->
 
-No known mitigation strategy currently exists.
+    <div class="collapse-top-grid">
 
-[END REPORT]
-</pre>
+        <!-- LEFT -->
+
+        <div class="luminosity-panel2">
+
+            <div class="panel-title">
+                SOLAR OUTPUT TREND
+            </div>
+
+            <div class="fake-graph">
+
+                <div class="graph-grid"></div>
+
+                <svg viewBox="0 0 600 220" preserveAspectRatio="none">
+
+                    <path
+                        d="M0,30
+                           C100,32 140,40 180,48
+                           C240,65 290,85 340,115
+                           C390,145 430,170 470,185
+                           C520,200 560,208 600,215"
+                        class="decline-line"
+                    />
+
+                </svg>
+
+                <div class="graph-label year1">
+                    YEAR 0
+                </div>
+
+                <div class="graph-label year2">
+                    YEAR 5
+                </div>
+
+                <div class="graph-label year3">
+                    YEAR 10
+                </div>
+
+                <div class="graph-label year4">
+                    YEAR 19
+                </div>
+
+            </div>
+
+            <div class="graph-footer">
+
+                NON-NATURAL LUMINOSITY LOSS DETECTED
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="mortality-panel">
+
+            <div class="mortality-header">
+                PROJECTED GLOBAL MORTALITY
+            </div>
+
+            <div class="mortality-number">
+                50%
+            </div>
+
+            <div class="mortality-sub">
+                WITHIN 19 YEARS
+            </div>
+
+            <div class="mortality-desc">
+
+                Predictive models from all participating
+                climate and biosphere simulations
+                now converge on large-scale
+                human civilization collapse.
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TIMELINE -->
+
+    <div class="timeline-section">
+
+        <div class="timeline-header">
+            COLLAPSE PROGRESSION TIMELINE
+        </div>
+
+        <div class="timeline">
+
+            <!-- ITEM -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    YEAR 1–5
+                </div>
+
+                <div class="timeline-content">
+
+                    <div class="timeline-icon">
+                        ◉
+                    </div>
+
+                    <div class="timeline-text">
+
+                        <h3>
+                            EARLY INSTABILITY
+                        </h3>
+
+                        <ul>
+                            <li>Minor reductions in crop efficiency</li>
+                            <li>Regional climate disruption begins</li>
+                            <li>Food-export economies destabilize</li>
+                            <li>Energy demand spikes globally</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ITEM -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    YEAR 5–10
+                </div>
+
+                <div class="timeline-content">
+
+                    <div class="timeline-icon">
+                        ◎
+                    </div>
+
+                    <div class="timeline-text">
+
+                        <h3>
+                            SYSTEMIC FAILURE
+                        </h3>
+
+                        <ul>
+                            <li>Major continental crop collapse</li>
+                            <li>Mass migration from equatorial regions</li>
+                            <li>Global supply chains fail</li>
+                            <li>Wars over arable land begin</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ITEM -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    YEAR 10–15
+                </div>
+
+                <div class="timeline-content">
+
+                    <div class="timeline-icon">
+                        ◌
+                    </div>
+
+                    <div class="timeline-text">
+
+                        <h3>
+                            GLOBAL COLLAPSE
+                        </h3>
+
+                        <ul>
+                            <li>Widespread famine conditions</li>
+                            <li>International trade breakdown</li>
+                            <li>Climate compensation systems fail</li>
+                            <li>Governments begin restructuring</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ITEM -->
+
+            <div class="timeline-item red">
+
+                <div class="timeline-year">
+                    YEAR 15–19
+                </div>
+
+                <div class="timeline-content">
+
+                    <div class="timeline-icon">
+                        ⊘
+                    </div>
+
+                    <div class="timeline-text">
+
+                        <h3>
+                            CIVILIZATION TERMINATION EVENT
+                        </h3>
+
+                        <ul>
+                            <li>50% population mortality projection</li>
+                            <li>Infrastructure collapse</li>
+                            <li>Global famine and plague outbreaks</li>
+                            <li>Irreversible biosphere destabilization</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- QUOTE -->
+
+    <div class="quote-panel-collapse">
+
+        <div class="quote-mark">
+            "
+        </div>
+
+        <div class="quote-text">
+
+            We're not talking about ecosystem disruption anymore.
+
+            <br><br>
+
+            We're talking about civilization termination.
+
+        </div>
+
+        <div class="quote-author">
+            — Dr. Harold Kline
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="collapse-footer">
+
+        NO KNOWN MITIGATION STRATEGY EXISTS
+
+    </div>
+
+</div>
 `
 },
 sahara: {
@@ -733,120 +1592,202 @@ sahara: {
     title: 'PROJECT SAHARA — TASK FORCE ETHICS & INFRASTRUCTURE REPORT',
 
     body: `
-<pre>
-[CLASSIFIED PETROVA TASK FORCE REPORT]
+<div class="sahara-report">
 
-PROJECT: SAHARA DESERT SOLAR & ASTROPHAGE HARVESTING NETWORK
+    <!-- HEADER -->
+    <div class="report-topbar">
+        <div class="report-classification">CLASSIFIED • PETROVA TASK FORCE</div>
+        <div class="report-status">STATUS: ACTIVE CONSTRUCTION PHASE</div>
+    </div>
 
-OVERVIEW:
+    <h1 class="report-title">
+        PROJECT SAHARA
+    </h1>
 
-The Sahara Desert spans approximately nine trillion square meters
-of some of the most consistently high solar irradiance on Earth.
+    <div class="report-subtitle">
+        SAHARA DESERT SOLAR & ASTROPHAGE HARVESTING NETWORK
+    </div>
 
-The Petrova Task Force has proposed a large-scale infrastructure
-deployment across designated regions of the Sahara Desert
-to support both energy production and Astrophage cultivation.
+    <!-- HERO GRID -->
+    <div class="sahara-hero-grid">
 
----
+        <!-- MAP -->
+        <div class="sahara-map-panel">
 
-PRIMARY OBJECTIVES:
+            <div class="panel-label">
+                DEPLOYMENT MAP — NORTH AFRICA
+            </div>
 
-1. Construct high-density solar collection fields ("black panels")
-   optimized for maximum Astrophage energy absorption.
+            <div class="sahara-map">
 
-2. Establish controlled Astrophage breeding zones
-   under monitored thermal conditions.
+                <!-- grid -->
+                <div class="map-grid"></div>
 
-3. Utilize harvested energy to stabilize global power grids.
+                <!-- fake africa silhouette -->
+                <div class="africa-shape"></div>
 
----
+                <!-- deployment zones -->
+                <div class="zone zone-1"></div>
+                <div class="zone zone-2"></div>
+                <div class="zone zone-3"></div>
 
-WHY THE SAHARA?
+                <!-- lines -->
+                <div class="route route-1"></div>
+                <div class="route route-2"></div>
 
-As one Task Force engineer summarized:
+                <!-- labels -->
+                <div class="map-label label-1">
+                    ALGERIA ARRAY
+                </div>
 
-"The Sahara Desert is nine trillion square meters."
+                <div class="map-label label-2">
+                    LIBYA THERMAL FIELD
+                </div>
 
-Africa contains vast regions of land with extreme solar exposure
-and low population density.
+                <div class="map-label label-3">
+                    CHAD BREEDING SITE
+                </div>
 
-Combined with emerging partnerships with African governments,
-this makes the region ideal for large-scale deployment.
+                <div class="map-scan"></div>
 
----
+            </div>
 
-ETHICAL & POLITICAL REVIEW:
+            <div class="map-stats">
 
-The proposal required multinational negotiation.
+                <div class="map-stat">
+                    <span>PROJECTED COVERAGE</span>
+                    <strong>2.1 TRILLION m²</strong>
+                </div>
 
-Many African states initially raised concerns regarding:
-• Land sovereignty
-• Environmental disruption
-• Resource ownership
+                <div class="map-stat">
+                    <span>INITIAL PHASE</span>
+                    <strong>23,441 km²</strong>
+                </div>
 
-However, agreements were reached under the condition that:
+                <div class="map-stat">
+                    <span>STATUS</span>
+                    <strong>GROUND PREPARATION</strong>
+                </div>
 
-AFTER INITIAL ASTROPHAGE ENERGY DEPLOYMENT PHASE:
+            </div>
 
-• Infrastructure will remain in place
-• Energy output will be shared with host nations
-• Long-term ownership of solar power systems will transfer
-  to local governments
+        </div>
 
-Task Force conclusion:
+        <!-- RIGHT SIDE -->
+        <div class="sahara-side-panel">
 
-"This is not extraction. This is infrastructure acceleration."
+            <div class="info-card">
+                <div class="card-title">PRIMARY OBJECTIVES</div>
 
----
+                <ul class="objective-list">
+                    <li>
+                        Construct high-density solar collection arrays
+                        optimized for Astrophage energy absorption
+                    </li>
 
-FIELD INTERVIEW EXCERPT — EVA STRATT:
+                    <li>
+                        Establish controlled breeding zones
+                        for large-scale Astrophage cultivation
+                    </li>
 
-"The Sahara Desert is just sitting there,
-waiting to give everything it needs.
+                    <li>
+                        Redirect harvested energy into global
+                        emergency infrastructure grids
+                    </li>
+                </ul>
+            </div>
 
-All we had to do was build the damn power plants."
+            <div class="info-card warning">
+                <div class="card-title">ETHICAL REVIEW</div>
 
----
+                <p>
+                    Multiple African governments raised concerns
+                    regarding environmental disruption,
+                    land sovereignty, and long-term resource control.
+                </p>
 
-ENGINEERING NOTE — REDELL (PROJECT LEAD):
+                <p>
+                    Agreements were later signed granting host nations
+                    permanent ownership of infrastructure following
+                    emergency deployment operations.
+                </p>
+            </div>
 
-"Africa needs power. We need energy production at scale.
+        </div>
 
-Every government involved wanted a share of the project.
-Yes, there were negotiations. Yes, there were costs.
+    </div>
 
-But the alternative is collapse."
+    <!-- QUOTE -->
+    <div class="quote-panel">
 
----
+        <div class="quote-line"></div>
 
-ACCIDENT REPORT EXCERPT:
+        <div class="quote-text">
+            “The Sahara Desert is just sitting there,
+            waiting to give everything it needs.
+            All we had to do was build the damn power plants.”
+        </div>
 
-During initial pilot testing of a 1 km² solar array:
+        <div class="quote-author">
+            — EVA STRATT
+        </div>
 
-• Mirror array misaligned during system initialization
-• Focused energy beam struck central water turbine tower
-• System overload occurred
+    </div>
 
-Resulting damage: classified
+    <!-- TIMELINE -->
+    <div class="construction-timeline">
 
-System subsequently redesigned for full automation control locks.
+        <div class="timeline-title">
+            PROJECTED CONSTRUCTION PHASES
+        </div>
 
----
+        <div class="timeline-grid">
 
-FINAL ASSESSMENT:
+            <div class="timeline-node active">
+                <span>PHASE 01</span>
+                <strong>LAND SURVEY</strong>
+            </div>
 
-If successfully deployed, the Sahara network
-will represent the largest energy harvesting system
-ever constructed on Earth.
+            <div class="timeline-node active">
+                <span>PHASE 02</span>
+                <strong>GRID FOUNDATIONS</strong>
+            </div>
 
-It is considered essential for:
+            <div class="timeline-node">
+                <span>PHASE 03</span>
+                <strong>BLACK PANEL DEPLOYMENT</strong>
+            </div>
 
-• Astrophage containment research
-• Global energy stabilization
-• Civilization continuity
+            <div class="timeline-node">
+                <span>PHASE 04</span>
+                <strong>ASTROPHAGE SEEDING</strong>
+            </div>
 
-[END REPORT]
-</pre>
+            <div class="timeline-node">
+                <span>PHASE 05</span>
+                <strong>ENERGY HARVEST ONLINE</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="report-footer">
+
+        <div>
+            ESTIMATED OUTPUT:
+            <span>EXCEEDS ALL CURRENT GLOBAL ENERGY PRODUCTION</span>
+        </div>
+
+        <div>
+            CONSTRUCTION START:
+            <span>T+482 DAYS</span>
+        </div>
+
+    </div>
+
+</div>
 `
 },
 hailmary: {
@@ -854,113 +1795,277 @@ hailmary: {
     title: 'PROJECT HAIL MARY — MISSION BRIEFING',
 
     body: `
-<pre>
-[GLOBAL SPACE COALITION EMERGENCY BRIEFING]
+<div class="hailmary-briefing">
 
-PROJECT: HAIL MARY
+    <!-- HEADER -->
+    <div class="briefing-top">
+        <div class="briefing-title-block">
+            <div class="classified-tag">GLOBAL SPACE COALITION // PRIORITY OMEGA</div>
+            <h1>PROJECT: HAIL MARY</h1>
+            <p class="subtitle">
+                INTERSTELLAR RESPONSE MISSION — TAU CETI EXPEDITION
+            </p>
+        </div>
 
-MISSION OBJECTIVE:
-Investigate the Tau Ceti system to determine why its
-stellar luminosity has not been affected by the chain
-of stellar dimming observed throughout known space.
+        <!-- LOGO PLACEHOLDER -->
+        <div class="logo-placeholder">
+            <img class="logo-placeholder" src="assets/logo.png" alt="Hail Mary Mission Logo">
+        </div>
+    </div>
 
----
+    <!-- MAIN GRID -->
+    <div class="briefing-grid">
 
-BACKGROUND:
+        <!-- LEFT -->
+        <div class="briefing-main">
 
-Observational analysis confirms a cascading chain of stellar
-energy depletion across multiple star systems:
+            <div class="section-card">
+                <div class="section-label">MISSION OBJECTIVE</div>
 
-Our Sun → infected system
-WISE 0855–0714 → infected system
-Sirius → infected system
-Epsilon Eridani → infected system
+                <p>
+                    Investigate the Tau Ceti system to determine why its
+                    stellar luminosity has not been affected by the chain
+                    of stellar dimming observed throughout known space.
+                </p>
 
-Beyond this point, the trail goes cold.
+                <div class="status-line">
+                    <span>MISSION STATUS:</span>
+                    <span class="green">APPROVED</span>
+                </div>
+            </div>
 
-No further propagation source has been identified.
+            <!-- STAR CHAIN -->
+            <div class="section-card">
 
----
+                <div class="section-label">
+                    PROPAGATION CHAIN ANALYSIS
+                </div>
 
-MISSION DESIGN:
+                <div class="star-chain">
 
-Due to urgency constraints, a rapid-response interstellar
-expedition has been approved.
+                    <div class="star infected">
+                        <div class="star-name">SOL</div>
+                        <div class="star-status">INFECTED</div>
+                    </div>
 
-Crew composition (final selection pending):
+                    <div class="chain-arrow"></div>
 
-• Science Officer — astrophage research specialist
-• Engineer — spacecraft systems & survival
-• Pilot — interstellar navigation & mission execution
+                    <div class="star infected">
+                        <div class="star-name">WISE 0855–0714</div>
+                        <div class="star-status">INFECTED</div>
+                    </div>
 
-Crew will operate in extended cryogenic / suspended mission mode
-where applicable and transmit data via probe relay systems.
+                    <div class="chain-arrow"></div>
 
----
+                    <div class="star infected">
+                        <div class="star-name">SIRIUS</div>
+                        <div class="star-status">INFECTED</div>
+                    </div>
 
-COMMUNICATION PLAN:
+                    <div class="chain-arrow"></div>
 
-Due to extreme distance limitations:
+                    <div class="star infected">
+                        <div class="star-name">EPSILON ERIDANI</div>
+                        <div class="star-status">INFECTED</div>
+                    </div>
 
-• Direct real-time communication is impossible
-• Data will be transmitted via autonomous probe relays
-• Full dataset return is expected only upon mission completion
+                    <div class="chain-arrow"></div>
 
----
+                    <div class="star safe">
+                        <div class="star-name">TAU CETI</div>
+                        <div class="star-status">UNINFECTED</div>
+                    </div>
 
-TIMELINE CONSTRAINT:
+                </div>
 
-• Tau Ceti distance: ~13 light years
-• One-way travel time: 13 years
-• Full mission cycle (travel + data return): minimum 26 years
+                <p class="small-text">
+                    No confirmed propagation source exists beyond Tau Ceti.
+                    Scientists believe the system may contain the origin
+                    of the Astrophage resistance chain.
+                </p>
 
----
+            </div>
 
-THE PROBLEM:
+            <!-- TIMELINE -->
+            <div class="section-card">
 
-At current projections:
+                <div class="section-label">
+                    INTERSTELLAR TRANSIT TIMELINE
+                </div>
 
-Half of all human life is expected to be lost within
-a significantly shorter timeframe than mission completion.
+                <div class="timeline-track">
 
-ESTIMATED 50% GLOBAL MORTALITY WINDOW:
-~19 YEARS
+                    <div class="timeline-point">
+                        <div class="point-dot"></div>
+                        <div class="point-info">
+                            <h4>LAUNCH</h4>
+                            <p>T+0 YEARS</p>
+                        </div>
+                    </div>
 
----
+                    <div class="timeline-line"></div>
 
-STRATEGIC QUESTION PRESENTED TO GLOBAL COUNCIL:
+                    <div class="timeline-point">
+                        <div class="point-dot"></div>
+                        <div class="point-info">
+                            <h4>DEEP INTERSTELLAR TRANSIT</h4>
+                            <p>T+6 YEARS</p>
+                        </div>
+                    </div>
 
-What do we do when the only hope of understanding the threat
-will arrive AFTER half of humanity may already be gone?
+                    <div class="timeline-line"></div>
 
----
+                    <div class="timeline-point">
+                        <div class="point-dot"></div>
+                        <div class="point-info">
+                            <h4>TAU CETI ARRIVAL</h4>
+                            <p>T+12 YEARS</p>
+                        </div>
+                    </div>
 
-COUNCIL RESPONSE:
+                </div>
 
-"No alternative mission paths exist with higher probability
-of success within required physics constraints."
+                <div class="data-grid">
 
-"Tau Ceti is the only known system outside the propagation chain
-that may contain answers."
+                    <div class="data-box">
+                        <span class="data-label">DISTANCE</span>
+                        <span class="data-value">11.9 LIGHT YEARS</span>
+                    </div>
 
----
+                    <div class="data-box">
+                        <span class="data-label">EXPECTED ARRIVAL</span>
+                        <span class="data-value">~12 YEARS</span>
+                    </div>
 
-FINAL STATEMENT FROM TASK FORCE DIRECTOR EVA STRATT:
+                    <div class="data-box">
+                        <span class="data-label">FULL MISSION</span>
+                        <span class="data-value">26+ YEARS</span>
+                    </div>
 
-"We don’t get to choose between good options.
+                    <div class="data-box red">
+                        <span class="data-label">50% HUMANITY LOSS</span>
+                        <span class="data-value">~19 YEARS</span>
+                    </div>
 
-We choose between extinction with curiosity…
-or extinction with ignorance."
+                </div>
 
----
+            </div>
 
-MISSION STATUS:
-APPROVED
+            <!-- MISSION PROBLEM -->
+            <div class="section-card danger-card">
 
-PROJECT HAIL MARY INITIATED
+                <div class="section-label">
+                    STRATEGIC CONFLICT
+                </div>
 
-[END BRIEFING]
-</pre>
+                <div class="quote-block">
+                    "What do we do when the only hope of understanding the threat
+                    will arrive AFTER half of humanity may already be gone?"
+                </div>
+
+                <p>
+                    Current civilization-collapse projections indicate
+                    the Hail Mary mission may return critical answers
+                    too late to prevent large-scale societal failure.
+                </p>
+
+                <div class="warning-box">
+                    NO FASTER PHYSICS-COMPLIANT ALTERNATIVE EXISTS
+                </div>
+
+            </div>
+
+            <!-- EVA QUOTE -->
+            <div class="stratt-quote">
+                <div class="quote-mark">“</div>
+
+                <div class="quote-content">
+                    We don’t get to choose between good options.
+                    <br><br>
+                    We choose between extinction with curiosity…
+                    or extinction with ignorance.
+                </div>
+
+                <div class="quote-author">
+                    — EVA STRATT
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="briefing-side">
+
+            <!-- SHIP CONCEPT -->
+            <div class="side-panel">
+
+                <div class="panel-title">
+                    EARLY SHIP DESIGN
+                </div>
+
+                <div class="ship-placeholder">
+                    <img class="logo-placeholder" src="assets/design.jpg" alt="Ship Concept Image">
+                </div>
+
+                <p class="side-description">
+                    Early fusion-spin habitat concepts explored
+                    artificial gravity rings, astrophage containment
+                    systems, and long-duration cryogenic transit modules.
+                </p>
+
+            </div>
+
+            <!-- CREW -->
+            <div class="side-panel">
+
+                <div class="panel-title">
+                    INITIAL CREW REQUIREMENTS
+                </div>
+
+                <div class="crew-list">
+
+                    <div class="crew-role">
+                        <span>SCIENCE OFFICER</span>
+                        <small>Astrophage Specialist</small>
+                    </div>
+
+                    <div class="crew-role">
+                        <span>ENGINEER</span>
+                        <small>Systems Survival & Repairs</small>
+                    </div>
+
+                    <div class="crew-role">
+                        <span>PILOT</span>
+                        <small>Interstellar Navigation</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ARCHIVE -->
+            <div class="side-panel">
+
+                <div class="panel-title">
+                    ARCHIVE SLIDES
+                </div>
+
+                <div class="archive-slide"></div>
+                <textarea placeholder="Add archive description..."></textarea>
+
+                <div class="archive-slide"></div>
+                <textarea placeholder="Add archive description..."></textarea>
+
+                <div class="archive-slide"></div>
+                <textarea placeholder="Add archive description..."></textarea>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 `
 },
 antarctica: {
@@ -968,133 +2073,322 @@ antarctica: {
     title: 'TASK FORCE REPORT — ANTARCTIC METHANE RELEASE INITIATIVE',
 
     body: `
-<pre>
-[PETROVA TASK FORCE — CLIMATE INTERVENTION REPORT]
+<div class="antarctica-report">
 
-PROJECT STATUS:
-AUTHORIZED
+    <!-- TOP HEADER -->
+    <div class="antarctica-header">
 
-OBJECTIVE:
-Delay catastrophic global cooling long enough
-to complete Project Hail Mary launch operations.
+        <div class="header-left">
+            <div class="security-tag">
+                PETROVA TASK FORCE // CLIMATE INTERVENTION AUTHORIZED
+            </div>
 
----
+            <h1>OPERATION: WINTERFALL</h1>
 
-BACKGROUND:
+            <p class="header-sub">
+                ANTARCTIC METHANE RELEASE INITIATIVE
+            </p>
+        </div>
 
-As solar luminosity decline accelerated,
-global climate models converged on a critical conclusion:
+        <div class="header-status">
+            <div class="status-ring">
+                <span>AUTHORIZED</span>
+            </div>
+        </div>
 
-Human civilization would likely destabilize
-before Project Hail Mary could launch.
+    </div>
 
-Without intervention,
-crop collapse and global infrastructure failure
-would begin too early to sustain mission construction.
+    <!-- MAIN GRID -->
+    <div class="antarctica-grid">
 
-Additional time was required.
+        <!-- LEFT SIDE -->
+        <div class="antarctica-main">
 
----
+            <!-- OBJECTIVE -->
+            <div class="ice-card">
 
-PROPOSED SOLUTION:
+                <div class="card-label">
+                    PRIMARY OBJECTIVE
+                </div>
 
-Controlled destruction of Antarctic ice shelves.
+                <div class="objective-display">
 
-The operation involves naval deployment of synchronized
-high-yield explosives along targeted Antarctic fracture zones.
+                    <div class="objective-line"></div>
 
-Result:
+                    <div class="objective-text">
+                        Delay catastrophic global cooling long enough
+                        to complete Project Hail Mary launch operations.
+                    </div>
 
-• Massive ice shelf collapse
-• Rapid methane release from trapped under-ice deposits
-• Temporary greenhouse warming effect
+                </div>
 
----
+            </div>
 
-TASK FORCE ASSESSMENT:
+            <!-- BACKGROUND -->
+            <div class="ice-card">
 
-"Methane is now our friend."
+                <div class="card-label">
+                    GLOBAL MODEL COLLAPSE FORECAST
+                </div>
 
-Unlike carbon dioxide, atmospheric methane naturally
-degrades over approximately ten years.
+                <div class="warning-graph">
 
-This allows climate warming to be adjusted in cycles
-through controlled Antarctic detonations.
+                    <div class="graph-line2 red"></div>
+                    <div class="graph-line2 blue"></div>
 
-If Project Hail Mary succeeds,
-methane levels may eventually normalize naturally.
+                    <div class="graph-overlay"></div>
 
----
+                    <div class="graph-label2 one">
+                        AGRICULTURAL COLLAPSE
+                    </div>
 
-PROJECTED CONSEQUENCES:
+                    <div class="graph-label2 two">
+                        INFRASTRUCTURE FAILURE
+                    </div>
 
-EXPECTED BENEFITS:
-• Delay severe global cooling
-• Extend agricultural viability
-• Preserve launch infrastructure stability
-• Buy additional years for mission readiness
+                </div>
 
-EXPECTED COSTS:
-• Massive ecosystem disruption
-• Violent weather instability
-• Accelerated sea level rise
-• Ocean temperature collapse
-• Biome destruction
+                <p>
+                    Updated climate models confirmed civilization would
+                    likely destabilize before Project Hail Mary
+                    could launch.
+                </p>
 
----
+                <div class="collapse-box">
+                    WITHOUT INTERVENTION:
+                    <span>MISSION FAILURE PROBABILITY EXCEEDS 81%</span>
+                </div>
 
-FIELD NOTES:
+            </div>
 
-"The shelf will cleave at the explosion line
-and slowly work its way into the sea and melt."
+            <!-- PROPOSED SOLUTION -->
+            <div class="ice-card">
 
-"Sea levels will rise approximately one centimeter
-within the first month."
+                <div class="card-label">
+                    PROPOSED SOLUTION
+                </div>
 
-"The ocean temperature drop alone could trigger
-secondary ecological disasters."
+                <div class="operation-flow">
 
----
+                    <div class="flow-box">
+                        ICE SHELF FRACTURE
+                    </div>
 
-GLOBAL REACTION:
+                    <div class="flow-arrow"></div>
 
-The operation has become one of the most controversial
-actions in human history.
+                    <div class="flow-box">
+                        METHANE RELEASE
+                    </div>
 
-Supporters describe the intervention as:
+                    <div class="flow-arrow"></div>
 
-"Necessary survival engineering."
+                    <div class="flow-box">
+                        ATMOSPHERIC WARMING
+                    </div>
 
-Critics describe it as:
+                </div>
 
-"The deliberate destruction of Earth's climate system."
+                <div class="impact-grid">
 
----
+                    <div class="impact positive">
+                        <h4>EXPECTED BENEFITS</h4>
 
-NAVAL OPERATION LOG:
+                        <ul>
+                            <li>Extend agricultural viability</li>
+                            <li>Delay biosphere collapse</li>
+                            <li>Preserve launch infrastructure</li>
+                            <li>Buy additional launch time</li>
+                        </ul>
+                    </div>
 
-The Chinese Navy coordinated the primary exclusion zone
-around western Antarctica.
+                    <div class="impact negative">
+                        <h4>EXPECTED COSTS</h4>
 
-All Antarctic research facilities were evacuated.
+                        <ul>
+                            <li>Biome destruction</li>
+                            <li>Extreme weather instability</li>
+                            <li>Sea level acceleration</li>
+                            <li>Ocean temperature collapse</li>
+                        </ul>
+                    </div>
 
-At the time of detonation,
-the exclusion zone represented the largest restricted
-maritime region ever established.
+                </div>
 
----
+            </div>
 
-FINAL TASK FORCE CONCLUSION:
+            <!-- STRATT QUOTE -->
+            <div class="methane-quote">
 
-"No —
-this does not solve the problem.
+                <div class="quote-symbol">“</div>
 
-It only buys time.
+                <div class="quote-text">
+                    Methane is now our friend.
+                </div>
 
-But time is the only resource humanity has left."
+                <div class="quote-author">
+                    — EVA STRATT
+                </div>
 
-[END REPORT]
-</pre>
+            </div>
+
+            <!-- FIELD NOTES -->
+            <div class="ice-card">
+
+                <div class="card-label">
+                    FIELD NOTES
+                </div>
+
+                <div class="field-transcript">
+
+                    <div class="transcript-line">
+                        "The shelf will cleave at the explosion line
+                        and slowly work its way into the sea and melt."
+                    </div>
+
+                    <div class="transcript-line">
+                        "Sea levels will rise approximately one centimeter
+                        within the first month."
+                    </div>
+
+                    <div class="transcript-line warning">
+                        "The ocean temperature drop alone could trigger
+                        secondary ecological disasters."
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FINAL CONCLUSION -->
+            <div class="final-warning">
+
+                <div class="final-title">
+                    FINAL TASK FORCE CONCLUSION
+                </div>
+
+                <div class="final-text">
+                    No —
+                    this does not solve the problem.
+                    <br><br>
+                    It only buys time.
+                    <br><br>
+                    But time is the only resource humanity has left.
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="antarctica-side">
+
+            <!-- ANTARCTICA MAP -->
+            <div class="side-panel">
+
+                <div class="panel-title">
+                    DETONATION ZONE MAP
+                </div>
+
+                <div class="antarctica-map">
+
+                    <div class="continent-shape"></div>
+
+                    <div class="blast-line one"></div>
+                    <div class="blast-line two"></div>
+                    <div class="blast-line three"></div>
+
+                    <div class="blast-marker marker1"></div>
+                    <div class="blast-marker marker2"></div>
+                    <div class="blast-marker marker3"></div>
+
+                    <div class="map-label west">
+                        WESTERN SHELF
+                    </div>
+
+                    <div class="map-label zone">
+                        FRACTURE ZONE
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- WEATHER -->
+            <div class="side-panel">
+
+                <div class="panel-title">
+                    PROJECTED WEATHER INSTABILITY
+                </div>
+
+                <div class="storm-monitor">
+
+                    <div class="storm-circle"></div>
+                    <div class="storm-circle two"></div>
+                    <div class="storm-circle three"></div>
+
+                    <div class="storm-center"></div>
+
+                </div>
+
+                <div class="storm-data">
+
+                    <div>
+                        <span>HYPERSTORMS</span>
+                        <strong>LIKELY</strong>
+                    </div>
+
+                    <div>
+                        <span>JET STREAM FAILURE</span>
+                        <strong>PROJECTED</strong>
+                    </div>
+
+                    <div>
+                        <span>GLOBAL FLOOD EVENTS</span>
+                        <strong>ESCALATING</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- NAVAL -->
+            <div class="side-panel">
+
+                <div class="panel-title">
+                    NAVAL OPERATION LOG
+                </div>
+
+                <div class="naval-log">
+
+                    <div class="log-line">
+                        > CHINESE NAVY EXCLUSION ZONE ACTIVE
+                    </div>
+
+                    <div class="log-line">
+                        > ANTARCTIC RESEARCH FACILITIES EVACUATED
+                    </div>
+
+                    <div class="log-line">
+                        > CIVILIAN SHIPPING DIVERTED
+                    </div>
+
+                    <div class="log-line">
+                        > DETONATION SYNCHRONIZATION CONFIRMED
+                    </div>
+
+                    <div class="log-line danger">
+                        > GLOBAL CLIMATE INTERVENTION AUTHORIZED
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 `
 },
 crew: {
@@ -1250,6 +2544,135 @@ preparations: {
     title: 'HAIL MARY ORBITAL PREPARATION REPORT',
 
     body: `
+<section class="timeline-section orbital-status-section">
+
+    <div class="orbital-grid-bg"></div>
+    <div class="scan-lines"></div>
+
+    <div class="section-inner">
+
+        <div class="eyebrow">
+            PROJECT HAIL MARY — ORBITAL CONSTRUCTION ARCHIVE
+        </div>
+
+        <h1 class="section-title">
+            HAIL MARY FLIGHT READY
+        </h1>
+
+        <p class="section-subtitle">
+            T–9 DAYS UNTIL LAUNCH WINDOW
+        </p>
+
+        <!-- STATUS BAR -->
+
+        <div class="flight-status-bar">
+
+            <div class="flight-pill ready">
+                FLIGHT READY
+            </div>
+
+            <div class="flight-pill warning">
+                EARTH CONDITIONS DETERIORATING
+            </div>
+
+            <div class="flight-pill">
+                FINAL SYSTEM TESTS COMPLETE
+            </div>
+
+        </div>
+
+        <!-- MAIN GRID -->
+
+        <div class="orbital-report-grid">
+
+            <!-- LEFT -->
+
+            <div class="orbital-left">
+
+                <!-- SHIP VISUAL -->
+
+                <div class="orbital-ship-panel">
+
+                    <div class="panel-label">
+                        ORBITAL ASSEMBLY VISUAL
+                    </div>
+
+                    <div class="ship-placeholder">
+                        HAIL MARY<br>
+                        EXTERIOR IMAGE / SHIP RENDER<br><br>
+                        [ PLACE IMAGE ]
+                    </div>
+
+                    <div class="ship-stats-grid">
+
+                        <div class="ship-stat-box">
+                            <span>MASS</span>
+                            <strong>2,000,000+ KG</strong>
+                        </div>
+
+                        <div class="ship-stat-box">
+                            <span>HEIGHT</span>
+                            <strong>114 METERS</strong>
+                        </div>
+
+                        <div class="ship-stat-box">
+                            <span>CREW</span>
+                            <strong>3 ASTRONAUTS</strong>
+                        </div>
+
+                        <div class="ship-stat-box">
+                            <span>FUEL</span>
+                            <strong>ASTROPHAGE</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CONSTRUCTION TIMELINE -->
+
+                <div class="orbital-timeline-card">
+
+                    <div class="panel-label">
+                        CONSTRUCTION TIMELINE
+                    </div>
+
+                    <div class="timeline-track">
+
+                        <div class="timeline-node complete">
+                            <span>YEAR 1</span>
+                            <p>Orbital framework assembly begins</p>
+                        </div>
+
+                        <div class="timeline-node complete">
+                            <span>YEAR 2</span>
+                            <p>Fuel systems & spin habitats installed</p>
+                        </div>
+
+                        <div class="timeline-node complete">
+                            <span>YEAR 3</span>
+                            <p>Astrophage drives integrated</p>
+                        </div>
+
+                        <div class="timeline-node active">
+                            <span>YEAR 4</span>
+                            <p>Final systems verification complete</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+
+            <div class="orbital-right">
+
+                <!-- REPORT -->
+
+                <div class="orbital-terminal">
+
 <pre>
 [PROJECT HAIL MARY — FINAL ORBITAL STATUS REPORT]
 
@@ -1335,6 +2758,42 @@ T–9 DAYS UNTIL LAUNCH WINDOW
 
 [END REPORT]
 </pre>
+
+                </div>
+
+                <!-- SYSTEM STATUS -->
+
+                <div class="systems-grid2">
+
+                    <div class="system-box2 green">
+                        <span>CRYOGENICS</span>
+                        <strong>STABLE</strong>
+                    </div>
+
+                    <div class="system-box2 yellow">
+                        <span>ROTATIONAL GRAVITY</span>
+                        <strong>MINOR DRIFT</strong>
+                    </div>
+
+                    <div class="system-box2 green">
+                        <span>ASTROPHAGE STORAGE</span>
+                        <strong>SECURE</strong>
+                    </div>
+
+                    <div class="system-box2 red">
+                        <span>EARTH STABILITY</span>
+                        <strong>CRITICAL</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 `
 },
 disaster: {
@@ -1342,6 +2801,127 @@ disaster: {
     title: 'KRAKÓW INCIDENT REPORT — FINAL CLASSIFICATION RELEASE',
 
     body: `
+<div class="incident-report-shell">
+
+    <!-- HEADER -->
+    <div class="incident-topbar">
+
+        <div class="incident-classification">
+            <span class="incident-red"></span>
+            PETROVA TASK FORCE INCIDENT REPORT
+        </div>
+
+        <div class="incident-meta">
+            <div>
+                <span>STATUS</span>
+                DECLASSIFIED
+            </div>
+
+            <div>
+                <span>LOCATION</span>
+                KRAKÓW FACILITY
+            </div>
+
+            <div>
+                <span>TIME</span>
+                T–3 DAYS
+            </div>
+        </div>
+
+    </div>
+
+    <!-- TITLE -->
+    <div class="incident-title-block">
+
+        <div class="incident-alert">
+            CATASTROPHIC LABORATORY FAILURE
+        </div>
+
+        <h2>
+            LABORATORY SECTOR C EXPLOSION
+        </h2>
+
+        <p>
+            Astrophage containment testing resulted in a critical
+            energy release event causing total destruction of the
+            eastern laboratory wing.
+        </p>
+
+    </div>
+
+    <!-- CREW -->
+    <div class="incident-casualties-grid">
+
+        <!-- DUBOIS -->
+        <div class="casualty-card">
+
+            <div class="casualty-photo">
+                PLACEHOLDER — DUBOIS
+            </div>
+
+            <div class="casualty-info">
+
+                <h3>
+                    Martin DuBois
+                </h3>
+
+                <span class="casualty-role">
+                    FIRST SCIENCE OFFICER
+                </span>
+
+                <div class="casualty-status deceased">
+                    STATUS: DECEASED
+                </div>
+
+                <p>
+                    Present inside Laboratory Sector C during
+                    live Astrophage interaction testing.
+                    Fatal injuries sustained in initial blast wave.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- SHAPIRO -->
+        <div class="casualty-card">
+
+            <div class="casualty-photo">
+                PLACEHOLDER — SHAPIRO
+            </div>
+
+            <div class="casualty-info">
+
+                <h3>
+                    Anne Shapiro
+                </h3>
+
+                <span class="casualty-role">
+                    ALTERNATE SCIENCE OFFICER
+                </span>
+
+                <div class="casualty-status deceased">
+                    STATUS: DECEASED
+                </div>
+
+                <p>
+                    Assisting DuBois during containment calibration.
+                    Confirmed killed immediately following
+                    catastrophic containment rupture.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- DAMAGE + TERMINAL -->
+    <div class="incident-main-grid">
+
+        <!-- LEFT -->
+        <div class="incident-terminal">
+
 <pre>
 [PETROVA TASK FORCE INCIDENT REPORT]
 
@@ -1407,68 +2987,82 @@ through the western corridor due to structural collapse.
 
 Emergency triage zones were established externally
 under active fire conditions.
-
----
-
-CAUSE OF INCIDENT:
-
-Initial theories included:
-• Astrophage containment breach
-• Deliberate sabotage
-• Foreign-state interference
-
-Task Force investigation later confirmed:
-
-NO EVIDENCE OF FOUL PLAY
-
-The explosion resulted from a catastrophic dosage error
-during live Astrophage energy interaction testing.
-
-Quartermaster distribution logs confirmed that:
-
-1 milligram of Astrophage material
-was mistakenly supplied instead of
-1 nanogram.
-
-The resulting energy release exceeded
-all laboratory containment tolerances.
-
----
-
-MISSION IMPACT:
-
-The deaths of DuBois and Shapiro created
-an immediate crisis for Project Hail Mary.
-
-The launch window remained only three days away.
-
-Failure to launch within the current orbital window
-would delay the mission by several months.
-
-Task Force projections indicated humanity
-did not possess those months.
-
----
-
-EMERGENCY RESPONSE:
-
-Petrova Task Force leadership immediately initiated
-review of tertiary and reserve science personnel.
-
-Discussion regarding mission cancellation
-was formally rejected less than two hours
-after the incident.
-
----
-
-FINAL TASK FORCE DIRECTIVE:
-
-"Hail Mary launches in three days.
-
-Find another scientist."
-
-[END REPORT]
 </pre>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="incident-sidebar">
+
+            <!-- CAUSE -->
+            <div class="incident-panel">
+
+                <div class="panel-label">
+                    CAUSE OF INCIDENT
+                </div>
+
+                <div class="dosage-box">
+
+                    <div class="dosage-item wrong">
+                        <span>SUPPLIED</span>
+                        <strong>1 MILLIGRAM</strong>
+                    </div>
+
+                    <div class="dosage-divider">
+                        ≠
+                    </div>
+
+                    <div class="dosage-item correct">
+                        <span>EXPECTED</span>
+                        <strong>1 NANOGRAM</strong>
+                    </div>
+
+                </div>
+
+                <div class="incident-warning">
+                    ENERGY RELEASE EXCEEDED
+                    ALL CONTAINMENT LIMITS
+                </div>
+
+            </div>
+
+            <!-- IMPACT -->
+            <div class="incident-panel">
+
+                <div class="panel-label">
+                    MISSION IMPACT
+                </div>
+
+                <ul class="impact-list">
+                    <li>PRIMARY SCIENCE TEAM LOST</li>
+                    <li>LAUNCH WINDOW: 72 HOURS</li>
+                    <li>MISSION DELAY ESTIMATE: MONTHS</li>
+                    <li>PROJECTED HUMAN SURVIVAL WINDOW:
+                        INSUFFICIENT
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- DIRECTIVE -->
+            <div class="directive-box">
+
+                <div class="directive-header">
+                    FINAL TASK FORCE DIRECTIVE
+                </div>
+
+                <div class="directive-text">
+                    “HAIL MARY LAUNCHES IN THREE DAYS.
+                    FIND ANOTHER SCIENTIST.”
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 `
 },grace: {
 
@@ -1479,11 +3073,73 @@ Find another scientist."
 
     <div class="crew-card">
 
-        <div class="crew-photo">
-            <img class="crew-photo" src="assets/images-1.jpeg" alt="Photo of Dr. Ryland Grace">
+        <!-- LEFT -->
+        <div class="crew-photo-panel">
+
+            <div class="crew-photo-wrap">
+
+                <img class="crew-photo"
+                src="assets/images-1.jpeg"
+                alt="Photo of Dr. Ryland Grace">
+
+            </div>
+
+            <div class="crew-status">
+
+                <div class="status-box">
+                    <span>MISSION STATUS</span>
+                    <strong>ACTIVE</strong>
+                </div>
+
+                <div class="status-box">
+                    <span>LAUNCH WINDOW</span>
+                    <strong>T–48 HOURS</strong>
+                </div>
+
+                <div class="status-box">
+                    <span>ASTROPHAGE EXPERTISE</span>
+                    <strong>LEVEL 5</strong>
+                </div>
+
+                <div class="status-box">
+                    <span>PSYCH PROFILE</span>
+                    <strong>FLAGGED</strong>
+                </div>
+
+            </div>
+
         </div>
 
+        <!-- RIGHT -->
         <div class="crew-info">
+
+            <div class="crew-header">
+
+                <div class="crew-name-block">
+
+                    <h2>
+                        DR. RYLAND GRACE
+                    </h2>
+
+                    <div class="crew-role">
+                        PRIMARY SCIENCE OFFICER
+                    </div>
+
+                </div>
+
+                <div class="crew-classification">
+
+                    <span>PERSONNEL FILE</span>
+
+                    <strong>
+                        LEVEL 4 CLEARANCE
+                    </strong>
+
+                </div>
+
+            </div>
+
+            <div class="crew-terminal">
 
 <pre>
 NAME:
@@ -1543,13 +3199,17 @@ approximately 43 hours before launch.
 
 MISSION PLAN ADDENDUM:
 
-Due to limited astronaut training, Dr. Grace was worried that he'd
-panic during the launch so he elected to be unconscious for it.
+Due to limited astronaut training,
+Dr. Grace was worried that he'd panic
+during the launch.
 
-Coma induced early to maximize Dr. Grace's safety.
+Coma induced early to maximize
+Dr. Grace's safety.
 
-Once aboard the Hail Mary, Yáo and Ilyukhina will secure Dr. Grace
-into the medical bed and start the coma procedure.
+Once aboard the Hail Mary,
+Yáo and Ilyukhina will secure Dr. Grace
+into the medical bed and continue
+coma-cycle stabilization procedures.
 
 ---
 
@@ -1573,10 +3233,13 @@ LAUNCH WINDOW:
 T–48 HOURS
 </pre>
 
+            </div>
+
         </div>
 
     </div>
 
+    <!-- REDACTED -->
     <div class="redacted-file">
 
         <button class="redacted-button"
@@ -1586,7 +3249,8 @@ T–48 HOURS
 
         </button>
 
-        <div class="redacted-content" id="redactedContent">
+        <div class="redacted-content2"
+        id="redactedContent">
 
 <pre>
 [UNSEALED 32 YEARS AFTER INITIAL REPORT]
@@ -1642,275 +3306,402 @@ launch: {
     title: 'PROJECT HAIL MARY — LAUNCH DAY TRANSCRIPT',
 
     body: `
-<div class="crew-archive">
+<div class="launch-archive2">
 
-    <div class="crew-gallery">
+    <!-- HERO HEADER -->
 
-    <!-- YAO -->
+    <div class="launch-hero2">
 
-    <div class="crew-member">
+        <div class="launch-overlay2"></div>
 
-        <div class="crew-photo">
-            <img class="crew-photo" src="assets/yao.jpg" alt="Photo of Yao Li-Jie">
-        </div>
+        <div class="launch-title2">
 
-        <div class="crew-label">
+            <span class="launch-tag2">
+                GLOBAL LIVE TRANSMISSION ARCHIVE
+            </span>
 
-            <h3>COMMANDER YAO LI-JIE</h3>
+            <h1>PROJECT HAIL MARY</h1>
 
-            <p>PILOT / MISSION COMMANDER</p>
-
-        </div>
-
-    </div>
-
-    <!-- ILYUKHINA -->
-
-    <div class="crew-member">
-
-        <div class="crew-photo">
-            <img class="crew-photo" src="assets/ily.jpg" alt="Photo of Olesya Ilyukhina">
-        </div>
-
-        <div class="crew-label">
-
-            <h3>OLESYA ILYUKHINA</h3>
-
-            <p>ENGINEER / SYSTEMS SPECIALIST</p>
+            <p>
+                HUMANITY'S FIRST INTERSTELLAR MISSION
+            </p>
 
         </div>
 
     </div>
 
-    <!-- GRACE -->
+    <!-- CREW -->
 
-    <div class="crew-member">
+    <div class="hm-crew-grid">
 
-        <div class="crew-photo">
-            <img class="crew-photo" src="assets/images-1.jpeg" alt="Photo of Dr. Ryland Grace">
+        <!-- YAO -->
+
+        <div class="hm-crew-card">
+
+            <div class="hm-photo-shell">
+                <img class="hm-photo"
+                src="assets/yao.jpg"
+                alt="Commander Yao Li-Jie">
+            </div>
+
+            <div class="hm-card-glow"></div>
+
+            <div class="hm-info">
+
+                <span class="hm-role">
+                    MISSION COMMANDER
+                </span>
+
+                <h3>YAO LI-JIE</h3>
+
+                <p>
+                    PILOT / NAVIGATION LEAD
+                </p>
+
+            </div>
+
         </div>
 
-        <div class="crew-label">
+        <!-- ILYUKHINA -->
 
-            <h3>DR. RYLAND GRACE</h3>
+        <div class="hm-crew-card">
 
-            <p>PRIMARY SCIENCE OFFICER</p>
+            <div class="hm-photo-shell">
+                <img class="hm-photo"
+                src="assets/ily.jpg"
+                alt="Olesya Ilyukhina">
+            </div>
+
+            <div class="hm-card-glow"></div>
+
+            <div class="hm-info">
+
+                <span class="hm-role">
+                    SYSTEMS ENGINEER
+                </span>
+
+                <h3>OLESYA ILYUKHINA</h3>
+
+                <p>
+                    SHIP SYSTEMS / LIFE SUPPORT
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- GRACE -->
+
+        <div class="hm-crew-card">
+
+            <div class="hm-photo-shell">
+                <img class="hm-photo"
+                src="assets/images-1.jpeg"
+                alt="Dr. Ryland Grace">
+            </div>
+
+            <div class="hm-card-glow"></div>
+
+            <div class="hm-info">
+
+                <span class="hm-role">
+                    PRIMARY SCIENCE OFFICER
+                </span>
+
+                <h3>DR. RYLAND GRACE</h3>
+
+                <p>
+                    ASTROPHAGE BIOLOGY SPECIALIST
+                </p>
+
+            </div>
 
         </div>
 
     </div>
 
-</div>
+    <!-- STATUS BAR -->
 
-<pre>
-[GLOBAL LIVE BROADCAST ARCHIVE]
+    <div class="launch-status2">
 
-PROJECT HAIL MARY
-LAUNCH DAY
+        <div class="status-box2">
+            <span>MISSION STATUS</span>
+            <strong>ACTIVE</strong>
+        </div>
 
-LOCATION:
-Low Earth Orbit
+        <div class="status-box2">
+            <span>DESTINATION</span>
+            <strong>TAU CETI</strong>
+        </div>
 
-MISSION STATUS:
-ACTIVE
+        <div class="status-box2">
+            <span>TRAVEL TIME</span>
+            <strong>13 YEARS</strong>
+        </div>
 
----
+        <div class="status-box2">
+            <span>WORLD VIEWERS</span>
+            <strong>4.2 BILLION</strong>
+        </div>
 
-T–02:15:00
+    </div>
 
-Global broadcasts begin transmission.
+    <!-- TIMELINE -->
 
-An estimated 4.2 billion viewers tune into launch coverage.
+    <div class="launch-feed2">
 
-Emergency generators power broadcast infrastructure
-across multiple blackout regions.
+        <div class="feed-line2"></div>
 
----
+        <!-- ENTRY -->
 
-T–01:42:11
+        <div class="feed-event2">
 
-News Anchor:
-"Today humanity sends its first interstellar mission
-toward Tau Ceti.
+            <div class="feed-time2">
+                T–02:15:00
+            </div>
 
-For many watching around the world,
-this launch represents humanity's final hope."
+            <div class="feed-content2">
 
----
+                <h3>GLOBAL BROADCASTS BEGIN</h3>
 
-T–01:03:55
+                <p>
+                    Emergency generators across multiple nations
+                    power worldwide live coverage systems as billions
+                    tune in to watch humanity's final interstellar attempt.
+                </p>
 
-Visual confirmation received from orbital cameras.
+            </div>
 
-Hail Mary visible above Earth limb.
+        </div>
 
-Commentators note visible astrophage containment glow
-along propulsion chambers.
+        <!-- ENTRY -->
 
----
+        <div class="feed-event2">
 
-T–00:48:20
+            <div class="feed-time2">
+                T–01:03:55
+            </div>
 
-Mission Control:
-"Commander Yao, comms check."
+            <div class="feed-content2">
 
-Yao:
-"Reading you clear."
+                <h3>VISUAL CONFIRMATION</h3>
 
-Mission Control:
-"Specialist Ilyukhina?"
+                <p>
+                    Orbital camera arrays confirm visual acquisition
+                    of Hail Mary above Earth's night-side horizon.
+                </p>
 
-Ilyukhina:
-"Still here."
+                <div class="quote-box2">
+                    "You are looking at the most expensive object
+                    humanity has ever built."
+                </div>
 
-Laughter recorded in control room.
+            </div>
 
----
+        </div>
 
-T–00:39:08
+        <!-- ENTRY -->
 
-News Anchor:
-"Primary Science Officer Dr. Ryland Grace
-entered medically induced coma procedures
-earlier today."
+        <div class="feed-event2">
 
-"Grace became internationally recognized for his work
-on Astrophage biology after joining the Petrova Task Force."
+            <div class="feed-time2">
+                T–00:48:20
+            </div>
 
-"He volunteered for the mission following the deaths
-of the original science officers just days ago."
+            <div class="feed-content2">
 
-"Many now consider him one of the bravest individuals
-in human history."
+                <h3>CREW COMMS CHECK</h3>
 
----
+                <div class="transmission2">
 
-T–00:18:44
+                    <span>MISSION CONTROL</span>
+                    Commander Yao, comms check.
 
-Mission Control:
-"Hail Mary, you are go for final rotation release."
+                </div>
 
-Yao:
-"Copy. Go for release."
+                <div class="transmission2">
 
----
+                    <span>YAO</span>
+                    Reading you clear.
 
-T–00:11:03
+                </div>
 
-Worldwide church bells reported ringing
-across several major cities.
+                <div class="transmission2">
 
-Large public gatherings observed in:
-• New York
-• Paris
-• Lagos
-• Tokyo
-• São Paulo
+                    <span>MISSION CONTROL</span>
+                    Specialist Ilyukhina?
 
----
+                </div>
 
-T–00:05:00
+                <div class="transmission2">
 
-Mission Control begins final countdown.
+                    <span>ILYUKHINA</span>
+                    Still here.
 
----
+                </div>
 
-T–00:04:59
+            </div>
 
-"Five minutes."
+        </div>
 
----
+        <!-- ENTRY -->
 
-T–00:03:12
+        <div class="feed-event2">
 
-News Anchor:
-"No human beings have ever traveled this far from Earth.
+            <div class="feed-time2">
+                T–00:39:08
+            </div>
 
-If successful,
-Project Hail Mary may save our species.
+            <div class="feed-content2">
 
-If it fails..."
+                <h3>SCIENCE OFFICER STATUS</h3>
 
-Broadcast pauses.
+                <p>
+                    Dr. Ryland Grace entered medically induced coma
+                    procedures earlier today in preparation for launch.
+                </p>
 
----
+                <div class="news-callout2">
 
-T–00:01:00
+                    <strong>LIVE NEWS FEED:</strong>
 
-Mission Control:
-"One minute to astrophage ignition."
+                    "Grace volunteered for the mission
+                    just hours after the deaths of the
+                    original science officers."
 
----
+                    "Many now consider him one of the bravest
+                    individuals in human history."
 
-T–00:00:30
+                </div>
 
-Yao:
-"See you in Tau Ceti."
+            </div>
 
----
+        </div>
 
-T–00:00:10
+        <!-- ENTRY -->
 
-Mission Control:
-"Ten."
+        <div class="feed-event2">
 
-"Nine."
+            <div class="feed-time2">
+                T–00:11:03
+            </div>
 
-"Eight."
+            <div class="feed-content2">
 
----
+                <h3>WORLD RESPONSE</h3>
 
-T–00:00:03
+                <p>
+                    Church bells ring worldwide.
+                    Massive crowds gather in New York,
+                    Paris, Lagos, Tokyo, São Paulo,
+                    and dozens of other cities.
+                </p>
 
-Ilyukhina:
-"Oh God..."
+            </div>
 
----
+        </div>
 
-T–00:00:00
+        <!-- ENTRY -->
 
-ASTROPHAGE IGNITION CONFIRMED
+        <div class="feed-event2 critical2">
 
-HAIL MARY DEPARTURE BURN INITIATED
+            <div class="feed-time2">
+                T–00:01:00
+            </div>
 
----
+            <div class="feed-content2">
 
-T+00:00:14
+                <h3>ASTROPHAGE IGNITION READY</h3>
 
-Orbital cameras temporarily blinded
-by propulsion luminosity.
+                <div class="countdown-box2">
 
----
+                    <div>ONE MINUTE TO IGNITION</div>
 
-T+00:01:52
+                </div>
 
-Mission velocity exceeds all previous
-human spacecraft records.
+            </div>
 
----
+        </div>
 
-T+00:04:10
+        <!-- ENTRY -->
 
-Mission Control confirms stable trajectory.
+        <div class="feed-event2 critical2">
 
-Destination:
-Tau Ceti
+            <div class="feed-time2">
+                T–00:00:30
+            </div>
 
-Estimated arrival:
-13 years
+            <div class="feed-content2">
 
----
+                <div class="transmission2">
 
-T+00:06:31
+                    <span>YAO</span>
+                    See you in Tau Ceti.
 
-News Anchor:
+                </div>
 
-"Humanity has left for the stars."
+            </div>
 
-"May God help us all."
+        </div>
 
-[END TRANSCRIPT]
-</pre>
+        <!-- ENTRY -->
+
+        <div class="feed-event2 ignition2">
+
+            <div class="feed-time2">
+                T–00:00:00
+            </div>
+
+            <div class="feed-content2">
+
+                <h3>ASTROPHAGE IGNITION CONFIRMED</h3>
+
+                <p>
+                    HAIL MARY DEPARTURE BURN INITIATED
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ENTRY -->
+
+        <div class="feed-event2">
+
+            <div class="feed-time2">
+                T+00:04:10
+            </div>
+
+            <div class="feed-content2">
+
+                <h3>TRAJECTORY LOCK CONFIRMED</h3>
+
+                <p>
+                    Mission Control confirms stable interstellar
+                    acceleration trajectory toward Tau Ceti.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- FINAL -->
+
+        <div class="final-message2">
+
+            <div class="final-border2"></div>
+
+            <p>
+                "Humanity has left for the stars."
+            </p>
+
+            <span>
+                — GLOBAL BROADCAST ARCHIVE
+            </span>
+
+        </div>
+
+    </div>
 
 </div>
 `
@@ -1920,6 +3711,85 @@ stratt: {
     title: 'UNITED NATIONS SPECIAL TRIBUNAL — EVA STRATT',
 
     body: `
+<section class="timeline-section tribunal-section">
+
+    <div class="scan-lines"></div>
+
+    <div class="section-inner">
+
+        <div class="eyebrow red">
+            UNITED NATIONS EMERGENCY TRIBUNAL
+        </div>
+
+        <h1 class="section-title">
+            EVA STRATT ARRESTED
+        </h1>
+
+        <p class="section-subtitle">
+            T+4 MONTHS AFTER PROJECT HAIL MARY LAUNCH
+        </p>
+
+        <div class="tribunal-warning">
+            EMERGENCY IMMUNITY EXPIRED — INTERNATIONAL WARRANT EXECUTED
+        </div>
+
+        <div class="tribunal-grid">
+
+            <!-- LEFT COLUMN -->
+            <div class="tribunal-profile">
+
+                <div class="mugshot-frame">
+                    <div class="mugshot-placeholder">
+                        EVA STRATT<br>
+                        MUGSHOT<br><br>
+                        [ PLACE IMAGE ]
+                    </div>
+
+                    <div class="mugshot-stamp">
+                        DETAINED
+                    </div>
+                </div>
+
+                <div class="case-card">
+
+                    <div class="case-header">
+                        CASE FILE
+                    </div>
+
+                    <div class="case-item">
+                        <span>CASE ID</span>
+                        <strong>UN-PTF-4427-A</strong>
+                    </div>
+
+                    <div class="case-item">
+                        <span>STATUS</span>
+                        <strong class="red-text">LIFE SENTENCE</strong>
+                    </div>
+
+                    <div class="case-item">
+                        <span>PAROLE</span>
+                        <strong>DENIED</strong>
+                    </div>
+
+                    <div class="case-item">
+                        <span>RISK LEVEL</span>
+                        <strong class="red-text">GLOBAL</strong>
+                    </div>
+
+                    <div class="case-item">
+                        <span>FORMER TITLE</span>
+                        <strong>Director, Petrova Task Force</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="tribunal-content">
+
+                <div class="tribunal-terminal">
+
 <pre>
 [OFFICIAL TRANSCRIPT — DECLASSIFIED]
 
@@ -1962,68 +3832,95 @@ Additional classified charges remain sealed.
 
 TRANSCRIPT EXCERPT:
 
-TRIBUNAL: Do you deny responsibility for the destruction
+TRIBUNAL:
+Do you deny responsibility for the destruction
 of Antarctic ice shelves?
 
-STRATT: No.
-
-TRIBUNAL: Do you deny authorizing illegal military operations
-within sovereign territory?
-
-STRATT: No.
-
-TRIBUNAL: Do you deny coercing scientists and governments
-under threat of imprisonment or execution?
-
-STRATT: No.
+STRATT:
+No.
 
 ---
 
-TRIBUNAL: Then by your own testimony,
+TRIBUNAL:
+Do you deny authorizing illegal military operations
+within sovereign territory?
+
+STRATT:
+No.
+
+---
+
+TRIBUNAL:
+Do you deny coercing scientists and governments
+under threat of imprisonment or execution?
+
+STRATT:
+No.
+
+---
+
+TRIBUNAL:
+Then by your own testimony,
 you knowingly committed crimes
 on a global scale.
 
-STRATT: Yes.
+STRATT:
+Yes.
 
 ---
 
-TRIBUNAL: Do you feel remorse for these actions?
+TRIBUNAL:
+Do you feel remorse for these actions?
 
-STRATT: No.
-
----
-
-TRIBUNAL: Why?
-
-STRATT: Because the ship launched.
+STRATT:
+No.
 
 ---
 
-[Silence recorded for approximately 12 seconds.]
+TRIBUNAL:
+Why?
+
+STRATT:
+Because the ship launched.
 
 ---
 
-STRATT: You think people obey laws
-when extinction is coming? You think nations cooperate because they are good?"
+[ Silence recorded for approximately 12 seconds ]
+
+---
+
+STRATT:
+You think people obey laws
+when extinction is coming?
+
+You think nations cooperate because they are good?
+
 They cooperate because they are afraid.
 
 ---
 
-TRIBUNAL: Millions suffered because of your decisions.
+TRIBUNAL:
+Millions suffered because of your decisions.
 
-STRATT: Billions would have died without them.
-
----
-
-TRIBUNAL: You believe your actions were justified?
-
-STRATT: I believe humanity is still alive.
+STRATT:
+Billions would have died without them.
 
 ---
 
-STRATT: Someone had to take responsibility
+TRIBUNAL:
+You believe your actions were justified?
+
+STRATT:
+I believe humanity is still alive.
+
+---
+
+STRATT:
+Someone had to take responsibility
 for getting Hail Mary off the ground.
+
 So yes.
+
 I committed crimes.
 
 I stole.
@@ -2039,10 +3936,83 @@ to succeed...
 
 I would commit every single crime again.
 
----
-
 [END TRANSCRIPT]
 </pre>
+
+                </div>
+
+                <button class="open-report-btn"
+onclick="toggleTribunalCharges(this)">
+                    VIEW FULL CHARGE RECORD
+                </button>
+
+                <div class="tribunal-charges hidden">
+
+                    <div class="charges-header">
+                        INTERNATIONAL CHARGE DATABASE
+                    </div>
+
+                    <div class="charges-grid">
+
+                        <div class="charge-box">
+                            <span>ENVIRONMENTAL CRIMES</span>
+                            <p>
+                                Authorized deliberate destruction of Antarctic
+                                ice shelves and atmospheric methane release.
+                            </p>
+                        </div>
+
+                        <div class="charge-box">
+                            <span>MILITARY MISUSE</span>
+                            <p>
+                                Directed multinational naval operations
+                                without sovereign authorization.
+                            </p>
+                        </div>
+
+                        <div class="charge-box">
+                            <span>FORCED CONSCRIPTION</span>
+                            <p>
+                                Coercion of scientific personnel under
+                                emergency wartime authority.
+                            </p>
+                        </div>
+
+                        <div class="charge-box">
+                            <span>PROPERTY SEIZURE</span>
+                            <p>
+                                Confiscation of private aerospace,
+                                industrial, and transportation assets.
+                            </p>
+                        </div>
+
+                        <div class="charge-box">
+                            <span>HUMAN RIGHTS VIOLATIONS</span>
+                            <p>
+                                Emergency detentions and forced compliance
+                                measures under Petrova authority statutes.
+                            </p>
+                        </div>
+
+                        <div class="charge-box">
+                            <span>CLASSIFIED</span>
+                            <p>
+                                Additional charges remain sealed under
+                                post-collapse emergency continuity laws.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 `
 },
 wars: {
@@ -5549,7 +7519,8 @@ function toggleRedacted(){
     const content =
     document.getElementById('redactedContent');
 
-    content.classList.toggle('show-redacted');
+    content.classList.toggle('show-file');
+    content.classList.add('show-redacted');
 }
 
 
@@ -5566,4 +7537,23 @@ function toggleSpacewalkReport(){
     document.getElementById("spacewalkReport");
 
     report.classList.toggle("show-file");
+}
+
+function toggleTribunalCharges(button){
+
+    const panel =
+    button.nextElementSibling;
+
+    panel.classList.toggle("hidden");
+
+    if(panel.classList.contains("hidden")){
+
+        button.innerText =
+        "VIEW FULL CHARGE RECORD";
+
+    } else {
+
+        button.innerText =
+        "HIDE CHARGE RECORD";
+    }
 }
