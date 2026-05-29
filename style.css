@@ -88,16 +88,21 @@ body{
 .panel{
     position:relative;
 
-    height:100vh;
+    min-height:100vh;
 
     scroll-snap-align:start;
 
     display:flex;
-    align-items:center;
 
-    padding:10vw;
+    align-items:flex-start; /* was center */
 
-    overflow:hidden;
+    padding:
+    calc(90px + 5vh)   /* top space for navbar */
+    10vw
+    8vh;
+
+    overflow-y:auto;
+    overflow-x:hidden;
 }
 
 /* OVERLAY */
@@ -135,7 +140,8 @@ body{
     position:relative;
     z-index:5;
 
-    max-width:800px;
+    width:100%;
+    max-width:1000px;
 
     opacity:0;
     transform:translateY(50px);
@@ -143,6 +149,11 @@ body{
     transition:
     opacity 1s ease,
     transform 1s ease;
+}
+
+.content.show{
+    opacity:1;
+    transform:translateY(0);
 }
 
 .content.show{
@@ -1628,7 +1639,7 @@ h1{
 
     position:absolute;
 
-    top:30px;
+    bottom:80px;
 
     right:30px;
 
@@ -1642,7 +1653,7 @@ h1{
 
     color:rgba(255,255,255,0.5);
 
-    background:rgba(255,255,255,0.03);
+    background:rgba(215, 85, 85, 0.319);
 
     z-index:20;
 
@@ -5327,11 +5338,11 @@ h1{
 
     padding:8px 12px;
 
-    background:rgba(255,70,70,0.15);
+    background:rgba(255, 70, 70, 0.39);
 
     border:1px solid rgba(255,70,70,0.35);
 
-    color:#ffb4b4;
+    color:#191010;
 
     font-size:0.65rem;
 
@@ -10774,6 +10785,8 @@ textarea{
 }
 
 .photo-placeholder{
+    position:relative;
+    overflow:hidden;
 
     min-height:160px;
 
@@ -10794,6 +10807,13 @@ textarea{
     font-size:0.8rem;
 
     letter-spacing:2px;
+}
+
+.photo-placeholder img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
 }
 
 .photo-placeholder span{
@@ -10909,5 +10929,428 @@ textarea{
     .photo-placeholder{
 
         min-height:140px;
+    }
+}
+
+/* =========================================
+   COLLAPSE REPORT
+========================================= */
+
+.collapse-report-shell{
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    background:
+    linear-gradient(to bottom,
+    rgba(8,12,18,0.96),
+    rgba(5,8,14,0.98));
+
+    padding:40px;
+
+    box-shadow:
+    0 0 80px rgba(255,80,80,0.08);
+
+    overflow:hidden;
+}
+
+/* TOPBAR */
+
+.collapse-topbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:34px;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+}
+
+.collapse-status{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-size:0.78rem;
+
+    letter-spacing:3px;
+
+    color:#ff8d8d;
+}
+
+.collapse-dot{
+
+    width:10px;
+    height:10px;
+
+    border-radius:50%;
+
+    background:#ff5252;
+
+    box-shadow:
+    0 0 12px #ff5252;
+}
+
+.collapse-year{
+
+    font-size:0.72rem;
+
+    letter-spacing:3px;
+
+    color:#9ba7bc;
+}
+
+/* GRID */
+
+.collapse-grid{
+
+    display:grid;
+
+    grid-template-columns:1.1fr 0.9fr;
+
+    gap:28px;
+}
+
+/* LEFT */
+
+.collapse-left{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+}
+
+/* THREAT PANEL */
+
+.collapse-threat-panel{
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    background:rgba(255,255,255,0.02);
+
+    padding:30px;
+}
+
+.collapse-threat-panel h2{
+
+    margin:0;
+
+    font-size:2rem;
+
+    letter-spacing:4px;
+
+    color:#ffffff;
+}
+
+.collapse-sub{
+
+    margin-top:14px;
+
+    color:#9ca8bb;
+
+    line-height:1.7;
+}
+
+/* STATS */
+
+.collapse-stat-grid{
+
+    margin-top:28px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:16px;
+}
+
+.collapse-stat-box{
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    background:rgba(255,255,255,0.03);
+
+    padding:18px;
+}
+
+.collapse-stat-box span{
+
+    display:block;
+
+    font-size:0.65rem;
+
+    letter-spacing:2px;
+
+    color:#8895aa;
+
+    margin-bottom:10px;
+}
+
+.collapse-stat-box h3{
+
+    margin:0;
+
+    font-size:2rem;
+
+    color:#ffdbdb;
+}
+
+/* WAR MAP */
+
+.collapse-war-map{
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    background:rgba(255,255,255,0.02);
+
+    padding:28px;
+}
+
+.collapse-map-header{
+
+    font-size:0.8rem;
+
+    letter-spacing:3px;
+
+    margin-bottom:24px;
+
+    color:#cfd7e5;
+}
+
+.collapse-map-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:16px;
+}
+
+.collapse-map-node{
+
+    padding:18px;
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    background:rgba(255,255,255,0.025);
+}
+
+.collapse-map-node span{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-size:0.78rem;
+
+    letter-spacing:2px;
+}
+
+.collapse-map-node p{
+
+    margin:0;
+
+    color:#98a3b6;
+
+    font-size:0.82rem;
+
+    line-height:1.6;
+}
+
+.collapse-map-node.danger{
+
+    border-color:rgba(255,80,80,0.3);
+}
+
+.collapse-map-node.danger span{
+
+    color:#ff8b8b;
+}
+
+.collapse-map-node.warning{
+
+    border-color:rgba(255,174,0,0.25);
+}
+
+.collapse-map-node.warning span{
+
+    color:#ffd277;
+}
+
+.collapse-map-node.caution span{
+
+    color:#8bd4ff;
+}
+
+/* RIGHT */
+
+.collapse-right{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+}
+
+/* FEED */
+
+.collapse-feed{
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    background:rgba(255,255,255,0.025);
+
+    overflow:hidden;
+}
+
+.collapse-feed-title{
+
+    padding:16px 22px;
+
+    border-bottom:1px solid rgba(255,255,255,0.08);
+
+    background:rgba(255,255,255,0.03);
+
+    letter-spacing:3px;
+
+    font-size:0.72rem;
+
+    color:#ffb8b8;
+}
+
+.collapse-feed pre{
+
+    margin:0;
+
+    padding:24px;
+
+    font-size:0.84rem;
+
+    line-height:1.9;
+
+    white-space:pre-wrap;
+
+    color:#d7dde8;
+
+    font-family:"Share Tech Mono", monospace;
+}
+
+/* PROJECTION BARS */
+
+.collapse-projections{
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    background:rgba(255,255,255,0.025);
+
+    padding:24px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+}
+
+.projection-line span{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    font-size:0.72rem;
+
+    letter-spacing:2px;
+
+    color:#b4bfce;
+}
+
+.projection-bar{
+
+    height:12px;
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    background:rgba(255,255,255,0.03);
+
+    overflow:hidden;
+}
+
+.projection-fill{
+
+    height:100%;
+}
+
+.projection-fill.food{
+
+    width:41%;
+
+    background:linear-gradient(to right,#ffce6b,#ff7f50);
+}
+
+.projection-fill.ocean{
+
+    width:24%;
+
+    background:linear-gradient(to right,#7fc8ff,#1e4f8a);
+}
+
+.projection-fill.politics{
+
+    width:17%;
+
+    background:linear-gradient(to right,#ff8d8d,#802020);
+}
+
+.projection-fill.humanity{
+
+    width:52%;
+
+    background:linear-gradient(to right,#6de7ff,#3673ff);
+}
+
+/* MOBILE */
+
+@media(max-width:1000px){
+
+    .collapse-grid{
+
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:700px){
+
+    .collapse-report-shell{
+
+        padding:22px;
+    }
+
+    .collapse-map-grid,
+    .collapse-stat-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    .collapse-threat-panel h2{
+
+        font-size:1.4rem;
+    }
+
+    .collapse-feed pre{
+
+        font-size:0.74rem;
+
+        line-height:1.7;
     }
 }

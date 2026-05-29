@@ -511,7 +511,7 @@ const archiveEntries = {
             </p>
 
         </div>
-
+        <!-- IGNORE 
         <div class="broadcast-stat-card">
 
             <span>HISTORICAL DESIGNATION</span>
@@ -523,6 +523,7 @@ const archiveEntries = {
             </p>
 
         </div>
+        -->
 
     </div>
 
@@ -556,52 +557,33 @@ const archiveEntries = {
 REPORTER:
 We are just minutes away from the flyby
 through the Petrova line near Venus.
-
 So what can you tell us about the ArcLight probe?
 What do we expect to find?
 
-DR. BROWNE:
-The image we see will be coming from
-the onboard microscope.
+DR. BROWNE: 
+The image we see will be coming from the onboard microscope.
 
----
+The screen changed to a black-and-white microscope image. Tiny dark particles drifted across the display.
 
-[ONBOARD MICROSCOPY FEED ACTIVATED]
-
-The screen changed to a black-and-white
-microscope image.
-
-Tiny dark particles drifted across the display.
-
-REPORTER:
+REPORTER: 
 What are we looking at, Doctor?
 
-DR. BROWNE:
-This is from the internal microscope.
-It's magnified ten thousand times.
+DR. BROWNE: 
+This is from the internal microscope. It's magnified ten thousand times.
 
----
+[4.2 seconds of silence] One of the particles moved.
 
-[4.2 seconds of silence]
-
-One of the particles moved.
-
-DR. BROWNE:
+DR. BROWNE: 
 Oh my God...
 
-REPORTER:
-Are those particles moving?
+REPORTER: 
+Are those particles moving? The black dots twisted and shifted through the sample.
 
-The black dots twisted and shifted
-through the sample.
+DR. BROWNE: 
+Oh—oh my god. Sorry, I have to go now.
 
-DR. BROWNE:
-Oh—oh my god.
-
-Sorry, I have to go now.
-
-UNKNOWN VOICE:
-"What the fuck?!"
+UNKNOWN VOICE: 
+What the fuck?
 
 [AUDIO DISTORTION DETECTED]
 
@@ -612,49 +594,7 @@ UNKNOWN VOICE:
 
             </div>
 
-            <!-- VIEWER RESPONSE -->
-
-            <div class="world-reaction-panel">
-
-                <h3>GLOBAL RESPONSE</h3>
-
-                <div class="reaction-grid">
-
-                    <div class="reaction-card">
-                        <span>NEW YORK</span>
-                        <p>
-                            Crowds gathered in Times Square
-                            reportedly fell silent simultaneously.
-                        </p>
-                    </div>
-
-                    <div class="reaction-card">
-                        <span>TOKYO</span>
-                        <p>
-                            Public rail systems experienced delays
-                            due to passengers watching station monitors.
-                        </p>
-                    </div>
-
-                    <div class="reaction-card">
-                        <span>LONDON</span>
-                        <p>
-                            BBC emergency coverage interrupted
-                            all scheduled programming.
-                        </p>
-                    </div>
-
-                    <div class="reaction-card">
-                        <span>GLOBAL INTERNET</span>
-                        <p>
-                            Largest traffic spike ever recorded
-                            across civilian networks.
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
+            
 
         </div>
 
@@ -673,23 +613,21 @@ UNKNOWN VOICE:
                 <div class="photo-grid">
 
                     <div class="photo-placeholder">
-                        <span>INSERT:</span>
-                        ARC LIGHT PROBE
+                        <img src="assets/arc3.png" alt="MISSION CONTROL">
                     </div>
 
                     <div class="photo-placeholder">
-                        <span>INSERT:</span>
-                        MICROSCOPY FEED
+                    <img src="assets/arc2.png" alt="MICROSCOPY FEED">
                     </div>
 
+                    
                     <div class="photo-placeholder">
-                        <span>INSERT:</span>
-                        MISSION CONTROL
+                    <img src="assets/arc1.png" alt="ARC LIGHT PROBE">
                     </div>
 
+
                     <div class="photo-placeholder">
-                        <span>INSERT:</span>
-                        FIRST MOVEMENT FRAME
+                        <img src="assets/arc4.png" alt="FIRST MOVEMENT FRAME">
                     </div>
 
                 </div>
@@ -714,7 +652,7 @@ UNKNOWN VOICE:
                 <div class="metric-row">
 
                     <span>Sample Temperature</span>
-                    <strong>96°C</strong>
+                    <strong>96.41521739°C</strong>
 
                 </div>
 
@@ -762,6 +700,49 @@ UNKNOWN VOICE:
                 </p>
 
             </div>
+            <!-- VIEWER RESPONSE -->
+
+            <div class="world-reaction-panel">
+
+                <h3>GLOBAL RESPONSE</h3>
+
+                <div class="reaction-grid">
+
+                    <div class="reaction-card">
+                        <span>NEW YORK</span>
+                        <p>
+                            Crowds gathered in Times Square
+                            reportedly fell silent simultaneously.
+                        </p>
+                    </div>
+
+                    <div class="reaction-card">
+                        <span>TOKYO</span>
+                        <p>
+                            Public rail systems experienced delays
+                            due to passengers watching station monitors.
+                        </p>
+                    </div>
+
+                    <div class="reaction-card">
+                        <span>LONDON</span>
+                        <p>
+                            BBC emergency coverage interrupted
+                            all scheduled programming.
+                        </p>
+                    </div>
+
+                    <div class="reaction-card">
+                        <span>GLOBAL INTERNET</span>
+                        <p>
+                            Largest traffic spike ever recorded
+                            across civilian networks.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -786,7 +767,7 @@ taskforce: {
         <div class="stratt-photo-panel">
 
             <div class="stratt-photo">
-                PLACE EVA STRATT IMAGE HERE
+                <img class="stratt-photo" src="assets/mugshot.webp" alt="Eva Stratt">
             </div>
 
             <div class="status-tag">
@@ -820,7 +801,7 @@ taskforce: {
 
                 <div class="profile-stat">
                     <span>STATUS</span>
-                    IMMUNITY GRANTED
+                    DIPLOMATIC IMMUNITY
                 </div>
 
                 <div class="profile-stat">
@@ -829,8 +810,8 @@ taskforce: {
                 </div>
 
                 <div class="profile-stat">
-                    <span>THREAT LEVEL</span>
-                    EXISTENTIAL
+                    <span>TIMELINE</span>
+                    T-0:00:00
                 </div>
 
             </div>
@@ -930,7 +911,7 @@ taskforce: {
 
                 <p>
                     Launch a deep-space probe
-                    capable of intercepting the Petrova Line
+                    capable of gathering samples from the Petrova Line
                     near Venusian orbit.
                 </p>
 
@@ -983,6 +964,10 @@ taskforce: {
 
             <div class="legal-item">
                 CONTROL OVER PETROVA-RELATED RESEARCH INITIATIVES
+            </div>
+
+            <div class="legal-item">
+                UNLIMITED BUDGET FOR ANY AND ALL RESEARCH, TRANSPORATION, INFORMATION, AND LOGISTICAL NEEDS
             </div>
 
         </div>
@@ -1038,15 +1023,15 @@ astrophage: {
     <div class="astro-image-strip">
 
         <div class="astro-image">
-            SAMPLE IMAGE
+            <img class="astro-image" src="assets/astro-ball.png" alt="Astrophage Microscopy Image">
         </div>
 
         <div class="astro-image">
-            MICROSCOPY IMAGE
+            <img class="astro-image" src="assets/white.png" alt="Astrophage Energy Emission">
         </div>
 
         <div class="astro-image">
-            CELL STRUCTURE
+            <img class="astro-image" src="assets/astro-lab.png" alt="Astrophage Render">
         </div>
 
     </div>
@@ -1076,10 +1061,10 @@ astrophage: {
 
             <div class="scan-failure">
 
-                X-RAYS ........ FAILED<br>
+                X-RAYS ................ FAILED<br>
                 GAMMA ANALYSIS ........ FAILED<br>
-                MICROWAVE IMAGING ........ FAILED<br>
-                VISIBLE LIGHT PENETRATION ........ FAILED
+                MICROWAVE IMAGING ..... FAILED<br>
+                VISIBLE LIGHT ......... FAILED
 
             </div>
 
@@ -1164,11 +1149,11 @@ astrophage: {
             <div class="grace-profile">
 
                 <div class="profile-label">
-                    LEAD RESEARCHER
+                    RESEARCHER : SAN FRANCISCO, USA
                 </div>
 
                 <div class="grace-photo">
-                    PLACE DR. GRACE IMAGE HERE
+                    <img class="grace-photo" src="assets/ryland-lab.png" alt="Dr. Ryland Grace">
                 </div>
 
                 <div class="grace-name">
@@ -1180,12 +1165,6 @@ astrophage: {
                 </div>
 
                 <div class="grace-desc">
-
-                    Former middle school science teacher
-                    turned leading Astrophage specialist.
-
-                    <br><br>
-
                     Credited with coining the term
                     <span>“Astrophage”</span> during early analysis
                     of ArcLight biological samples.
@@ -1261,6 +1240,27 @@ astrophage: {
                     PRIORITY
                     <span>SPECIES SURVIVAL</span>
                 </div>
+
+            </div>
+
+            <div class="grace-photo">
+                    <img class="grace-photo" src="assets/madeof.png" alt="Dr. Ryland Grace">
+            </div>
+
+            <div class="scan-failure">
+
+                OXYGEN ............ 60.93%<br>
+                CARBON ............ 22.85%<br>
+                HYDROGEN .......... 9.84%<br>
+                NITROGEN .......... 2.44%<br>
+                CALCIUM ........... 1.40%<br>
+                PHOSPHORUS ........ 1.08%<br>
+                ARGON ............. 0.76%<br>
+                SULFUR ............ 0.19%<br>
+                POTASSIUM ......... 0.19%<br>
+                SODIUM ............ 0.14%<br>
+                CHLORINE ........... 0.13%<br>
+                MAGNESIUM .......... 0.04%<br>
 
             </div>
 
@@ -4020,16 +4020,228 @@ wars: {
     title: 'GLOBAL RESOURCE COLLAPSE REPORT',
 
     body: `
+
+
+<div class="collapse-report-shell">
+
+    <!-- HEADER -->
+
+    <div class="collapse-topbar">
+
+        <div class="collapse-status">
+            <span class="collapse-dot"></span>
+            EARTH SYSTEM STATUS — CRITICAL
+        </div>
+
+        <div class="collapse-year">
+            T+1.5 YEARS AFTER HAIL MARY LAUNCH
+        </div>
+
+    </div>
+
+    <!-- MAIN GRID -->
+
+    <div class="collapse-grid">
+
+        <!-- LEFT SIDE -->
+
+        <div class="collapse-left">
+
+            <div class="collapse-threat-panel">
+
+                <h2>RESOURCE WARS BEGIN</h2>
+
+                <p class="collapse-sub">
+                    Global food systems continue destabilizing
+                    under accelerating solar dimming conditions.
+                </p>
+
+                <div class="collapse-stat-grid">
+
+                    <div class="collapse-stat-box">
+                        <span>GLOBAL CROP LOSS</span>
+                        <h3>41%</h3>
+                    </div>
+
+                    <div class="collapse-stat-box">
+                        <span>DISPLACED POPULATION</span>
+                        <h3>1.8B</h3>
+                    </div>
+
+                    <div class="collapse-stat-box">
+                        <span>RATIONING STATES</span>
+                        <h3>63</h3>
+                    </div>
+
+                    <div class="collapse-stat-box">
+                        <span>ACTIVE CONFLICTS</span>
+                        <h3>27</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CONFLICT MAP -->
+
+            <div class="collapse-war-map">
+
+                <div class="collapse-map-header">
+                    ACTIVE GLOBAL FLASHPOINTS
+                </div>
+
+                <div class="collapse-map-grid">
+
+                    <div class="collapse-map-node danger">
+                        <span>NORTHERN INDIA</span>
+                        <p>Food riots / border conflicts</p>
+                    </div>
+
+                    <div class="collapse-map-node warning">
+                        <span>SIBERIA</span>
+                        <p>Arable land occupation battles</p>
+                    </div>
+
+                    <div class="collapse-map-node danger">
+                        <span>CANADIAN GRAIN BELT</span>
+                        <p>Military enforced ration zones</p>
+                    </div>
+
+                    <div class="collapse-map-node warning">
+                        <span>MEDITERRANEAN</span>
+                        <p>Desalination infrastructure collapse</p>
+                    </div>
+
+                    <div class="collapse-map-node danger">
+                        <span>SOUTH AMERICA</span>
+                        <p>Freshwater conflicts escalating</p>
+                    </div>
+
+                    <div class="collapse-map-node caution">
+                        <span>NORTH ATLANTIC</span>
+                        <p>Shipping lane instability</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+
+        <div class="collapse-right">
+
+            <!-- LIVE FEED -->
+
+            <div class="collapse-feed">
+
+                <div class="collapse-feed-title">
+                    LIVE EARTH SYSTEMS FEED
+                </div>
+
 <pre>
-[UNITED EARTH RESOURCE OBSERVATION NETWORK]
+[ GLOBAL CONDITIONS UPDATE ]
 
-DATE:
-T+1.5 Years After Hail Mary Launch
+SOLAR OUTPUT CONTINUES DECLINE
 
-STATUS:
-CRITICAL
+Average surface temperatures continue falling
+despite methane intervention operations.
 
+Marine ecosystems report widespread collapse.
+
+Northern fisheries now considered functionally extinct.
+
+--------------------------------------------
+
+FOOD DISTRIBUTION STATUS:
+
+• Emergency rationing active in 63 nations
+• Grain reserves nearing depletion
+• Fuel shortages disrupting transportation
+• Refugee movement exceeds all UN projections
+
+--------------------------------------------
+
+GEOPOLITICAL STATUS:
+
+Several governments formally dissolved
+during the first eighteen months after launch.
+
+Remaining military powers increasingly redirect
+resources toward internal stabilization.
+
+International cooperation continues deteriorating.
+
+--------------------------------------------
+
+PUBLIC RESPONSE:
+
+Project Hail Mary now viewed by much of humanity
+as the only remaining long-term survival strategy.
+
+Religious movements centered around the mission
+have appeared across multiple continents.
+
+Extremist organizations continue labeling the mission:
+
+"humanity's salvation"
+
+or
+
+"humanity's final betrayal."
+
+--------------------------------------------
+
+MISSION STATUS:
+
+HAIL MARY
+EN ROUTE TO TAU CETI
+
+NO CONTACT EXPECTED FOR OVER A DECADE
 </pre>
+
+            </div>
+
+            <!-- PROJECTION BARS -->
+
+            <div class="collapse-projections">
+
+                <div class="projection-line">
+                    <span>FOOD STABILITY</span>
+                    <div class="projection-bar">
+                        <div class="projection-fill food"></div>
+                    </div>
+                </div>
+
+                <div class="projection-line">
+                    <span>OCEAN HEALTH</span>
+                    <div class="projection-bar">
+                        <div class="projection-fill ocean"></div>
+                    </div>
+                </div>
+
+                <div class="projection-line">
+                    <span>GLOBAL COOPERATION</span>
+                    <div class="projection-bar">
+                        <div class="projection-fill politics"></div>
+                    </div>
+                </div>
+
+                <div class="projection-line">
+                    <span>HUMANITY SURVIVAL INDEX</span>
+                    <div class="projection-bar">
+                        <div class="projection-fill humanity"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
 <div class="projection-grid">
 
@@ -4160,83 +4372,6 @@ CRITICAL
     </div>
 
 </div>
-
-<pre>
-
----
-
-SUMMARY:
-
-Global agricultural production continued collapsing
-following ongoing solar luminosity reduction
-and severe atmospheric instability.
-
-Multiple staple crops experienced catastrophic failures.
-
-Marine ecosystems deteriorated rapidly due to:
-• Cooling oceans
-• Methane disruption effects
-• Food chain collapse
-
-Combined humanitarian pressures resulted in
-the largest migration crisis in recorded history.
-
----
-
-ESTIMATED CONDITIONS:
-
-• 1.8 billion displaced persons
-• 41% decline in global crop output
-• 63 nations under emergency rationing
-• Major freshwater conflicts ongoing
-• Global fuel distribution severely disrupted
-
----
-
-ACTIVE CONFLICT REGIONS:
-
-• Northern India
-• Siberian agricultural zones
-• Canadian grain territories
-• Mediterranean desalination networks
-• South American freshwater reserves
-
----
-
-MILITARY ANALYSIS:
-
-Several governments formally collapsed
-during the first eighteen months following launch.
-
-Remaining major powers increasingly redirected
-military resources toward domestic stabilization.
-
-International cooperation continued deteriorating.
-
----
-
-PUBLIC SENTIMENT:
-
-Project Hail Mary increasingly viewed
-as humanity's only remaining long-term survival strategy.
-
-Religious movements centered around the mission
-emerged across multiple continents.
-
-Several extremist organizations declared
-the mission either humanity's salvation
-or humanity's final betrayal.
-
----
-
-MISSION STATUS:
-
-HAIL MARY remains en route to Tau Ceti.
-
-No communication expected for over a decade.
-
-[END REPORT]
-</pre>
 `
 },
 yao: {
@@ -7556,4 +7691,8 @@ function toggleTribunalCharges(button){
         button.innerText =
         "HIDE CHARGE RECORD";
     }
+}
+
+function openAstrophageReport() {
+    
 }

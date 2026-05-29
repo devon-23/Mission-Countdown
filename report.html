@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Astrophage Reproduction & Propulsion Analysis</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --bg:#060b12;
+    --panel:#0d1521;
+    --panel2:#111c2d;
+    --line:#223852;
+    --accent:#6de7ff;
+    --text:#d9e4f2;
+    --muted:#8ea0b9;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:Inter,sans-serif;
+}
+
+.report{
+    width:min(1400px,95%);
+    margin:auto;
+    padding:60px 0;
+}
+
+.header{
+    border:1px solid var(--line);
+    background:linear-gradient(to bottom,var(--panel2),var(--panel));
+    padding:40px;
+    margin-bottom:30px;
+}
+
+.classification{
+    color:#ff8b8b;
+    font-size:.8rem;
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+h1{
+    margin:0;
+    font-size:2.4rem;
+    letter-spacing:2px;
+}
+
+.subtitle{
+    margin-top:12px;
+    color:var(--muted);
+}
+
+.summary-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:35px;
+}
+
+.stat-card{
+    border:1px solid var(--line);
+    background:rgba(255,255,255,0.02);
+    padding:20px;
+}
+
+.stat-label{
+    color:var(--muted);
+    font-size:.75rem;
+    letter-spacing:2px;
+}
+
+.stat-value{
+    font-size:1.8rem;
+    color:var(--accent);
+    margin-top:10px;
+}
+
+.section{
+    border:1px solid var(--line);
+    background:var(--panel);
+    padding:30px;
+    margin-bottom:25px;
+}
+
+.section h2{
+    margin-top:0;
+    color:var(--accent);
+}
+
+.data-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.data-table th{
+    text-align:left;
+    background:rgba(109,231,255,.08);
+    color:var(--accent);
+    padding:12px;
+    font-size:.85rem;
+}
+
+.data-table td{
+    padding:12px;
+    border-top:1px solid rgba(255,255,255,.05);
+}
+
+.data-table tr:hover{
+    background:rgba(255,255,255,.02);
+}
+
+.value{
+    font-family:"Share Tech Mono", monospace;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.highlight{
+    border-left:4px solid var(--accent);
+    padding-left:20px;
+    margin-top:20px;
+}
+
+.footer{
+    text-align:center;
+    color:var(--muted);
+    padding:40px 0;
+    font-size:.8rem;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+    h1{
+        font-size:1.8rem;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="report">
+
+<div class="header">
+
+<div class="classification">
+PETROVA TASK FORCE • SCIENTIFIC ANALYSIS DIVISION
+</div>
+
+<h1>ASTROPHAGE REPRODUCTION & INTERSTELLAR PROPAGATION MODEL</h1>
+
+<div class="subtitle">
+Compiled from ArcLight Sample Analysis • Revision 12.7
+</div>
+
+<div class="summary-grid">
+
+<div class="stat-card">
+<div class="stat-label">PROPAGATION RANGE</div>
+<div class="stat-value">178 LY</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-label">DELTA-V</div>
+<div class="stat-value">0.925 c</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-label">DOUBLING TIME</div>
+<div class="stat-value">1.83 Days</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-label">TEMPERATURE</div>
+<div class="stat-value">96.4°C</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Abstract</h2>
+
+<p>
+Analysis of recovered Astrophage specimens suggests a biological
+organism capable of harvesting stellar energy with extraordinary
+efficiency. Modeling indicates sustained relativistic travel,
+self-replication, and energy storage densities previously thought
+physically impossible.
+</p>
+
+<p>
+The following report summarizes measured constants, energetic
+properties, reproduction thresholds, and interstellar migration
+projections derived from laboratory observations.
+</p>
+
+</div>
+
+<div class="columns">
+
+<div class="section">
+
+<h2>Physical Constants</h2>
+
+<table class="data-table">
+
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Speed of Light</td>
+<td class="value">3.00 × 10⁸ m/s</td>
+</tr>
+
+<tr>
+<td>Boltzmann Constant</td>
+<td class="value">1.38 × 10⁻²³ J/K</td>
+</tr>
+
+<tr>
+<td>Planck Constant</td>
+<td class="value">6.63 × 10⁻³⁴ J·s</td>
+</tr>
+
+<tr>
+<td>Solar Luminosity</td>
+<td class="value">3.86 × 10²⁶ W</td>
+</tr>
+
+<tr>
+<td>Solar Radius</td>
+<td class="value">6.96 × 10⁸ m</td>
+</tr>
+
+<tr>
+<td>Solar Mass</td>
+<td class="value">1.99 × 10³⁰ kg</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>Observed Astrophage Metrics</h2>
+
+<table class="data-table">
+
+<tr>
+<th>Measurement</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Cell Radius</td>
+<td class="value">10 μm</td>
+</tr>
+
+<tr>
+<td>Temperature</td>
+<td class="value">369.57 K</td>
+</tr>
+
+<tr>
+<td>Surface Area</td>
+<td class="value">3.07 × 10⁻⁷ m²</td>
+</tr>
+
+<tr>
+<td>Energy Collection Rate</td>
+<td class="value">1.095 W</td>
+</tr>
+
+<tr>
+<td>Stored Energy</td>
+<td class="value">376,991 J</td>
+</tr>
+
+<tr>
+<td>Propellant Ratio</td>
+<td class="value">0.8031</td>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Reproduction Analysis</h2>
+
+<table class="data-table">
+
+<tr>
+<th>Environment</th>
+<th>Energy Rate</th>
+<th>Doubling Time</th>
+</tr>
+
+<tr>
+<td>Solar Exposure</td>
+<td class="value">4.86 W</td>
+<td class="value">1.83 Days</td>
+</tr>
+
+<tr>
+<td>Lava Exposure</td>
+<td class="value">1.095 W</td>
+<td class="value">8.12 Days</td>
+</tr>
+
+</table>
+
+<div class="highlight">
+<strong>Conclusion:</strong> Astrophage can reproduce in geothermal
+environments, but stellar feeding remains approximately 4.4× more
+efficient.
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Interstellar Travel Modeling</h2>
+
+<table class="data-table">
+
+<tr>
+<th>Metric</th>
+<th>Result</th>
+</tr>
+
+<tr>
+<td>Gamma Factor</td>
+<td class="value">2.6378</td>
+</tr>
+
+<tr>
+<td>Velocity</td>
+<td class="value">277,606,157 m/s</td>
+</tr>
+
+<tr>
+<td>Maximum Simulated Range</td>
+<td class="value">178 Light Years</td>
+</tr>
+
+<tr>
+<td>Spores Required</td>
+<td class="value">5.64 × 10¹⁶</td>
+</tr>
+
+<tr>
+<td>Predicted Shell Area</td>
+<td class="value">8.57 × 10³⁴ m²</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>Research Conclusions</h2>
+
+<ul>
+<li>Astrophage stores energy at unprecedented densities.</li>
+<li>Observed propulsion behavior is consistent with relativistic travel.</li>
+<li>Self-replication remains viable in multiple thermal environments.</li>
+<li>Interstellar dispersal across hundreds of light years is theoretically possible.</li>
+<li>Collected data supports the hypothesis that Astrophage is responsible for stellar energy extraction events observed throughout the Petrova Line.</li>
+</ul>
+
+</div>
+
+<div class="footer">
+PETROVA TASK FORCE • BIOLOGICAL ANALYSIS DIVISION • ARCHIVE COPY
+</div>
+
+</div>
+
+</body>
+</html>
