@@ -700,7 +700,7 @@ What the fuck?
                 </p>
 
             </div>
-            <!-- VIEWER RESPONSE -->
+            <!-- VIEWER RESPONSE 
 
             <div class="world-reaction-panel">
 
@@ -743,12 +743,323 @@ What the fuck?
                 </div>
 
             </div>
+            -->
+                
+        </div>
+        
+
+</div>
+
+<div class="recruitment-dashboard">
+
+    <div class="recruitment-banner">
+
+        <h2>PETROVA TASK FORCE</h2>
+
+        <h1>SCIENTIFIC RECRUITMENT PROGRAM</h1>
+
+        <p>
+            GLOBAL CLEARANCE DATABASE —
+            INITIAL ASTROPHAGE ANALYSIS CANDIDATES
+        </p>
+
+    </div>
+
+    <!-- SUMMARY -->
+
+    <div class="recruitment-stats">
+
+        <div>
+            <span>APPLICANTS REVIEWED</span>
+            <h3>41,882</h3>
+        </div>
+
+        <div>
+            <span>SELECTED SCIENTISTS</span>
+            <h3>1,204</h3>
+        </div>
+
+        <div>
+            <span>NATIONS REPRESENTED</span>
+            <h3>87</h3>
+        </div>
+
+        <div>
+            <span>CLEARANCE LEVEL</span>
+            <h3>OMEGA</h3>
+        </div>
+
+    </div>
+
+    <!-- ACCESS NOTICE -->
+
+    <div class="sample-access-card">
+
+        <h3>INITIAL SAMPLE AUTHORIZATION</h3>
+
+        <div class="primary-scientist">
+
+            <span>FIRST SCIENTIST GRANTED ACCESS</span>
+
+            <h2>DR. RYLAND GRACE</h2>
+
+            <p>
+                Molecular Biologist
+                • United States
+            </p>
+
+        </div>
+
+        <blockquote>
+
+            "Most deadly diseases have a minimum incubation period.
+
+            Until we know what Astrophage is,
+            the samples remain restricted."
+
+        </blockquote>
+
+        <div class="access-note">
+
+            Director Eva Stratt authorized a single-scientist
+            analysis protocol.
+
+            Additional researchers would receive access only after
+            preliminary biological characterization was completed.
+
+        </div>
+
+    </div>
+
+    <!-- MOLECULAR BIOLOGY -->
+
+    <details class="scientist-section">
+
+        <summary>
+
+            MOLECULAR BIOLOGY DIVISION
+
+            <span>
+                Lead Scientist:
+                Dr. Eleanor Scyther
+            </span>
+
+        </summary>
+
+        <div class="scientist-table">
+
+            <div class="scientist-row featured">
+
+                <div>
+                    <strong>Dr. Ryland Grace</strong>
+                    <small>United States</small>
+                </div>
+
+                <div>
+                    An Analysis of Water Based Assumptions
+                    and Recalibrations of Expectations
+                    for Evolutionary Models
+                </div>
+
+            </div>
+
+            <div class="scientist-row">
+
+                <div>
+                    Dr. Sofia Almeida
+                    <small>Brazil</small>
+                </div>
+
+                <div>
+                    Cellular Adaptation Mechanisms
+                    in Extreme Hydrothermal Environments
+                </div>
+
+            </div>
+
+            <div class="scientist-row">
+
+                <div>
+                    Dr. Ibrahim Hassan
+                    <small>Egypt</small>
+                </div>
+
+                <div>
+                    Metabolic Stability in
+                    High-Energy Microorganisms
+                </div>
+
+            </div>
+
+            <div class="scientist-row">
+
+                <div>
+                    Dr. Mei Zhang
+                    <small>China</small>
+                </div>
+
+                <div>
+                    Synthetic Evolutionary Pathways
+                    in Closed Ecological Systems
+                </div>
+
+            </div>
+
+            <div class="scientist-row">
+
+                <div>
+                    Dr. Hannah Roth
+                    <small>Germany</small>
+                </div>
+
+                <div>
+                    Genetic Survivability Models
+                    Under Catastrophic Selection Pressures
+                </div>
+
+            </div>
+
+        </div>
+
+    </details>
+
+    <!-- ASTROPHYSICS -->
+
+    <details class="scientist-section">
+
+        <summary>
+
+            ASTROPHYSICS DIVISION
+
+            <span>
+                Lead Scientist:
+                Dr. Viktor Petrov
+            </span>
+
+        </summary>
+
+        <div class="scientist-table">
+
+            <div class="scientist-row">
+                <div>
+                    Dr. Lucas Hammond
+                    <small>United Kingdom</small>
+                </div>
+
+                <div>
+                    Infrared Signatures
+                    of Non-Stellar Energy Migration
+                </div>
+            </div>
+
+            <div class="scientist-row">
+                <div>
+                    Dr. Rina Sato
+                    <small>Japan</small>
+                </div>
+
+                <div>
+                    Gravitational Modeling
+                    of Interplanetary Energy Transfer
+                </div>
+            </div>
+
+            <div class="scientist-row">
+                <div>
+                    Dr. Arjun Patel
+                    <small>India</small>
+                </div>
+
+                <div>
+                    Large-Scale Analysis
+                    of Stellar Luminosity Anomalies
+                </div>
+            </div>
+
+        </div>
+
+    </details>
+
+    <!-- MATERIALS -->
+
+    <details class="scientist-section">
+
+        <summary>
+
+            MATERIALS SCIENCE DIVISION
+
+            <span>
+                Lead Scientist:
+                Dr. Nadia Volkov
+            </span>
+
+        </summary>
+
+        <div class="scientist-table">
+
+            <div class="scientist-row">
+                <div>
+                    Dr. Pierre Laurent
+                    <small>France</small>
+                </div>
+
+                <div>
+                    Ultra-Dense Carbon Structures
+                    Under Extreme Thermal Loads
+                </div>
+            </div>
+
+            <div class="scientist-row">
+                <div>
+                    Dr. Liam O'Connell
+                    <small>Ireland</small>
+                </div>
+
+                <div>
+                    Failure Characteristics
+                    of High-Energy Containment Systems
+                </div>
+            </div>
+
+        </div>
+
+    </details>
+
+    <!-- TASK FORCE MEMO -->
+
+    <div class="stratt-directive">
+
+        <h3>DIRECTOR'S DIRECTIVE</h3>
+
+        <p>
+
+            Before distribution to the international scientific
+            community, Astrophage samples must undergo
+            preliminary biological, chemical, and radiological
+            assessment.
+
+        </p>
+
+        <p>
+
+            Priority assigned to Dr. Ryland Grace due to his
+            background in evolutionary biology and
+            unconventional life chemistry.
+
+        </p>
+
+        <div class="directive-stamp">
+
+            AUTHORIZED:
+            EVA STRATT
 
         </div>
 
     </div>
 
 </div>
+
+    </div>
 `
 },
 taskforce: {
@@ -811,7 +1122,7 @@ taskforce: {
 
                 <div class="profile-stat">
                     <span>TIMELINE</span>
-                    T-0:00:00
+                    HAIL MARY LAUNCH
                 </div>
 
             </div>
@@ -3244,14 +3555,11 @@ T–48 HOURS
 
         <button class="redacted-button"
         onclick="toggleRedacted()">
+    [REDACTED — UNSEAL FILE]
+</button>
 
-            [REDACTED — UNSEAL FILE]
-
-        </button>
-
-        <div class="redacted-content2"
-        id="redactedContent">
-
+<div class="redacted-content2"
+     id="redactedContent">
 <pre>
 [UNSEALED 32 YEARS AFTER INITIAL REPORT]
 
@@ -4383,100 +4691,277 @@ yao: {
 
     <div class="crew-card">
 
-        <div class="crew-photo">
+        <div class="crew-photo-slot">
+
             YAO PHOTO
+
+            <div class="crew-status deceased">
+                DECEASED
+            </div>
+
         </div>
 
         <div class="crew-info">
 
-<pre>
-NAME:
-Commander Yao Li-Jie
+            <h2>CREWMEMBER ARCHIVE — COMMANDER YAO LI-JIE</h2>
 
-STATUS:
-DECEASED
+            <div class="archive-banner">
+                ARCHIVAL RECONSTRUCTION • RECOVERED FROM HAIL MARY FLIGHT DATA
+            </div>
 
-CAUSE OF DEATH:
-Nutritional failure during induced coma transit
+            <div class="incident-grid">
 
----
+                <div class="incident-stat">
+                    <span>TIME INTO TRANSIT</span>
+                    <strong>2.3 YEARS</strong>
+                </div>
 
-ARCHIVAL NOTE:
+                <div class="incident-stat">
+                    <span>CAUSE OF DEATH</span>
+                    <strong>NUTRITIONAL FAILURE</strong>
+                </div>
 
-This entry was reconstructed using recovered
-Hail Mary internal logs following mission data return.
+                <div class="incident-stat">
+                    <span>CREW STATUS</span>
+                    <strong>ALL CREW COMATOSE</strong>
+                </div>
 
-At the time of death,
-Earth had no method of receiving live updates
-from the vessel.
+                <div class="incident-stat">
+                    <span>WITNESSES</span>
+                    <strong>NONE</strong>
+                </div>
 
-The information contained herein
-was added to the archive retrospectively
-for timeline continuity purposes.
+            </div>
 
----
+            <p class="incident-summary">
 
-MISSION LOG SUMMARY:
+                Recovered medical telemetry indicates that
+                Commander Yao Li-Jie died during long-duration
+                transit after a failure within the automated
+                nutritional delivery system.
 
-Approximately 2.3 years into transit,
-automated medical systems aboard Hail Mary
-failed to properly dispense nutritional slurry
-to Commander Yao during induced coma.
+                A blockage developed inside the feeding assembly
+                responsible for delivering slurry meals to
+                crewmembers in medically induced coma.
 
-Subsequent diagnostic review identified
-a blockage within the feeding line system.
+                Because all crewmembers remained unconscious
+                and ship monitoring thresholds had been lowered
+                for cruise operations, the issue progressed
+                unnoticed until irreversible organ damage
+                had already occurred.
 
-The failure remained undetected
-for an extended period due to
-reduced automated monitoring sensitivity
-during deep transit operations.
+            </p>
 
----
+        </div>
 
-AUTOMATED SYSTEM RECORD:
+    </div>
 
-"SUBJECT RECEIVING BELOW MINIMUM
-NUTRITIONAL REQUIREMENTS"
+    <div class="mary-log-container">
 
-"ALERT PRIORITY:
-NON-CRITICAL"
+        <h3>RECOVERED MARY MEDICAL LOGS</h3>
 
----
+        <div class="mary-entry">
 
-The issue escalated into catastrophic
-organ failure before medical intervention
-could occur.
+            <div class="mary-header">
+                MARY [02Y 113D | 03:14:02]
+            </div>
 
-Commander Yao was pronounced deceased
-by onboard systems while still in induced coma.
+            <div class="mary-body">
 
----
+                Scheduled nutritional cycle initiated.
 
-RECOVERED INTERNAL NOTE:
+                Subject:
+                YAO LI-JIE
 
-"Failure chain likely survivable
-under active crew supervision."
+                Slurry Meal #18,942 prepared.
 
----
+                Feeding sequence started.
 
-At the time of Yao's death,
-all remaining crew members
-were still unconscious.
+            </div>
 
-No human being witnessed his passing.
+        </div>
 
----
+        <div class="mary-entry warning">
 
-CREW STATUS FOLLOWING INCIDENT:
+            <div class="mary-header">
+                MARY [02Y 113D | 03:14:27]
+            </div>
 
-• Olesya Ilyukhina — ALIVE
-• Ryland Grace — ALIVE
+            <div class="mary-body">
 
-MISSION CONTINUED.
+                Feeding pressure above nominal range.
 
-[END LOG]
-</pre>
+                Possible obstruction detected
+                within delivery tube assembly.
 
+                Attempting automated clearing cycle.
+
+            </div>
+
+        </div>
+
+        <div class="mary-entry warning">
+
+            <div class="mary-header">
+                MARY [02Y 115D | 22:07:11]
+            </div>
+
+            <div class="mary-body">
+
+                Subject nutritional intake below
+                mission baseline requirements.
+
+                Deficit:
+                8.7%
+
+                Alert priority:
+                NON-CRITICAL
+
+            </div>
+
+        </div>
+
+        <div class="mary-entry warning">
+
+            <div class="mary-header">
+                MARY [02Y 127D | 11:44:51]
+            </div>
+
+            <div class="mary-body">
+
+                Nutritional deficit increasing.
+
+                Deficit:
+                37.2%
+
+                Muscle degradation detected.
+
+                Body mass trending downward.
+
+            </div>
+
+        </div>
+
+        <div class="mary-entry critical">
+
+            <div class="mary-header">
+                MARY [02Y 139D | 04:55:39]
+            </div>
+
+            <div class="mary-body">
+
+                CRITICAL MEDICAL CONDITION
+
+                Severe malnutrition detected.
+
+                Liver function compromised.
+
+                Renal failure indicators present.
+
+                Emergency nutritional restoration
+                protocol initiated.
+
+            </div>
+
+        </div>
+
+        <div class="mary-entry danger">
+
+            <div class="mary-header">
+                MARY [02Y 141D | 16:02:17]
+            </div>
+
+            <div class="mary-body">
+
+                Multi-organ failure confirmed.
+
+                Subject unable to recover
+                without active crew intervention.
+
+                No conscious personnel available.
+
+            </div>
+
+        </div>
+
+        <div class="mary-entry death">
+
+            <div class="mary-header">
+                MARY [02Y 142D | 01:19:44]
+            </div>
+
+            <div class="mary-body">
+
+                OFFICIAL PRONOUNCEMENT
+
+                CREWMEMBER:
+                COMMANDER YAO LI-JIE
+
+                STATUS:
+                DECEASED
+
+                CAUSE:
+                Nutritional Failure
+                Secondary Multi-Organ Failure
+
+                TIME OF DEATH:
+                01:19:44 SHIP TIME
+
+            </div>
+
+        </div>
+
+        <div class="mary-entry">
+
+            <div class="mary-header">
+                MARY [02Y 142D | 01:20:11]
+            </div>
+
+            <div class="mary-body">
+
+                Medical Bay Occupancy Updated.
+
+                Remaining Living Crew:
+
+                • OLESYA ILYUKHINA
+                • RYLAND GRACE
+
+                Mission Status:
+                CONTINUING
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="ship-status-panel">
+
+        <h3>SHIP STATUS FOLLOWING INCIDENT</h3>
+
+        <div class="status-row">
+            <span>Commander Yao Li-Jie</span>
+            <span class="dead">DECEASED</span>
+        </div>
+
+        <div class="status-row">
+            <span>Olesya Ilyukhina</span>
+            <span class="alive">ALIVE (COMATOSE)</span>
+        </div>
+
+        <div class="status-row">
+            <span>Dr. Ryland Grace</span>
+            <span class="alive">ALIVE (COMATOSE)</span>
+        </div>
+
+        <div class="status-row">
+            <span>Human Crew Awake</span>
+            <span>0</span>
+        </div>
+
+        <div class="status-row">
+            <span>Mission Continuation</span>
+            <span class="active">AUTHORIZED</span>
         </div>
 
     </div>
@@ -4491,110 +4976,270 @@ ily: {
     body: `
 <div class="crew-archive">
 
-    <div class="crew-card">
+<div class="crew-card">
 
-        <div class="crew-photo">
-            ILYUKHINA PHOTO
-        </div>
+<div class="crew-photo-slot">
 
-        <div class="crew-info">
+    ILYUKHINA PHOTO
 
-<pre>
-NAME:
-Olesya Ilyukhina
+    <div class="crew-status deceased">
+        DECEASED
+    </div>
+
+</div>
+
+<div class="crew-info">
+
+<h2>CREWMEMBER ARCHIVE — OLESYA ILYUKHINA</h2>
+
+<div class="archive-banner">
+    ARCHIVAL RECONSTRUCTION • RECOVERED FROM HAIL MARY FLIGHT DATA
+</div>
+
+<div class="incident-grid">
+
+    <div class="incident-stat">
+        <span>TIME INTO TRANSIT</span>
+        <strong>12.1 YEARS</strong>
+    </div>
+
+    <div class="incident-stat">
+        <span>CAUSE OF DEATH</span>
+        <strong>PULMONARY EMBOLISM</strong>
+    </div>
+
+    <div class="incident-stat">
+        <span>CREW STATUS</span>
+        <strong>LAST ACTIVE CREW</strong>
+    </div>
+
+    <div class="incident-stat">
+        <span>WITNESSES</span>
+        <strong>NONE</strong>
+    </div>
+
+</div>
+
+<p class="incident-summary">
+
+Recovered telemetry indicates Crewmember
+Olesya Ilyukhina suffered a catastrophic pulmonary embolism
+during long-duration medically induced coma operations.
+
+At the time of incident:
+
+• Commander Yao Li-Jie had already expired.
+
+• Dr. Ryland Grace remained unconscious.
+
+• No conscious human beings were aboard Hail Mary.
+
+All medical actions were performed autonomously
+by MARY.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="mary-log-container">
+
+<h3>RECOVERED MARY MEDICAL LOGS</h3>
+
+<div class="mary-entry critical">
+
+<div class="mary-header">
+MARY [12Y 031D | 04:17:11]
+</div>
+
+<div class="mary-body">
+
+CARDIOVASCULAR ANOMALY DETECTED
+
+Subject: ILYUKHINA, OLESYA
+
+Blood oxygen saturation decreasing below
+mission baseline parameters.
+
+Automatic monitoring elevated to Priority 2.
+
+</div>
+
+</div>
+
+<div class="mary-entry">
+
+<div class="mary-header">
+MARY [12Y 031D | 04:19:52]
+</div>
+
+<div class="mary-body">
+
+Diagnostic sweep initiated.
+
+Detected obstruction within pulmonary circulation.
+
+Probability of embolism:
+
+96.7%
+
+Corrective treatment protocol activated.
+
+</div>
+
+</div>
+
+<div class="mary-entry warning">
+
+<div class="mary-header">
+MARY [12Y 031D | 04:24:08]
+</div>
+
+<div class="mary-body">
+
+Administering:
+
+• Anticoagulant Package B
+• Oxygen Saturation Recovery Protocol
+• Emergency Circulation Stimulation
+
+Response below expected values.
+
+</div>
+
+</div>
+
+<div class="mary-entry warning">
+
+<div class="mary-header">
+MARY [12Y 031D | 04:31:55]
+</div>
+
+<div class="mary-body">
+
+WARNING
+
+Subject oxygen saturation:
+
+82%
+→ 71%
+→ 58%
+
+Neurological preservation threshold approaching.
+
+</div>
+
+</div>
+
+<div class="mary-entry danger">
+
+<div class="mary-header">
+MARY [12Y 031D | 04:37:20]
+</div>
+
+<div class="mary-body">
+
+CRITICAL EVENT
+
+Pulmonary obstruction expanded.
+
+Respiratory exchange failure detected.
+
+Emergency revival sequence recommended.
+
+Mission protocol prohibits awakening remaining crew.
+
+Corrective options exhausted.
+
+</div>
+
+</div>
+
+<div class="mary-entry danger">
+
+<div class="mary-header">
+MARY [12Y 031D | 04:43:09]
+</div>
+
+<div class="mary-body">
+
+CARDIAC ACTIVITY LOST
+
+Attempting autonomous resuscitation.
+
+Attempt 1 — FAILED
+
+Attempt 2 — FAILED
+
+Attempt 3 — FAILED
+
+</div>
+
+</div>
+
+<div class="mary-entry death">
+
+<div class="mary-header">
+MARY [12Y 031D | 04:51:36]
+</div>
+
+<div class="mary-body">
+
+OFFICIAL PRONOUNCEMENT
+
+CREWMEMBER:
+OLESYA ILYUKHINA
 
 STATUS:
 DECEASED
 
-CAUSE OF DEATH:
-Pulmonary embolism during induced coma transit
+CAUSE:
+Pulmonary Embolism
 
----
+TIME OF DEATH:
+04:51:36 SHIP TIME
 
-ARCHIVAL NOTE:
+Crew Remaining Alive:
+1
 
-This report was reconstructed from recovered
-Hail Mary medical and telemetry records.
+Mission Status:
+CONTINUING
 
-At the time of incident,
-Earth possessed no active communication capability
-with the vessel.
+</div>
 
-This entry was added retrospectively
-following mission archive reconstruction.
+</div>
 
----
+</div>
 
-MISSION LOG SUMMARY:
+<div class="ship-status-panel">
 
-Approximately twelve years into interstellar transit,
-automated medical systems detected severe
-cardiovascular irregularities within
-Crewmember Ilyukhina.
+<h3>SHIP STATUS AFTER INCIDENT</h3>
 
-Diagnostic systems later concluded
-that prolonged coma-induced circulatory stress
-resulted in formation of a large blood clot.
+<div class="status-row">
+<span>Commander Yao Li-Jie</span>
+<span class="dead">DECEASED</span>
+</div>
 
-The clot migrated into pulmonary circulation,
-causing catastrophic respiratory failure.
+<div class="status-row">
+<span>Olesya Ilyukhina</span>
+<span class="dead">DECEASED</span>
+</div>
 
----
+<div class="status-row">
+<span>Dr. Ryland Grace</span>
+<span class="alive">ALIVE (COMATOSE)</span>
+</div>
 
-AUTOMATED MEDICAL RECORD:
+<div class="status-row">
+<span>Human Crew Awake</span>
+<span>0</span>
+</div>
 
-"SUBJECT OXYGEN SATURATION FALLING"
-
-"ATTEMPTING CORRECTIVE INTERVENTION"
-
-"INTERVENTION FAILED"
-
----
-
-Emergency autonomous medical procedures
-were initiated but proved unsuccessful.
-
-By the time onboard systems escalated
-the situation to critical status,
-irreversible neurological damage
-had already occurred.
-
----
-
-RECOVERED INTERNAL NOTE:
-
-"Long-duration coma survival projections
-remain statistically unstable beyond
-ten-year thresholds."
-
----
-
-At the time of death:
-
-• Commander Yao Li-Jie was already deceased
-• Ryland Grace remained in induced coma
-
-No conscious crew members
-were present aboard the vessel.
-
----
-
-MISSION STATUS FOLLOWING INCIDENT:
-
-SOLE SURVIVING CREW MEMBER:
-Dr. Ryland Grace
-
-Estimated arrival at Tau Ceti:
-Less than one year
-
-MISSION CONTINUED.
-
-[END REPORT]
-</pre>
-
-        </div>
-
-    </div>
+<div class="status-row">
+<span>Mission Continuation</span>
+<span class="active">AUTHORIZED</span>
+</div>
 
 </div>
 `
@@ -4625,7 +5270,7 @@ tau: {
 
     </div>
 
-    <!-- STAR MAP -->
+    <!-- STAR MAP 
 
     <div class="star-map">
 
@@ -4651,6 +5296,7 @@ tau: {
         </div>
 
     </div>
+    -->
 
     <!-- SYSTEMS -->
 
@@ -4702,34 +5348,638 @@ tau: {
 
     </div>
 
-    <pre>
-[RECOVERED FLIGHT TELEMETRY]
+    <div class="wake-report">
 
-MISSION TIME:
-T+13 YEARS
+    <div class="wake-header">
+        <h2>MISSION AWAKENING SEQUENCE</h2>
+        <span>T+13 YEARS · TAU CETI ARRIVAL</span>
+    </div>
 
-Hail Mary successfully decelerated
-within the Tau Ceti system
-following interstellar transit.
+    <div class="wake-summary">
 
-Recovered telemetry confirmed
-only one surviving crew member:
-Dr. Ryland Grace.
+        <div class="wake-status">
+            <span>SURVIVING CREW</span>
+            <h3>DR. RYLAND GRACE</h3>
+        </div>
 
-No live communication with Earth
-was possible during arrival operations.
+        <div class="wake-status">
+            <span>MISSION STATUS</span>
+            <h3>ACTIVE</h3>
+        </div>
 
-Mission data was reconstructed decades later
-using returned Beetle probe archives.
+        <div class="wake-status">
+            <span>AUTOMATED SYSTEM</span>
+            <h3>MARY ONLINE</h3>
+        </div>
 
-Primary mission objectives remained active.
+    </div>
 
-[END TRANSMISSION]
-</pre>
+    <div class="wake-section">
+
+        <h3>RECOVERED MEDICAL LOGS</h3>
+
+        <div class="medical-log">
+
+            <div class="log-time">
+                MARY[13Y:04M:17D 06:11:02]
+            </div>
+
+            <div class="log-entry">
+                ARRIVAL DECELERATION COMPLETE.
+                TARGET SYSTEM: TAU CETI.
+                CREW AWAKENING PROTOCOL INITIATED.
+            </div>
+
+        </div>
+
+        <div class="medical-log">
+
+            <div class="log-time">
+                MARY[13Y:04M:17D 06:11:18]
+            </div>
+
+            <div class="log-entry">
+                CREW STATUS CHECK COMPLETE.
+                COMMANDER YAO LI-JIE — DECEASED.
+                SPECIALIST ILYUKHINA — DECEASED.
+                DR. RYLAND GRACE — VITAL SIGNS PRESENT.
+            </div>
+
+        </div>
+
+        <div class="medical-log">
+
+            <div class="log-time">
+                MARY[13Y:04M:17D 06:12:40]
+            </div>
+
+            <div class="log-entry">
+                NEURAL STIMULATION PROTOCOL ENGAGED.
+                MUSCLE REACTIVATION SEQUENCE STARTED.
+            </div>
+
+        </div>
+
+        <div class="medical-log critical">
+
+            <div class="log-time">
+                MARY[13Y:04M:17D 06:13:01]
+            </div>
+
+            <div class="log-entry">
+                ADMINISTERING DGSE-47 RETROGRADE MEMORY
+                SUPPRESSION COMPOUND.
+            </div>
+
+        </div>
+
+        <div class="medical-log redacted">
+
+            <div class="log-time">
+                MARY[13Y:04M:17D 06:13:03]
+            </div>
+
+            <div class="log-entry">
+                [REDACTED]
+
+                PURPOSE:
+                TEMPORARY MEMORY INHIBITION DURING
+                POST-COMA COGNITIVE RECOVERY.
+
+                SOURCE:
+                FRENCH INTELLIGENCE SERVICE ARCHIVES.
+
+                EXPECTED EFFECT:
+                LONG-TERM RETROGRADE AMNESIA
+                WITHOUT LOSS OF EDUCATION,
+                LANGUAGE RETENTION,
+                OR TECHNICAL KNOWLEDGE.
+
+                AUTHORIZATION:
+                EVA STRATT
+
+                [END REDACTION]
+            </div>
+
+        </div>
+
+        <div class="medical-log">
+
+            <div class="log-time">
+                MARY[13Y:04M:17D 06:14:22]
+            </div>
+
+            <div class="log-entry">
+                SUBJECT SHOWING EYE MOVEMENT.
+                BRAIN ACTIVITY INCREASING.
+            </div>
+
+        </div>
+
+        <div class="medical-log">
+
+            <div class="log-time">
+                MARY[13Y:04M:17D 06:14:51]
+            </div>
+
+            <div class="log-entry">
+                CONSCIOUSNESS RETURN IMMINENT.
+                BEGINNING COGNITIVE ASSESSMENT BATTERY.
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
-`
-},
+
+<div class="cognitive-assessment">
+
+    <div class="assessment-header">
+        <h2>COGNITIVE ASSESSMENT LOG #001</h2>
+        <span>AUTOMATED RECOVERY PROTOCOL</span>
+    </div>
+    <br>
+    <div class="assessment-log">
+        <div class="assessment-entry mary">
+            <span>MARY[05:15:03]: EYE MOVEMENT DETECTED.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:15:04]: QUESTION 001: WHAT IS TWO PLUS TWO?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:15:12]: Lrmln.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:15:13]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:15:19]: ATTEMPT 002: WHAT IS TWO PLUS TWO?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:15:27]: Hlllch</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:15:28]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:15:42]: ATTEMPT 003: WHAT IS TWO PLUS TWO?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:15:51]: Glunn!</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:15:52]: EYE MOVEMENT DETECTED.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:15:53]: ATTEMPT 004: WHAT IS TWO PLUS TWO?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:16:04]: Fffr.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:16:06]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:16:07]: ATTEMPT 005: WHAT IS TWO PLUS TWO?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:16:13]: Fffr...oooh...rrrr</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:16:15]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:16:18]: ATTEMPT 006: WHAT IS TWO PLUS TWO?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:16:24]: Fffoouurr</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:16:25]: CORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:16:30]: YOU HAVE BEEN IN AN INDUCED COMA. YOU MAY EXPERIENCE MEMORY LOSS, DIFFICULTY SPEAKING.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:16:39]: QUESTION 002: WHAT IS THE CUBE ROOT OF EIGHT?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:16:45]: Where am I?</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:16:46]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:16:48]: ATTEMPT 002: WHAT IS THE CUBE ROOT OF EIGHT?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:16:55]: Two times e to the two-i-pi.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:16:57]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:00]: ATTEMPT 003: WHAT IS THE CUBE ROOT OF EIGHT?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:17:08]: Two.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:09]: CORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:15]: HAND MOVEMENT DETECTED.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:17]: REMAIN STILL.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:22]: BODY MOVEMENT DETECTED.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:24]: FOR YOUR OWN SAFETY, PLEASE RETURN TO THE MEDICAL PLATFORM.</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:17:31]: What? Why-</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:33]: TUBE REMOVAL INITIATED.</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:17:40]: Take... Take the tubes out.....</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:45]: FULL BODY MOTION DETECTED.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:47]: QUESTION 003: WHAT IS YOUR NAME?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:17:54]: Pfft, seriously?</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:55]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:17:57]: ATTEMPT 002: WHAT IS YOUR NAME?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:18:03]: Uh...</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:18:04]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:18:06]: ATTEMPT 003: WHAT IS YOUR NAME?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[05:18:12]: Um.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:18:13]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[05:18:15]: INITIATING SEDATION PROTOCOL...</span>
+        </div>
+    </div>
+</div>
+
+<div class="cognitive-assessment">
+
+    <div class="assessment-header">
+        <h2>COGNITIVE ASSESSMENT LOG #002</h2>
+        <span>AUTOMATED RECOVERY PROTOCOL</span>
+    </div>
+    <br>
+    <div class="assessment-log">
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:04]: CONSCIOUSNESS DETECTED.</span>
+        </div>
+        <div class="assessment-entry mary2">
+            <span>MARY[06:15:52]: EYE MOVEMENT DETECTED. </span>
+        </div>
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:05]: QUESTION 001: WHAT IS YOUR NAME?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[06:16:09]: I still don't know that.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:10]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:11]: ATTEMPT 002: WHAT IS YOUR NAME?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[06:16:16]: J... John?</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:17]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:18]: ATTEMPT 003: WHAT IS YOUR NAME?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[06:16:21]: Bite me.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:22]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:23]: PHYSICAL DISTRESS DETECTED.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:24]: PATIENT REMOVING MEDICAL INTERFACES.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:25]: WARNING: LIFE SUPPORT CONNECTIONS COMPROMISED.</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[06:16:28]: AAAAAAAAAAAAAAAAH!</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:29]: PHYSICAL DISTRESS CONFIRMED.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:31]: DEPLOYING ASSISTANCE ARMS.</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[06:16:34]: Hey! One of you, wake up!</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:35]: QUESTION 001: WHAT IS YOUR NAME?</span>
+        </div>
+
+        <div class="assessment-entry grace2">
+            <span>GRACE[06:16:39]: One of you humans, wake up, please.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:40]: INCORRECT.</span>
+        </div>
+
+        <div class="assessment-entry mary2">
+            <span>MARY[06:16:42]: COGNITIVE ASSESSMENT FAILURE.</span>
+        </div>
+    </div>
+</div>
+
+<div class="cognitive-assessment">
+
+    <div class="assessment-header">
+        <h2>COGNITIVE ASSESSMENT LOG #003</h2>
+        <span>AUTOMATED RECOVERY PROTOCOL</span>
+    </div>
+    <br>
+    <div class="assessment-log">
+    <div class="assessment-entry grace2">
+    <span>GRACE[06:24:11]: Where am I?!</span>
+</div>
+
+<div class="assessment-entry mary2">
+    <span>MARY[06:24:12]: PLEASE REMEMBER. MUSCLE FUNCTION HAS NOT YET BEEN FULLY RESTORED.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:24:18]: People! Hello?!</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:24:27]: Where am I?!</span>
+</div>
+
+<div class="assessment-entry mary-log">
+    <span>[MARY INTERNAL LOG]: SUBJECT DISPLAYING DISORIENTATION.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:24:44]: Red leather. Yellow leather. Red leather. Yellow leather...</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:24:52]: Why is there an atomic resolution scanning electron microscope?</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:24:58]: Why do I know that?</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:25:01]: Am I smart?!</span>
+</div>
+
+<div class="assessment-entry mary-log">
+    <span>[MARY INTERNAL LOG]: SPEECH FUNCTION IMPROVING.</span>
+</div>
+
+<div class="assessment-entry mary-log">
+    <span>[MARY INTERNAL LOG]: KNOWLEDGE RETENTION DETECTED.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:25:19]: Hello?</span>
+</div>
+
+<div class="assessment-entry mary2">
+    <span>MARY[06:25:20]: PLEASE RECORD VIDEO DIARY.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:25:21]: No.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:25:27]: Can I speak to the person in charge?</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:25:31]: The captain.</span>
+</div>
+
+<div class="assessment-entry mary2">
+    <span>MARY[06:25:32]: CAPTAIN YÁO LI-JIE. DECEASED.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:25:39]: Okay... where are the living people?</span>
+</div>
+
+<div class="assessment-entry mary2">
+    <span>MARY[06:25:40]: DOCTOR RYLAND GRACE. END OF MANIFEST.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:25:48]: I can't be the only person here.</span>
+</div>
+
+<div class="assessment-entry mary2">
+    <span>MARY[06:25:49]: PILOT DETECTED.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:25:54]: No.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:25:55]: No no no.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:25:56]: Not the pilot.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:26:01]: Call Houston.</span>
+</div>
+
+<div class="assessment-entry mary2">
+    <span>MARY[06:26:02]: UNKNOWN COMMAND.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:26:10]: Operation Go Home. In effect.</span>
+</div>
+
+<div class="assessment-entry mary2">
+    <span>MARY[06:26:11]: INVALID OPERATION.</span>
+</div>
+
+<div class="assessment-entry mary-log">
+    <span>[MARY INTERNAL LOG]: SUBJECT REQUESTING EARTH CONTACT.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:27:04]: That's the Sun.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:27:08]: There it is.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:27:12]: So we're... Neptune-ish?</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:27:17]: Let's call Earth.</span>
+</div>
+
+<div class="assessment-entry mary2">
+    <span>MARY[06:27:18]: CURRENT TRANSMISSION TIME TO EARTH IS 11 YEARS, 10 MONTHS, 14 DAYS, 6 HOURS.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:27:29]: Oh.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:27:33]: No.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:27:36]: You're wrong.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:27:40]: I need a map.</span>
+</div>
+
+<div class="assessment-entry mary-log">
+    <span>[MARY INTERNAL LOG]: NAVIGATIONAL DISPLAY ACCESSED.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:28:11]: Oh...</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:28:16]: That's far.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:28:19]: That's really far.</span>
+</div>
+
+<div class="assessment-entry mary-log">
+    <span>[MARY INTERNAL LOG]: ELEVATED STRESS RESPONSE DETECTED.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:28:36]: That's not our Sun.</span>
+</div>
+
+<div class="assessment-entry grace2">
+    <span>GRACE[06:28:47]: That's not our Sun.</span>
+</div>
+
+    </div>
+</div>
+
+`},
+
 contact: {
 
     title: 'EXTRATERRESTRIAL CONTACT FILE',
@@ -4832,97 +6082,201 @@ remain classified.
 
         </div>
 
-<pre>
-CONTACT DESIGNATION:
-"ROCKY"
+<div class="hmxeno-intel-file">
 
-SPECIES:
-ERIDIAN
+    <div class="hmxeno-banner">
+        <span>TAU CETI DEEP SPACE SURVEILLANCE NETWORK</span>
+        <span>RECOVERED HAIL MARY TELEMETRY</span>
+    </div>
 
-HOMEWORLD:
-ERID
+    <div class="hmxeno-alert">
+        UNKNOWN EXTRASOLAR CONTACT EVENT DETECTED
+    </div>
 
-FIRST CONTACT LOCATION:
-TAU CETI SYSTEM
+    <div class="hmxeno-grid">
 
-DISCOVERED BY:
-Dr. Ryland Grace
+        <div class="hmxeno-card">
+            <h3>MISSION DATA</h3>
 
----
+            <div class="hmxeno-stat">
+                <label>MISSION ELAPSED TIME</label>
+                <span>T+13.2 YEARS</span>
+            </div>
 
-SUMMARY:
+            <div class="hmxeno-stat">
+                <label>STAR SYSTEM</label>
+                <span>TAU CETI</span>
+            </div>
 
-Recovered Hail Mary logs confirmed
-that Dr. Grace established direct contact
-with a surviving member
-of an extraterrestrial species.
+            <div class="hmxeno-stat">
+                <label>SIGNAL DESIGNATION</label>
+                <span>BLIP-A</span>
+            </div>
 
-The alien individual identified himself
-through tonal acoustic communication
-approximated in English records as:
+            <div class="hmxeno-stat">
+                <label>THREAT STATUS</label>
+                <span class="hmxeno-yellow">UNDETERMINED</span>
+            </div>
+        </div>
 
-"Rocky"
+        <div class="hmxeno-card">
+            <h3>INITIAL SCAN RESULTS</h3>
 
----
+            <ul>
+                <li>Artificial structure detected</li>
+                <li>Controlled propulsion signatures</li>
+                <li>Non-human engineering profile</li>
+                <li>Unknown energy architecture</li>
+                <li>No database match found</li>
+            </ul>
+        </div>
 
-ERIDIAN BIOLOGY:
+    </div>
 
-• Ammonia-based life chemistry
-• Extreme pressure tolerance
-• Echolocation-based perception
-• No visual sensory organs
-• Metallic exoskeletal anatomy
-• Five-limbed body structure
+    <div class="hmxeno-log">
+        <div>> ACTIVE SENSOR SWEEP COMPLETE</div>
+        <div>> OBJECT LOCK ACQUIRED</div>
+        <div>> TRAJECTORY ANALYSIS COMPLETE</div>
+        <div>> TECHNOLOGICAL ORIGIN CONFIRMED</div>
+        <div>> FIRST NON-HUMAN VESSEL DETECTED</div>
+    </div>
 
----
+    <div class="hmxeno-summary">
+        <h3>INTELLIGENCE SUMMARY</h3>
 
-ERIDIAN TECHNOLOGY:
+        <p>
+            Recovered Hail Mary telemetry confirmed the existence of an
+            unidentified interstellar spacecraft operating within Tau Ceti
+            orbital space.
+        </p>
 
-• Advanced materials engineering
-• Interstellar spacecraft capability
-• Mechanical computation systems
-• Sophisticated astrophage applications
+        <p>
+            Subsequent mission records established the object as humanity's
+            first verified encounter with intelligent extraterrestrial life.
+        </p>
 
-Recovered logs suggested
-Eridian civilization was independently
-attempting to solve stellar dimming
-within their own star system.
+        <p>
+            Additional xenological data remains restricted under
+            Interstellar Contact Protocol Alpha-1.
+        </p>
+    </div>
 
----
+</div>
 
-COMMUNICATION BREAKTHROUGH:
+<button class="hmxeno-declassify-btn"
+onclick="toggleRockyFile()">
+    DECLASSIFY XENOLOGICAL FILES
+</button>
 
-Dr. Grace and Rocky established
-a shared scientific language using:
+<div id="rockyFile" class="rocky-file hidden-file">
 
-• Mathematics
-• Chemistry
-• Physics
-• Engineering diagrams
+    <div class="hmxeno-declass-header">
+        FILE ACCESS GRANTED
+    </div>
 
-Communication later expanded
-into full conversational exchanges.
+    <div class="hmxeno-declass-subtitle">
+        EXTRATERRESTRIAL CONTACT DATABASE
+    </div>
 
----
+    <div class="hmxeno-images">
 
-RECOVERED AUDIO TRANSCRIPT:
+        <div class="hmxeno-image-card">
+            <img src="images/rocky.png">
+            <span>SPECIMEN R-01 ("ROCKY")</span>
+        </div>
 
-"Grace question?"
+        <div class="hmxeno-image-card">
+            <img src="images/eridian-ship.png">
+            <span>ERIDIAN INTERSTELLAR VESSEL</span>
+        </div>
 
-"Rocky help."
+    </div>
 
-"You are friend, Grace."
+    <div class="hmxeno-profile">
 
----
+        <div class="hmxeno-profile-header">
+            CONTACT PROFILE
+        </div>
 
-SIGNIFICANCE:
+        <div class="hmxeno-grid">
 
-FIRST CONFIRMED CONTACT
-BETWEEN HUMANITY
-AND EXTRATERRESTRIAL INTELLIGENCE
+            <div class="hmxeno-card">
 
-[END FILE]
-</pre>
+                <div class="hmxeno-stat">
+                    <label>DESIGNATION</label>
+                    <span>ROCKY</span>
+                </div>
+
+                <div class="hmxeno-stat">
+                    <label>SPECIES</label>
+                    <span>ERIDIAN</span>
+                </div>
+
+                <div class="hmxeno-stat">
+                    <label>HOMEWORLD</label>
+                    <span>ERID</span>
+                </div>
+
+                <div class="hmxeno-stat">
+                    <label>CONTACT STATUS</label>
+                    <span class="hmxeno-green">FRIENDLY</span>
+                </div>
+
+            </div>
+
+            <div class="hmxeno-card">
+
+                <h3>BIOLOGICAL DATA</h3>
+
+                <ul>
+                    <li>Ammonia-based biochemistry</li>
+                    <li>Extreme pressure adaptation</li>
+                    <li>Echolocation perception</li>
+                    <li>No visual sensory organs</li>
+                    <li>Metallic exoskeleton</li>
+                    <li>Five-limbed body plan</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="hmxeno-card">
+            <h3>TECHNOLOGICAL ASSESSMENT</h3>
+
+            <ul>
+                <li>Interstellar-capable spacecraft</li>
+                <li>Advanced material science</li>
+                <li>Mechanical computational systems</li>
+                <li>Astrophage energy utilization</li>
+                <li>Independent stellar-dimming research program</li>
+            </ul>
+        </div>
+
+        <div class="hmxeno-transcript">
+
+            <div class="hmxeno-transcript-title">
+                RECOVERED COMMUNICATIONS
+            </div>
+
+            <div class="hmxeno-chat rocky">
+                ROCKY: Grace question?
+            </div>
+
+            <div class="hmxeno-chat rocky">
+                ROCKY: Rocky help.
+            </div>
+
+            <div class="hmxeno-chat rocky">
+                ROCKY: You are friend, Grace.
+            </div>
+
+        </div>
+
+        <div class="hmxeno-significance">
+            FIRST CONFIRMED CONTACT BETWEEN HUMANITY
+            AND EXTRATERRESTRIAL INTELLIGENCE
+        </div>
 
     </div>
 
@@ -4934,178 +6288,248 @@ adrian: {
     title: 'PETROVA LINE FINDINGS',
 
     body: `
+<div class="hm-adrian-report">
 
-<div class="alien-bio">
-
-    <div class="bio-photo">
-        ADRIAN BIOSPHERE IMAGE
+    <div class="hm-adrian-header">
+        <h2>ADRIAN BIOSPHERE ANALYSIS</h2>
+        <span>XENOLOGY DIVISION • RECOVERED HAIL MARY DATASET</span>
     </div>
 
-<pre>
-[RECOVERED SCIENCE LOG]
+    <!-- HERO IMAGE -->
 
-LOCATION:
-ADRIAN PETROVA LINE
+    <div class="hm-adrian-hero">
+        INSERT: FULL ADRIAN ORBITAL IMAGE
+    </div>
 
-PRIMARY SCIENTIST:
-Dr. Ryland Grace
+    <!-- LAB DATA -->
 
-ASSISTING CONTACT:
-"Rocky" — Eridian Expeditionary Crew
+    <div class="hm-adrian-meta">
 
----
+        <div class="hm-adrian-meta-card">
+            <label>LOCATION</label>
+            <span>ADRIAN PETROVA LINE</span>
+        </div>
 
-SUMMARY:
+        <div class="hm-adrian-meta-card">
+            <label>PRIMARY RESEARCHER</label>
+            <span>DR. RYLAND GRACE</span>
+        </div>
 
-Extravehicular sampling operations
-conducted near Adrian's Petrova Line
-confirmed the presence of a complete,
-active extraterrestrial biosphere.
+        <div class="hm-adrian-meta-card">
+            <label>ASSISTING RESEARCHER</label>
+            <span>ROCKY (ERIDIAN)</span>
+        </div>
 
-Initial assumptions suggested Astrophage
-represented an isolated life form.
+        <div class="hm-adrian-meta-card">
+            <label>STATUS</label>
+            <span>CONFIRMED EXTRATERRESTRIAL BIOSPHERE</span>
+        </div>
 
-Recovered findings instead demonstrated
-a functioning biological ecosystem.
+    </div>
 
----
+    <!-- IMAGE WALL -->
 
-RECOVERED TRANSCRIPT:
+    <div class="hm-adrian-gallery">
 
-GRACE:
-"If there’s a whole active biosphere
-in the Petrova line,
-it stands to reason that there’s
-a whole active biosphere on Adrian."
+        <div class="hm-adrian-photo">
+            INSERT: TAU CETI SYSTEM
+        </div>
 
-GRACE:
-"Which means...
-there’s life on Adrian."
+        <div class="hm-adrian-photo">
+            INSERT: ADRIAN CLOSEUP
+        </div>
 
-ROCKY:
-"Is like cells, on Erid."
+        <div class="hm-adrian-photo">
+            INSERT: PETROVA LINE IMAGE
+        </div>
 
-GRACE:
-"And Earth."
+        <div class="hm-adrian-photo">
+            INSERT: ASTROPHAGE CLOUD
+        </div>
 
----
+    </div>
 
-BIOLOGICAL FINDINGS:
+    <!-- SCIENTIFIC SUMMARY -->
 
-Recovered samples indicated:
+    <div class="hm-adrian-section">
 
-• Microbial organisms
-• Multi-cellular analogues
-• Predator-prey interactions
-• Stable energy cycles
-• Astrophage ecological integration
+        <h3>EXECUTIVE SUMMARY</h3>
 
----
+        <p>
+            Sampling operations conducted within Adrian's Petrova Line
+            confirmed the presence of a complete extraterrestrial ecosystem.
+        </p>
 
-SIGNIFICANCE:
+        <p>
+            Initial assumptions classified Astrophage as an isolated lifeform.
+            Further analysis demonstrated the existence of numerous interacting
+            biological species occupying distinct ecological niches.
+        </p>
 
-The discovery confirmed:
+        <p>
+            Findings indicate Adrian supports the first confirmed non-terrestrial
+            biosphere ever documented by humanity.
+        </p>
 
-• Life independently evolved
-  beyond Earth
+    </div>
 
-• Complex ecosystems exist
-  on alien worlds
+    <!-- SAMPLE ANALYSIS -->
 
-• Biology may be common
-  throughout the universe
+    <div class="hm-adrian-section">
 
----
+        <h3>BIOLOGICAL SAMPLE ANALYSIS</h3>
 
-STATUS:
+        <div class="hm-adrian-gallery">
 
-Adrian officially classified
-as first confirmed extraterrestrial
-living world documented by humanity.
+            <div class="hm-adrian-photo">
+                INSERT: MICROSCOPY IMAGE #1
+            </div>
 
-[END REPORT]
-</pre>
+            <div class="hm-adrian-photo">
+                INSERT: MICROSCOPY IMAGE #2
+            </div>
 
-    <button class="archive-button"
-    onclick="toggleSpacewalkReport()">
+            <div class="hm-adrian-photo">
+                INSERT: MICROSCOPY IMAGE #3
+            </div>
 
-        OPEN SPACEWALK REPORT
-
-    </button>
-
-    <!-- HIDDEN REPORT -->
-
-    <div id="spacewalkReport"
-    class="hidden-file">
-
-        <div class="declass-header">
-
-            EVA ACTIVITY REPORT
+            <div class="hm-adrian-photo">
+                INSERT: CELL STRUCTURE IMAGE
+            </div>
 
         </div>
 
-        <div class="spacewalk-photo">
-            EVA IMAGE
-        </div>
+        <ul>
+            <li>Microbial organisms identified</li>
+            <li>Multicellular structures observed</li>
+            <li>Predatory feeding behaviors documented</li>
+            <li>Stable energy transfer systems confirmed</li>
+            <li>Astrophage integrated into food chain</li>
+        </ul>
 
-<pre>
-EXTRAVEHICULAR ACTIVITY REPORT
+    </div>
 
-VESSEL:
-HAIL MARY
+    <!-- QUOTE -->
 
-LOCATION:
-ADRIAN PETROVA LINE
+    <div class="hm-adrian-quote">
 
----
+        "Which means... there's life on Adrian."
 
-AIRLOCK STATUS:
-
-Side door unlatched:
-07:14 UTC Ship Time
-
-Suit pressure stable.
-
-Tether secured.
-
----
-
-OBJECTIVE:
-
-Collect Petrova Line biological samples
-for direct onboard analysis.
-
----
-
-RECOVERED NOTES:
-
-Visual observation confirmed
-dense concentrations of biological activity
-within the Petrova Line.
-
-Numerous microscopic organisms observed
-moving independently through
-the astrophage-rich environment.
-
-Dr. Grace later described the exterior region as:
-
-"Like swimming through glowing alien plankton."
-
----
-
-EVA STATUS:
-
-SUCCESSFUL
-
-BIOLOGICAL SAMPLES RETURNED:
-CONFIRMED
-
-[END EVA LOG]
-</pre>
+        <span>— Dr. Ryland Grace</span>
 
     </div>
 
 </div>
+
+
+<button class="hm-adrian-eva-btn"
+onclick="toggleSpacewalkReport()">
+    OPEN EVA RESEARCH LOG
+</button>
+
+
+<div id="spacewalkReport"
+class="hidden-file">
+
+    <div class="hm-eva-header">
+
+        EVA-04 BIOLOGICAL SAMPLING MISSION
+
+    </div>
+
+    <!-- EVA PHOTOS -->
+
+    <div class="hm-eva-gallery">
+
+        <div class="hm-eva-photo">
+            INSERT: AIRLOCK CAMERA
+        </div>
+
+        <div class="hm-eva-photo">
+            INSERT: SPACEWALK SELFIE
+        </div>
+
+        <div class="hm-eva-photo">
+            INSERT: HAIL MARY EXTERIOR
+        </div>
+
+        <div class="hm-eva-photo">
+            INSERT: ROCKY SHIP EXTERIOR
+        </div>
+
+        <div class="hm-eva-photo">
+            INSERT: PETROVA LINE CLOSEUP
+        </div>
+
+        <div class="hm-eva-photo">
+            INSERT: SAMPLE COLLECTION
+        </div>
+
+        <div class="hm-eva-photo">
+            INSERT: GLOWING ORGANISMS
+        </div>
+
+        <div class="hm-eva-photo">
+            INSERT: TETHER CAM VIEW
+        </div>
+
+    </div>
+
+    <div class="hm-eva-log">
+
+        <div class="hm-eva-entry">
+            <span>07:14 UTC</span>
+            AIRLOCK OPENED
+        </div>
+
+        <div class="hm-eva-entry">
+            <span>07:16 UTC</span>
+            EVA COMMENCED
+        </div>
+
+        <div class="hm-eva-entry">
+            <span>07:21 UTC</span>
+            BIOLOGICAL ACTIVITY OBSERVED
+        </div>
+
+        <div class="hm-eva-entry">
+            <span>07:39 UTC</span>
+            SAMPLE COLLECTION COMPLETE
+        </div>
+
+        <div class="hm-eva-entry">
+            <span>08:02 UTC</span>
+            RETURN TO HAIL MARY
+        </div>
+
+    </div>
+
+    <div class="hm-eva-notes">
+
+        <h3>FIELD NOTES</h3>
+
+        <p>
+            Visual observation confirmed dense biological activity
+            throughout the Petrova Line.
+        </p>
+
+        <p>
+            Numerous microscopic organisms exhibited autonomous movement
+            and appeared to occupy specialized ecological roles.
+        </p>
+
+        <p>
+            Dr. Grace later described the environment as:
+        </p>
+
+        <blockquote>
+            "Like swimming through glowing alien plankton."
+        </blockquote>
+
+    </div>
+
+</div>
+
 `
 },
 fishing: {
@@ -5113,148 +6537,313 @@ fishing: {
     title: 'HAIL MARY INCIDENT REPORT',
 
     body: `
+<div class="hm-incident-file">
 
-<div class="incident-report">
+    <div class="hm-incident-header">
 
-<pre class="danger-log">
-[RECOVERED SHIP TELEMETRY]
+        <div class="hm-incident-warning">
+            INCIDENT INVESTIGATION FILE
+        </div>
 
-MARY[03:03:02.118]: MANUAL MODE ACTIVATED
+        <h2>ADRIAN ATMOSPHERIC COLLECTION ACCIDENT</h2>
 
-MARY[03:14:05.441]: ALTITUDE WARNING
-
-MARY[03:14:06.092]: WARNING.
-MARY[03:14:06.094]: EXTERIOR TEMPERATURE ELEVATED
-
-MARY[03:14:08.771]: WARNING.
-MARY[03:14:08.773]: HULL PRESSURE ANOMALY DETECTED
-
-MARY[03:14:09.106]: WARNING.
-MARY[03:14:09.248]: WARNING.
-MARY[03:14:09.411]: WARNING.
-
-MARY[03:14:10.027]: HULL BREACH DETECTED
-MARY[03:14:10.030]: LOCATION: PORTSIDE FUEL COMPARTMENTS ELEVEN AND TWELVE
-
-MARY[03:14:12.482]: JETTISON PORT FUEL TANK COMPARTMENT TWELVE
-MARY[03:14:12.486]: CONFIRM?
-
-MARY[03:14:16.093]: JETTISON CONFIRMED: COMPARTMENT TWELVE
-
-MARY[03:14:16.941]: JETTISON PORT FUEL TANK COMPARTMENT ELEVEN
-MARY[03:14:16.944]: CONFIRM?
-
-MARY[03:14:20.112]: JETTISON CONFIRMED: COMPARTMENT ELEVEN
-
-MARY[03:14:25.775]: CENTRIFUGE MODE ACTIVATE
-MARY[03:14:25.898]: CONFIRM?
-
-MARY[03:15:02.990]: CONTAMINANT DETECTED:
-MARY[03:15:02.991]: AMMONIA
-
-MARY[03:15:09.989]: CENTRIFUGE MODE ACTIVATED
-
-MARY[03:18:25.413]: AUTOMATED MEDICAL RESPONSE INITIATED
-
-[END TELEMETRY]
-
-</pre>
-
-    <!-- PLAN -->
-
-    <div class="plan-box">
-
-        <h2>MISSION CONCEPT</h2>
-
-<pre>
-ROCKY:
-"Hello Earth!
-Plan is like fishing.
-
-We get very close to Adrian atmosphere,
-and lower collector into clouds with chain,
-then Grace go on hull to reel it in.
-
-If ship not at precise angle and speed,
-we die! Example!"
-
----
-
-Recovered mission logs confirmed
-the operation required the Hail Mary
-to perform sustained low-altitude flight
-inside Adrian's upper atmosphere.
-
-The maneuver was conducted manually.
-
-At the time of operation,
-Dr. Grace possessed no formal pilot training.
-
-The vessel was required to fly backwards
-to maintain proper atmospheric velocity
-during collection procedures.
-</pre>
+        <span>RECOVERED HAIL MARY TELEMETRY • LEVEL 4 REVIEW</span>
 
     </div>
 
-    <!-- INJURIES -->
+    <!-- HERO IMAGE -->
 
-    <div class="injury-card">
+    <div class="hm-incident-hero">
+        INSERT: HAIL MARY DURING ADRIAN DIVE
+    </div>
 
-        <div class="injury-photo">
-            INJURY DOCUMENTATION IMAGE
+    <!-- OVERVIEW -->
+
+    <div class="hm-incident-summary">
+
+        <div class="hm-incident-stat">
+            <label>EVENT TYPE</label>
+            <span>CATASTROPHIC EVA INCIDENT</span>
         </div>
 
-<pre>
-POST-INCIDENT MEDICAL SUMMARY
+        <div class="hm-incident-stat">
+            <label>LOCATION</label>
+            <span>ADRIAN UPPER ATMOSPHERE</span>
+        </div>
 
-PATIENT:
-Dr. Ryland Grace
+        <div class="hm-incident-stat">
+            <label>PRIMARY PERSONNEL</label>
+            <span>DR. RYLAND GRACE</span>
+        </div>
 
----
+        <div class="hm-incident-stat">
+            <label>OUTCOME</label>
+            <span class="hm-incident-orange">
+                SURVIVED
+            </span>
+        </div>
 
-INJURIES SUSTAINED:
+    </div>
 
-• Fractured nasal bone
-• Laceration — left orbital region
-• Third-degree thermal burns — left wrist
-• Severe bruising
-• Oxygen deprivation exposure
-• Pressure trauma
+    <!-- EVA IMAGE WALL -->
 
----
+    <div class="hm-incident-gallery">
 
-DIAGNOSIS:
+        <div class="hm-incident-photo">
+            INSERT: EVA PREPARATION
+        </div>
 
-Patient survived catastrophic
-thermal and decompression exposure
-during extravehicular retrieval operation.
+        <div class="hm-incident-photo">
+            INSERT: CHAIN COLLECTION SYSTEM
+        </div>
 
-Automated medical intervention systems
-prevented fatality.
+        <div class="hm-incident-photo">
+            INSERT: ADRIAN ATMOSPHERE
+        </div>
 
----
+        <div class="hm-incident-photo">
+            INSERT: SPACEWALK FOOTAGE
+        </div>
 
-TREATMENT ADMINISTERED:
+        <div class="hm-incident-photo">
+            INSERT: HULL DAMAGE IMAGE
+        </div>
 
-• Emergency sedation
-• Automated pharmaceutical injection
-• Burn treatment protocol
-• Oxygen stabilization
-• Internal pressure recovery
+        <div class="hm-incident-photo">
+            INSERT: EXTERNAL CAMERA VIEW
+        </div>
 
----
+    </div>
 
-STATUS:
+    <!-- TELEMETRY -->
 
-SURVIVED
+    <div class="hm-incident-timeline">
 
-[END MEDICAL FILE]
-</pre>
+        <h3>CRITICAL EVENT TIMELINE</h3>
+
+        <div class="hm-incident-entry danger">
+            <span>03:14:10</span>
+            HULL BREACH DETECTED
+        </div>
+
+        <div class="hm-incident-entry">
+            <span>03:14:16</span>
+            FUEL COMPARTMENT TWELVE JETTISONED
+        </div>
+
+        <div class="hm-incident-entry">
+            <span>03:14:20</span>
+            FUEL COMPARTMENT ELEVEN JETTISONED
+        </div>
+
+        <div class="hm-incident-entry warning">
+            <span>03:15:02</span>
+            AMMONIA CONTAMINATION DETECTED
+        </div>
+
+        <div class="hm-incident-entry">
+            <span>03:15:09</span>
+            CENTRIFUGE MODE ACTIVATED
+        </div>
+
+        <div class="hm-incident-entry success">
+            <span>03:18:25</span>
+            AUTOMATED MEDICAL RESPONSE INITIATED
+        </div>
+
+    </div>
+
+    <!-- ROCKY PLAN -->
+
+    <div class="hm-incident-plan">
+
+        <h3>MISSION PLAN REVIEW</h3>
+
+        <blockquote>
+            "Hello Earth. Plan is like fishing."
+            <br>
+            — Rocky
+        </blockquote>
+
+        <p>
+            The collection maneuver required Hail Mary to enter
+            Adrian's atmosphere while maintaining precise velocity,
+            orientation, and altitude.
+        </p>
+
+        <p>
+            The spacecraft was flown manually by Dr. Grace despite
+            his lack of formal pilot certification.
+        </p>
+
+        <p>
+            Failure margins were calculated at less than 3%.
+        </p>
+
+    </div>
+
+    <!-- MEDICAL FILE -->
+
+    <div class="hm-medical-section">
+
+        <h3>POST-INCIDENT MEDICAL FILE</h3>
+
+        <div class="hm-medical-gallery">
+
+            <div class="hm-medical-photo">
+                INSERT: MEDICAL SCAN
+            </div>
+
+            <div class="hm-medical-photo">
+                INSERT: BURN DOCUMENTATION
+            </div>
+
+            <div class="hm-medical-photo">
+                INSERT: FACIAL INJURY IMAGE
+            </div>
+
+            <div class="hm-medical-photo">
+                INSERT: MARY MEDICAL ROBOT
+            </div>
+
+        </div>
+
+        <div class="hm-medical-grid">
+
+            <div class="hm-medical-card">
+
+                <h4>INJURIES</h4>
+
+                <ul>
+                    <li>Fractured nasal bone</li>
+                    <li>Orbital laceration</li>
+                    <li>Third-degree thermal burns</li>
+                    <li>Hypoxia exposure</li>
+                    <li>Pressure trauma</li>
+                </ul>
+
+            </div>
+
+            <div class="hm-medical-card">
+
+                <h4>TREATMENT</h4>
+
+                <ul>
+                    <li>Emergency sedation</li>
+                    <li>Automated injections</li>
+                    <li>Burn treatment protocol</li>
+                    <li>Oxygen stabilization</li>
+                    <li>Pressure recovery</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MARY LOG -->
+
+    <div class="hm-mary-emergency">
+
+        <h3>MARY EMERGENCY RESPONSE</h3>
+
+        <div class="hm-mary-log">
+    > MARY[03:03:02.118]: MANUAL MODE ACTIVATED
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:05.441]: ALTITUDE WARNING
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:06.092]: WARNING
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:06.094]: EXTERIOR TEMPERATURE ELEVATED
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:08.771]: WARNING
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:08.773]: HULL PRESSURE ANOMALY DETECTED
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:09.106]: WARNING
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:09.248]: WARNING
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:09.411]: WARNING
+</div>
+
+<div class="hm-mary-log danger">
+    > MARY[03:14:10.027]: HULL BREACH DETECTED
+</div>
+
+<div class="hm-mary-log danger">
+    > MARY[03:14:10.030]: LOCATION: PORTSIDE FUEL COMPARTMENTS ELEVEN AND TWELVE
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:12.482]: JETTISON PORT FUEL TANK COMPARTMENT TWELVE
+</div>
+
+<div class="hm-mary-log">
+    > MARY[03:14:12.486]: CONFIRM?
+</div>
+
+<div class="hm-mary-log success">
+    > MARY[03:14:16.093]: JETTISON CONFIRMED: COMPARTMENT TWELVE
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:16.941]: JETTISON PORT FUEL TANK COMPARTMENT ELEVEN
+</div>
+
+<div class="hm-mary-log">
+    > MARY[03:14:16.944]: CONFIRM?
+</div>
+
+<div class="hm-mary-log success">
+    > MARY[03:14:20.112]: JETTISON CONFIRMED: COMPARTMENT ELEVEN
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:14:25.775]: CENTRIFUGE MODE ACTIVATE
+</div>
+
+<div class="hm-mary-log">
+    > MARY[03:14:25.898]: CONFIRM?
+</div>
+
+<div class="hm-mary-log warning">
+    > MARY[03:15:02.990]: CONTAMINANT DETECTED
+</div>
+
+<div class="hm-mary-log danger">
+    > MARY[03:15:02.991]: AMMONIA
+</div>
+
+<div class="hm-mary-log success">
+    > MARY[03:15:09.989]: CENTRIFUGE MODE ACTIVATED
+</div>
+
+<div class="hm-mary-log success">
+    > MARY[03:18:25.413]: AUTOMATED MEDICAL RESPONSE INITIATED
+</div>
 
     </div>
 
 </div>
+
 `
 },
 taumoeba: {
@@ -5262,137 +6851,304 @@ taumoeba: {
     title: 'TAUMOEBA EXPERIMENT LOGS',
 
     body: `
-
 <div class="taumoeba-report">
+<!--
 
     <div class="bio-photo">
         TAUMOEBA MICROSCOPY IMAGE
     </div>
+    !-->
 
-<pre>
-[RECOVERED SCIENCE LOG]
+<div class="taumoeba-report">
 
-PROJECT:
-TAUMOEBA ANALYSIS
+    <div class="taumoeba-header">
 
-PRIMARY SCIENTIST:
-Dr. Ryland Grace
+        <div>
+            <span class="report-class">HAIL MARY SCIENCE ARCHIVE</span>
+            <h1>TAUMOEBA RESEARCH DOSSIER</h1>
+            <p>Recovered From Beetle Probe Scientific Archives</p>
+        </div>
 
-ASSISTING ENGINEER:
-"Rocky"
+        <div class="taumoeba-status">
+            <span>STATUS</span>
+            SUCCESSFUL
+        </div>
 
----
+    </div>
 
-SUMMARY:
+    <!-- DISCOVERY -->
 
-Recovered mission logs confirmed
-the discovery of a naturally occurring
-microorganism within Adrian's biosphere
-capable of consuming astrophage.
+    <section class="taumoeba-section">
 
-The organism was later designated:
+        <h2>SPECIES IDENTIFICATION</h2>
 
-"TAUMOEBA"
+        <div class="spec-grid">
 
----
+            <div class="spec-card">
+                <span>DESIGNATION</span>
+                TAUMOEBA
+            </div>
 
-RECOVERED TRANSCRIPT:
+            <div class="spec-card">
+                <span>ORIGIN</span>
+                ADRIAN (TAU CETI SYSTEM)
+            </div>
 
-GRACE:
-"Taumoeba-35!"
+            <div class="spec-card">
+                <span>CLASSIFICATION</span>
+                AMOEBOID MICROORGANISM
+            </div>
 
-"Just an amoeba from Tau Ceti
-and we’re putting 'Tau'
-in front of 'amoeba.'"
+            <div class="spec-card">
+                <span>PRIMARY FOOD SOURCE</span>
+                ASTROPHAGE
+            </div>
 
----
+        </div>
 
-INITIAL TESTING:
+        <div class="science-summary">
 
-Early samples proved incapable
-of surviving nitrogen exposure.
+            <p>
+                Taumoeba represents the first confirmed extraterrestrial
+                predator species ever identified by humanity.
+            </p>
 
-Recovered logs confirmed
-multiple failed atmospheric tests.
+            <p>
+                Samples were recovered from the upper atmosphere
+                of Adrian approximately 91.2 kilometers above
+                the planetary surface.
+            </p>
 
----
+            <p>
+                Biological analysis confirmed that despite originating
+                on an alien world, Taumoeba shares numerous
+                cellular characteristics with terrestrial life.
+            </p>
 
-GRACE:
+        </div>
 
-"I did tests at different atmospheric variables
-and, fun fact,
-every time I introduce nitrogen..."
+    </section>
 
-[blows raspberry]
+    <!-- PHOTOS -->
 
-"...it died."
+    <section class="taumoeba-section">
 
----
+        <h2>IMAGING ARCHIVE</h2>
 
-GRACE:
+        <div class="taumoeba-gallery">
 
-"And I know what you’re thinking —
-well, that’s terrible,
-because we need it to survive
-in the conditions of Venus."
+            <div class="photo-placeholder">
+                INSERT:
+                MICROSCOPE IMAGE
+            </div>
 
----
+            <div class="photo-placeholder">
+                INSERT:
+                CELL STRUCTURE SCAN
+            </div>
 
-BREEDING PROGRAM:
+            <div class="photo-placeholder">
+                INSERT:
+                ADRIAN ATMOSPHERE SAMPLE
+            </div>
 
-Recovered logs confirmed
-Dr. Grace utilized
-Eridian xenonite breeder tanks
-to develop nitrogen-resistant strains.
+            <div class="photo-placeholder">
+                INSERT:
+                LIVE TAUMOEBA FEEDING
+            </div>
 
----
+        </div>
 
-GRACE:
+    </section>
 
-"Obviously I had to figure out
-how to breed a new strain
-of nitrogen-resistant Taumoeba.
+    <!-- BIOLOGY -->
 
-And guess what I used?"
+    <section class="taumoeba-section">
 
-"The breeder tanks that we made,
-with your xenonite."
+        <h2>BIOLOGICAL FINDINGS</h2>
 
-"And you know what?"
+        <div class="biology-grid">
 
-[kisses]
+            <div class="bio-card">
+                <span>DNA</span>
+                PRESENT
+            </div>
 
-"Now we’re just a couple
-of very cool dudes
-with their very own strain
-of nitrogen-resistant Taumoeba."
+            <div class="bio-card">
+                <span>MITOCHONDRIA</span>
+                PRESENT
+            </div>
 
----
+            <div class="bio-card">
+                <span>ENERGY STORAGE</span>
+                GLUCOSE
+            </div>
 
-TAUMOEBA-35:
+            <div class="bio-card">
+                <span>KREBS CYCLE</span>
+                ACTIVE
+            </div>
 
-Final engineered strain capable of surviving:
+            <div class="bio-card">
+                <span>CELL TYPE</span>
+                EUKARYOTIC
+            </div>
 
-• 3.5% nitrogen atmosphere
-• 0.02 atmospheric pressure
-• Venus-equivalent conditions
+            <div class="bio-card">
+                <span>THERMAL RANGE</span>
+                NON-ASTROPHAGE
+            </div>
 
----
+        </div>
 
-SIGNIFICANCE:
+        <blockquote class="grace-quote">
 
-Taumoeba-35 represented
-the first confirmed biological weapon
-capable of halting astrophage proliferation
-within the Sol system.
+            "It's alive. It has DNA. It has mitochondria.
+            It's just an amoeba from another planet."
 
-Recovered mission logs later confirmed
-the strain was successfully loaded
-into Beetle return probes
-for transport back to Earth.
+            <span>— Dr. Ryland Grace</span>
 
-[END FILE]
-</pre>
+        </blockquote>
+
+    </section>
+
+    <!-- EXPERIMENTS -->
+
+    <section class="taumoeba-section">
+
+        <h2>NITROGEN RESISTANCE PROGRAM</h2>
+
+        <div class="experiment-panel">
+
+            <div class="experiment-left">
+
+                <h3>OBJECTIVE</h3>
+
+                <p>
+                    Develop a strain capable of surviving
+                    Venusian atmospheric conditions.
+                </p>
+
+                <h3>METHOD</h3>
+
+                <p>
+                    Successive breeding cycles conducted
+                    using xenonite breeder tanks supplied
+                    by Eridian engineering systems.
+                </p>
+
+            </div>
+
+            <div class="experiment-right">
+
+                <div class="tank-chart">
+
+                    <div>TAUMOEBA-06 → 0.6% N₂</div>
+                    <div>TAUMOEBA-10 → 1.0% N₂</div>
+                    <div>TAUMOEBA-20 → 2.0% N₂</div>
+                    <div>TAUMOEBA-35 → 3.5% N₂</div>
+                    <div>TARGET → 8.0% N₂</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- LAB LOGS -->
+
+    <section class="taumoeba-section">
+
+        <h2>RECOVERED LAB LOGS</h2>
+
+        <div class="lab-log">
+
+            <div class="log-entry">
+                <span>GRACE:</span>
+                "Every time I introduce nitrogen..."
+                <br>
+                [blows raspberry]
+                <br>
+                "...it died."
+            </div>
+
+            <div class="log-entry">
+                <span>ROCKY:</span>
+                "Current nitrogen tolerance, question?"
+            </div>
+
+            <div class="log-entry">
+                <span>GRACE:</span>
+                "Tank Three had survivors at 0.6 percent.
+                I'm breeding them up now."
+            </div>
+
+            <div class="log-entry">
+                <span>ROCKY:</span>
+                "You. Be happy now."
+            </div>
+
+            <div class="log-entry">
+                <span>GRACE:</span>
+                "We still need eight percent.
+                Until then we're not done."
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FINAL STRAIN -->
+
+    <section class="taumoeba-section final-strain">
+
+        <h2>TAUMOEBA-35</h2>
+
+        <div class="success-panel">
+
+            <div>
+                <span>NITROGEN TOLERANCE</span>
+                3.5%
+            </div>
+
+            <div>
+                <span>PRESSURE TOLERANCE</span>
+                0.02 ATM
+            </div>
+
+            <div>
+                <span>VENUS COMPATIBLE</span>
+                YES
+            </div>
+
+            <div>
+                <span>ASTROPHAGE PREDATION</span>
+                CONFIRMED
+            </div>
+
+        </div>
+
+        <div class="mission-note">
+
+            <h3>MISSION SIGNIFICANCE</h3>
+
+            <p>
+                Taumoeba-35 became the first known organism
+                capable of naturally consuming Astrophage
+                under conditions compatible with deployment
+                inside the Sol system.
+            </p>
+
+            <p>
+                Multiple cultures were loaded into all
+                four Beetle return probes prior to departure.
+            </p>
+
+        </div>
+
+    </section>
 
 </div>
 `
@@ -5923,63 +7679,98 @@ beetles: {
 
     </div>
 
-<pre>
-[RECOVERED TRANSMISSION SUMMARY]
+<div class="dashboard5">
 
-The four Beetle probes successfully departed
-the Tau Ceti system carrying:
+<!-- LEFT: MISSION SUMMARY -->
+<div class="panel5">
 
-• Taumoeba-35 cultures
-• Astrophage samples
-• Full Hail Mary telemetry
-• Scientific archives
-• Crew records
+    <div class="title5">RECOVERED TRANSMISSION // BEETLE CLASS DATA</div>
 
----
+    <div class="section5 log5">
+The four Beetle probes successfully departed Tau Ceti carrying:
 
+• Taumoeba-35 cultures  
+• Astrophage samples  
+• Hail Mary telemetry archive  
+• Scientific records  
+• Crew memory log5s  
+    </div>
+
+    <div class="section5 log5">
 INITIAL ASSUMPTION:
+Earth telemetry suggested the Hail Mary
+remained on a direct return trajectory to Sol.
 
-Recovered Earth-side telemetry initially suggested
-the Hail Mary itself remained on return trajectory
-toward Sol.
+Subsequent navigation recovery revealed:
+Dr. Ryland Grace executed an unplanned course change
+shortly after Beetle deployment.
+    </div>
 
-Later recovered navigation logs revealed
-Dr. Ryland Grace altered course shortly
-after Beetle deployment.
-
----
-
-DESTINATION CHANGE:
-
+    <div class="section5 log5 warn">
+DESTINATION UPDATE:
 40 ERIDANI SYSTEM
+    </div>
 
----
+    <div class="section5 log5">
+MISSION NOTE:
+Grace diverted to assist the Eridian vessel "Blip-A"
+after detecting critical astrophage shortage.
 
-RECOVERED MISSION NOTES:
+Fuel transfer executed from Hail Mary reserves,
+preserving alien crew survivability.
+    </div>
 
-Grace returned after learning
-the Eridian vessel Blip-A
-lacked sufficient astrophage reserves
-for independent survival.
-
-Recovered logs indicate
-the Hail Mary transferred fuel
-to Rocky's vessel,
-preventing total mission loss.
-
----
-
+    <div class="section5 log5 danger5">
 ARCHIVAL NOTE:
+At time of Beetle arrival, Earth classified Grace as deceased.
+Full mission divergence remained unknown for decades.
+    </div>
 
-At the time of Beetle arrival,
-Earth believed Dr. Grace deceased.
+</div>
 
-The full circumstances surrounding
-the course change would not become known
-until decades later.
 
-[END FILE]
-</pre>
+<!-- RIGHT: PHYSICS + ENGINEERING -->
+<div class="panel5">
+
+    <div class="title5">BEETLE PROPULSION // PHYSICS MODEL</div>
+
+    <table class="table5">
+        <tr><td>Acceleration</td><td class="highlight5">5000 m/s²</td></tr>
+        <tr><td>Dry Mass</td><td>5 kg</td></tr>
+        <tr><td>Fuel Mass</td><td>180 kg</td></tr>
+        <tr><td>Start Mass</td><td>185 kg</td></tr>
+        <tr><td>Pressure</td><td>3.10 × 10⁷ Pa</td></tr>
+        <tr><td>Surface Area</td><td>0.03 m²</td></tr>
+        <tr><td>Thrust Force</td><td class="highlight5">9.30 × 10⁵ N</td></tr>
+        <tr><td>Start Acceleration</td><td>5027.03 m/s²</td></tr>
+        <tr><td>End Acceleration</td><td>186000 m/s²</td></tr>
+    </table>
+
+    <div class="section5 log5">
+DERIVED COEFFICIENTS:
+a = 27.60398645  
+b = 152.3960136  
+    </div>
+
+    <div class="section5 log5">
+RELATIVISTIC CHECK:
+M/m ratio: 5.5208  
+Gamma: 7.5369  
+Total T: 162511.3372  
+Coast velocity: 0.931c  
+Coast time (Earth): 4.02 × 10⁸ s  
+Total mission time: 5.37 × 10⁷ s (~621 days)
+    </div>
+
+    <div class="section5 log5 good">
+PROPULSION SUMMARY:
+Total thrust distributed across 4 Beetles:
+2.79 × 10⁶ N combined forward impulse
+Ship mass: 120,000 kg  
+Net acceleration: 16.44 m/s²
+    </div>
+
+</div>
 
 </div>
 `
@@ -5989,116 +7780,166 @@ collapse: {
     title: 'GLOBAL COLLAPSE PROJECTIONS',
 
     body: `
+<div class="apocalypse-dashboard">
 
-<div class="collapse-dashboard">
+    <div class="apocalypse-header">
 
-    <!-- CONFLICT LIST -->
+        <h2>EARTH STABILITY ASSESSMENT</h2>
 
-    <div class="war-list">
-
-        <div>
-            SOUTH ASIAN WATER CONFLICTS
-            <span>ACTIVE</span>
-        </div>
-
-        <div>
-            NORTHERN AFRICAN FAMINE CRISIS
-            <span>ESCALATING</span>
-        </div>
-
-        <div>
-            ARCTIC RESOURCE DISPUTES
-            <span>ACTIVE</span>
-        </div>
-
-        <div>
-            PACIFIC FOOD ROUTE COLLAPSE
-            <span>CRITICAL</span>
-        </div>
-
-        <div>
-            GLOBAL REFUGEE DISPLACEMENT
-            <span>1.2 BILLION</span>
+        <div class="alert-banner">
+            CIVILIZATION FAILURE RISK: EXTREME
         </div>
 
     </div>
 
-<pre>
-[UNITED NATIONS CRISIS SUMMARY]
+    <!-- TOP STATS -->
 
-Recovered global projections estimated
-Earth would lose approximately
-25% of its population within thirty years
-under ideal international cooperation conditions.
+    <div class="collapse-stats">
 
-Internal Petrova Task Force estimates
-later doubled those projections.
+        <div class="collapse-stat">
+            <span>PROJECTED MORTALITY</span>
+            <h3>50%</h3>
+            <p>Within 19 Years</p>
+        </div>
 
----
+        <div class="collapse-stat">
+            <span>DISPLACED POPULATION</span>
+            <h3>1.8B</h3>
+            <p>And Rising</p>
+        </div>
 
-RECOVERED EVA STRATT TRANSCRIPT:
+        <div class="collapse-stat">
+            <span>CROP FAILURE</span>
+            <h3>41%</h3>
+            <p>Global Output Loss</p>
+        </div>
 
-"Of course.
-Leclerc’s estimate assumes all nations
-work together to share resources
-and ration food.
+        <div class="collapse-stat">
+            <span>COUNTRIES UNDER RATIONING</span>
+            <h3>63</h3>
+            <p>Emergency Measures Active</p>
+        </div>
 
-But do you think that will happen?"
+    </div>
 
-"Do you think the United States
-is going to sit idly by
-while half their population starves?"
+    <!-- ACTIVE CRISES -->
 
-"Do you think China
-will simply leave weaker neighbors alone?"
+    <div class="crisis-section">
 
----
+        <h3>ACTIVE GLOBAL CRISES</h3>
 
-"There will be wars."
+        <div class="crisis-grid">
 
-"Fought for the same reason
-most ancient wars were fought:
+            <div class="crisis-card danger">
+                <h4>SOUTH ASIAN WATER WARS</h4>
+                <span>ACTIVE CONFLICT</span>
+            </div>
 
-Food."
+            <div class="crisis-card warning">
+                <h4>NORTHERN AFRICA</h4>
+                <span>FAMINE CONDITIONS</span>
+            </div>
 
----
+            <div class="crisis-card danger">
+                <h4>ARCTIC TERRITORIES</h4>
+                <span>RESOURCE DISPUTES</span>
+            </div>
 
-Recovered Earth-side reports confirmed:
+            <div class="crisis-card critical">
+                <h4>PACIFIC FOOD CORRIDORS</h4>
+                <span>SYSTEM FAILURE</span>
+            </div>
 
-• Agricultural collapse
-• Forced migration
-• Regional famine
-• Resource wars
-• Energy shortages
-• Medical infrastructure failure
-• Uncontrolled disease outbreaks
+            <div class="crisis-card warning">
+                <h4>MEDITERRANEAN REGION</h4>
+                <span>MASS MIGRATION</span>
+            </div>
 
----
+            <div class="crisis-card danger">
+                <h4>GLOBAL HEALTH SYSTEMS</h4>
+                <span>OVERWHELMED</span>
+            </div>
 
-RECOVERED STRATT STATEMENT:
+        </div>
 
-"War, famine, pestilence, and death.
+    </div>
 
-Astrophage is literally the apocalypse.
+    <!-- STRATT QUOTE -->
 
-The Hail Mary is all we have now."
+    <div class="stratt-warning">
 
----
+        <div class="quote-mark">"</div>
 
-ARCHIVAL NOTE:
+        <div class="quote-text">
 
-By this stage of the crisis,
-multiple governments had enacted:
+            Leclerc's projections assume nations
+            cooperate and share resources.
 
-• Martial law
-• Military-controlled rationing
-• Border closures
-• Forced agricultural labor programs
+            They won't.
 
-Several nation-states ceased functioning entirely.
+            Countries do not watch their populations starve.
 
-[END FILE]
-</pre>
+            They go to war.
+
+        </div>
+
+        <div class="quote-source">
+            EVA STRATT — PETROVA TASK FORCE
+        </div>
+
+    </div>
+
+    <!-- FAILURE TIMELINE -->
+
+    <div class="collapse-timeline">
+
+        <h3>CIVILIZATION FAILURE CASCADE</h3>
+
+        <div class="timeline-item">
+            <span>PHASE I</span>
+            Agricultural instability and regional food shortages.
+        </div>
+
+        <div class="timeline-item">
+            <span>PHASE II</span>
+            Global migration events begin.
+        </div>
+
+        <div class="timeline-item">
+            <span>PHASE III</span>
+            Resource conflicts and border militarization.
+        </div>
+
+        <div class="timeline-item">
+            <span>PHASE IV</span>
+            Economic collapse and infrastructure failure.
+        </div>
+
+        <div class="timeline-item final">
+            <span>PHASE V</span>
+            War. Famine. Pestilence. Death.
+        </div>
+
+    </div>
+
+    <!-- FOOTER NOTE -->
+
+    <div class="archive-footer">
+
+        <h3>ARCHIVAL ASSESSMENT</h3>
+
+        <p>
+            Multiple governments entered permanent emergency status.
+            Martial law, forced rationing programs, agricultural
+            conscription, and military food distribution became common.
+        </p>
+
+        <p>
+            Intelligence analysts concluded that Project Hail Mary
+            represented humanity's only known long-term survival strategy.
+        </p>
+
+    </div>
 
 </div>
 `
@@ -6108,112 +7949,172 @@ lastcontact: {
     title: 'FINAL HAIL MARY COMMUNICATION',
 
     body: `
+<div class="last-contact-dashboard">
 
-<div class="lastcontact-dashboard">
+    <div class="contact-header">
 
-    <!-- SIGNAL PANEL -->
+        <h2>LAST CONTACT EVENT</h2>
 
-    <div class="signal-panel">
-
-        <div class="signal-line"></div>
-
-        <div class="signal-noise"></div>
-
-        <div class="signal-status">
-            SIGNAL LOST
+        <div class="contact-alert">
+            HAIL MARY SIGNAL LOST
         </div>
 
     </div>
 
-    <!-- TRANSMISSION -->
+    <!-- STATUS -->
 
-<pre class="danger-log">
-[FINAL RECOVERED BEETLE TRANSMISSION]
+    <div class="contact-status-grid">
 
-TIMESTAMP:
-T+23 YEARS
+        <div class="contact-stat">
+            <span>MISSION YEAR</span>
+            <h3>T+23</h3>
+        </div>
 
-SOURCE:
-HAIL MARY
+        <div class="contact-stat">
+            <span>BEETLE STATUS</span>
+            <h3>RETURNING TO SOL</h3>
+        </div>
 
-DESTINATION:
-BEETLE RETURN PROBES
+        <div class="contact-stat">
+            <span>HAIL MARY STATUS</span>
+            <h3>OFF COURSE</h3>
+        </div>
 
----
+        <div class="contact-stat critical">
+            <span>COMMUNICATIONS</span>
+            <h3>LOST</h3>
+        </div>
 
-NAVIGATION STATUS:
+    </div>
 
-BEETLES:
-TRAJECTORY STABLE
-DESTINATION:
-SOL SYSTEM
+    <!-- TRAJECTORY -->
 
-HAIL MARY:
-COURSE DIVERGENCE CONFIRMED
+    <div class="trajectory-section">
 
-DESTINATION:
-40 ERIDANI SYSTEM
+        <h3>MISSION TRAJECTORY DIVERGENCE</h3>
 
----
+        <div class="trajectory-map">
 
-COMMUNICATION STATUS:
+            <div class="trajectory-node earth">
+                SOL SYSTEM
+            </div>
 
-Long-range telemetry quality degraded
-over extended interstellar distance.
+            <div class="trajectory-line"></div>
 
-Signal fragmentation increased
-over multiple years.
+            <div class="trajectory-split">
 
----
+                <div class="split-branch beetles">
 
-LAST RECOVERED TRANSMISSION:
+                    <h4>BEETLE PROBES</h4>
 
-"...fuel transfer stable..."
+                    <span>
+                    TRAJECTORY LOCKED
+                    </span>
 
-"...Rocky..."
+                    <p>
+                    Carrying mission archives,
+                    scientific data,
+                    Astrophage samples,
+                    Taumoeba cultures,
+                    and full Hail Mary telemetry.
+                    </p>
 
-"...see you on Erid..."
+                </div>
 
-[TRANSMISSION CORRUPTED]
+                <div class="split-branch hailmary">
 
----
+                    <h4>HAIL MARY</h4>
 
-SIGNAL LOSS EVENT:
+                    <span>
+                    COURSE CHANGE DETECTED
+                    </span>
 
-Recovered records confirmed
-the Hail Mary officially ceased
-all detectable transmissions shortly afterward.
+                    <p>
+                    Vessel departed original return path
+                    and accelerated toward
+                    the 40 Eridani system.
+                    </p>
 
-No further communication
-was ever received by the Beetle probes.
+                </div>
 
----
+            </div>
 
-ARCHIVAL SUMMARY:
+        </div>
 
-At the time of final contact,
-mission analysts believed
-Dr. Ryland Grace was attempting
-to reach the Eridian vessel Blip-A
-to prevent loss of crew and ship.
+    </div>
 
-Mission outcome:
-UNKNOWN
+    <!-- INVESTIGATION -->
 
----
+    <div class="investigation-panel">
 
-ARCHIVAL NOTE:
+        <h3>POST-EVENT ANALYSIS</h3>
 
-No verified return
-of the Hail Mary spacecraft
-has ever occurred.
+        <div class="analysis-grid">
 
-Dr. Ryland Grace
-was officially declared deceased in absentia
-41 years after launch.
+            <div class="analysis-card">
 
-[END FILE]
-</pre>
+                <h4>KNOWN</h4>
+
+                <ul>
+                    <li>Rocky suffered fuel loss</li>
+                    <li>Blip-A was stranded</li>
+                    <li>Grace altered course</li>
+                    <li>Fuel transfer operations began</li>
+                    <li>Communication quality deteriorated</li>
+                </ul>
+
+            </div>
+
+            <div class="analysis-card">
+
+                <h4>UNKNOWN</h4>
+
+                <ul>
+                    <li>Did Grace reach Blip-A?</li>
+                    <li>Did Rocky survive?</li>
+                    <li>Did Hail Mary arrive?</li>
+                    <li>Was fuel transfer completed?</li>
+                    <li>Did either vessel survive?</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- DECLARATION -->
+
+    <div class="memorial-section">
+
+        <div class="memorial-title">
+            OFFICIAL STATUS
+        </div>
+
+        <p>
+
+            Following decades without additional telemetry,
+            Dr. Ryland Grace was formally declared deceased
+            in absentia.
+
+        </p>
+
+        <p>
+
+            No confirmed sighting, transmission,
+            or recovery of the Hail Mary spacecraft
+            has ever been recorded.
+
+        </p>
+
+        <div class="memorial-stamp">
+
+            CASE STATUS:
+            UNSOLVED
+
+        </div>
+
+    </div>
 
 </div>
 `
@@ -6373,124 +8274,243 @@ signalreceived: {
     title: 'BEETLE ARRIVAL CONFIRMATION',
 
     body: `
+<div class="arrival-command-center">
 
-<div class="signal-dashboard">
+    <div class="arrival-header">
 
-    <!-- RADAR -->
+        <div>
 
-    <div class="arrival-radar">
+            <span class="arrival-classification">
+                UNITED NATIONS RECOVERY COMMAND
+            </span>
 
-        <div class="radar-ring ring1"></div>
-        <div class="radar-ring ring2"></div>
-        <div class="radar-ring ring3"></div>
+            <h1>SIGNAL CONFIRMED</h1>
 
-        <div class="beetle-blip b1"></div>
-        <div class="beetle-blip b2"></div>
-        <div class="beetle-blip b3"></div>
-        <div class="beetle-blip b4"></div>
+            <p>
+                FIRST OBJECTS FROM TAU CETI DETECTED
+            </p>
 
-        <div class="radar-center"></div>
+        </div>
+
+        <div class="arrival-status">
+
+            <span>MISSION STATUS</span>
+
+            CONTACT RE-ESTABLISHED
+
+        </div>
 
     </div>
 
-<pre class="danger-log">
-[UNITED NATIONS EMERGENCY BULLETIN]
+    <!-- DETECTION -->
 
-PRIORITY:
-ABSOLUTE
+    <div class="signal-alert">
 
-SOURCE:
-DEEP SPACE NETWORK
+        <div class="alert-icon">⚠</div>
 
----
+        <div>
 
-At 04:14 UTC,
-multiple monitoring arrays
-near Jupiter orbit
-confirmed four relativistic objects
-entering the Solar System.
+            <h3>DEEP SPACE NETWORK ALERT</h3>
 
-Trajectory analysis confirms
-origin vector alignment
-with the Tau Ceti system.
+            <p>
+                Four relativistic contacts detected beyond
+                Jupiter orbital space. Trajectory analysis
+                confirms origin vector consistent with
+                Project Hail Mary return architecture.
+            </p>
 
----
+        </div>
 
-THERMAL SIGNATURE MATCH:
-99.92%
+    </div>
 
-OBJECT CLASSIFICATION:
-BEETLE RETURN PROBES
+    <!-- METRICS -->
 
----
+    <div class="arrival-metrics">
 
-PROJECTED TOUCHDOWN:
+        <div class="metric-box">
 
-34 DAYS
+            <span>OBJECTS DETECTED</span>
 
-LOCATION:
-INDIAN OCEAN RECOVERY ZONE
+            <strong>04</strong>
 
----
+            <small>IDENTIFIED AS BEETLE PROBES</small>
 
-GLOBAL RESPONSE:
+        </div>
 
-Within hours of confirmation,
-multiple ongoing military conflicts
-announced temporary ceasefires.
+        <div class="metric-box">
 
-Emergency peace negotiations began
-under United Nations oversight.
+            <span>THERMAL MATCH</span>
 
----
+            <strong>99.92%</strong>
 
-ARCHIVAL NOTE:
+            <small>HAIL MARY DESIGN SIGNATURE</small>
 
-The announcement triggered
-the largest spontaneous celebrations
-recorded since the Petrova discovery.
+        </div>
 
-Crowds gathered worldwide
-to watch live trajectory updates.
+        <div class="metric-box">
 
----
+            <span>ETA TO EARTH</span>
 
-SPECIAL AUTHORIZATION ORDER:
+            <strong>34 DAYS</strong>
 
-Former Petrova Task Force Director
-Eva Stratt was released from prison
-under emergency executive authority.
+            <small>INDIAN OCEAN RECOVERY ZONE</small>
 
-Stratt immediately resumed advisory duties
-for Beetle recovery operations.
+        </div>
 
----
+        <div class="metric-box">
 
-[RECOVERED PRESS BRIEFING]
+            <span>PUBLIC VIEWERS</span>
 
-REPORTER:
-"Dr. Stratt,
-after everything that happened,
-do you believe the mission succeeded?"
+            <strong>5.7B</strong>
 
-STRATT:
-"...They came home."
+            <small>LIVE TRACKING FEEDS</small>
 
----
+        </div>
 
-ARCHIVAL NOTE:
+    </div>
 
-Former Petrova Task Force personnel,
-scientists,
-flight controllers,
-and surviving Hail Mary support crews
-reassembled for recovery operations.
+    <!-- TIMELINE -->
 
-For the first time in decades,
-humanity had reason to hope.
+    <div class="event-feed">
 
-[END FILE]
-</pre>
+        <h2>GLOBAL EVENT LOG</h2>
+
+        <div class="event">
+
+            <span>04:14 UTC</span>
+
+            Four unidentified contacts detected near Jupiter.
+
+        </div>
+
+        <div class="event">
+
+            <span>04:27 UTC</span>
+
+            Tau Ceti origin vector confirmed.
+
+        </div>
+
+        <div class="event">
+
+            <span>05:11 UTC</span>
+
+            Emergency session of United Nations convened.
+
+        </div>
+
+        <div class="event">
+
+            <span>06:43 UTC</span>
+
+            Active military conflicts announce temporary ceasefires.
+
+        </div>
+
+        <div class="event">
+
+            <span>09:02 UTC</span>
+
+            Eva Stratt released under emergency executive order.
+
+        </div>
+
+        <div class="event">
+
+            <span>12:18 UTC</span>
+
+            Global celebrations begin across major population centers.
+
+        </div>
+
+    </div>
+
+    <!-- STRATT -->
+
+    <div class="stratt-quote-panel">
+
+        <div class="quote-mark">"</div>
+
+        <div>
+
+            <p>
+                For twenty-four years humanity prepared
+                itself for silence.
+            </p>
+
+            <p>
+                Today four small objects appeared
+                from the darkness between the stars.
+            </p>
+
+            <p>
+                They came home.
+            </p>
+
+            <span>
+                — EVA STRATT
+            </span>
+
+        </div>
+
+    </div>
+
+    <!-- RECOVERY -->
+
+    <div class="recovery-section">
+
+        <h2>RECOVERY OPERATION STATUS</h2>
+
+        <div class="recovery-grid">
+
+            <div>
+
+                <span>RECOVERY FLEET</span>
+
+                DEPLOYED
+
+            </div>
+
+            <div>
+
+                <span>INDIAN OCEAN ZONE</span>
+
+                SECURED
+
+            </div>
+
+            <div>
+
+                <span>SCIENCE TEAMS</span>
+
+                STANDING BY
+
+            </div>
+
+            <div>
+
+                <span>PETROVA TASK FORCE</span>
+
+                REACTIVATED
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FINAL -->
+
+    <div class="hope-banner">
+
+        <h2>FIRST CONFIRMED RETURN FROM ANOTHER STAR SYSTEM</h2>
+
+        <p>
+            Whatever survived Tau Ceti is now only
+            thirty-four days from Earth.
+        </p>
+
+    </div>
 
 </div>
 `
@@ -6594,82 +8614,255 @@ splashdown: {
 
     </div>
 
-<pre class="danger-log">
-[RECOVERY SUMMARY]
+<div class="recovery-command">
 
-All four Beetle probes
-were recovered successfully.
+    <div class="recovery-header">
 
-Payload integrity remained above
-94% across all probes.
+        <div class="recovery-status">
+            <span>RECOVERY STATUS</span>
+            SUCCESSFUL
+        </div>
 
----
+        <div class="recovery-status">
+            <span>PAYLOAD INTEGRITY</span>
+            94.3%
+        </div>
 
-RECOVERED MATERIAL INCLUDED:
+        <div class="recovery-status">
+            <span>FIRST CONTACT</span>
+            CONFIRMED
+        </div>
 
-• Live Taumoeba-35 samples
-• Astrophage cultures
-• Xenonite material samples
-• Complete Hail Mary telemetry
-• Thousands of hours of onboard recordings
-• Extraterrestrial linguistic data
-• Eridian engineering schematics
-• Biological analysis from Adrian
-• Personal journals from Dr. Ryland Grace
+        <div class="recovery-status">
+            <span>MISSION OUTCOME</span>
+            SOL SAVED
+        </div>
 
----
+    </div>
 
-ARCHIVAL NOTE:
+    <!-- MEDIA / FILES -->
 
-Recovered scientific papers authored by Grace
-included extensive documentation regarding:
+    <div class="recovery-grid">
 
-• Astrophage biology
-• Adrian ecosystem structures
-• Taumoeba breeding
-• Xenonite applications
-• Eridian mathematics
-• Eridian social structures
-• Interstellar engineering systems
+        <div class="recovery-card">
+            <h3>RECOVERED FILES</h3>
 
----
+            <ul>
+                <li>✓ Complete Hail Mary Telemetry</li>
+                <li>✓ Crew Medical Archives</li>
+                <li>✓ Adrian Ecosystem Research</li>
+                <li>✓ Astrophage Studies</li>
+                <li>✓ Taumoeba Breeding Records</li>
+                <li>✓ Eridian Mathematics</li>
+                <li>✓ Xenonite Engineering Data</li>
+                <li>✓ Personal Journals</li>
+            </ul>
 
-FIRST CONTACT CONFIRMATION:
+        </div>
 
-Recovered files conclusively proved
-humanity had encountered
-extraterrestrial intelligent life.
+        <div class="recovery-card">
+            <h3>FIRST CONTACT DATA</h3>
 
-Species designation:
+            <ul>
+                <li>Species: ERIDIAN</li>
+                <li>Confirmed Individual: "ROCKY"</li>
+                <li>Language Database Returned</li>
+                <li>Engineering Archives Returned</li>
+                <li>Cultural Records Returned</li>
+                <li>Interstellar Collaboration Confirmed</li>
+            </ul>
+
+        </div>
+
+        <div class="recovery-card">
+            <h3>BIOLOGICAL SAMPLES</h3>
+
+            <ul>
+                <li>Live Taumoeba-35 Cultures</li>
+                <li>Astrophage Colonies</li>
+                <li>Adrian Microorganisms</li>
+                <li>Xenobiology Reference Material</li>
+            </ul>
+
+        </div>
+
+        <div class="recovery-card">
+            <h3>HISTORICAL SIGNIFICANCE</h3>
+
+            <ul>
+                <li>First Confirmed Alien Life</li>
+                <li>First Confirmed Intelligent Alien Species</li>
+                <li>First Interstellar Mission Success</li>
+                <li>First Human–Alien Alliance</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!-- PHOTO ARCHIVE -->
+
+    <div class="archive-gallery">
+
+        <div class="archive-photo">
+            <span>INSERT PHOTO</span>
+            GRACE & ROCKY WORKING TOGETHER
+        </div>
+
+        <div class="archive-photo">
+            <span>INSERT PHOTO</span>
+            ADRIAN SURFACE IMAGERY
+        </div>
+
+        <div class="archive-photo">
+            <span>INSERT PHOTO</span>
+            ERIDIAN SHIP INTERIOR
+        </div>
+
+        <div class="archive-photo">
+            <span>INSERT PHOTO</span>
+            FIRST TAUMOEBA CULTURE
+        </div>
+
+    </div>
+
+    <!-- MAIN REPORT -->
+
+    <div class="first-contact-report">
+
+        <div class="report-banner">
+            EVENT CLASSIFICATION:
+            HUMANITY'S FIRST CONFIRMED CONTACT
+            WITH EXTRATERRESTRIAL INTELLIGENCE
+        </div>
+
+<pre>
+
+[GLOBAL RECOVERY ARCHIVE]
+
+RECOVERY EVENT:
+BEETLE RETURN SUCCESS
+
+All four Beetle probes were successfully recovered
+from the Indian Ocean Recovery Zone.
+
+Initial inspection revealed payload preservation
+far beyond expected projections.
+
+More than two decades after launch,
+humanity finally received the answer it had waited for.
+
+And the answer changed everything.
+
+────────────────────────────────
+
+SCIENTIFIC TREASURE RECOVERED
+
+Mission archives contained millions of pages
+of scientific documentation authored by
+Dr. Ryland Grace.
+
+Recovered fields included:
+
+• Astrophage Biology
+• Adrian Ecosystem Analysis
+• Taumoeba Genetic Adaptation
+• Xenonite Materials Science
+• Eridian Mathematics
+• Interstellar Engineering
+• Alien Linguistics
+• Alien Sociology
+
+Researchers described the archive as:
+
+"Equivalent to receiving several centuries
+of scientific advancement overnight."
+
+────────────────────────────────
+
+FIRST CONTACT CONFIRMED
+
+Recovered files conclusively established
+the existence of intelligent extraterrestrial life.
+
+SPECIES DESIGNATION:
 ERIDIAN
 
-Primary recovered individual:
-"ROCKY"
+PRIMARY INDIVIDUAL:
+ROCKY
 
----
+Occupation:
+Engineer
 
-[RECOVERED VIDEO DESCRIPTION]
+Status:
+Unknown
 
-One recovered recording showed
-Dr. Grace and Rocky
-working together
-inside a shared engineering compartment.
+Relationship to Mission:
+Co-Savior of Humanity
 
-The footage became one of the most viewed
-pieces of media in human history.
+────────────────────────────────
 
----
+MOST VIEWED RECORDING IN HUMAN HISTORY
 
-ARCHIVAL NOTE:
+Among the recovered archives was a short video
+recorded aboard Hail Mary.
 
-Dr. Ryland Grace's final status
-remained officially unknown.
+The footage showed Dr. Ryland Grace and Rocky
+working side-by-side inside a shared engineering compartment.
 
-No evidence confirmed whether
-the Hail Mary successfully reached Erid.
+No speeches.
 
-[END FILE]
+No ceremony.
+
+No first-contact announcement.
+
+Just two engineers solving a problem together.
+
+Within three weeks of release,
+the recording became the most viewed
+piece of media ever created.
+
+────────────────────────────────
+
+UNRESOLVED QUESTION
+
+Despite complete telemetry recovery,
+the ultimate fate of Dr. Ryland Grace
+remains unknown.
+
+Evidence confirms:
+
+• Grace survived arrival at Tau Ceti
+• Grace met Rocky
+• Grace saved Sol
+• Grace altered course toward 40 Eridani
+
+Following the final transmission,
+all communication ceased.
+
+No evidence has ever confirmed whether
+Hail Mary reached Erid.
+
+No evidence has ever confirmed
+Grace's death.
+
+ARCHIVAL STATUS:
+
+MISSING
+
+────────────────────────────────
+
+For many historians,
+the final mystery of Project Hail Mary
+is not whether humanity survived.
+
+It is whether the man who saved it did.
+
+[END ARCHIVE]
+
 </pre>
+
+    </div>
 
 </div>
 `
@@ -6679,143 +8872,159 @@ solution: {
     title: 'SOL RECOVERY OPERATIONS',
 
     body: `
+<div class="restoration-report">
 
-<div class="solution-dashboard">
+    <div class="restore-banner">
+        SOLAR RECOVERY OPERATION INITIATED
+    </div>
 
-    <!-- STATUS -->
+    <div class="restore-stats">
 
-    <div class="solution-header">
-
-        <div>
-            TAUMOEBA BREEDING
-            <span>ACTIVE</span>
+        <div class="restore-stat">
+            <span>TAUMOEBA CULTURES</span>
+            8.7 BILLION+
         </div>
 
-        <div>
-            VENUS DEPLOYMENT
-            <span>PENDING</span>
+        <div class="restore-stat">
+            <span>BREEDING SITES</span>
+            143
         </div>
 
-        <div>
-            SOL PROGNOSIS
-            <span>STABILIZING</span>
+        <div class="restore-stat">
+            <span>DEPLOYMENT STATUS</span>
+            IN PROGRESS
+        </div>
+
+        <div class="restore-stat">
+            <span>SOL PROGNOSIS</span>
+            RECOVERABLE
         </div>
 
     </div>
 
-    <!-- LUMINOSITY -->
+    <div class="deployment-timeline">
 
-    <div class="luminosity-panel">
-
-        <div class="luminosity-label">
-            SOL LUMINOSITY PROJECTION
+        <div class="deploy-step complete">
+            <span>01</span>
+            BEETLE RECOVERY
         </div>
 
-        <div class="luminosity-graph">
+        <div class="deploy-step complete">
+            <span>02</span>
+            SAMPLE VERIFICATION
+        </div>
 
-            <div class="lum-line"></div>
+        <div class="deploy-step active">
+            <span>03</span>
+            TAUMOEBA SCALE-UP
+        </div>
 
-            <div class="lum-dot d1"></div>
-            <div class="lum-dot d2"></div>
-            <div class="lum-dot d3"></div>
+        <div class="deploy-step">
+            <span>04</span>
+            VENUS RELEASE
+        </div>
 
+        <div class="deploy-step">
+            <span>05</span>
+            PETROVA COLLAPSE
+        </div>
+
+        <div class="deploy-step">
+            <span>06</span>
+            SOL RECOVERY
         </div>
 
     </div>
 
-<pre class="danger-log">
-[GLOBAL RECOVERY BULLETIN]
+<pre>
 
-Recovered Taumoeba-35 cultures
-were successfully replicated
-in multiple secure laboratories.
+[PLANETARY RESTORATION BULLETIN]
 
-Planetary-scale breeding operations
-began immediately.
+STATUS:
+ACTIVE
 
----
+Less than forty-eight hours after recovery,
+laboratories across six continents successfully
+replicated live Taumoeba-35 cultures.
 
-MISSION OBJECTIVE:
+Emergency authorization was immediately granted
+for planetary-scale breeding operations.
 
-Deploy Taumoeba-35
-throughout the Petrova line
-near Venus orbit.
+────────────────────────────
 
-Projected result:
+OBJECTIVE
 
-• Astrophage population collapse
+Introduce Taumoeba into the Petrova Line
+surrounding Venusian orbit.
+
+Expected Outcome:
+
+• Rapid Astrophage consumption
+• Petrova Line collapse
 • Solar energy restoration
-• Gradual climate stabilization
+• Atmospheric recovery
+• Long-term climate stabilization
 
----
+────────────────────────────
 
-PUBLIC DISCLOSURE EVENT:
+PUBLIC DISCLOSURE
 
-For the first time in 24 years,
-world governments publicly confirmed:
+At 19:04 UTC,
+world governments jointly announced:
 
 PROJECT HAIL MARY SUCCEEDED
 
----
+The statement was broadcast simultaneously
+in 112 nations.
 
-Recovered mission logs revealed:
+For many citizens,
+it marked the first positive global announcement
+in more than two decades.
 
-Dr. Ryland Grace
-was the sole surviving crew member
-following the deaths of
-Commander Yao
-and Olesya Ilyukhina.
+────────────────────────────
 
----
+DECLASSIFIED FINDINGS
 
-Recovered archives showed
-Grace continued the mission alone
-within the Tau Ceti system.
+Recovered mission archives confirmed:
 
-Additional records confirmed
-Grace received assistance from:
+• Dr. Ryland Grace survived Tau Ceti arrival
+• Hail Mary completed primary objectives
+• Taumoeba solution successfully developed
+• Humanity received proof of alien intelligence
 
-[REDACTED]
+Several portions of the archive remain under review.
 
----
+────────────────────────────
 
-ARCHIVAL NOTE:
+WORLD RESPONSE
 
-The existence of intelligent extraterrestrial life
-remained partially classified
-during initial recovery operations.
+Spontaneous celebrations erupted worldwide.
 
-Limited information regarding
-the Eridian species
-was withheld pending international review.
+Curfews were suspended.
 
----
+Emergency sirens were silenced.
 
-[RECOVERED PUBLIC BROADCAST]
+In many cities,
+people gathered outdoors before dawn.
 
-ANCHOR:
+Witnesses described crowds applauding
+the sunrise.
 
-"For the first time in decades,
-humanity has a future again."
+For the first time in a generation,
+the future no longer appeared finite.
 
----
+────────────────────────────
 
-[RECOVERED STREET FOOTAGE]
+SOL STATUS:
 
-Crowds gathered worldwide
-during announcement broadcasts.
+STABILIZATION POSSIBLE
 
-Multiple cities suspended rationing curfews
-for public celebrations.
+EXTINCTION PROJECTION:
 
-Church bells rang
-across dozens of nations.
+REVOKED
 
-In several locations,
-people reportedly stood outside
-simply to watch the sunrise.
+[END BULLETIN]
 
-[END FILE]
 </pre>
 
 </div>
@@ -6826,164 +9035,179 @@ arclight2: {
     title: 'ARCLIGHT II MISSION REPORT',
 
     body: `
+<div class="arclight-mission-report">
 
-<div class="arclight-dashboard">
+    <div class="mission-banner">
 
-    <!-- STATUS -->
+        OPERATION SUNRISE
+        <span>ARCLIGHT II DEPLOYMENT CAMPAIGN</span>
 
-    <div class="arclight-header">
+    </div>
 
-        <div>
-            LAUNCH STATUS
-            <span>SUCCESSFUL</span>
+    <!-- PURPOSE -->
+
+    <div class="mission-overview">
+
+        <div class="overview-card">
+
+            <h3>MISSION PURPOSE</h3>
+
+            <p>
+                Deliver engineered Taumoeba-35 cultures
+                directly into the Petrova Line surrounding Venus.
+
+                Once released, the organisms are expected
+                to consume Astrophage populations responsible
+                for extracting energy from Sol.
+            </p>
+
         </div>
 
-        <div>
-            TAUMOEBA PAYLOAD
-            <span>8.4 MILLION KG</span>
-        </div>
+        <div class="overview-card">
 
-        <div>
-            TARGET ETA
-            <span>41 DAYS</span>
+            <h3>EXPECTED OUTCOME</h3>
+
+            <ul>
+                <li>Petrova Line degradation</li>
+                <li>Astrophage population collapse</li>
+                <li>Solar luminosity recovery</li>
+                <li>Climate stabilization</li>
+                <li>End of extinction projections</li>
+            </ul>
+
         </div>
 
     </div>
 
-    <!-- PAYLOAD GRAPH -->
+    <!-- PAYLOAD -->
 
-    <div class="payload-panel">
+    <div class="deployment-stats">
 
-        <div class="payload-title">
-            GLOBAL TAUMOEBA BREEDING OUTPUT
+        <div class="deploy-card">
+            <span>TAUMOEBA MASS</span>
+            8.4M KG
         </div>
 
-        <div class="payload-graph">
+        <div class="deploy-card">
+            <span>BREEDING FACILITIES</span>
+            143
+        </div>
 
-            <div class="payload-bar p1"></div>
-            <div class="payload-bar p2"></div>
-            <div class="payload-bar p3"></div>
-            <div class="payload-bar p4"></div>
-            <div class="payload-bar p5"></div>
+        <div class="deploy-card">
+            <span>ASTROPHAGE FUEL</span>
+            100%
+        </div>
+
+        <div class="deploy-card">
+            <span>TARGET ETA</span>
+            41 DAYS
+        </div>
+
+    </div>
+
+    <!-- TECHNOLOGY -->
+
+    <div class="technology-panel">
+
+        <div class="tech-title">
+            TECHNOLOGY INTEGRATED FROM HAIL MARY ARCHIVES
+        </div>
+
+        <div class="tech-grid">
+
+            <div class="tech-item">
+                XENONITE CONTAINMENT
+            </div>
+
+            <div class="tech-item">
+                ERIDIAN THERMAL SYSTEMS
+            </div>
+
+            <div class="tech-item">
+                ASTROPHAGE PROPULSION
+            </div>
+
+            <div class="tech-item">
+                BEETLE DATA ARCHIVES
+            </div>
 
         </div>
 
     </div>
 
-<pre class="danger-log">
-[ARCLIGHT II MISSION SUMMARY]
+    <!-- TIMELINE -->
 
-MISSION:
-ARCLIGHT II
+    <div class="mission-sequence">
 
-OBJECTIVE:
-Deliver Taumoeba-35 cultures
-directly into the Petrova line
-near Venus orbit.
+        <div class="sequence-event complete">
+            Global Taumoeba Production
+        </div>
 
----
+        <div class="sequence-event complete">
+            Payload Integration
+        </div>
 
-Recovered Taumoeba-35 cultures
-were bred continuously
-across multiple facilities worldwide.
+        <div class="sequence-event complete">
+            ArcLight II Launch
+        </div>
 
-Major breeding operations included:
+        <div class="sequence-event active">
+            Venus Transfer Burn
+        </div>
 
-• Sahara blackpanel farms
-• Antarctic thermal stations
-• Petrova Task Force laboratories
-• Orbital zero-gravity culture systems
+        <div class="sequence-event">
+            Petrova Line Release
+        </div>
 
----
+        <div class="sequence-event">
+            Solar Recovery Monitoring
+        </div>
 
-TOTAL PAYLOAD:
+    </div>
 
-8.4 million kilograms
-of active Taumoeba-35 cultures.
+    <!-- MEDIA -->
 
----
+    <div class="launch-archive">
 
-MISSION DESIGN:
+        <div class="launch-photo">
+            <span>INSERT PHOTO</span>
+            ARCLIGHT II ON PAD
+        </div>
 
-ArcLight II incorporated
-multiple technologies recovered
-from the Beetle probes:
+        <div class="launch-photo">
+            <span>INSERT PHOTO</span>
+            GLOBAL WATCH PARTIES
+        </div>
 
-• Xenonite containment systems
-• Eridian thermal shielding methods
-• Advanced astrophage fuel systems
+        <div class="launch-photo">
+            <span>INSERT PHOTO</span>
+            TAUMOEBA CULTURE FACILITY
+        </div>
 
----
+        <div class="launch-photo">
+            <span>INSERT PHOTO</span>
+            VENUS INTERCEPT VISUALIZATION
+        </div>
 
-[RECOVERED LAUNCH TRANSCRIPT]
+    </div>
 
-MISSION CONTROL:
+    <div class="mission-summary-box">
 
-"T-minus ten...
-nine...
-eight..."
+        <h3>ARCHIVAL NOTE</h3>
 
----
+        <p>
+            ArcLight II launched exactly twenty-five years
+            after the original ArcLight probe first identified
+            living extraterrestrial organisms within the Petrova Line.
+        </p>
 
-"All payload containment systems stable."
+        <blockquote>
+            "We spent twenty-five years trying not to die.
+            Now we finally get to fight back."
+            — Eva Stratt
+        </blockquote>
 
----
-
-"Telemetry green across all systems."
-
----
-
-"Three...
-two...
-one..."
-
----
-
-"ArcLight II ignition confirmed."
-
----
-
-[VIDEO DESCRIPTION]
-
-Recovered footage showed
-millions gathered worldwide
-to watch the launch live.
-
-For many survivors,
-the launch represented
-the first direct attempt
-to save the Sun itself.
-
----
-
-MISSION CONTROL:
-
-"Vehicle clear of tower."
-
-"ArcLight II now en route
-to the Petrova line."
-
----
-
-ARCHIVAL NOTE:
-
-The launch occurred exactly
-25 years after
-the original ArcLight mission
-first identified extraterrestrial microorganisms
-within the Petrova line.
-
----
-
-[RECOVERED EVA STRATT STATEMENT]
-
-"We spent twenty-five years
-trying not to die."
-
-"Now we finally get to fight back."
-
-[END FILE]
-</pre>
+    </div>
 
 </div>
 `
@@ -6993,148 +9217,196 @@ solsaved: {
     title: 'SOL RECOVERY CONFIRMATION',
 
     body: `
-
 <div class="sol-dashboard">
 
-    <!-- STATUS -->
+    <!-- HEADER METRICS -->
 
     <div class="sol-header">
 
-        <div>
-            SOL LUMINOSITY
-            <span>RISING</span>
+        <div class="sol-stat">
+            <span>SOLAR OUTPUT</span>
+            <h3>+0.84%</h3>
+            <p>FIRST POSITIVE GROWTH IN 25 YEARS</p>
         </div>
 
-        <div>
-            TAUMOEBA STATUS
-            <span>PROPAGATING</span>
+        <div class="sol-stat">
+            <span>ASTROPHAGE POPULATION</span>
+            <h3>-91.7%</h3>
+            <p>VENUS ORBIT MONITORING NETWORK</p>
         </div>
 
-        <div>
-            GLOBAL STATUS
-            <span>STABILIZING</span>
-        </div>
-
-    </div>
-
-    <!-- GRAPH -->
-
-    <div class="recovery-panel">
-
-        <div class="recovery-title">
-            SOL LUMINOSITY RECOVERY
-        </div>
-
-        <div class="recovery-graph">
-
-            <div class="recovery-line"></div>
-
-            <div class="recovery-dot r1"></div>
-            <div class="recovery-dot r2"></div>
-            <div class="recovery-dot r3"></div>
-            <div class="recovery-dot r4"></div>
-
+        <div class="sol-stat">
+            <span>EXTINCTION RISK</span>
+            <h3>REMOVED</h3>
+            <p>OFFICIALLY ENDED BY TASK FORCE</p>
         </div>
 
     </div>
 
-<pre class="danger-log">
-[PETROVA TASK FORCE BULLETIN]
+    <!-- RECOVERY GRAPH -->
 
-ArcLight II successfully entered
-Venus orbit
-and deployed Taumoeba-35 cultures
-into the Petrova line.
+    <div class="sol-panel">
 
----
+        <div class="sol-panel-title">
+            SOLAR LUMINOSITY RECOVERY TREND
+        </div>
 
-Within 11 days,
-monitoring satellites confirmed
-massive astrophage population collapse.
+        <div class="luminosity-graph">
 
----
+            <div class="lum-bar l1"></div>
+            <div class="lum-bar l2"></div>
+            <div class="lum-bar l3"></div>
+            <div class="lum-bar l4"></div>
+            <div class="lum-bar l5"></div>
+            <div class="lum-bar l6"></div>
 
-SOLAR OUTPUT REPORT:
+        </div>
 
-Solar luminosity decline
-has officially stopped.
+        <div class="lum-labels">
+            <span>DEPLOYMENT</span>
+            <span>DAY 30</span>
+            <span>DAY 90</span>
+            <span>DAY 180</span>
+            <span>YEAR 1</span>
+            <span>YEAR 2</span>
+        </div>
 
-For the first time in over two decades,
-the Sun is getting brighter.
+    </div>
 
----
+    <!-- TIMELINE -->
 
-PROJECTED RECOVERY TIMELINE:
+    <div class="recovery-timeline">
 
-• 13 months until full luminosity restoration
-• Global temperature stabilization projected within 4 years
-• Major agricultural recovery projected within 6 years
+        <div class="timeline-event">
+            <div class="timeline-date">DAY 11</div>
+            <div class="timeline-info">
+                <h4>ASTROPHAGE COLLAPSE DETECTED</h4>
+                <p>
+                    Venus monitoring satellites report
+                    widespread Petrova Line degradation.
+                    Population density drops beyond
+                    all predictive models.
+                </p>
+            </div>
+        </div>
 
----
+        <div class="timeline-event">
+            <div class="timeline-date">DAY 28</div>
+            <div class="timeline-info">
+                <h4>SOLAR DIMMING HALTED</h4>
+                <p>
+                    For the first time since Petrova discovery,
+                    luminosity decline reaches zero.
+                </p>
+            </div>
+        </div>
 
-[GLOBAL RESPONSE]
+        <div class="timeline-event">
+            <div class="timeline-date">DAY 104</div>
+            <div class="timeline-info">
+                <h4>POSITIVE SOLAR GROWTH</h4>
+                <p>
+                    Solar output begins increasing.
+                    Recovery officially confirmed.
+                </p>
+            </div>
+        </div>
 
-Ceasefires expanded worldwide
-within hours of the announcement.
+        <div class="timeline-event">
+            <div class="timeline-date">YEAR 4</div>
+            <div class="timeline-info">
+                <h4>CLIMATE STABILIZATION</h4>
+                <p>
+                    Global temperature trends normalize.
+                    Emergency methane interventions terminated.
+                </p>
+            </div>
+        </div>
 
-Several remaining wartime governments
-declared immediate armistices.
+    </div>
 
-Stock markets reopened
-for the first time in years.
+    <!-- GLOBAL STATUS -->
 
----
+    <div class="recovery-grid">
 
-[RECOVERED PUBLIC BROADCAST]
+        <div class="recovery-card">
+            <span>AGRICULTURE</span>
+            <h3>RECOVERING</h3>
+            <p>
+                Crop yields improving across all major
+                production regions.
+            </p>
+        </div>
 
-ANCHOR:
+        <div class="recovery-card">
+            <span>CONFLICT ZONES</span>
+            <h3>-78%</h3>
+            <p>
+                Active resource conflicts rapidly declining.
+            </p>
+        </div>
 
-"After twenty-five years,
-humanity will survive."
+        <div class="recovery-card">
+            <span>GLOBAL POWER</span>
+            <h3>STABLE</h3>
+            <p>
+                Astrophage energy reserves remain online
+                during recovery phase.
+            </p>
+        </div>
 
----
+        <div class="recovery-card">
+            <span>DISPLACED PERSONS</span>
+            <h3>RETURNING</h3>
+            <p>
+                Largest resettlement operation in human history.
+            </p>
+        </div>
 
-[RECOVERED STREET FOOTAGE]
+    </div>
 
-Large crowds gathered globally
-during sunrise events.
+    <!-- EVA -->
 
-In many cities,
-people openly wept
-as the Sun appeared visibly brighter
-for the first time in years.
+    <div class="eva-final">
 
----
+        <div class="eva-quote">
+            <span>FINAL TASK FORCE TRANSMISSION</span>
 
-ARCHIVAL NOTE:
+            <blockquote>
+                "Twenty-five years ago we were counting
+                how many people would die.
 
-The Petrova Task Force
-officially declared
-the extinction threat ended
-at 08:14 UTC.
+                Today we're counting how many people
+                get to live."
+            </blockquote>
 
----
+            <p>
+                — EVA STRATT
+            </p>
 
-[INTERNAL TASK FORCE MESSAGE]
+        </div>
 
-MISSION STATUS:
+    </div>
 
-SUCCESSFUL
+    <!-- ARCHIVAL NOTE -->
 
----
+    <div class="sol-footer">
 
-[FINAL EVA STRATT STATEMENT]
+        <h3>THREAT STATUS: TERMINATED</h3>
 
-"We asked the world
-to sacrifice everything."
+        <p>
+            Following successful deployment of
+            Taumoeba-35 into the Petrova Line,
+            solar output returned to normal growth patterns.
+            The extinction event officially ended at
+            08:14 UTC.
 
-"They did."
+            Historians later referred to this moment as:
 
-"And somehow...
-it was enough."
+            <strong>THE SECOND SUNRISE.</strong>
+        </p>
 
-[END FILE]
-</pre>
+    </div>
 
 </div>
 `
@@ -7144,26 +9416,28 @@ earthheals: {
     title: 'EARTH RECOVERY REPORT',
 
     body: `
-
 <div class="earth-dashboard">
 
-    <!-- STATUS -->
+    <!-- GLOBAL STATUS -->
 
     <div class="earth-header">
 
-        <div>
-            CROP OUTPUT
-            <span>+214%</span>
+        <div class="earth-stat">
+            <span>CROP OUTPUT</span>
+            <h3>+214%</h3>
+            <p>YEAR OVER YEAR</p>
         </div>
 
-        <div>
-            SEED VAULT STATUS
-            <span>OPENED</span>
+        <div class="earth-stat">
+            <span>ACTIVE CONFLICTS</span>
+            <h3>0</h3>
+            <p>FIRST TIME IN 19 YEARS</p>
         </div>
 
-        <div>
-            RATIONING STATUS
-            <span>ENDING</span>
+        <div class="earth-stat">
+            <span>RATIONING STATUS</span>
+            <h3>ENDING</h3>
+            <p>WORLDWIDE PHASE OUT</p>
         </div>
 
     </div>
@@ -7173,111 +9447,216 @@ earthheals: {
     <div class="food-panel">
 
         <div class="food-title">
-            GLOBAL FOOD PRODUCTION
+            GLOBAL AGRICULTURAL RECOVERY INDEX
         </div>
 
         <div class="food-graph">
 
-            <div class="food-line"></div>
+            <div class="food-bar foodb1"></div>
+            <div class="food-bar foodb2"></div>
+            <div class="food-bar foodb3"></div>
+            <div class="food-bar foodb4"></div>
+            <div class="food-bar foodb5"></div>
+            <div class="food-bar foodb6"></div>
 
-            <div class="food-dot f1"></div>
-            <div class="food-dot f2"></div>
-            <div class="food-dot f3"></div>
-            <div class="food-dot f4"></div>
+        </div>
+
+        <div class="food-labels">
+            <span>CRISIS</span>
+            <span>YEAR 1</span>
+            <span>YEAR 2</span>
+            <span>YEAR 3</span>
+            <span>YEAR 4</span>
+            <span>CURRENT</span>
+        </div>
+
+    </div>
+
+    <!-- RECOVERY OPERATIONS -->
+
+    <div class="rebuild-grid">
+
+        <div class="rebuild-card">
+
+            <span>GLOBAL FOOD INITIATIVE</span>
+
+            <h3>SEED VAULTS OPENED</h3>
+
+            <p>
+                Long-protected genetic archives were distributed
+                to recovering agricultural regions.
+
+                Wheat, rice, corn, soybean, potato,
+                coffee and fruit species returned
+                to commercial cultivation.
+            </p>
+
+        </div>
+
+        <div class="rebuild-card">
+
+            <span>INTERNATIONAL PEACE ACCORDS</span>
+
+            <h3>RESOURCE WARS ENDED</h3>
+
+            <p>
+                Remaining governments signed the
+                Reykjavik Food & Water Treaty.
+
+                Nations previously engaged in conflict
+                now share agricultural production,
+                freshwater infrastructure and climate technology.
+            </p>
+
+        </div>
+
+        <div class="rebuild-card">
+
+            <span>OCEAN RESTORATION</span>
+
+            <h3>ACTIVE RECOVERY</h3>
+
+            <p>
+                Massive reef reconstruction projects,
+                fisheries protection programs
+                and methane cleanup operations
+                are underway across multiple oceans.
+            </p>
+
+        </div>
+
+        <div class="rebuild-card">
+
+            <span>GLOBAL POWER GRID</span>
+
+            <h3>STABLE</h3>
+
+            <p>
+                Former emergency Astrophage power facilities
+                now support reconstruction efforts
+                in previously devastated regions.
+            </p>
 
         </div>
 
     </div>
 
-<pre class="danger-log">
-[GLOBAL RECOVERY SUMMARY]
+    <!-- PEACE TIMELINE -->
 
-Following restoration of solar luminosity,
-global agricultural recovery accelerated rapidly.
+    <div class="peace-panel">
 
----
+        <div class="peace-title">
+            POST-PETROVA RECOVERY MILESTONES
+        </div>
 
-Major emergency seed vaults
-were opened worldwide,
-including reserves stored for over two decades.
+        <div class="peace-event">
 
-Recovered crop strains included:
+            <div class="peace-date">
+                YEAR 1
+            </div>
 
-• Wheat
-• Rice
-• Corn
-• Soybean
-• Potato
-• Millet
-• Coffee
-• Cocoa
+            <div class="peace-info">
+                Last major resource conflict formally ends.
+            </div>
 
----
+        </div>
 
-[RECOVERED NEWS FOOTAGE]
+        <div class="peace-event">
 
-Large crowds gathered
-to witness the first planting ceremonies.
+            <div class="peace-date">
+                YEAR 2
+            </div>
 
-In several regions,
-children participated in planting crops
-for the first time in their lives.
+            <div class="peace-info">
+                International shipping networks fully restored.
+            </div>
 
----
+        </div>
 
-GLOBAL CONDITIONS:
+        <div class="peace-event">
 
-• Average temperatures stabilizing
-• Weather volatility decreasing
-• Oceanic recovery underway
-• International trade routes reopening
+            <div class="peace-date">
+                YEAR 3
+            </div>
 
----
+            <div class="peace-info">
+                Global rationing reduced below emergency levels.
+            </div>
 
-ARCHIVAL NOTE:
+        </div>
 
-Multiple wartime governments collapsed
-during the recovery years,
-replaced by international reconstruction coalitions.
+        <div class="peace-event">
 
----
+            <div class="peace-date">
+                YEAR 5
+            </div>
 
-[RECOVERED PUBLIC BROADCAST]
+            <div class="peace-info">
+                First generation born after the crisis enters school.
+            </div>
 
-ANCHOR:
+        </div>
 
-"For an entire generation,
-humanity believed the future had ended."
+    </div>
 
-"Today,
-farmers are planting again."
+    <!-- WORLD REACTION -->
 
----
+    <div class="humanity-panel">
 
-[RECOVERED STREET FOOTAGE]
+        <h3>RECONSTRUCTION ERA</h3>
 
-Former ration distribution centers
-were converted into open-air markets.
+        <p>
+            Across the world, former military supply depots
+            were converted into farming cooperatives.
 
-Several cities held public festivals
-celebrating the first successful harvests.
+            Refugee camps became permanent towns.
 
----
+            Border checkpoints became trade crossings.
 
-[RECOVERED TASK FORCE MEMO]
+            Nations that spent decades competing for food
+            now exchange seed stock, water purification systems,
+            farming equipment and climate recovery expertise.
+        </p>
 
-Projected extinction probability:
+        <p>
+            The largest coordinated rebuilding effort
+            in human history remains ongoing.
+        </p>
 
-0.02%
+    </div>
 
----
+    <!-- FINAL ENTRY -->
 
-[FINAL ENTRY]
+    <div class="earth-final">
 
-Sunrise is no longer feared.
+        <div class="earth-quote">
 
-[END FILE]
-</pre>
+            <span>UNITED NATIONS RECOVERY BROADCAST</span>
+
+            <blockquote>
+
+                "For twenty-five years humanity prepared
+                for the end of the world.
+
+                We forgot how to prepare
+                for its future."
+
+            </blockquote>
+
+        </div>
+
+        <div class="earth-note">
+
+            EXTINCTION STATUS:
+            TERMINATED
+
+            <br><br>
+
+            SUNRISE IS NO LONGER FEARED.
+
+        </div>
+
+    </div>
 
 </div>
 `
@@ -7649,13 +10028,9 @@ function closeArchive(){
     archiveModal.classList.remove('show');
 }
 
-function toggleRedacted(){
-
-    const content =
-    document.getElementById('redactedContent');
-
+function toggleRedacted() {
+    const content = document.getElementById('redactedContent');
     content.classList.toggle('show-file');
-    content.classList.add('show-redacted');
 }
 
 
@@ -7694,5 +10069,5 @@ function toggleTribunalCharges(button){
 }
 
 function openAstrophageReport() {
-    
+
 }

@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PROJECT HAIL MARY — Engineering Dissertation</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+
+    --bg:#071018;
+    --paper:#0d1722;
+
+    --panel:#101d2b;
+
+    --border:rgba(109,231,255,0.15);
+
+    --text:#d9e4f1;
+
+    --muted:#87a3bf;
+
+    --cyan:#6de7ff;
+
+    --cyan-glow:rgba(109,231,255,0.25);
+
+    --warning:#ffb84d;
+
+    --danger:#ff6b6b;
+
+    --grid:rgba(109,231,255,0.04);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:
+    radial-gradient(circle at top,
+    rgba(109,231,255,0.08),
+    transparent 40%),
+
+    var(--bg);
+
+    color:var(--text);
+
+    font-family:"Inter",sans-serif;
+
+    line-height:1.8;
+
+    padding:50px 0;
+}
+
+/* MAIN REPORT */
+
+.report{
+
+    width:min(1400px,95%);
+
+    margin:auto;
+
+    background:var(--paper);
+
+    border:1px solid var(--border);
+
+    box-shadow:
+    0 0 80px rgba(0,0,0,0.5),
+    inset 0 0 80px rgba(109,231,255,0.02);
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+/* subtle blueprint grid */
+
+.report::before{
+
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background-image:
+
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg,var(--grid) 1px, transparent 1px);
+
+    background-size:40px 40px;
+
+    pointer-events:none;
+}
+
+/* COVER */
+
+.cover{
+
+    position:relative;
+
+    padding:120px 80px;
+
+    text-align:center;
+
+    border-bottom:1px solid var(--border);
+}
+
+.cover::after{
+
+    content:"PETROVA TASK FORCE";
+
+    position:absolute;
+
+    top:25px;
+    left:40px;
+
+    color:var(--cyan);
+
+    font-size:.75rem;
+
+    letter-spacing:4px;
+}
+
+.cover h1{
+
+    font-size:4.5rem;
+
+    letter-spacing:8px;
+
+    color:var(--cyan);
+
+    text-shadow:
+    0 0 20px rgba(109,231,255,0.3);
+
+    margin-bottom:20px;
+}
+
+.cover h2{
+
+    font-size:1rem;
+
+    font-weight:400;
+
+    color:var(--muted);
+
+    letter-spacing:5px;
+
+    text-transform:uppercase;
+}
+
+.cover p{
+
+    margin-top:50px;
+
+    color:var(--muted);
+
+    font-family:"JetBrains Mono", monospace;
+}
+
+/* SECTIONS */
+
+.section{
+
+    padding:60px;
+
+    border-bottom:1px solid var(--border);
+
+    position:relative;
+}
+
+.section h2{
+
+    color:var(--cyan);
+
+    font-size:2rem;
+
+    margin-bottom:25px;
+
+    letter-spacing:2px;
+}
+
+.section h2::before{
+
+    content:"// ";
+
+    color:var(--warning);
+}
+
+/* ABSTRACT */
+
+.abstract{
+
+    font-size:1rem;
+
+    color:#c8d4df;
+
+    max-width:1000px;
+}
+
+/* STAT GRID */
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+
+    gap:18px;
+
+    margin-top:35px;
+}
+
+.stat-card{
+
+    background:var(--panel);
+
+    border:1px solid var(--border);
+
+    padding:22px;
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+.stat-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:100%;
+
+    height:2px;
+
+    background:var(--cyan);
+}
+
+.stat-label{
+
+    color:var(--muted);
+
+    letter-spacing:2px;
+
+    font-size:.72rem;
+
+    margin-bottom:10px;
+}
+
+.stat-value{
+
+    font-size:1.6rem;
+
+    color:var(--cyan);
+
+    font-weight:700;
+}
+
+/* TABLES */
+
+.data-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:25px;
+}
+
+.data-table th{
+
+    background:
+    rgba(109,231,255,0.08);
+
+    color:var(--cyan);
+
+    text-align:left;
+
+    padding:15px;
+}
+
+.data-table td{
+
+    padding:14px;
+
+    border-top:1px solid rgba(255,255,255,0.06);
+}
+
+.data-table tr:hover{
+
+    background:
+    rgba(109,231,255,0.04);
+}
+
+/* MONO DATA */
+
+.mono{
+
+    font-family:"JetBrains Mono", monospace;
+
+    color:#a7d8ff;
+}
+
+/* EQUATIONS */
+
+.equation{
+
+    background:#08121c;
+
+    border:1px solid var(--border);
+
+    padding:30px;
+
+    margin:25px 0;
+
+    font-family:"JetBrains Mono", monospace;
+
+    color:var(--cyan);
+
+    overflow:auto;
+}
+
+/* FIGURES */
+
+.figure{
+
+    border:1px dashed var(--border);
+
+    min-height:250px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    color:var(--muted);
+
+    margin:30px 0;
+
+    background:
+    rgba(109,231,255,0.02);
+
+    letter-spacing:3px;
+}
+
+/* FOOTER */
+
+.footer{
+
+    padding:50px;
+
+    text-align:center;
+
+    color:var(--muted);
+
+    font-family:"JetBrains Mono", monospace;
+}
+
+/* STATUS BADGES */
+
+.badge{
+
+    display:inline-block;
+
+    padding:5px 12px;
+
+    border:1px solid var(--cyan);
+
+    color:var(--cyan);
+
+    font-size:.75rem;
+
+    letter-spacing:2px;
+
+    margin-bottom:20px;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+    .cover{
+
+        padding:70px 25px;
+    }
+
+    .cover h1{
+
+        font-size:2.4rem;
+    }
+
+    .section{
+
+        padding:30px 20px;
+    }
+
+    .data-table{
+
+        display:block;
+        overflow-x:auto;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="report">
+
+<div class="cover">
+
+<h1>PROJECT HAIL MARY</h1>
+
+<h2>INTERSTELLAR VEHICLE ENGINEERING ANALYSIS</h2>
+
+<p>
+Petrova Task Force Engineering Division<br>
+Final Mission Design Dissertation
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Executive Summary</h2>
+
+<p class="abstract">
+
+This document presents the complete engineering analysis
+for the interstellar vessel <strong>Hail Mary</strong>,
+constructed as humanity's response to the Astrophage crisis.
+
+The spacecraft is designed to transport a crewed mission
+11.9 light-years to the Tau Ceti system while maintaining
+continuous life support, artificial gravity, propulsion,
+and thermal stability.
+
+All calculations herein utilize astrophage-derived propulsion
+and energy systems.
+
+</p>
+
+<div class="stats-grid">
+
+<div class="stat-card">
+<div class="stat-label">DESTINATION</div>
+<div class="stat-value">Tau Ceti</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-label">DISTANCE</div>
+<div class="stat-value">11.9 ly</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-label">SHIP MASS</div>
+<div class="stat-value">100,000 kg</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-label">TOP VELOCITY</div>
+<div class="stat-value">0.995c</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-label">EARTH FRAME TRIP</div>
+<div class="stat-value">13.10 years</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-label">CREW FRAME TRIP</div>
+<div class="stat-value">3.84 years</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Mission Requirements</h2>
+
+<table class="data-table">
+
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Distance to Tau Ceti</td>
+<td class="mono">11.9 light years</td>
+</tr>
+
+<tr>
+<td>Acceleration</td>
+<td class="mono">15 m/s²</td>
+</tr>
+
+<tr>
+<td>Maximum Velocity</td>
+<td class="mono">2.99 × 10⁸ m/s</td>
+</tr>
+
+<tr>
+<td>Velocity Ratio</td>
+<td class="mono">0.995 c</td>
+</tr>
+
+<tr>
+<td>Lorentz Gamma</td>
+<td class="mono">10.382</td>
+</tr>
+
+<tr>
+<td>Fuel Required</td>
+<td class="mono">2,071,604 kg</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>Astrophage Fuel Production Analysis</h2>
+
+<div class="equation">
+
+Fuel Required = 2.071 × 10⁶ kg
+
+Starting Biomass = 1 kg
+
+Doublings Required = 35.87
+
+Doubling Time = 8.12 days
+
+Total Production Time = 291.27 days
+
+</div>
+
+<table class="data-table">
+
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Starting Mass</td>
+<td>1 kg</td>
+</tr>
+
+<tr>
+<td>Target Fuel Mass</td>
+<td>2,071,604 kg</td>
+</tr>
+
+<tr>
+<td>Doublings Needed</td>
+<td>35.87</td>
+</tr>
+
+<tr>
+<td>Production Duration</td>
+<td>291.27 days</td>
+</tr>
+
+<tr>
+<td>Total Astrophage Cells</td>
+<td>9.73787 × 10¹⁶</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>Lava Energy Infrastructure</h2>
+
+<div class="figure">
+
+[ INSERT MAGMA ENERGY COLLECTION DIAGRAM ]
+
+</div>
+
+<table class="data-table">
+
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Energy Required</td>
+<td>1.86 × 10²³ J</td>
+</tr>
+
+<tr>
+<td>Lava Required</td>
+<td>9.70 × 10¹⁶ kg</td>
+</tr>
+
+<tr>
+<td>Lava Volume</td>
+<td>3.88 × 10¹³ m³</td>
+</tr>
+
+<tr>
+<td>Equivalent Puʻu ʻŌʻō Eruptions</td>
+<td>9700</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>Centrifuge Gravity System</h2>
+
+<div class="figure">
+
+[ INSERT CENTRIFUGE SCHEMATIC ]
+
+</div>
+
+<table class="data-table">
+
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Radius</td>
+<td>75 m</td>
+</tr>
+
+<tr>
+<td>Cable Length</td>
+<td>100 m</td>
+</tr>
+
+<tr>
+<td>RPM</td>
+<td>3.45</td>
+</tr>
+
+<tr>
+<td>Gravity</td>
+<td>9.8 m/s²</td>
+</tr>
+
+<tr>
+<td>Cable Material</td>
+<td>Zylon</td>
+</tr>
+
+<tr>
+<td>Cables Required</td>
+<td>6</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>Propulsion System</h2>
+
+<div class="figure">
+
+[ INSERT SPIN DRIVE CROSS-SECTION ]
+
+</div>
+
+<table class="data-table">
+
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Engine Output</td>
+<td>9.77 × 10¹⁵ W</td>
+</tr>
+
+<tr>
+<td>Thrust Required</td>
+<td>3.26 × 10⁷ N</td>
+</tr>
+
+<tr>
+<td>Propulsion Modules</td>
+<td>1009</td>
+</tr>
+
+<tr>
+<td>Propulsion Mass</td>
+<td>11,900 kg</td>
+</tr>
+
+<tr>
+<td>Astrophage Burn Rate</td>
+<td>0.135 kg/s</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>Thermal Management</h2>
+
+<table class="data-table">
+
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Internal Temperature</td>
+<td>23.5°C</td>
+</tr>
+
+<tr>
+<td>Hull Temperature</td>
+<td>-162.4°C</td>
+</tr>
+
+<tr>
+<td>Power Consumption</td>
+<td>50,000 W</td>
+</tr>
+
+<tr>
+<td>Heat Rejection Area</td>
+<td>114 m²</td>
+</tr>
+
+<tr>
+<td>Cylinder Surface Area</td>
+<td>596.39 m²</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>Conclusion</h2>
+
+<p>
+
+Analysis demonstrates that an astrophage-powered
+interstellar spacecraft is theoretically capable
+of reaching Tau Ceti within a single human lifetime.
+
+The design requires unprecedented energy harvesting,
+fuel production, and orbital construction infrastructure,
+but remains consistent with known astrophage behavior.
+
+Project Hail Mary therefore represents a physically
+achievable solution to the ongoing stellar luminosity crisis.
+
+</p>
+
+</div>
+
+<div class="footer">
+
+PROJECT HAIL MARY ENGINEERING DOSSIER<br>
+Petrova Task Force Archives
+
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title5>BEETLE RETURN TRAJECTORY // ARCHIVE</title5>
+
+<style>
+body{
+    background:#05070d;
+    color:#cfe7ff;
+    font-family: 'Share Tech Mono', monospace;
+    margin:0;
+    padding:20px;
+}
+
+.dashboard5{
+    display:grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap:20px;
+}
+
+.panel5{
+    background:rgba(10,18,30,0.85);
+    border:1px solid rgba(120,180,255,0.2);
+    padding:18px;
+    border-radius:10px;
+    box-shadow:0 0 25px rgba(0,120,255,0.08);
+}
+
+.title5{
+    font-size:14px;
+    letter-spacing:2px;
+    color:#7ec8ff;
+    margin-bottom:10px;
+}
+
+.log5{
+    white-space:pre-wrap;
+    line-height:1.5em;
+    font-size:13px;
+    color:#d7ecff;
+}
+
+.section5{
+    margin-bottom:18px;
+    padding-bottom:12px;
+    border-bottom:1px dashed rgba(120,180,255,0.2);
+}
+
+.tag5{
+    color:#7ec8ff;
+}
+
+.warn5{ color:#ffcc66; }
+.danger5{ color:#ff5c5c; }
+.good5{ color:#66ffd1; }
+
+.table5{
+    width:100%;
+    font-size:12px;
+    border-collapse:collapse;
+}
+
+.table5 td{
+    padding:6px;
+    border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+.highlight5{
+    color:#7ec8ff;
+}
+</style>
+</head>
+
+<body>
+
+<div class="dashboard5">
+
+<!-- LEFT: MISSION SUMMARY -->
+<div class="panel5">
+
+    <div class="title5">RECOVERED TRANSMISSION // BEETLE CLASS DATA</div>
+
+    <div class="section5 log5">
+The four Beetle probes successfully departed Tau Ceti carrying:
+
+• Taumoeba-35 cultures  
+• Astrophage samples  
+• Hail Mary telemetry archive  
+• Scientific records  
+• Crew memory log5s  
+    </div>
+
+    <div class="section5 log5">
+INITIAL ASSUMPTION:
+Earth telemetry suggested the Hail Mary
+remained on a direct return trajectory to Sol.
+
+Subsequent navigation recovery revealed:
+Dr. Ryland Grace executed an unplanned course change
+shortly after Beetle deployment.
+    </div>
+
+    <div class="section5 log5 warn">
+DESTINATION UPDATE:
+40 ERIDANI SYSTEM
+    </div>
+
+    <div class="section5 log5">
+MISSION NOTE:
+Grace diverted to assist the Eridian vessel "Blip-A"
+after detecting critical astrophage shortage.
+
+Fuel transfer executed from Hail Mary reserves,
+preserving alien crew survivability.
+    </div>
+
+    <div class="section5 log5 danger5">
+ARCHIVAL NOTE:
+At time of Beetle arrival, Earth classified Grace as deceased.
+Full mission divergence remained unknown for decades.
+    </div>
+
+</div>
+
+
+<!-- RIGHT: PHYSICS + ENGINEERING -->
+<div class="panel5">
+
+    <div class="title5">BEETLE PROPULSION // PHYSICS MODEL</div>
+
+    <table class="table5">
+        <tr><td>Acceleration</td><td class="highlight5">5000 m/s²</td></tr>
+        <tr><td>Dry Mass</td><td>5 kg</td></tr>
+        <tr><td>Fuel Mass</td><td>180 kg</td></tr>
+        <tr><td>Start Mass</td><td>185 kg</td></tr>
+        <tr><td>Pressure</td><td>3.10 × 10⁷ Pa</td></tr>
+        <tr><td>Surface Area</td><td>0.03 m²</td></tr>
+        <tr><td>Thrust Force</td><td class="highlight5">9.30 × 10⁵ N</td></tr>
+        <tr><td>Start Acceleration</td><td>5027.03 m/s²</td></tr>
+        <tr><td>End Acceleration</td><td>186000 m/s²</td></tr>
+    </table>
+
+    <div class="section5 log5">
+DERIVED COEFFICIENTS:
+a = 27.60398645  
+b = 152.3960136  
+    </div>
+
+    <div class="section5 log5">
+RELATIVISTIC CHECK:
+M/m ratio: 5.5208  
+Gamma: 7.5369  
+Total T: 162511.3372  
+Coast velocity: 0.931c  
+Coast time (Earth): 4.02 × 10⁸ s  
+Total mission time: 5.37 × 10⁷ s (~621 days)
+    </div>
+
+    <div class="section5 log5 good">
+PROPULSION SUMMARY:
+Total thrust distributed across 4 Beetles:
+2.79 × 10⁶ N combined forward impulse
+Ship mass: 120,000 kg  
+Net acceleration: 16.44 m/s²
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
