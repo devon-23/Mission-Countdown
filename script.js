@@ -750,7 +750,239 @@ What the fuck?
 
 </div>
 
-<div class="recruitment-dashboard">
+
+`
+},
+taskforce: {
+
+    title: 'UNITED NATIONS BRIEFING — PETROVA TASK FORCE',
+
+    body: `
+<div class="stratt-dashboard">
+
+    <!-- TOP PANEL -->
+
+    <div class="stratt-top">
+
+        <!-- PHOTO -->
+
+        <div class="stratt-photo-panel">
+
+            <div class="stratt-photo">
+                <img class="stratt-photo" src="assets/mugshot.webp" alt="Eva Stratt">
+            </div>
+
+            <div class="status-tag">
+                ACTIVE CLEARANCE
+            </div>
+
+        </div>
+
+        <!-- PROFILE -->
+
+        <div class="stratt-profile">
+
+            <div class="profile-small">
+                UNITED NATIONS APPOINTMENT RECORD
+            </div>
+
+            <h2>
+                EVA STRATT
+            </h2>
+
+            <div class="profile-role">
+                Director — Petrova Task Force
+            </div>
+
+            <div class="profile-grid">
+
+                <div class="profile-stat">
+                    <span>AUTHORITY</span>
+                    INTERNATIONAL
+                </div>
+
+                <div class="profile-stat">
+                    <span>STATUS</span>
+                    DIPLOMATIC IMMUNITY
+                </div>
+
+                <div class="profile-stat">
+                    <span>ACCESS</span>
+                    UNRESTRICTED
+                </div>
+
+                <div class="profile-stat">
+                    <span>TIMELINE</span>
+                    HAIL MARY LAUNCH
+                </div>
+
+            </div>
+
+            <div class="profile-description">
+
+                Eva Stratt previously served as a senior administrator
+                within the European Space Agency before coordinating
+                several multinational emergency engineering initiatives.
+
+                <br><br>
+
+                Following confirmation that the Petrova Line was linked
+                to a measurable decrease in solar luminosity,
+                the United Nations unanimously appointed Stratt
+                to lead the global response effort.
+
+                <br><br>
+
+                Internal UN memorandums described her as:
+
+                <div class="quote-tags">
+
+                    <span>"brilliant"</span>
+                    <span>"ruthlessly efficient"</span>
+                    <span>"absolutely terrifying"</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- PURPOSE -->
+
+    <div class="taskforce-panel">
+
+        <div class="panel-header">
+
+            <div class="panel-line"></div>
+
+            <h3>
+                PETROVA TASK FORCE MANDATE
+            </h3>
+
+        </div>
+
+        <div class="taskforce-grid">
+
+            <div class="task-card">
+
+                <div class="task-icon">
+                    ◉
+                </div>
+
+                <div class="task-title">
+                    SCIENTIFIC COORDINATION
+                </div>
+
+                <p>
+                    Unite observatories, laboratories,
+                    aerospace agencies, and universities
+                    under a single operational structure.
+                </p>
+
+            </div>
+
+            <div class="task-card">
+
+                <div class="task-icon">
+                    ◎
+                </div>
+
+                <div class="task-title">
+                    PLANETARY SURVIVAL
+                </div>
+
+                <p>
+                    Prevent biosphere collapse resulting
+                    from accelerated solar dimming
+                    linked to the Petrova Line.
+                </p>
+
+            </div>
+
+            <div class="task-card">
+
+                <div class="task-icon">
+                    ◌
+                </div>
+
+                <div class="task-title">
+                    PROJECT ARCLIGHT
+                </div>
+
+                <p>
+                    Launch a deep-space probe
+                    capable of gathering samples from the Petrova Line
+                    near Venusian orbit.
+                </p>
+
+            </div>
+
+            <div class="task-card">
+
+                <div class="task-icon">
+                    ⊘
+                </div>
+
+                <div class="task-title">
+                    EMERGENCY AUTHORITY
+                </div>
+
+                <p>
+                    Requisition infrastructure,
+                    transportation systems,
+                    manufacturing facilities,
+                    and personnel from all participating nations.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LEGAL -->
+
+    <div class="legal-panel">
+
+        <div class="legal-title">
+            EMERGENCY POWERS GRANTED
+        </div>
+
+        <div class="legal-list">
+
+            <div class="legal-item">
+                FULL DIPLOMATIC IMMUNITY IN ALL COOPERATING NATIONS
+            </div>
+
+            <div class="legal-item">
+                PRIORITY ACCESS TO GLOBAL TRANSPORTATION NETWORKS
+            </div>
+
+            <div class="legal-item">
+                AUTHORITY TO OVERRIDE NATIONAL BUREAUCRATIC RESTRICTIONS
+            </div>
+
+            <div class="legal-item">
+                CONTROL OVER PETROVA-RELATED RESEARCH INITIATIVES
+            </div>
+
+            <div class="legal-item">
+                UNLIMITED BUDGET FOR ANY AND ALL RESEARCH, TRANSPORATION, INFORMATION, AND LOGISTICAL NEEDS
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+`
+}, 
+recruitment: {
+    title: 'GLOBAL RECRUITMENT DASHBOARD — PETROVA TASK FORCE SCIENTIFIC RECRUITMENT',
+    body: ` 
+    <div class="recruitment-dashboard">
 
     <div class="recruitment-banner">
 
@@ -1060,233 +1292,7 @@ What the fuck?
 </div>
 
     </div>
-`
-},
-taskforce: {
-
-    title: 'UNITED NATIONS BRIEFING — PETROVA TASK FORCE',
-
-    body: `
-<div class="stratt-dashboard">
-
-    <!-- TOP PANEL -->
-
-    <div class="stratt-top">
-
-        <!-- PHOTO -->
-
-        <div class="stratt-photo-panel">
-
-            <div class="stratt-photo">
-                <img class="stratt-photo" src="assets/mugshot.webp" alt="Eva Stratt">
-            </div>
-
-            <div class="status-tag">
-                ACTIVE CLEARANCE
-            </div>
-
-        </div>
-
-        <!-- PROFILE -->
-
-        <div class="stratt-profile">
-
-            <div class="profile-small">
-                UNITED NATIONS APPOINTMENT RECORD
-            </div>
-
-            <h2>
-                EVA STRATT
-            </h2>
-
-            <div class="profile-role">
-                Director — Petrova Task Force
-            </div>
-
-            <div class="profile-grid">
-
-                <div class="profile-stat">
-                    <span>AUTHORITY</span>
-                    INTERNATIONAL
-                </div>
-
-                <div class="profile-stat">
-                    <span>STATUS</span>
-                    DIPLOMATIC IMMUNITY
-                </div>
-
-                <div class="profile-stat">
-                    <span>ACCESS</span>
-                    UNRESTRICTED
-                </div>
-
-                <div class="profile-stat">
-                    <span>TIMELINE</span>
-                    HAIL MARY LAUNCH
-                </div>
-
-            </div>
-
-            <div class="profile-description">
-
-                Eva Stratt previously served as a senior administrator
-                within the European Space Agency before coordinating
-                several multinational emergency engineering initiatives.
-
-                <br><br>
-
-                Following confirmation that the Petrova Line was linked
-                to a measurable decrease in solar luminosity,
-                the United Nations unanimously appointed Stratt
-                to lead the global response effort.
-
-                <br><br>
-
-                Internal UN memorandums described her as:
-
-                <div class="quote-tags">
-
-                    <span>"brilliant"</span>
-                    <span>"ruthlessly efficient"</span>
-                    <span>"absolutely terrifying"</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <!-- PURPOSE -->
-
-    <div class="taskforce-panel">
-
-        <div class="panel-header">
-
-            <div class="panel-line"></div>
-
-            <h3>
-                PETROVA TASK FORCE MANDATE
-            </h3>
-
-        </div>
-
-        <div class="taskforce-grid">
-
-            <div class="task-card">
-
-                <div class="task-icon">
-                    ◉
-                </div>
-
-                <div class="task-title">
-                    SCIENTIFIC COORDINATION
-                </div>
-
-                <p>
-                    Unite observatories, laboratories,
-                    aerospace agencies, and universities
-                    under a single operational structure.
-                </p>
-
-            </div>
-
-            <div class="task-card">
-
-                <div class="task-icon">
-                    ◎
-                </div>
-
-                <div class="task-title">
-                    PLANETARY SURVIVAL
-                </div>
-
-                <p>
-                    Prevent biosphere collapse resulting
-                    from accelerated solar dimming
-                    linked to the Petrova Line.
-                </p>
-
-            </div>
-
-            <div class="task-card">
-
-                <div class="task-icon">
-                    ◌
-                </div>
-
-                <div class="task-title">
-                    PROJECT ARCLIGHT
-                </div>
-
-                <p>
-                    Launch a deep-space probe
-                    capable of gathering samples from the Petrova Line
-                    near Venusian orbit.
-                </p>
-
-            </div>
-
-            <div class="task-card">
-
-                <div class="task-icon">
-                    ⊘
-                </div>
-
-                <div class="task-title">
-                    EMERGENCY AUTHORITY
-                </div>
-
-                <p>
-                    Requisition infrastructure,
-                    transportation systems,
-                    manufacturing facilities,
-                    and personnel from all participating nations.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <!-- LEGAL -->
-
-    <div class="legal-panel">
-
-        <div class="legal-title">
-            EMERGENCY POWERS GRANTED
-        </div>
-
-        <div class="legal-list">
-
-            <div class="legal-item">
-                FULL DIPLOMATIC IMMUNITY IN ALL COOPERATING NATIONS
-            </div>
-
-            <div class="legal-item">
-                PRIORITY ACCESS TO GLOBAL TRANSPORTATION NETWORKS
-            </div>
-
-            <div class="legal-item">
-                AUTHORITY TO OVERRIDE NATIONAL BUREAUCRATIC RESTRICTIONS
-            </div>
-
-            <div class="legal-item">
-                CONTROL OVER PETROVA-RELATED RESEARCH INITIATIVES
-            </div>
-
-            <div class="legal-item">
-                UNLIMITED BUDGET FOR ANY AND ALL RESEARCH, TRANSPORATION, INFORMATION, AND LOGISTICAL NEEDS
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-`
+    `
 },
 astrophage: {
 
@@ -1663,19 +1669,15 @@ projections: {
                 </svg>
 
                 <div class="graph-label year1">
-                    YEAR 0
-                </div>
-
-                <div class="graph-label year2">
-                    YEAR 5
-                </div>
-
-                <div class="graph-label year3">
                     YEAR 10
                 </div>
 
-                <div class="graph-label year4">
-                    YEAR 19
+                <div class="graph-label year2">
+                    YEAR 20
+                </div>
+
+                <div class="graph-label year3">
+                    YEAR 30
                 </div>
 
             </div>
@@ -1697,11 +1699,11 @@ projections: {
             </div>
 
             <div class="mortality-number">
-                50%
+                26.5%
             </div>
 
             <div class="mortality-sub">
-                WITHIN 19 YEARS
+                WITHIN 30 YEARS
             </div>
 
             <div class="mortality-desc">
@@ -1732,7 +1734,7 @@ projections: {
             <div class="timeline-item">
 
                 <div class="timeline-year">
-                    YEAR 1–5
+                    YEAR 1–10
                 </div>
 
                 <div class="timeline-content">
@@ -1765,7 +1767,7 @@ projections: {
             <div class="timeline-item">
 
                 <div class="timeline-year">
-                    YEAR 5–10
+                    YEAR 10–20
                 </div>
 
                 <div class="timeline-content">
@@ -1798,7 +1800,7 @@ projections: {
             <div class="timeline-item">
 
                 <div class="timeline-year">
-                    YEAR 10–15
+                    YEAR 20–30
                 </div>
 
                 <div class="timeline-content">
@@ -1831,7 +1833,7 @@ projections: {
             <div class="timeline-item red">
 
                 <div class="timeline-year">
-                    YEAR 15–19
+                    YEAR 30–40
                 </div>
 
                 <div class="timeline-content">
@@ -1935,7 +1937,15 @@ sahara: {
                 <div class="map-grid"></div>
 
                 <!-- fake africa silhouette -->
-                <div class="africa-shape"></div>
+               <div class="africa-shape">
+
+                    <div class="sahara-highlight"></div>
+
+                    <div class="corridor corridor-west"></div>
+                    <div class="corridor corridor-central"></div>
+                    <div class="corridor corridor-east"></div>
+
+                </div>
 
                 <!-- deployment zones -->
                 <div class="zone zone-1"></div>
@@ -1946,7 +1956,7 @@ sahara: {
                 <div class="route route-1"></div>
                 <div class="route route-2"></div>
 
-                <!-- labels -->
+                <!-- labels 
                 <div class="map-label label-1">
                     ALGERIA ARRAY
                 </div>
@@ -1958,7 +1968,7 @@ sahara: {
                 <div class="map-label label-3">
                     CHAD BREEDING SITE
                 </div>
-
+                -->
                 <div class="map-scan"></div>
 
             </div>
@@ -3560,47 +3570,127 @@ T–48 HOURS
 
 <div class="redacted-content2"
      id="redactedContent">
-<pre>
-[UNSEALED 32 YEARS AFTER INITIAL REPORT]
+<div class="tribunal-file">
 
-SOURCE:
-Eva Stratt testimony deposition
+    <div class="file-header">
+        <div class="classification">DECLASSIFIED ARCHIVE RECORD</div>
+        <div class="date">UNSEALED — 32 YEARS AFTER INITIAL REPORT</div>
+    </div>
 
-STATUS:
-DECLASSIFIED
+    <div class="file-body">
 
-The official account stating that
-Dr. Ryland Grace voluntarily joined
-Project Hail Mary was false.
+        <div class="section">
+            <div class="label">SOURCE</div>
+            <div class="value">
+                Deposition Testimony — Eva Stratt<br>
+                Former Director, Project Hail Mary
+            </div>
+        </div>
 
-According to Stratt's later testimony,
-Grace refused mandatory assignment
-during final mission preparation.
+        <div class="section">
+            <div class="label">STATUS</div>
+            <div class="value status">FULLY DECLASSIFIED</div>
+        </div>
 
-Task Force leadership concluded that
-no viable replacement candidate existed.
+        <div class="divider"></div>
 
-Stratt authorized forced mission induction.
+        <h2>MISSION ASSIGNMENT DISCLOSURE</h2>
 
-Grace was sedated and transferred
-to pre-launch medical containment
-against his will.
+        <p>
+            Public records released during the initial recovery era
+            indicated that Dr. Ryland Grace voluntarily accepted
+            assignment to Project Hail Mary.
+        </p>
 
-When asked whether she regretted the decision,
-Stratt responded:
+        <p>
+            Subsequent testimony provided by Eva Stratt revealed that
+            the official account was intentionally inaccurate.
+        </p>
 
-"No.
+        <p>
+            During final mission preparations, Dr. Grace declined
+            mandatory deployment aboard the interstellar vessel
+            <strong>HAIL MARY</strong>.
+        </p>
 
-Humanity needed him more than he needed a choice."
+        <p>
+            Internal review conducted by Project Hail Mary leadership
+            concluded that no alternative candidate possessed the
+            required combination of astrophage expertise, mission
+            familiarity, and survival probability.
+        </p>
 
-No criminal charges were ever filed.
+        <p>
+            Under emergency authority granted by the International
+            Astrophage Response Coalition, Director Stratt authorized
+            compulsory mission induction.
+        </p>
 
-At the time of disclosure,
-Stratt stated she would make
-the same decision again.
+        <div class="highlight-box">
+            <strong>CONFIRMED ACTIONS</strong>
 
-[END FILE]
-</pre>
+            <ul>
+                <li>Subject was sedated under medical supervision.</li>
+                <li>Subject was transferred to launch containment.</li>
+                <li>Launch authorization proceeded without consent.</li>
+                <li>Mission departure occurred as scheduled.</li>
+            </ul>
+        </div>
+
+        <div class="quote">
+            "No.<br><br>
+
+            Humanity needed him more than he needed a choice."
+        </div>
+
+        <div class="divider"></div>
+
+        <h2>POST-MISSION REVIEW</h2>
+
+        <p>
+            Following confirmation of mission success and Earth's
+            long-term recovery from the Astrophage Crisis, multiple
+            international investigations examined the legality of
+            Project Hail Mary's emergency actions.
+        </p>
+
+        <p>
+            Review boards determined that Director Stratt acted under
+            unprecedented extinction-level circumstances and within
+            authorities granted by emergency survival accords enacted
+            during the crisis period.
+        </p>
+
+        <p>
+            No criminal charges were filed in any participating nation.
+        </p>
+
+        <p>
+            Subsequent tribunal findings concluded that while the
+            decision represented a severe violation of individual
+            autonomy, the action was directly linked to the successful
+            execution of the mission and the preservation of human
+            civilization.
+        </p>
+
+        <div class="verdict">
+            <span>FINAL FINDING:</span><br>
+            Director Eva Stratt formally absolved of criminal
+            liability under Emergency Continuity Statutes.
+        </div>
+
+        <p class="final-note">
+            When asked during closing testimony whether she would make
+            the same decision again, Stratt answered:
+        </p>
+
+        <div class="quote">
+            "Immediately."
+        </div>
+
+    </div>
+
+</div>
 
         </div>
 
@@ -4433,6 +4523,39 @@ wars: {
                 </div>
 
             </div>
+            <!-- PROJECTION BARS -->
+
+            <div class="collapse-projections">
+
+                <div class="projection-line">
+                    <span>FOOD STABILITY</span>
+                    <div class="projection-bar">
+                        <div class="projection-fill food"></div>
+                    </div>
+                </div>
+
+                <div class="projection-line">
+                    <span>OCEAN HEALTH</span>
+                    <div class="projection-bar">
+                        <div class="projection-fill ocean"></div>
+                    </div>
+                </div>
+
+                <div class="projection-line">
+                    <span>GLOBAL COOPERATION</span>
+                    <div class="projection-bar">
+                        <div class="projection-fill politics"></div>
+                    </div>
+                </div>
+
+                <div class="projection-line">
+                    <span>HUMANITY SURVIVAL INDEX</span>
+                    <div class="projection-bar">
+                        <div class="projection-fill humanity"></div>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
 
@@ -4482,68 +4605,11 @@ resources toward internal stabilization.
 International cooperation continues deteriorating.
 
 --------------------------------------------
-
-PUBLIC RESPONSE:
-
-Project Hail Mary now viewed by much of humanity
-as the only remaining long-term survival strategy.
-
-Religious movements centered around the mission
-have appeared across multiple continents.
-
-Extremist organizations continue labeling the mission:
-
-"humanity's salvation"
-
-or
-
-"humanity's final betrayal."
-
---------------------------------------------
-
-MISSION STATUS:
-
-HAIL MARY
-EN ROUTE TO TAU CETI
-
-NO CONTACT EXPECTED FOR OVER A DECADE
 </pre>
 
             </div>
 
-            <!-- PROJECTION BARS -->
-
-            <div class="collapse-projections">
-
-                <div class="projection-line">
-                    <span>FOOD STABILITY</span>
-                    <div class="projection-bar">
-                        <div class="projection-fill food"></div>
-                    </div>
-                </div>
-
-                <div class="projection-line">
-                    <span>OCEAN HEALTH</span>
-                    <div class="projection-bar">
-                        <div class="projection-fill ocean"></div>
-                    </div>
-                </div>
-
-                <div class="projection-line">
-                    <span>GLOBAL COOPERATION</span>
-                    <div class="projection-bar">
-                        <div class="projection-fill politics"></div>
-                    </div>
-                </div>
-
-                <div class="projection-line">
-                    <span>HUMANITY SURVIVAL INDEX</span>
-                    <div class="projection-bar">
-                        <div class="projection-fill humanity"></div>
-                    </div>
-                </div>
-
-            </div>
+            
 
         </div>
 
@@ -4646,11 +4712,11 @@ NO CONTACT EXPECTED FOR OVER A DECADE
         <div class="hud-graph">
 
             <div class="y-axis">
+                <span>20°C</span>
                 <span>15°C</span>
                 <span>10°C</span>
                 <span>5°C</span>
                 <span>0°C</span>
-                <span>-5°C</span>
             </div>
 
             <div class="graph-area">
@@ -7254,66 +7320,161 @@ return: {
 
     </div>
 
-<pre>
-[RECOVERED NAVIGATION LOG]
+<div class="return-dashboard">
 
-MISSION STATUS:
-RETURN TRANSIT ACTIVE
+    <!-- STATUS -->
 
-Recovered telemetry confirmed
-the Hail Mary departed the Tau Ceti system
-following successful Taumoeba integration
-within the Beetle return probes.
+    <div class="return-header">
 
----
+        <div>
+            MISSION STATUS
+            <span>SUCCESS</span>
+        </div>
 
-PRIMARY OBJECTIVE:
+        <div>
+            CREW SURVIVORS
+            <span>01</span>
+        </div>
 
-Return to Sol system.
+        <div>
+            EARTH ETA
+            <span>4.2 YEARS</span>
+        </div>
 
----
+        <div>
+            COURSE STATUS
+            <span>MODIFIED</span>
+        </div>
 
-ESTIMATED ARRIVAL TIME:
+    </div>
 
-4 YEARS
-2 MONTHS
-11 DAYS
+    <!-- TRAJECTORY -->
 
----
+    <div class="trajectory-panel">
 
-PAYLOAD STATUS:
+        <div class="trajectory-title">
+            POST-TAU CETI NAVIGATION SOLUTION
+        </div>
 
-TAUMOEBA-35:
-STABLE
+        <div class="trajectory-track">
 
-BEETLE PROBES:
-DEPLOYED
+            <div class="point tau">
+                <span>TAU CETI</span>
+            </div>
 
----
+            <div class="line"></div>
 
-RECOVERED NOTES:
+            <div class="point decision">
+                <span>COURSE CHANGE</span>
+            </div>
 
-At the time of departure,
-Dr. Ryland Grace represented:
+            <div class="line diversion"></div>
 
-• Sole surviving Hail Mary crew member
-• First human to survive interstellar travel
-• First human to establish extraterrestrial contact
+            <div class="point erid">
+                <span>40 ERIDANI</span>
+            </div>
 
----
+        </div>
 
-ARCHIVAL NOTE:
+    </div>
 
-Recovered logs suggest
-Dr. Grace ultimately altered course
-before reaching Earth.
+    <!-- SHIP STATUS -->
 
-Destination changes were not understood
-until later Beetle telemetry recovery.
+    <div class="return-grid">
 
-[END FILE]
-</pre>
+        <div class="return-box">
+            <span>BEETLE PROBES</span>
+            DEPLOYED SUCCESSFULLY
+        </div>
 
+        <div class="return-box">
+            <span>TAUMOEBA PAYLOAD</span>
+            VERIFIED STABLE
+        </div>
+
+        <div class="return-box">
+            <span>HAIL MARY</span>
+            OPERATIONAL
+        </div>
+
+        <div class="return-box">
+            <span>AUTONOMOUS RANGE</span>
+            4.2 YEARS
+        </div>
+
+    </div>
+
+    <!-- SUMMARY -->
+
+    <div class="return-report">
+
+        <h2>RETURN TRANSIT REPORT</h2>
+
+        <p>
+            Following successful deployment of Taumoeba cultures
+            into all four Beetle probes, the Hail Mary departed
+            the Tau Ceti system under full propulsion capability.
+        </p>
+
+        <p>
+            Initial navigation solutions placed the vessel on a
+            direct return trajectory toward Earth.
+        </p>
+
+        <p>
+            Mission analysts projected arrival approximately
+            four years after Beetle deployment.
+        </p>
+
+        <p>
+            At departure, Dr. Ryland Grace represented the only
+            surviving member of the original Hail Mary crew and
+            the first human being to complete an interstellar mission.
+        </p>
+
+        <div class="mission-highlight">
+
+            <h3>NAVIGATION ANOMALY</h3>
+
+            <p>
+                Subsequent telemetry recovered from the Beetles
+                revealed that Earth-bound return procedures
+                were later abandoned.
+            </p>
+
+            <p>
+                The vessel executed a major trajectory correction
+                and departed the Sol return corridor entirely.
+            </p>
+
+            <p>
+                New destination:
+                <strong>40 Eridani System</strong>
+            </p>
+
+        </div>
+
+        <div class="quote-box">
+
+            <span>ARCHIVE NOTE</span>
+
+            <p>
+                At the time this maneuver occurred,
+                Earth had no knowledge that the course change
+                had taken place.
+            </p>
+
+            <p>
+                For nearly twenty-three years,
+                humanity believed Dr. Grace
+                was still coming home.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
 </div>
 `
 },
