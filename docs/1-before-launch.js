@@ -14,48 +14,45 @@ DOCS.petrova = {
         date: 'Tue Apr 3 02:14:07 UTC',
         prev: 'Re: Collimating a 10" Dob in the cold',
         next: 'Re: The Thin Red Line',
-        body: `Hello, professionals.
+        body: `Dear list,
 
-My name is Doctor Irina Petrova. I work at the Pulkovo Observatory
-in St. Petersburg. I am writing to ask for help, because I have spent
-two weeks trying to find my own mistake and I cannot find it.
+I am Irina Petrova, an astronomer at Pulkovo Observatory in
+St. Petersburg. I do not usually post here. I am posting now because
+I have a result I cannot explain and, after two weeks of checking,
+cannot make go away.
 
-For the past two years I have been studying infrared emissions from
-nebulae, which required me to make very careful observations in a few
-narrow IR bands. In the course of that work I found something odd.
-Not in any nebula. Here, in our own solar system.
+My own work is on infrared emission from nebulae, which means long
+exposures in a handful of very narrow bands. In one of those bands
+there is a line that should not be there. It is not in a nebula.
+It is inside our own solar system.
 
-There is a continuous emission line at 25.984 microns, with no
-measurable variance in wavelength, tracing an arc between the Sun
-and Venus.
+What I see:
 
-The line rises straight up from the Sun's north pole for roughly
-37 million kilometres. From that apex it angles sharply down and away,
-toward Venus, widening as it goes. At Venus the arc's cross-section is
-about as wide as the planet itself.
+  - a steady emission at 25.984 microns, with no spread in
+    wavelength that I can measure;
+  - it leaves the Sun at the north pole and climbs for about
+    37 million km;
+  - it then bends over and runs to Venus, spreading as it goes,
+    until it is about as wide as the planet.
 
-The glow is very faint. I detected it only because I happened to be
-using extremely sensitive equipment for an unrelated purpose. I would
-not have found it if I had been looking for it.
+It is extremely faint. I only caught it because the instrument was
+set up for something much dimmer.
 
-To rule out an instrument fault I contacted the Atacama Observatory
-in Chile. They observed independently, with different hardware, and
-confirmed the same line at the same wavelength.
+Colleagues at Atacama have kindly repeated the observation on
+different equipment. They see the same arc at the same wavelength,
+so it is not my detector.
 
-My first hypothesis was charged particles travelling along magnetic
-field lines. But Venus has no magnetic field remotely strong enough
-to account for this, and a magnetic explanation would not hold the
-emission to a single wavelength so precisely.
+I first thought of particles following a magnetic field. But Venus
+has almost no field, and in any case I cannot see why a field would
+make anything glow at exactly one wavelength.
 
-So I have two questions for the list. What force would bend particles
-toward Venus? And why would those particles glow at one exact
-wavelength and no other?
+So I have two questions. What bends matter toward Venus? And what
+shines in one colour only?
 
-Attached are my spreadsheets and several renders of the data as a
-three-dimensional model. Any suggestions or theories would be welcome.
-I would genuinely be relieved to be told I am wrong.
+My data and some 3D renders are attached. If the mistake is mine
+I would honestly be glad to hear it.
 
---
+With thanks,
 Irina Petrova
 Pulkovo Observatory, St. Petersburg`,
         attach: [
@@ -196,7 +193,7 @@ DOCS.recruitment = {
             KIT.cell(3, '3. Nations represented', '87') +
             KIT.cell(3, '4. Granted sample access', '1', 'red') +
             KIT.band('Part A — Sample access') +
-            KIT.cell(8, '5. Directive', `General distribution of ArcLight material is suspended. Access is restricted to ONE researcher in ONE room until basic behaviour of the material is characterised. Most deadly diseases have a minimum incubation period. Until we know what this is, nobody else touches it. No exceptions delegated.`, 'narr') +
+            KIT.cell(8, '5. Directive', `General distribution of ArcLight material is suspended. Access is restricted to ONE researcher in ONE room until basic behaviour of the material is characterised. Anything infectious takes time to show itself. Until we know what this is, nobody else touches it. No exceptions delegated.`, 'narr') +
             KIT.cell(4, '6. Authorised (director)', 'E. Stratt', 'hand') +
             KIT.cell(4, '7. Access holder', 'GRACE, RYLAND') +
             KIT.cell(4, '8. Field', 'MOLECULAR BIOLOGY') +
@@ -243,7 +240,7 @@ DOCS.astrophage = {
             <h3>Why did it take so long to find that out?</h3>
             <p>Because nobody could see inside one. A living Astrophage cell absorbs every kind of light and radiation thrown at it. X-rays, gamma rays, microwaves and more than 190 attempts with visible light all returned nothing. Researchers described a perfect black box: something you could weigh and count but not look into.</p>
             <p>The breakthrough was grim. A dead cell stops absorbing. The first clear image of Astrophage is an image of one that was killed on purpose so that it could be seen.</p>
-            <div class="pull">"It's a cell. It's a tiny alien cell."<cite>Dr. Ryland Grace, laboratory recording, day 14</cite></div>
+            <div class="pull">"That is a cell. I am looking at a living cell that did not come from Earth."<cite>Dr. Ryland Grace, laboratory recording, day 14</cite></div>
             <h3>What does it do to the Sun?</h3>
             <p>It feeds on it. Astrophage soaks up energy at the Sun's surface and stores it with an efficiency close to the theoretical limit. It then spends a little of that energy as a beam of infrared light, which pushes it through space like a tiny rocket. That light has one precise wavelength, 25.984 microns. It is the glow Dr. Irina Petrova spotted from St. Petersburg.</p>
             <p>The cells also hold themselves at exactly 96.415 degrees Celsius, whatever is around them. Put one in a furnace and it simply absorbs the extra heat.</p>
@@ -467,7 +464,7 @@ DOCS.antarctica = {
             <h2>2. Method</h2>
             <p>Nuclear charges are buried along a prepared line in the western ice shelf and fired together. The shelf cleaves at the line, drifts seaward over successive seasons and melts, releasing the methane trapped beneath it. Methane is a powerful greenhouse gas that lasts about a decade in the atmosphere. Here it is used on purpose, as a blanket, to offset falling sunlight.</p>
             <p>Sea level rises about one centimetre in the first month.</p>
-            <blockquote>Methane is now our friend.<cite>Director E. Stratt, authorisation minute</cite></blockquote>
+            <blockquote>For the next ten years, methane is on our side.<cite>Director E. Stratt, authorisation minute</cite></blockquote>
 
             <div class="two">
                 <figure><img src="assets/ice.png" alt=""><figcaption>Western shelf before the operation.</figcaption></figure>

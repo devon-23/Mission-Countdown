@@ -433,6 +433,8 @@ body{
 
 @media (max-width: 860px){
     .hud{ padding:0 18px; height:52px; font-size:.68rem; }
+    .hud-mark, .hud-sol{ white-space:nowrap; }
+    .hud-sol{ gap:8px; font-size:.6rem; }
     .hud-mark span{ display:none; }
     .hud-sol i{ width:64px; }
 

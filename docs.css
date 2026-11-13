@@ -446,3 +446,29 @@
 .fd .bar i{ position:absolute; inset:0 auto 0 0; background:#8fd694; }
 .fd .bar i.am{ background:#f2b33d; } .fd .bar i.rd{ background:#ff6b57; }
 .fd .txt{ padding:10px 12px; border-top:1px solid #2a2f35; color:#c9d0d6; font-size:11.5px; line-height:1.6; }
+
+/* ============================================================
+   PHONES
+   ============================================================ */
+
+@media(max-width:700px){
+    .court{ padding:22px 12px 20px 0; font-size:11px; }
+    .court .top, .court .cap, .court .foot, .court .ttl{ padding-left:14px; }
+    .court pre{ margin-left:14px; font-size:2.45vw; white-space:pre; overflow-x:auto; }
+    .court ol{ margin-left:34px; }
+    .court li{ padding-left:10px; }
+    .court li::before{ left:-34px; width:24px; }
+
+    .rep table, .memo table, .paper table{ display:block; overflow-x:auto; }
+    .rep .in{ overflow-wrap:anywhere; }
+
+    .loop .ln{ grid-template-columns:1fr; gap:0; }
+    .loop .ln .t{ float:none; }
+    .loop .note{ margin-left:0; }
+
+    .form{ padding:22px 14px 18px; }
+    .form .fh{ grid-template-columns:1fr; }
+    .form .fh .no{ text-align:left; }
+    .form .photo img{ height:auto; max-height:260px; object-position:center top; }
+    .form .sealed{ flex-direction:column; align-items:flex-start; }
+}

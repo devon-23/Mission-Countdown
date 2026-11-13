@@ -86,7 +86,8 @@ ${att ? `<pre>\n${att}</pre>` : ''}
        Speeches are hard-wrapped at 56 characters and numbered 25 lines to a page,
        the way court reporters set them. "Q. " and "A. " are indented. */
     function court(o){
-        const WIDTH = 56, PER_PAGE = 25;
+        /* narrower measure on phones so numbered lines do not re-wrap */
+        const WIDTH = window.innerWidth < 700 ? 36 : 56, PER_PAGE = 25;
         const all = [];
         o.speeches.forEach((s) => {
             const qa = /^[QA]\. /.test(s);
