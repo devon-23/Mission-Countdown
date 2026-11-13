@@ -8,84 +8,74 @@
 
 DOCS.yao = {
     html: KIT.slog({
-        title: 'HAIL MARY / MED / AUTONOMOUS CARE LOG',
-        right: 'BED 1',
-        sub: [['Patient', 'YAO LI-JIE, CDR'], ['Ship time', 'Year 2, day 113–142'], ['State', 'Induced coma'], ['Crew awake', '0 of 3']],
-        rows: [
-            ['113/03:14:02', 'ADV',  'Scheduled feed. Meal 18,942 prepared. Feed sequence started.'],
-            ['113/03:14:27', 'CAUT', 'Feed pressure above nominal. Possible obstruction in delivery tube. Clearing cycle run.'],
-            ['115/22:07:11', 'CAUT', 'Intake below baseline. Deficit 8.7%. Priority: NON-CRITICAL.'],
-            ['sep', '. . . priority remains NON-CRITICAL for eleven days. Cruise-phase alert thresholds are reduced. No crew member is awake to receive alerts . . .'],
-            ['127/11:44:51', 'CAUT', 'Deficit 37.2%. Muscle loss detected. Body mass falling.'],
-            ['139/04:55:39', 'WARN', 'Severe malnutrition. Liver function compromised. Renal failure indicators. Emergency nutrition started.'],
-            ['141/16:02:17', 'WARN', 'Multi-organ failure. Patient cannot recover without crew intervention. No conscious personnel available.'],
-            ['142/01:19:44', 'WARN', 'Cardiac activity lost. Resuscitation 3 of 3 unsuccessful.'],
-            ['142/01:19:44', 'ADV',  'Patient deceased. Cause: nutritional failure, secondary multi-organ failure.'],
-            ['142/01:20:11', 'ADV',  'Bed 1 closed. Living crew: ILYUKHINA, GRACE. Mission status: CONTINUING.']
-        ],
+        wide: true,
+        title: 'HAIL MARY / RECOVERED MARY MEDICAL LOGS',
+        right: 'COMMANDER YAO LI-JIE',
+        sub: [['Time into transit', '2.3 years'], ['Cause of death', 'Nutritional failure'], ['Crew status', 'All crew comatose'], ['Witnesses', 'None']],
+        rows: KIT.old.slog(ORIGINAL_LOGS.yao),
         strip: 'flat',
-        stripLabel: 'HR  142/01:10 to 01:20',
-        foot: 'Recovered from Beetle 2 (PAUL) data core. 3 of 3 stored copies agree.'
+        stripLabel: 'HR  02Y 142D',
+        after: `<div class="tail">
+            <p><b>SHIP STATUS FOLLOWING INCIDENT</b></p>
+            <p>Commander Yao Li-Jie: DECEASED<br>Olesya Ilyukhina: ALIVE (COMATOSE)<br>Dr. Ryland Grace: ALIVE (COMATOSE)<br>Human crew awake: 0<br>Mission continuation: AUTHORIZED</p>
+        </div>`,
+        foot: 'Archival reconstruction. Recovered from Hail Mary flight data.'
     }),
-    note: `The fault was, in engineering terms, minor. It was a blocked tube. Anyone awake could have cleared it in under a minute.`
+    note: `Recovered medical telemetry indicates that Commander Yao Li-Jie died during long-duration transit after a failure within the automated nutritional delivery system. A blockage developed inside the feeding assembly responsible for delivering slurry meals to crewmembers in medically induced coma. Because all crewmembers remained unconscious and ship monitoring thresholds had been lowered for cruise operations, the issue progressed unnoticed until irreversible organ damage had already occurred.`
 };
 
 /* ---------- Ilyukhina medical log ---------- */
 
 DOCS.ily = {
     html: KIT.slog({
-        title: 'HAIL MARY / MED / AUTONOMOUS CARE LOG',
-        right: 'BED 2',
-        sub: [['Patient', 'ILYUKHINA, O., ENG'], ['Ship time', 'Year 3, day 201'], ['State', 'Induced coma'], ['Crew awake', '0 of 2']],
-        rows: [
-            ['04:17:11', 'CAUT', 'Cardiovascular anomaly. Blood oxygen falling. Monitoring raised to priority 2.'],
-            ['04:19:52', 'CAUT', 'Diagnostic sweep. Obstruction in pulmonary circulation. Probability of embolism 96.7%.'],
-            ['04:24:08', 'CAUT', 'Anticoagulant package B given. Oxygen recovery protocol. Circulation stimulated. Response below expected.'],
-            ['04:31:55', 'WARN', 'Oxygen saturation 82%. 71%. 58%.'],
-            ['04:37:20', 'WARN', 'Obstruction enlarged. Respiratory exchange failing. RECOMMENDED ACTION: wake remaining crew.'],
-            ['04:37:21', 'WARN', 'Recommended action not permitted during transit. Corrective options exhausted.'],
-            ['04:43:09', 'WARN', 'Cardiac activity lost. Resuscitation 1 of 3. 2 of 3. 3 of 3. Unsuccessful.'],
-            ['04:51:36', 'ADV',  'Patient deceased. Cause: pulmonary embolism.'],
-            ['04:51:40', 'ADV',  'Bed 2 closed. Living crew: GRACE. Mission status: CONTINUING.']
-        ],
+        wide: true,
+        title: 'HAIL MARY / RECOVERED MARY MEDICAL LOGS',
+        right: 'OLESYA ILYUKHINA',
+        sub: [['Time into transit', '12.1 years'], ['Cause of death', 'Pulmonary embolism'], ['Crew status', 'Last active crew'], ['Witnesses', 'None']],
+        rows: KIT.old.slog(ORIGINAL_LOGS.ily),
         strip: 'flat',
-        stripLabel: 'HR  04:41 to 04:51',
-        foot: 'Recovered from Beetle 2 (PAUL) data core. 3 of 3 stored copies agree.'
+        stripLabel: 'HR  12Y 031D',
+        after: `<div class="tail">
+            <p><b>SHIP STATUS AFTER INCIDENT</b></p>
+            <p>Commander Yao Li-Jie: DECEASED<br>Olesya Ilyukhina: DECEASED<br>Dr. Ryland Grace: ALIVE (COMATOSE)<br>Human crew awake: 0<br>Mission continuation: AUTHORIZED</p>
+        </div>`,
+        foot: 'Archival reconstruction. Recovered from Hail Mary flight data.'
     }),
-    note: `The embolism was detected within three minutes and correctly diagnosed within nine. Treatment was given in full and on time. From this entry until arrival, the ship carried one living person, unconscious, and nothing aboard was awake.`
+    note: `Recovered telemetry indicates Crewmember Olesya Ilyukhina suffered a catastrophic pulmonary embolism during long-duration medically induced coma operations. At the time of the incident Commander Yao Li-Jie had already expired, Dr. Ryland Grace remained unconscious, and no conscious human beings were aboard Hail Mary. All medical actions were performed autonomously by MARY.`
 };
 
 /* ---------- Arrival and revival ---------- */
 
 DOCS.tau = {
-    html: KIT.slog({
-        title: 'HAIL MARY / MED + NAV / ARRIVAL AND REVIVAL',
-        right: 'BED 3',
-        sub: [['Patient', 'GRACE, R., SCI'], ['Location', 'Tau Ceti'], ['Ship time aboard', '3 yr 9 mo'], ['One-way signal to Earth', '11 yr 10 mo']],
-        rows: [
-            ['06:11:02', 'ADV',  'Deceleration complete. Target system: Tau Ceti. Crew revival started.'],
-            ['06:11:18', 'WARN', 'Crew check. YAO: deceased. ILYUKHINA: deceased. GRACE: vital signs present.'],
-            ['06:12:40', 'ADV',  'Neural stimulation on. Muscle reactivation started.'],
-            ['06:13:01', 'ADV',  'Revival pharmacy item 14 given: retrograde memory suppressant. Added to manifest by order of the Director. Not listed on crew copy.'],
-            ['sep', '. . . cognitive assessment, battery 1 . . .'],
-            ['07:15:04', 'ADV',  'Q1, simple addition. Five unintelligible responses. Sixth response correct. Time to correct answer: 81 s.'],
-            ['07:16:39', 'ADV',  'Q2, cube root of eight. Response 1: patient asks where he is. Response 2: a complex-exponential expression equal to the answer; not on answer list; marked incorrect. Response 3: correct.'],
-            ['07:17:47', 'CAUT', 'Q3, state your name. No answer in 28 s. Patient agitated. Sedated.'],
-            ['sep', '. . . battery 2 . . .'],
-            ['08:16:05', 'CAUT', 'Q1, state your name. Patient does not know.'],
-            ['08:16:25', 'WARN', 'Patient has pulled out his own lines. Assistance arms deployed. Patient is calling to beds 1 and 2 for help.'],
-            ['08:16:42', 'CAUT', 'Battery 2 failed.'],
-            ['sep', '. . . battery 3 not started: patient is walking . . .'],
-            ['08:24:52', 'ADV',  'Speech normal. Technical recall intact: patient named the laboratory electron microscope by its full description, then asked aloud why he knew that.'],
-            ['08:25:32', 'ADV',  'Patient asks for the person in command. Reply: Commander Yao, deceased.'],
-            ['08:25:40', 'ADV',  'Patient asks for living crew. Reply: Dr. Ryland Grace. End of manifest.'],
-            ['08:27:18', 'ADV',  'Patient asks to call Earth. Reply: one-way signal time 11 years, 10 months, 14 days.'],
-            ['08:28:11', 'CAUT', 'Navigation display opened by patient. Stress response high. Patient has worked out that the star outside is not the Sun.']
-        ],
-        strip: 'none',
-        foot: 'Recovered from Beetle 1 (JOHN) data core. One segment lost in transfer.'
-    }),
-    note: `The second answer to question 2 was mathematically correct. Dr. Grace's education came back hours before his name did. That was the intended effect of the suppressant: it was meant to remove his memory of how he came to be aboard and leave everything else. No consent for it exists in any surviving file.`
+    html:
+        KIT.slog({
+            title: 'HAIL MARY / MISSION AWAKENING SEQUENCE',
+            right: 'T+13 YEARS · TAU CETI ARRIVAL',
+            sub: [['Surviving crew', 'Dr. Ryland Grace'], ['Astrophage fuel', '38% remaining'], ['Ship velocity', '0.92c'], ['Communication', 'No Earth contact']],
+            rows: KIT.old.slog(ORIGINAL_LOGS.tau_awakening),
+            foot: 'Recovered medical logs. Ship date 13Y:04M:17D. Automated system: MARY online.'
+        }) +
+        KIT.slog({
+            title: 'COGNITIVE ASSESSMENT LOG #001',
+            right: 'AUTOMATED RECOVERY PROTOCOL',
+            sub: [['System', 'MARY'], ['Subject', 'Grace, R.'], ['Battery', '001'], ['Outcome', 'Sedated']],
+            rows: KIT.old.slog(ORIGINAL_LOGS.tau_log_001, true),
+            foot: 'End of log #001.'
+        }) +
+        KIT.slog({
+            title: 'COGNITIVE ASSESSMENT LOG #002',
+            right: 'AUTOMATED RECOVERY PROTOCOL',
+            sub: [['System', 'MARY'], ['Subject', 'Grace, R.'], ['Battery', '002'], ['Outcome', 'Assessment failure']],
+            rows: KIT.old.slog(ORIGINAL_LOGS.tau_log_002, true),
+            foot: 'End of log #002.'
+        }) +
+        KIT.slog({
+            title: 'COGNITIVE ASSESSMENT LOG #003',
+            right: 'AUTOMATED RECOVERY PROTOCOL',
+            sub: [['System', 'MARY'], ['Subject', 'Grace, R.'], ['Battery', '003'], ['Outcome', 'Subject mobile']],
+            rows: KIT.old.slog(ORIGINAL_LOGS.tau_log_003, true),
+            foot: 'End of recovered record.'
+        })
 };
 
 /* ---------- Contact file ---------- */
@@ -237,6 +227,12 @@ DOCS.fishing = {
             <h2>Board observation</h2>
             <p>The pass was flown by an untrained pilot inside a three percent margin and, on the evidence, flown correctly. The breach came from heat nobody had modelled. The collector came back full.</p>`,
         foot: ['HM-078 / INQ-0004', 'External camera destroyed in the event', '3']
+    }) + KIT.slog({
+        title: 'HAIL MARY / MARY EMERGENCY RESPONSE',
+        right: 'ADRIAN ATMOSPHERIC COLLECTION',
+        sub: [['Event type', 'Catastrophic'], ['Location', 'Adrian upper atmosphere'], ['Primary personnel', 'Dr. Ryland Grace'], ['Outcome', 'Survived']],
+        rows: KIT.old.slog(ORIGINAL_LOGS.fishing),
+        foot: 'Recovered Hail Mary telemetry. Level 4 review.'
     })
 };
 
@@ -321,7 +317,7 @@ DOCS.return = {
     html: KIT.display({
         title: 'HAIL MARY / NAV 1 / RETURN TRANSIT',
         right: 'SHIP DAY 1560',
-        plot: `<svg viewBox="0 0 420 250" role="img" aria-label="Planned course from Tau Ceti to Sol">
+        plot: `<svg viewBox="0 0 420 250" role="img" aria-label="Planned course from Tau Ceti to Earth">
             <g stroke="#1b2025"><line x1="0" y1="62" x2="420" y2="62"/><line x1="0" y1="125" x2="420" y2="125"/><line x1="0" y1="188" x2="420" y2="188"/><line x1="105" y1="0" x2="105" y2="250"/><line x1="210" y1="0" x2="210" y2="250"/><line x1="315" y1="0" x2="315" y2="250"/></g>
             <circle cx="52" cy="176" r="5" fill="#f2b33d"/>
             <circle cx="372" cy="58" r="3" fill="#c9d0d6"/>
@@ -329,15 +325,15 @@ DOCS.return = {
             <path d="M52 176 L84 164.2" stroke="#8fd694" stroke-width="2.4" fill="none"/>
             <path d="M84 164.2 l-8 -1 l3 7 z" fill="#8fd694"/>
             <g font-size="10" fill="#7c8791" font-family="B612 Mono, monospace">
-                <text x="24" y="196">TAU CETI</text><text x="356" y="46">SOL</text><text x="226" y="100">11.9 LY</text>
-                <text x="92" y="158" fill="#8fd694">HAIL MARY</text>
+                <text x="24" y="196">TAU CETI</text><text x="350" y="46">EARTH</text><text x="226" y="100">11.9 LY</text>
+                <text x="70" y="146" fill="#8fd694">HAIL MARY</text>
                 <text x="232" y="150">PLANNED COURSE</text>
             </g>
         </svg>`,
         side: `<table>
             <thead><tr><th>Item</th><th>Value</th></tr></thead>
             <tbody>
-                <tr><td>Destination</td><td class="ok">SOL</td></tr>
+                <tr><td>Destination</td><td class="ok">EARTH</td></tr>
                 <tr><td>Time to go, ship</td><td>4 YR 2 MO</td></tr>
                 <tr><td>Arrival, Earth frame</td><td>T+27.2 YR</td></tr>
                 <tr><td>Fuel aboard</td><td class="am">61% OF BAYS</td></tr>
@@ -356,32 +352,12 @@ DOCS.return = {
 
 DOCS.contaminant = {
     html: KIT.slog({
-        title: 'HAIL MARY / SYS / ALERT LOG',
-        right: 'LABORATORY A + FUEL',
-        sub: [['Ship day', '1596'], ['Phase', 'Return transit'], ['Crew awake', '1 of 1'], ['Record', 'Partly corrupt']],
-        rows: [
-            ['03:14:06', 'CAUT', 'Generator output down 4% in six hours. No fault found.'],
-            ['03:14:15', 'CAUT', 'Fuel bay 3 mass below manifest by 212 kg.'],
-            ['03:14:27', 'WARN', 'Contaminant detected. Source estimate: Laboratory A.'],
-            ['03:14:46', 'WARN', 'Laboratory A sealed. Quarantine active.'],
-            ['03:15:04', 'WARN', 'Microscopy, fuel line 3: living organism among fuel cells. Match: TAUMOEBA-82.5.'],
-            ['03:15:11', 'WARN', 'Culture vessel in Laboratory A is intact and sealed. Organism is present outside it.'],
-            ['03:15:16', 'CAUT', 'Fuel mixture unstable. Engine response delayed.'],
-            ['03:15:55', 'WARN', 'Engines shut down by crew to isolate remaining fuel.'],
-            ['sep', '. . . 03:16:09 to 03:17:36 corrupt in the recovered record . . .'],
-            ['03:18:02', 'ADV',  'Centrifuge mode on. Crew request.'],
-            ['03:19:30', 'ADV',  'Fuel bays 3 to 9 flooded with pure nitrogen. Crew request.'],
-            ['03:22:41', 'ADV',  'Organism count in fuel line 3: zero. Pure nitrogen is lethal to this strain. Tolerance limit confirmed at 8.25%.'],
-            ['03:23:06', 'ADV',  'Quarantine holding. Fuel lost: 9%. Log segment ended.']
-        ],
-        strip: 'none',
-        after: `<div class="txt">
-            <p>CREW NOTE ATTACHED 04:02:19</p>
-            <p>It got out of a sealed xenonite vessel. Not through a crack. Through the wall. We bred it in xenonite for forty generations and selected, without meaning to, for the ones that could get through.</p>
-            <p>I can fix my ship. My tanks are metal and I have nitrogen.</p>
-            <p>Rocky's tanks are xenonite. His whole ship is xenonite. He left with the same cultures I did, seven weeks ago, and he has no idea.</p>
-        </div>`,
-        foot: 'Recovered from Beetle 3 (GEORGE) data core. Order of entries preserved as received.'
+        title: 'HAIL MARY / INTERNAL ALERT LOG',
+        right: 'ACTIVE BIOHAZARD CONTAINMENT',
+        sub: [['Compartment', 'Cleanroom'], ['Substance', 'Unknown'], ['Oxygen levels', '100% → 42%'], ['Containment', 'Active']],
+        rows: KIT.old.slog(ORIGINAL_LOGS.contaminant),
+        after: `<div class="tail">${ORIGINAL_LOGS.contaminant_tail.map((p) => `<p>${p}</p>`).join('')}</div>`,
+        foot: 'Recovered ship telemetry. Entries shown in the order received.'
     })
 };
 
@@ -391,7 +367,7 @@ DOCS.beetles = {
     html: KIT.display({
         title: 'HAIL MARY / NAV 3 / BEETLE TRACK',
         right: 'SHIP DAY 1602',
-        plot: `<svg viewBox="0 0 420 250" role="img" aria-label="Four probe tracks toward Sol; the Hail Mary turning away toward 40 Eridani">
+        plot: `<svg viewBox="0 0 420 250" role="img" aria-label="Four probe tracks toward Earth; the Hail Mary turning away toward 40 Eridani">
             <g stroke="#1b2025"><line x1="0" y1="62" x2="420" y2="62"/><line x1="0" y1="125" x2="420" y2="125"/><line x1="0" y1="188" x2="420" y2="188"/><line x1="105" y1="0" x2="105" y2="250"/><line x1="210" y1="0" x2="210" y2="250"/><line x1="315" y1="0" x2="315" y2="250"/></g>
             <circle cx="52" cy="176" r="5" fill="#f2b33d"/>
             <circle cx="372" cy="58" r="3" fill="#c9d0d6"/>
@@ -403,7 +379,7 @@ DOCS.beetles = {
             <path d="M150 196 l-7 -3 l1 -6 z" fill="#f2b33d"/>
             <line x1="150" y1="196" x2="300" y2="222" stroke="#f2b33d" stroke-dasharray="3 5"/>
             <g font-size="10" fill="#7c8791" font-family="B612 Mono, monospace">
-                <text x="24" y="196">TAU CETI</text><text x="356" y="46">SOL</text><text x="306" y="238">40 ERIDANI</text>
+                <text x="24" y="196">TAU CETI</text><text x="350" y="46">EARTH</text><text x="306" y="238">40 ERIDANI</text>
                 <text x="158" y="132" fill="#8fd694">BEETLES x4</text><text x="160" y="186" fill="#f2b33d">HAIL MARY</text>
             </g>
         </svg>`,
@@ -420,12 +396,12 @@ DOCS.beetles = {
         <table>
             <thead><tr><th>Own ship</th><th>Value</th></tr></thead>
             <tbody>
-                <tr><td>Planned heading</td><td>SOL</td></tr>
+                <tr><td>Planned heading</td><td>EARTH</td></tr>
                 <tr><td>Actual heading</td><td class="am">BLIP-A, THEN 40 ERIDANI</td></tr>
-                <tr><td>Fuel to reach Sol after</td><td class="rd">NO</td></tr>
+                <tr><td>Fuel to reach Earth after</td><td class="rd">NO</td></tr>
             </tbody>
         </table>`,
         foot: `Crew note attached to display: "The Beetles don't need me. They know the way and they have everything. Rocky does need me. Capsules are steel this time. Earth: this works. Grow it, take it to Venus, let it go. Tell my kids I said hi."`
     }),
-    note: `The four probes were named by Dr. Grace. Earth knew nothing of the change of course until the Beetles' own logs were read twelve years later. Every memorial raised in between was raised to a man believed to be on his way home.`
+    note: `Earth knew nothing of the change of course until the Beetles' own logs were read twelve years later. Every memorial raised in between was raised to a man believed to be on his way home.`
 };

@@ -135,59 +135,54 @@ DOCS.preparations = {
 /* ---------- Baikonur explosion ---------- */
 
 DOCS.disaster = {
-    html: KIT.report({
-        kind: 'inq',
-        org: 'Petrova Task Force &nbsp;·&nbsp; Board of Inquiry',
-        title: 'Explosion at the Baikonur Research Centre',
-        sub: 'Investigation report PTF-233 &nbsp;·&nbsp; Incident at 04:12 local, T−9 days',
-        body: `
-            <h2>Summary</h2>
-            ${KIT.hs('1', 'At 04:12 a test of an Astrophage-powered generator in Laboratory C released far more energy than the building could contain. The laboratory wing was vaporised. Sixteen people died.')}
-            ${KIT.hs('2', 'Among the dead are Dr. Martin DuBois, science specialist of the Hail Mary, and Dr. Annie Shapiro, his reserve. The mission has no trained science crew.')}
-            ${KIT.hs('3', 'Probable cause: the sample supplied to the test was one milligram of Astrophage. The procedure specified one nanogram. The two cannot be told apart by eye.')}
+    html: KIT.form({
+        org: ['Petrova Task Force', 'Baikonur Research Centre &nbsp;·&nbsp; Site Safety Office'],
+        title: 'Incident Report',
+        no: ['FORM PTF-IR-1', 'REPORT NO. PTF-233', 'STATUS: DECLASSIFIED'],
+        body:
+            KIT.cell(3, '1. Date of incident', 'T−9 DAYS') +
+            KIT.cell(3, '2. Time (local)', '04:12') +
+            KIT.cell(6, '3. Location', 'LABORATORY SECTOR C, BAIKONUR RESEARCH CENTRE') +
+            KIT.cell(8, '4. Type of incident (mark all that apply)',
+                KIT.check(['Explosion', 'Fire', 'Containment failure', 'Structural collapse', 'Injury', 'Fatality', 'Near miss'],
+                          ['Explosion', 'Fire', 'Containment failure', 'Structural collapse', 'Injury', 'Fatality']), 'raw') +
+            KIT.cell(4, '5. Severity', 'CATASTROPHIC', 'red') +
+            KIT.cell(8, '6. Activity in progress', 'LIVE ASTROPHAGE TESTING; GENERATOR CONTAINMENT CALIBRATION') +
+            KIT.cell(4, '7. Officer in charge', 'DUBOIS, M.') +
 
-            <div class="two">
-                <figure><img src="assets/explode4.png" alt=""><figcaption>Laboratory C from the access road, about forty minutes after the blast.</figcaption></figure>
-                <figure><img src="assets/explode3.png" alt=""><figcaption>East wing, structural survey.</figcaption></figure>
-            </div>
+            KIT.band('Part A — Description of incident') +
+            KIT.cell(12, '', `At approximately 04:12 local time, an Astrophage containment experiment conducted within Laboratory Sector C resulted in a catastrophic energy release event. The explosion caused total destruction of the eastern laboratory wing and severe structural collapse beyond it. Subsequent fires continued for several hours.`, 'narr') +
 
-            <h2>Sequence of events</h2>
-            <table>
-                <thead><tr><th>Local time</th><th>Event</th></tr></thead>
-                <tbody>
-                    <tr><td>03:20</td><td>DuBois and Shapiro sign in to Laboratory C for generator calibration.</td></tr>
-                    <tr><td>03:41</td><td>Sample container drawn from stores. Label reads 1 ng. Contents later established as 1 mg.</td></tr>
-                    <tr><td>04:12</td><td>Sample exposed to activation light. Energy release. Loss of all telemetry from the wing.</td></tr>
-                    <tr><td>04:14</td><td>Fire reported in the communications and laboratory sectors.</td></tr>
-                    <tr><td>04:30</td><td>Collapse of the western corridor blocks the planned evacuation route. Triage set up outdoors.</td></tr>
-                    <tr><td>04:51</td><td>Director informed. Instruction issued (see Mission impact).</td></tr>
-                </tbody>
-            </table>
+            KIT.band('Part B — Persons affected') +
+            KIT.table(['Name', 'Post', 'Location at time', 'Outcome'], [
+                ['DUBOIS, MARTIN', 'First science officer, Hail Mary', 'Inside Sector C, overseeing live test', '!KILLED IN INITIAL BLAST'],
+                ['SHAPIRO, ANNIE', 'Alternate science officer, Hail Mary', 'Inside Sector C, assisting calibration', '!KILLED IN INITIAL BLAST'],
+                ['DAVIS, JAMIE', 'Physical science technician', 'East wing', '!RESCUED; DIED BEFORE TRANSPORT'],
+                ['WANG, [REDACTED]', 'Junior laboratory assistant', 'East wing', '!TRAUMATIC BRAIN INJURY; COMATOSE'],
+                ['13 OTHERS', 'Laboratory staff, support staff, emergency responders', 'Various', '!KILLED']
+            ]) +
 
-            <h2>Probable cause</h2>
-            <p>A dosing error of one million to one. Astrophage stores so much energy in so little mass that a milligram, fully released, is comparable to a small tactical weapon. The containers for the two quantities were identical and the quantities themselves invisible. Neither scientist could have noticed.</p>
+            KIT.band('Part C — Cause') +
+            KIT.cell(4, '8. Quantity expected', '1 NANOGRAM') +
+            KIT.cell(4, '9. Quantity supplied', '1 MILLIGRAM', 'red') +
+            KIT.cell(4, '10. Discrepancy', '× 1,000,000', 'red') +
+            KIT.cell(12, '11. Finding', `Energy release exceeded all containment limits. The two quantities cannot be told apart by eye and were issued in identical containers. The presence of both the first and the alternate science officer in one room was a breach of Standing Order 4-A.`, 'narr') +
 
-            <h2>Fatalities</h2>
-            <table>
-                <thead><tr><th>Name</th><th>Post</th><th>Outcome</th></tr></thead>
-                <tbody>
-                    <tr><td>M. DuBois</td><td>Science specialist, Hail Mary</td><td class="bad">Killed in blast</td></tr>
-                    <tr><td>A. Shapiro</td><td>Reserve science specialist</td><td class="bad">Killed in blast</td></tr>
-                    <tr><td>14 others</td><td>Laboratory and support staff</td><td class="bad">Killed in blast</td></tr>
-                </tbody>
-            </table>
+            KIT.band('Part D — Emergency response') +
+            KIT.cell(12, '', `Firefighters battled the blaze on multiple fronts within the communications and laboratory sectors. Several injured personnel were unable to be evacuated through the western corridor due to structural collapse. Emergency triage zones were established externally under active fire conditions.`, 'narr') +
 
-            <h2>Findings</h2>
-            <ol>
-                <li>The presence of both the primary and the reserve science specialist in one room was a breach of Standing Order 4-A. The order existed to prevent exactly this.</li>
-                <li>Stores issued the sample correctly against a label that was wrong. The mislabelling occurred upstream and has not been traced.</li>
-                <li>No containment system exists that would have held this release.</li>
-            </ol>
+            KIT.band('Part E — Photographs') +
+            KIT.pic(6, 'Photo 1. Sector C from the access road', 'assets/explode4.png') +
+            KIT.pic(6, 'Photo 2. East wing, structural survey', 'assets/explode3.png') +
 
-            <h2>Mission impact</h2>
-            <p>The launch window closes in nine days. Training a replacement from the astronaut corps would take months. The survival models do not allow months.</p>
-            <blockquote>Hail Mary launches in nine days. Find another scientist.<cite>Instruction from the Director, 04:51, thirty-nine minutes after the blast</cite></blockquote>`,
-        foot: ['PTF-233 / INQ-0001', 'K. Nowak, presiding', 'Inquiry closed']
+            KIT.band('Part F — Mission impact') +
+            KIT.cell(3, '12. Primary science team', 'LOST', 'red') +
+            KIT.cell(3, '13. Launch window', '9 DAYS') +
+            KIT.cell(3, '14. Mission delay estimate', 'MONTHS') +
+            KIT.cell(3, '15. Human survival window', 'INSUFFICIENT', 'red') +
+            `<div class="c c8"><label>16. Final Task Force directive (issued 04:51)</label><div class="hand big">Hail Mary launches in nine days.<br>Find another scientist.</div></div>` +
+            KIT.cell(4, '17. Report filed by', 'NOWAK, K.<br>BOARD OF INQUIRY'),
+        foot: ['PTF-IR-1 &nbsp; Inquiry closed', 'Page 1 of 1']
     })
 };
 

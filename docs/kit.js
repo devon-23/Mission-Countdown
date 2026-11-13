@@ -70,10 +70,11 @@ ${att ? `<pre>\n${att}</pre>` : ''}
     function loop(o){
         const rows = o.rows.map((r) => {
             if(r[0] === 'note'){ return `<div class="note">(${r[1]})</div>`; }
+            if(r[0] === 'raw'){  return `<div class="note">${r[1]}</div>`; }
             if(r[0] === 'los'){  return `<div class="los">- - - ${r[1]} - - -</div>`; }
             return `<div class="ln"><span class="t">${r[0]}</span><span>${r[1]}</span><span>${r[2]}</span></div>`;
         }).join('');
-        return `<article class="sheet loop">
+        return `<article class="sheet loop${o.notime ? ' notime' : ''}">
             <div class="hd"><span>${o.head[0]}</span><span>${o.head[1]}</span><span>${o.head[2]}</span></div>
             <div class="hd hd2"><span>${o.sub[0]}</span><span>${o.sub[1]}</span><span>${o.sub[2]}</span></div>
             ${rows}
@@ -128,9 +129,12 @@ ${att ? `<pre>\n${att}</pre>` : ''}
          strip:'flat'|'none', after:'html', foot } */
     function slog(o){
         const cls = { ADV:'adv', CAUT:'caut', WARN:'warn' };
+        /* a row whose second item is not a level is a line of speech: [time, 'GRACE', text] */
         const rows = o.rows.map((r) => r[0] === 'sep'
             ? `<div class="r sep">${r[1]}</div>`
-            : `<div class="r ${cls[r[1]] || 'adv'}"><span class="t">${r[0]}</span><span class="lv">${r[1]}</span><span class="m">${r[2]}</span></div>`).join('');
+            : cls[r[1]]
+                ? `<div class="r ${cls[r[1]]}"><span class="t">${r[0]}</span><span class="lv">${r[1]}</span><span class="m">${r[2]}</span></div>`
+                : `<div class="r spk ${r[1] === 'MARY' ? 'sys' : 'me'}"><span class="t">${r[0]}</span><span class="lv">${r[1]}</span><span class="m">${r[2]}</span></div>`).join('');
         const strip = o.strip === 'flat' ? `<div class="strip">
             <svg viewBox="0 0 720 70" role="img" aria-label="Heart rate trace ending in a flat line">
                 <line x1="0" y1="35" x2="720" y2="35" stroke="#1b2025"/>
@@ -138,7 +142,7 @@ ${att ? `<pre>\n${att}</pre>` : ''}
                 <text x="8" y="14" font-size="10" fill="#7c8791" font-family="B612 Mono, monospace">${o.stripLabel || 'HR'}</text>
                 <text x="640" y="14" font-size="10" fill="#ff6b57" font-family="B612 Mono, monospace">0 BPM</text>
             </svg></div>` : '';
-        return `<article class="slog">
+        return `<article class="slog${o.wide ? ' wide' : ''}">
             <div class="hd"><span>${o.title}</span><span>${o.right || ''}</span></div>
             <div class="sub">${o.sub.map(([l, v]) => `<div><small>${l}</small>${v}</div>`).join('')}</div>
             <div class="rows">${rows}</div>
@@ -247,7 +251,21 @@ ${att ? `<pre>\n${att}</pre>` : ''}
     const band  = (text) => `<div class="band">${text}</div>`;
     const photo = (src, label) => `<div class="photo"><label>${label}</label><img src="${src}" alt=""></div>`;
     const check = (options, on) => `<div class="chk">${options.map((x) =>
-        `<span${x === on ? ' class="on"' : ''}>${x}</span>`).join('')}</div>`;
+        `<span${[].concat(on).includes(x) ? ' class="on"' : ''}>${x}</span>`).join('')}</div>`;
+
+    /* photograph inside a form cell: pic(6, 'Photo 1. Caption', 'assets/x.png') */
+    const pic = (span, label, src) => `<div class="c c${span} pic"><label>${label}</label><img src="${src}" alt=""></div>`;
+
+    /* Rows from docs/0-original-logs.js, laid out for a loop transcript or a ship's log */
+    const old = {
+        loop: (rows) => rows.map((r) =>
+            r[0] === 'line' ? [r[1], r[2], r[3]]
+          : r[0] === 'mark' ? ['los', r[1]]
+          : ['raw', r[1]]),
+        slog: (rows, speakers) => rows.map((r) =>
+            r[0] === 'line' ? [r[1], speakers ? r[2] : r[4], r[3]]
+          : ['sep', r[1]])
+    };
 
     /* table inside a form: table(['Head',…], [[cell,…],…]); a cell starting with "!" is red */
     function table(head, rows){
@@ -257,5 +275,5 @@ ${att ? `<pre>\n${att}</pre>` : ''}
         }</tbody></table></div>`;
     }
 
-    return { mail, remarks, loop, court, slog, display, news, paper, report, hs, memo, form, cell, band, photo, check, table };
+    return { mail, remarks, loop, court, slog, display, news, paper, report, hs, memo, form, cell, band, photo, check, table, pic, old };
 })();

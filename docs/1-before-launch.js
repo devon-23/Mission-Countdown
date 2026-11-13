@@ -100,47 +100,13 @@ DOCS.address = {
 
 DOCS.arclight = {
     html: KIT.loop({
-        head: ['ARCLIGHT MISSION COMMENTARY', 'VENUS ORBIT INSERTION', 'TAPE 14A / PAGE 1 OF 2'],
-        sub: ['GET 187:04:10', 'PASADENA 02:11 PDT', 'NET 1 + PAO'],
-        rows: [
-            ['187:04:12', 'PAO', `This is ArcLight Control. We are four minutes from loss of signal as the spacecraft passes behind Venus. The insertion burn will happen out of contact. If it goes to plan we hear from ArcLight again in twenty-three minutes.`],
-            ['187:05:40', 'FLIGHT', `Okay, all stations, last look before LOS. Go or no-go for insertion. Prop.`],
-            ['187:05:44', 'PROP', `Go.`],
-            ['187:05:46', 'FLIGHT', `GNC.`],
-            ['187:05:47', 'GNC', `Go, Flight.`],
-            ['187:05:49', 'FLIGHT', `Sample.`],
-            ['187:05:53', 'SAMPLE', `Collector door is armed. We're go.`],
-            ['los', 'LOSS OF SIGNAL 187:08:31'],
-            ['note', 'No voice on NET 1 for 22 min 48 sec.'],
-            ['187:31:19', 'INCO', `Flight, INCO. Carrier lock. We have a downlink.`],
-            ['187:31:22', 'FLIGHT', `Copy carrier. GNC, where are we?`],
-            ['187:31:58', 'GNC', `Flight, we are in orbit. Apoapsis is eleven kilometers off the plan.`],
-            ['note', 'Applause in the room. Unintelligible.'],
-            ['187:33:05', 'SAMPLE', `Flight, Sample. The collector is reading mass. That's not in the plan either. We weren't expecting anything you could weigh.`],
-            ['187:33:20', 'FLIGHT', `Say again, Sample. Mass?`],
-            ['187:33:24', 'SAMPLE', `One hundred seventy-four discrete particles, each about ten microns. The onboard microscope is on them now.`]
-        ],
-        foot: ['ARCLIGHT / PAO / 14A', 'CONTINUED']
-    }) + KIT.loop({
-        head: ['ARCLIGHT MISSION COMMENTARY', 'NETWORK POOL FEED', 'TAPE 14A / PAGE 2 OF 2'],
-        sub: ['GET 187:41:00', 'PASADENA 02:48 PDT', 'POOL AUDIO'],
-        rows: [
-            ['187:41:02', 'REPORTER', `We're live from Pasadena, where the first pictures from inside the Petrova line are coming down now. Doctor, what are we looking at?`],
-            ['187:41:14', 'BROWNE', `The image on your screen is coming from the probe's internal microscope. It's looking at whatever ArcLight just collected. Magnified ten thousand times. Those dark specks are the sample.`],
-            ['note', 'Monochrome microscope image on feed. Dark particles on a pale field.'],
-            ['187:41:41', 'REPORTER', `And these are, what, dust? Ice?`],
-            ['187:41:44', 'BROWNE', `That's what we're here to find out. The best guess going in was some kind of --`],
-            ['note', '4.2 seconds of silence. One particle changes position.'],
-            ['187:41:53', 'BROWNE', `Oh my God.`],
-            ['187:41:57', 'REPORTER', `Doctor, are those particles moving?`],
-            ['note', 'Several particles cross the field, in different directions.'],
-            ['187:42:06', 'BROWNE', `I'm sorry. I have to go.`],
-            ['note', 'Chair audible. Dr. Browne leaves frame. Studio audio stays open for 51 seconds.'],
-            ['los', 'POOL FEED CUT 187:42:58']
-        ],
-        foot: ['ARCLIGHT / PAO / 14A', 'END OF TAPE']
+        notime: true,
+        head: ['NASA / JPL LIVE FEED', 'ARCLIGHT VENUS INSERTION', 'LIVE TRANSCRIPT'],
+        sub: ['SOURCE: ARCLIGHT PROBE', 'MICROSCOPE 10,000×', 'SIGNAL DELAY 14M 32S'],
+        rows: KIT.old.loop(ORIGINAL_LOGS.arclight),
+        foot: ['PETROVA LINE FLYBY, VENUS', 'BIOLOGICAL MOVEMENT: CONFIRMED']
     }),
-    note: `An estimated 2.8 billion people were watching. Crowds in Times Square were reported to fall silent within seconds of the feed being cut. Rail services in Tokyo ran late on eleven lines as passengers stood in front of platform monitors. Fourteen governments convened emergency sessions inside fifteen minutes. Historians date the knowledge that humanity is not alone to 187:41:53.`
+    note: `The largest simultaneous broadcast in human history. Historians later identified this transmission as the exact moment humanity realized it was not alone in the universe. Multiple world governments reportedly entered emergency session less than fifteen minutes after the feed ended.`
 };
 
 /* ---------- Task force formed ---------- */

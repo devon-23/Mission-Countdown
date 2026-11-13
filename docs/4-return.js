@@ -126,7 +126,7 @@ DOCS.signalreceived = {
         credit: 'Image: Deep Space Network',
         body: `
             <p><span class="dl">GENEVA</span> — They are the size of suitcases and they have been travelling for twelve years. At 04:14 this morning, four of them appeared on the screens of the Deep Space Network, just outside the orbit of Jupiter, slowing down.</p>
-            <p>By 04:27 controllers had traced their path backwards. It ends at Tau Ceti. Their heat signature matches the return probes built into the Hail Mary to within a tenth of one percent. The ship carried four. The crew called them Beetles.</p>
+            <p>By 04:27 controllers had traced their path backwards. It ends at Tau Ceti. Their heat signature matches the return probes built into the Hail Mary to within a tenth of one percent. The ship carried four. Their builders called them Beetles.</p>
             <p>They will reach Earth in thirty-four days and come down in the Indian Ocean.</p>
             <div class="pull">"For twenty-six years we prepared ourselves for silence. Today four small objects came out of the dark between the stars. They came home."<cite>Eva Stratt, on her release</cite></div>
             <h3>The morning, hour by hour</h3>

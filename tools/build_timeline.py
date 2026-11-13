@@ -84,7 +84,7 @@ panel('preparations', -30/365, 'T−30 DAYS', 'Low Earth orbit', 'Final preparat
 panel('disaster', -9/365, 'T−9 DAYS', 'Baikonur Cosmodrome, Kazakhstan', 'Explosion at Baikonur',
  "A test of an Astrophage-powered generator at the Baikonur research centre is loaded with a milligram of fuel where a nanogram was specified. The building is gone in an instant. The mission's science officer and his backup are both inside.",
  ('Science crew remaining','0 of 2'), [('Cause','Dosing error, ×1,000,000','ir'),('Launch','In 9 days')],
- [('disaster','Report','Baikonur research centre explosion','Board of Inquiry')])
+ [('disaster','Report','Incident report: explosion at Baikonur','Site Safety Office')])
 
 panel('grace', -2/365, 'T−2 DAYS', 'Baikonur Cosmodrome, Kazakhstan', 'Dr. Ryland Grace joins the crew',
  "One person is left who knows Astrophage well enough and carries the coma-resistance genes: the schoolteacher who named it. Ryland Grace is assigned as science officer two days before launch. The public record says he volunteered.",
@@ -162,7 +162,7 @@ panel('collapse', 18.0, 'T+18.0 YR', 'Earth', 'Climate collapse',
  [('collapse','Report','Earth stability assessment, Year 18','United Nations crisis archive')])
 
 panel('lastcontact', 23.0, 'T+23.0 YR', 'Interstellar space', 'Last signal from the Hail Mary',
- "The Beetles record every transmission they receive on the way home. The last one from the Hail Mary reaches them nine years into their flight. By then the ship is far off the road to Sol, heading for 40 Eridani.",
+ "The Beetles record every transmission they receive on the way home. The last one from the Hail Mary reaches them nine years into their flight. By then the ship is far off the road to Earth, heading for 40 Eridani.",
  ('Signal','Lost'), [('Vessel heading','40 Eridani'),('Crew','Unknown')],
  [('lastcontact','Transcript','Final transmission','Recovered from Beetle 1')], insert='Reconstructed from Beetle telemetry', sol=False)
 
@@ -301,6 +301,7 @@ page = f'''<!DOCTYPE html>
 </div>
 
 <script src="docs/kit.js"></script>
+<script src="docs/0-original-logs.js"></script>
 <script src="docs/1-before-launch.js"></script>
 <script src="docs/2-launch.js"></script>
 <script src="docs/3-voyage.js"></script>
