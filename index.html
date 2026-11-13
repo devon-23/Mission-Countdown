@@ -1,2530 +1,736 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-  <title>PROJECT HAIL MARY — ARCHIVE</title>
-
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="archive.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Hail Mary: Mission Record</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Share+Tech+Mono&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;600;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Arimo:wght@400;700&family=B612:wght@400;700&family=B612+Mono:wght@400;700&family=Cousine:wght@400;700&family=Libre+Franklin:wght@400;700&family=Newsreader:ital,opsz,wght@0,6..72,400..800;1,6..72,400..600&family=Reenie+Beanie&family=STIX+Two+Text:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,700;1,400&family=Tinos:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="docs.css">
 </head>
 
 <body>
 
-
-<div class="scanlines"></div>
-<div class="stars"></div>
-
-<!-- TOP HUD -->
-
+<!-- TOP BAR -->
 <header class="hud">
-
-  <div class="hud-left">
-    PROJECT HAIL MARY
-  </div>
-
-  <div class="hud-center">
-    MISSION ARCHIVE SYSTEM
-  </div>
-
-  <div class="hud-right">
-    STATUS: COMPLETE
-  </div>
-
+  <div class="hud-mark">Project Hail Mary<span>Mission record</span></div>
+  <div class="hud-sol">Sol output <i id="sol-bar"></i> <b id="sol-val">100%</b></div>
 </header>
 
+<!-- TIMELINE RAIL (built by script.js) -->
+<nav class="rail" id="rail" aria-label="Timeline"></nav>
+
 <!-- INTRO -->
-
-<section class="panel intro" id="intro">
-
-  <div class="overlay"></div>
-
-  <div class="grid"></div>
-
-  <div class="content">
-
-    <p class="eyebrow">
-      PETROVA TASK FORCE
-    </p>
-
-    <h1>
-      HAIL MARY<br>MISSION TIMELINE
-    </h1>
-
-    <p class="description">
-      Scroll to access the complete historical timeline
-      of humanity's final interstellar mission.
-        <br><br>
-      Missing or redacted documents are marked accordingly.
-      <br>
-      All timelines are incorporated from verified archival sources in order to keep authenticity of the order of events.
-    </p>
-
-    <div class="console-box">
-      ARCHIVE ACCESS GRANTED
-    </div>
-
-  </div>
-
-</section>
-
-<!-- PETROVA -->
-
-<section class="panel petrova" id="petrova">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="99.7%">99.7%</span>
-        </div>
-
-        <div>
-            ARCHIVE STATUS
-            <span>INVESTIGATING</span>
-        </div>
-
-        <div>
-            CLASSIFICATION
-            <span>LEVEL 1</span>
-        </div>
-    </div>
-
+<section class="panel intro" id="intro" data-lum="100" data-clock="" data-title="Start">
     <div class="content">
-        <div class="mission-time">
-            T–13 YEARS
-        </div>
-
-        <p class="eyebrow">
-            PULKOVO OBSERVATORY — ST. PETERSBURG
-        </p>
-
-        <h1>
-            INFRARED<br>GLOW DETECTED
-        </h1>
-
-        <p class="description">
-            A faint infrared arc stretching from Sol toward Venus
-            is independently confirmed by multiple observatories.
-            The phenomenon emits exclusively at 25.984 microns
-            and does not match any known interplanetary behavior.
-        </p>
-
-        <div class="console-box">
-            FIRST VERIFIED DETECTION OF THE PETROVA LINE
-        </div>
-
-        <!-- DOCUMENT BUTTON -->
-
-        <button
-            class="archive-button"
-            onclick="openArchive('petrova')">
-
-            OPEN INITIAL OBSERVATION REPORT
-
-        </button>
-
+        <div class="clock">T−6 YR TO T+44 YR<span>Petrova Task Force</span></div>
+        <h1>The Hail Mary mission, as it happened</h1>
+        <p class="description">Thirty-seven events, from the night an astronomer noticed a line in the sky to the year a star sixteen light-years away came back to life. Each one links to the papers, transcripts and logs that recorded it.</p>
+        <p class="description dim">Scroll to begin. The colour of the readouts follows the Sun.</p>
     </div>
+    <aside class="side">
+        <img class="patch" src="assets/logo.png" alt="Project Hail Mary mission patch">
+    </aside>
 </section>
-<br>
-<!-- ADDRESS -->
-<section class="panel address" id="address">
- <br>
-    <div class="overlay"></div>
 
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="99.66%">99.66%</span>
-        </div>
-
-        <div>
-            PETROVA LINE OUTPUT
-            <span>INCREASING</span>
-        </div>
-
-        <div>
-            ARCHIVE STATUS
-            <span>PUBLIC DISCLOSURE</span>
-        </div>
-
-    </div>
-
+<section class="panel petrova" id="petrova" data-lum="99.99" data-clock="T−6.0 YR" data-title="Infrared glow detected">
     <div class="content">
-
-        <div class="mission-time">
-            T–12 YEARS
+        <div class="clock">T−6.0 YR<span>Pulkovo Observatory, St. Petersburg</span></div>
+        <h1>Infrared glow detected</h1>
+        <p class="description">A faint arc of infrared light runs from the Sun&#x27;s north pole to Venus. It emits at 25.984 microns and nowhere else. Dr. Irina Petrova asks a public mailing list to tell her what she got wrong.</p>
+        <div class="key">Emission wavelength<b>25.984 µm</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('petrova')" data-doc="petrova" data-type="Email" data-title="The Thin Red Line"><span class="ty">Email</span><span class="ti">The Thin Red Line <span class="src">· I. Petrova to astrocurious</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            INTERNATIONAL EMERGENCY BROADCAST
-        </p>
-
-        <h1>
-            THE PRESIDENTIAL<br>ADDRESS
-        </h1>
-
-        <p class="description">
-            Following confirmation from JAXA and multiple
-            international observatories, world governments
-            publicly acknowledge the existence of the Petrova Line
-            and a measurable decline in solar output.
-        </p>
-
-        <div class="warning-box">
-            SOLAR LUMINOSITY DECLINE:
-            0.01%
-        </div>
-
-        <!-- OPEN TRANSCRIPT -->
-
-        <button
-            class="archive-button"
-            onclick="openArchive('address')">
-
-            OPEN EMERGENCY BROADCAST TRANSCRIPT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.99%</dd></div>
+            <div><dt>Confirmed by</dt><dd>1 observatory</dd></div>
+            <div><dt>Public knowledge</dt><dd>None</dd></div>
+        </dl>
+    </aside>
 </section>
-
-
-<section class="panel taskforce" id="taskforce">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="99.95%">99.95%</span>
-        </div>
-
-        <div>
-            TASK FORCE STATUS
-            <span>FORMING</span>
-        </div>
-
-        <div>
-            GLOBAL COOPERATION
-            <span>MANDATORY</span>
-        </div>
-
-    </div>
-
+<section class="panel address" id="address" data-lum="99.99" data-clock="T−5.8 YR" data-title="The President addresses the nation">
     <div class="content">
-
-        <div class="mission-time">
-            T–MINUS 12 YEARS
+        <div class="clock">T−5.8 YR<span>Washington, D.C.</span></div>
+        <h1>The President addresses the nation</h1>
+        <p class="description">Japan&#x27;s Amaterasu probe confirms what the observatories suspected. The Sun is getting dimmer, and the Petrova line is getting brighter at exactly the same rate. Governments decide to say so in public.</p>
+        <div class="key">Solar output lost so far<b>0.01%</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('address')" data-doc="address" data-type="Transcript" data-title="Address to the nation on the Petrova Line"><span class="ty">Transcript</span><span class="ti">Address to the nation on the Petrova Line <span class="src">· Office of the Press Secretary</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            UNITED NATIONS EMERGENCY SESSION
-        </p>
-
-        <h1>
-            PETROVA TASK<br>FORCE FORMED
-        </h1>
-
-        <p class="description">
-            The United Nations unanimously authorizes the
-            formation of the Petrova Task Force and appoints
-            Eva Stratt as its director with unprecedented
-            multinational authority.
-
-            Initial priority:
-            launch an exploratory probe directly into
-            the Petrova Line.
-        </p>
-        <!--
-        <div class="warning-box">
-            EXECUTIVE AUTHORITY GRANTED ACROSS ALL MEMBER NATIONS
-        </div>
-        -->
-        <button
-            class="archive-button"
-            onclick="openArchive('recruitment')">
-
-             OPEN INITIAL RECRUITMENT
-
-        </button>
-        <br>
-        <button
-            class="archive-button"
-            onclick="openArchive('taskforce')">
-
-            OPEN UNITED NATIONS ARTICLE
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.99%</dd></div>
+            <div><dt>Projected, +9 yr</dt><dd class="ir">99.0%</dd></div>
+            <div><dt>Projected, +20 yr</dt><dd class="ir">95.0%</dd></div>
+            <div><dt>Audience</dt><dd>1.4 billion</dd></div>
+        </dl>
+    </aside>
 </section>
-
-
-<section class="panel arclight" id="arclight">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="99.91%">99.91%</span>
-        </div>
-
-        <div>
-            ARCLIGHT STATUS
-            <span>VENUS ORBIT</span>
-        </div>
-
-        <div>
-            GLOBAL VIEWERS
-            <span>2.8 BILLION</span>
-        </div>
-
-    </div>
-
+<section class="panel taskforce" id="taskforce" data-lum="99.99" data-clock="T−5.7 YR" data-title="Petrova Task Force formed">
     <div class="content">
-
-        <div class="mission-time">
-            T–11 YEARS
+        <div class="clock">T−5.7 YR<span>United Nations, New York</span></div>
+        <h1>Petrova Task Force formed</h1>
+        <p class="description">The General Assembly votes to create the Petrova Task Force and puts Eva Stratt in charge of it, with authority over every member state&#x27;s laboratories, launch sites and budgets. Her first order is a probe to fly into the line.</p>
+        <div class="key">Vote<b>Unanimous</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('taskforce')" data-doc="taskforce" data-type="Article" data-title="U.N. hands one administrator command of the Petrova response"><span class="ty">Article</span><span class="ti">U.N. hands one administrator command of the Petrova response <span class="src">· The World Ledger</span></span><span class="go">Open →</span></button>
+            <button class="doc" type="button" onclick="openArchive('recruitment')" data-doc="recruitment" data-type="Form" data-title="Scientific recruitment register"><span class="ty">Form</span><span class="ti">Scientific recruitment register <span class="src">· Petrova Task Force</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            NASA / JPL LIVE FEED
-        </p>
-
-        <h1>
-            ARCLIGHT<br>RETURNS DATA
-        </h1>
-
-        <p class="description">
-            Humanity watches live as the ArcLight probe
-            enters Venusian orbit and captures the first
-            close-range imagery of the Petrova Line.
-        </p>
-
-        <div class="terminal">
-            > LIVE TELEMETRY ACTIVE
-            <br>
-            > SAMPLE ANALYSIS IN PROGRESS
-        </div>
-
-        <button
-            class="archive-button"
-            onclick="openArchive('arclight')">
-
-            OPEN NASA LIVESTREAM TRANSCRIPT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.99%</dd></div>
+            <div><dt>Director</dt><dd>Eva Stratt</dd></div>
+            <div><dt>Limits on authority</dt><dd class="ir">None stated</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<!-- ASTROPHAGE -->
-
-<section class="panel astrophage" id="astrophage">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="96.8%">96.8%</span>
-        </div>
-
-        <div>
-            SAMPLE STATUS
-            <span>CONFIRMED BIOLOGICAL</span>
-        </div>
-
-        <div>
-            RESEARCH TEAMS
-            <span>347 ACTIVE</span>
-        </div>
-
-        <div >
-            > EXTRATERRESTRIAL LIFE CONFIRMED
-            <br>
-            > PETROVA FREQUENCY MATCH VERIFIED
-        </div>
-
-    </div>
-
+<section class="panel arclight" id="arclight" data-lum="99.98" data-clock="T−5.0 YR" data-title="ArcLight reaches the line">
     <div class="content">
-
-        <div class="mission-time">
-            T–MINUS 9 YEARS
+        <div class="clock">T−5.0 YR<span>Jet Propulsion Laboratory, Pasadena</span></div>
+        <h1>ArcLight reaches the line</h1>
+        <p class="description">2.8 billion people watch the ArcLight probe slip into orbit around Venus and fly through the Petrova line. Its collector comes back heavier than it left, and on live television the dust starts to move.</p>
+        <div class="key">Particles collected<b>174</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('arclight')" data-doc="arclight" data-type="Transcript" data-title="ArcLight orbit insertion"><span class="ty">Transcript</span><span class="ti">ArcLight orbit insertion <span class="src">· Mission commentary and pool feed</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            PETROVA TASK FORCE BIOLOGY DIVISION
-        </p>
-
-        <h1>
-            ASTROPHAGE<br>IDENTIFIED
-        </h1>
-
-        <p class="description">
-            Following ArcLight’s successful sample return,
-            laboratories across the globe begin analyzing
-            the mysterious Petrova particles.
-
-            Initial assumptions suggest inert dust or plasma.
-
-            Instead, researchers discover a living extraterrestrial
-            microorganism capable of storing and expelling
-            enormous quantities of energy.
-
-            The organism is ultimately designated:
-            <strong>Astrophage.</strong>
-        </p>
-
-         <button
-            class="archive-button"
-            onclick="window.open('report.html', '_blank')">
-            <span>FULL ASTROPHAGE ANALYSIS REPORT</span>
-        </button>
-        <br>
-        <button
-            class="archive-button"
-            onclick="openArchive('astrophage')">
-
-            OPEN ARTICLE: WHAT IS ASTROPHAGE?
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.98%</dd></div>
+            <div><dt>Probe</dt><dd>In Venus orbit</dd></div>
+            <div><dt>Watching live</dt><dd>2.8 billion</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel projections" id="projections">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="95.1%">95.1%</span>
-        </div>
-
-        <div>
-            GLOBAL MODEL STATUS
-            <span>UPDATED DAILY</span>
-        </div>
-
-        <div>
-            EXTINCTION PROBABILITY
-            <span>INCREASING</span>
-        </div>
-
-    </div>
-
+<section class="panel astrophage" id="astrophage" data-lum="99.97" data-clock="T−4.6 YR" data-title="Astrophage identified">
     <div class="content">
-
-        <div class="mission-time">
-            T–MINUS 8 YEARS
+        <div class="clock">T−4.6 YR<span>Petrova Task Force, Biology Division</span></div>
+        <h1>Astrophage identified</h1>
+        <p class="description">The particles are alive. They are single cells that soak up the Sun&#x27;s energy, fly to Venus to breed, and fly back. A middle-school science teacher named Ryland Grace works out how, and gives them a name: Astrophage, the star eater.</p>
+        <div class="key">Cell temperature, always<b>96.415 °C</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="window.open('report.html','_blank')" data-doc="@report.html" data-type="Paper" data-title="Astrophage reproduction and propagation model"><span class="ty">Paper</span><span class="ti">Astrophage reproduction and propagation model <span class="src">· PTF Technical Reports</span></span><span class="go">Open ↗</span></button>
+            <button class="doc" type="button" onclick="openArchive('astrophage')" data-doc="astrophage" data-type="Article" data-title="What is Astrophage?"><span class="ty">Article</span><span class="ti">What is Astrophage? <span class="src">· The World Ledger</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            WORLD CLIMATE & BIOSPHERE MODELING GROUP
-        </p>
-
-        <h1>
-            SUN DIMMING<br>PROJECTIONS
-        </h1>
-
-        <p class="description">
-            Updated predictive models confirm cascading
-            global biosphere instability caused by accelerating
-            solar luminosity decline.
-
-            Agricultural collapse, weather system disruption,
-            and large-scale ecosystem failure are now considered
-            unavoidable under current trajectories.
-        </p>
-
-        <div class="warning-box">
-            PROJECTED HUMAN MORTALITY: 50% WITHIN 19 YEARS
-        </div>
-
-        <button class="archive-button" onclick="openArchive('projections')">
-            OPEN GLOBAL IMPACT REPORT
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.97%</dd></div>
+            <div><dt>Sample</dt><dd>Alive</dd></div>
+            <div><dt>Laboratories at work</dt><dd>347</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel sahara" id="sahara">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="94.2%">94.2%</span>
-        </div>
-
-        <div>
-            TASK FORCE INITIATIVE
-            <span>PLAN APPROVED</span>
-        </div>
-
-        <div>
-            GLOBAL ENERGY STRATEGY
-            <span>REDIRECTED</span>
-        </div>
-
-    </div>
-
+<section class="panel projections" id="projections" data-lum="99.96" data-clock="T−4.0 YR" data-title="Sun-dimming projections">
     <div class="content">
-
-        <div class="mission-time">
-            T–MINUS 7 YEARS
+        <div class="clock">T−4.0 YR<span>Earth Systems Modelling Group, Geneva</span></div>
+        <h1>Sun-dimming projections</h1>
+        <p class="description">Thirty-one climate models are run independently, with different assumptions. All of them end the same way: failed harvests, advancing ice, and wars over what is left.</p>
+        <div class="key">Projected deaths within 19 years<b>Half of humanity</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('projections')" data-doc="projections" data-type="Report" data-title="Solar output decline and its consequences"><span class="ty">Report</span><span class="ti">Solar output decline and its consequences <span class="src">· Summary for policymakers</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            PETROVA TASK FORCE — PLANETARY ENGINEERING DIVISION
-        </p>
-
-        <h1>
-            SAHARA DESERT<br>PAVED
-        </h1>
-
-        <p class="description">
-            The Petrova Task Force proposes a large-scale solar
-            energy harvesting infrastructure across the Sahara Desert.
-
-            The goal: Breed and cultivate Astrophage under controlled conditions.
-        </p>
-
-        <div class="warning-box">
-            PROPOSAL: CONVERT UP TO 25% OF SAHARA SURFACE INTO ENERGY ARRAY
-        </div>
-
-        <button class="archive-button" onclick="openArchive('sahara')">
-            OPEN TASK FORCE ETHICS REPORT
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.96%</dd></div>
+            <div><dt>Projected, +9 yr</dt><dd class="ir">99.0%</dd></div>
+            <div><dt>Projected, +20 yr</dt><dd class="ir">95.0%</dd></div>
+            <div><dt>Models in agreement</dt><dd>31 of 31</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel hailmary" id="hailmary">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="92.8%">92.8%</span>
-        </div>
-
-        <div>
-            MISSION STATUS
-            <span>APPROVED</span>
-        </div>
-
-        <div>
-            RETURN WINDOW
-            <span>26 YEARS</span>
-        </div>
-
-    </div>
-
+<section class="panel sahara" id="sahara" data-lum="99.94" data-clock="T−3.5 YR" data-title="The Sahara is paved">
     <div class="content">
-
-        <div class="mission-time">
-            T–MINUS 6 YEARS
+        <div class="clock">T−3.5 YR<span>Sahara Desert</span></div>
+        <h1>The Sahara is paved</h1>
+        <p class="description">Reaching another star will take two million kilograms of Astrophage, and the only way to make it is sunlight. A quarter of the Sahara is covered in black panels to breed it.</p>
+        <div class="key">Desert surface converted<b>25%</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('sahara')" data-doc="sahara" data-type="Report" data-title="Project Sahara: infrastructure and ethics review"><span class="ty">Report</span><span class="ti">Project Sahara: infrastructure and ethics review <span class="src">· Directorate of Infrastructure</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            GLOBAL SPACE COALITION — EMERGENCY SESSION
-        </p>
-
-        <h1>
-            PROJECT HAIL MARY<br>GOES PUBLIC
-        </h1>
-
-        <p class="description">
-            In response to accelerating solar dimming and the
-            confirmed interstellar propagation of the phenomenon,
-            humanity authorizes its first deep interstellar mission.
-
-            Destination: Tau Ceti.
-        </p>
-
-        <div class="warning-box">
-            ESTIMATED TRANSIT TIME: 13 YEARS (ONE WAY)
-        </div>
-
-        <button class="archive-button" onclick="openArchive('hailmary')">
-            OPEN MISSION BRIEFING
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.94%</dd></div>
+            <div><dt>Fuel required</dt><dd>2,000,000 kg</dd></div>
+            <div><dt>Host states</dt><dd>Algeria, Libya, Chad</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel antarctica" id="antarctica">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="90.6%">90.6%</span>
-        </div>
-
-        <div>
-            CLIMATE INTERVENTION
-            <span>ACTIVE</span>
-        </div>
-
-        <div>
-            GLOBAL WEATHER STATUS
-            <span>DESTABILIZING</span>
-        </div>
-
-    </div>
-
+<section class="panel hailmary" id="hailmary" data-lum="99.92" data-clock="T−3.0 YR" data-title="Project Hail Mary goes public">
     <div class="content">
-
-        <div class="mission-time">
-            T–MINUS 5 YEARS
+        <div class="clock">T−3.0 YR<span>Petrova Task Force, Geneva</span></div>
+        <h1>Project Hail Mary goes public</h1>
+        <p class="description">Every nearby star is infected and dimming except one. Tau Ceti is surrounded by Astrophage and shining normally. Humanity will build one ship to go and find out why. It carries enough fuel to get there and none to come back.</p>
+        <div class="key">Until any answer reaches Earth<b>26 years</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('hailmary')" data-doc="hailmary" data-type="Memo" data-title="Project Hail Mary: mission briefing"><span class="ty">Memo</span><span class="ti">Project Hail Mary: mission briefing <span class="src">· Petrova Task Force</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            PETROVA TASK FORCE — CLIMATE RESPONSE DIVISION
-        </p>
-
-        <h1>
-            ANTARCTICA<br>DETONATION PLAN
-        </h1>
-
-        <p class="description">
-            The Petrova Task Force initiates controlled Antarctic
-            ice shelf detonations designed to release trapped methane
-            into Earth’s atmosphere to increase the greenhouse effect.
-
-            This increases the Hail Mary timeline by an additional 5 years, giving enough time for the astronauts to make it to Tau Ceti and return probes.
-        </p>
-
-        <div class="warning-box">
-            PROJECTED GLOBAL TEMPERATURE COLLAPSE DELAY:
-            +3 TO +5 YEARS
-        </div>
-
-        <button class="archive-button" onclick="openArchive('antarctica')">
-
-            OPEN CLIMATE INTERVENTION REPORT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.92%</dd></div>
+            <div><dt>Destination</dt><dd>Tau Ceti, 11.9 ly</dd></div>
+            <div><dt>Crew</dt><dd>3</dd></div>
+            <div><dt>Return for crew</dt><dd class="ir">None planned</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel crew" id="crew">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="89.1%">89.1%</span>
-        </div>
-
-        <div>
-            MISSION STATUS
-            <span>CREW ASSIGNED</span>
-        </div>
-
-        <div>
-            LAUNCH WINDOW
-            <span>742 DAYS</span>
-        </div>
-
-    </div>
-
+<section class="panel antarctica" id="antarctica" data-lum="99.87" data-clock="T−2.0 YR" data-title="Antarctica is detonated">
     <div class="content">
-
-        <div class="mission-time">
-            T–MINUS 2 YEARS
+        <div class="clock">T−2.0 YR<span>Western Antarctic ice shelf</span></div>
+        <h1>Antarctica is detonated</h1>
+        <p class="description">Twenty-six years is longer than the models give civilisation. To buy time, the task force breaks the Antarctic ice shelf with nuclear charges, releasing methane to trap what heat the Sun still sends.</p>
+        <div class="key">Time bought<b>3 to 5 years</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('antarctica')" data-doc="antarctica" data-type="Report" data-title="Operation Winterfall: Antarctic methane release"><span class="ty">Report</span><span class="ti">Operation Winterfall: Antarctic methane release <span class="src">· Directorate of Climate Intervention</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            PROJECT HAIL MARY — CREW SELECTION DIVISION
-        </p>
-
-        <h1>
-            ASTRONAUTS<br>SELECTED
-        </h1>
-
-        <p class="description">
-            Three astronauts were selected to undertake
-            humanity’s first interstellar mission to Tau Ceti.
-
-            No return mission was expected.
-        </p>
-
-        <div class="warning-box">
-            PROJECTED MISSION DURATION:
-            26+ YEARS
-        </div>
-
-        <button class="archive-button" onclick="openArchive('crew')">
-
-            OPEN CREW BIOGRAPHIES
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.87%</dd></div>
+            <div><dt>Reversible</dt><dd class="ir">No</dd></div>
+            <div><dt>Authorised by</dt><dd>Director, alone</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel preparations" id="preparations">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="87.9%">87.9%</span>
-        </div>
-
-        <div>
-            HAIL MARY STATUS
-            <span>FLIGHT READY</span>
-        </div>
-
-        <div>
-            LAUNCH COUNTDOWN
-            <span>T–9 DAYS</span>
-        </div>
-
-    </div>
-
+<section class="panel crew" id="crew" data-lum="99.78" data-clock="T−1.0 YR" data-title="The crew is chosen">
     <div class="content">
-
-        <div class="mission-time">
-            T–MINUS 9 DAYS
+        <div class="clock">T−1.0 YR<span>Office of Crew Selection</span></div>
+        <h1>The crew is chosen</h1>
+        <p class="description">Three people are picked to fly to Tau Ceti: a commander, an engineer and a scientist. All three carry the rare genes that let a body survive years in a coma. All three know the ship cannot bring them home.</p>
+        <div class="key">Planned return for crew<b>None</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('crew')" data-doc="crew" data-type="Form" data-title="Crew member records"><span class="ty">Form</span><span class="ti">Crew member records <span class="src">· Office of Crew Selection</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            LOW EARTH ORBIT — HAIL MARY ASSEMBLY PLATFORM
-        </p>
-
-        <h1>
-            FINAL<br>PREPARATIONS
-        </h1>
-
-        <p class="description">
-            Spacecraft Hail Mary reached full operational status
-            in low Earth orbit.
-
-            Total cost of the project exceeded $10 trillion.
-
-            Final systems integration and launch simulations
-            began aboard the completed vessel just days before launch.
-        </p>
-
-        <div class="warning-box">
-            TOTAL SPACECRAFT MASS:
-            2,000,000+ KG
-        </div>
-
-        <button class="archive-button" onclick="openArchive('preparations')">
-
-            OPEN ORBITAL PREPARATION REPORT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.78%</dd></div>
+            <div><dt>Commander</dt><dd>Yao Li-Jie</dd></div>
+            <div><dt>Engineer</dt><dd>Olesya Ilyukhina</dd></div>
+            <div><dt>Science</dt><dd>Martin DuBois</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel disaster" id="disaster">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="87.2%">87.2%</span>
-        </div>
-
-        <div>
-            MISSION STATUS
-            <span>CRITICAL</span>
-        </div>
-
-        <div>
-            LAUNCH COUNTDOWN
-            <span>T–3 DAYS</span>
-        </div>
-
-    </div>
-
+<section class="panel preparations" id="preparations" data-lum="99.67" data-clock="T−30 DAYS" data-title="Final preparations">
     <div class="content">
-
-        <div class="mission-time">
-            T–MINUS 3 DAYS
+        <div class="clock">T−30 DAYS<span>Low Earth orbit</span></div>
+        <h1>Final preparations</h1>
+        <p class="description">After three years of construction by forty-two countries, the Hail Mary is finished: two million kilograms, most of it fuel. Agencies stopped counting the cost somewhere past ten trillion dollars.</p>
+        <div class="key">Vessel mass<b>2,000,000 kg</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('preparations')" data-doc="preparations" data-type="Memo" data-title="Orbital assembly: final status"><span class="ty">Memo</span><span class="ti">Orbital assembly: final status <span class="src">· Orbital Construction Authority</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            KRAKÓW ASTROPHAGE RESEARCH FACILITY
-        </p>
-
-        <h1>
-            LABORATORY<br>DISASTER
-        </h1>
-
-        <p class="description">
-            An Astrophage containment
-            experiment at the Kraków laboratory complex
-            resulted in a catastrophic explosion.
-
-            The blast killed primary and secondary science officers
-            assigned to the mission.
-        </p>
-
-        <div class="warning-box">
-            PRIMARY SCIENCE CREW:
-            DECEASED
-        </div>
-
-        <button class="archive-button" onclick="openArchive('disaster')">
-
-            OPEN INCIDENT REPORT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.67%</dd></div>
+            <div><dt>Vessel</dt><dd>Flight ready</dd></div>
+            <div><dt>Faults accepted, not fixed</dt><dd>175</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel grace" id="grace">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="86.9%">86.9%</span>
-        </div>
-
-        <div>
-            SCIENCE OFFICER
-            <span>REASSIGNED</span>
-        </div>
-
-        <div>
-            LAUNCH COUNTDOWN
-            <span>T–48 HOURS</span>
-        </div>
-
-    </div>
-
+<section class="panel disaster" id="disaster" data-lum="99.66" data-clock="T−9 DAYS" data-title="Explosion at Baikonur">
     <div class="content">
-
-        <div class="mission-time">
-            T–MINUS 2 DAYS
+        <div class="clock">T−9 DAYS<span>Baikonur Cosmodrome, Kazakhstan</span></div>
+        <h1>Explosion at Baikonur</h1>
+        <p class="description">A test of an Astrophage-powered generator at the Baikonur research centre is loaded with a milligram of fuel where a nanogram was specified. The building is gone in an instant. The mission&#x27;s science officer and his backup are both inside.</p>
+        <div class="key">Science crew remaining<b>0 of 2</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('disaster')" data-doc="disaster" data-type="Report" data-title="Baikonur research centre explosion"><span class="ty">Report</span><span class="ti">Baikonur research centre explosion <span class="src">· Board of Inquiry</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            PROJECT HAIL MARY — EMERGENCY PERSONNEL DIRECTIVE
-        </p>
-
-        <h1>
-            DR. RYLAND GRACE<br>JOINS CREW
-        </h1>
-
-        <p class="description">
-            Leadership reassigned Dr. Ryland Grace
-            to the role of primary science officer.
-
-            Grace had previously served as the leading authority
-            on Astrophage biology within the Petrova Task Force.
-        </p>
-
-        <div class="warning-box">
-            CREW STATUS:
-            FINALIZED
-        </div>
-
-        <button class="archive-button" onclick="openArchive('grace')">
-
-            OPEN PERSONNEL FILE
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.66%</dd></div>
+            <div><dt>Cause</dt><dd class="ir">Dosing error, ×1,000,000</dd></div>
+            <div><dt>Launch</dt><dd>In 9 days</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<!-- LAUNCH -->
-
-<section class="panel launch" id="launch">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="86.4%">86.4%</span>
-        </div>
-
-        <div>
-            MISSION STATUS
-            <span>LAUNCHED</span>
-        </div>
-
-        <div>
-            CREW STATUS
-            <span>IN CRYOSLEEP</span>
-        </div>
-
-    </div>
-
+<section class="panel grace" id="grace" data-lum="99.66" data-clock="T−2 DAYS" data-title="Dr. Ryland Grace joins the crew">
     <div class="content">
-
-        <div class="mission-time">
-            T+00:00:00
+        <div class="clock">T−2 DAYS<span>Baikonur Cosmodrome, Kazakhstan</span></div>
+        <h1>Dr. Ryland Grace joins the crew</h1>
+        <p class="description">One person is left who knows Astrophage well enough and carries the coma-resistance genes: the schoolteacher who named it. Ryland Grace is assigned as science officer two days before launch. The public record says he volunteered.</p>
+        <div class="key">Spaceflight experience<b>None</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('grace')" data-doc="grace" data-type="Form" data-title="Crew member record: R. Grace"><span class="ty">Form</span><span class="ti">Crew member record: R. Grace <span class="src">· Office of Crew Selection</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            LOW EARTH ORBIT — GLOBAL LIVE BROADCAST
-        </p>
-
-        <h1>
-            HAIL MARY<br>LAUNCHES
-        </h1>
-
-        <p class="description">
-            Humanity sends its final hope toward Tau Ceti.
-
-            The launch marked the beginning of the
-            most ambitious mission in human history.
-        </p>
-
-        <div class="warning-box">
-            DESTINATION:
-            TAU CETI
-        </div>
-
-        <button class="archive-button" onclick="openArchive('launch')">
-
-            OPEN LAUNCH TRANSCRIPT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.66%</dd></div>
+            <div><dt>Crew</dt><dd>Final</dd></div>
+            <div><dt>Launch</dt><dd>In 48 hours</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel stratt" id="stratt">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="84.8%">84.8%</span>
-        </div>
-
-        <div>
-            GLOBAL STATUS
-            <span>UNSTABLE</span>
-        </div>
-
-        <div>
-            MISSION CLOCK
-            <span>T+4 MONTHS</span>
-        </div>
-
-    </div>
-
+<section class="panel launch" id="launch" data-lum="99.66" data-clock="T+0" data-title="Hail Mary launches">
     <div class="content">
-
-        <div class="mission-time">
-            T+4 MONTHS
+        <div class="clock">T+0<span>Low Earth orbit</span></div>
+        <h1>Hail Mary launches</h1>
+        <p class="description">The engines light on schedule. The crew are already asleep and will stay that way for the whole voyage. Earth will hear nothing from them for at least twenty-six years.</p>
+        <div class="key">Destination<b>Tau Ceti</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('launch')" data-doc="launch" data-type="Transcript" data-title="Launch day flight loop"><span class="ty">Transcript</span><span class="ti">Launch day flight loop <span class="src">· Hail Mary Flight Control</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            UNITED NATIONS SPECIAL TRIBUNAL
-        </p>
-
-        <h1>
-            EVA STRATT<br>ARRESTED
-        </h1>
-
-        <p class="description">
-            Eva Stratt taken into international custody following the
-            expiration of her emergency diplomatic immunity.
-
-            Charges included environmental crimes,
-            unlawful military actions,
-            human rights violations,
-            economic manipulation,
-            and unauthorized seizure of sovereign assets.
-        </p>
-
-        <div class="warning-box">
-            STATUS:
-            DETAINED
-        </div>
-
-        <button class="archive-button" onclick="openArchive('stratt')">
-
-            OPEN TRIBUNAL TRANSCRIPT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.66%</dd></div>
+            <div><dt>Crew</dt><dd>In coma</dd></div>
+            <div><dt>Arrival</dt><dd>T+13 yr</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel wars" id="wars">
-
-    <div class="overlay"></div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL LUMINOSITY
-            <span class="luminosity" data-value="81.3%">81.3%</span>
-        </div>
-
-        <div>
-            GLOBAL STATUS
-            <span>RESOURCE CONFLICTS</span>
-        </div>
-
-        <div>
-            MISSION CLOCK
-            <span>T+1.5 YEARS</span>
-        </div>
-
-    </div>
-
+<section class="panel stratt" id="stratt" data-lum="99.61" data-clock="T+4 MONTHS" data-title="Eva Stratt arrested">
     <div class="content">
-
-        <div class="mission-time">
-            T+1.5 YEARS
+        <div class="clock">T+4 MONTHS<span>U.N. Special Tribunal, The Hague</span></div>
+        <h1>Eva Stratt arrested</h1>
+        <p class="description">Stratt&#x27;s immunity was written to end when the ship left. It did. She is taken into custody and charged with environmental crimes, unlawful military action and the seizure of sovereign assets. She disputes none of the facts.</p>
+        <div class="key">Status<b>Detained</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('stratt')" data-doc="stratt" data-type="Transcript" data-title="Special Tribunal, trial hearing"><span class="ty">Transcript</span><span class="ti">Special Tribunal, trial hearing <span class="src">· Case ST-01/04</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            UNITED EARTH RESOURCE OBSERVATION NETWORK
-        </p>
-
-        <h1>
-            RESOURCE<br>WARS BEGIN
-        </h1>
-
-        <p class="description">
-            As global temperatures continued falling
-            and crop yields collapsed beyond projection models,
-            international cooperation rapidly deteriorated.
-
-            Armed conflicts over food, fuel,
-            arable land, and migration corridors
-            began escalating worldwide.
-        </p>
-
-        <div class="warning-box">
-            ACTIVE CONFLICT ZONES:
-            114
-        </div>
-
-        <button class="archive-button" onclick="openArchive('wars')">
-
-            OPEN COLLAPSE REPORT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.61%</dd></div>
+            <div><dt>Immunity</dt><dd>Expired at launch</dd></div>
+            <div><dt>Plea</dt><dd>Facts not contested</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel yao" id="yao">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        ARCHIVAL INSERT — ADDED POST-RECOVERY
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            HAIL MARY STATUS
-            <span>EN ROUTE</span>
-        </div>
-
-        <div>
-            CREW STATUS
-            <span>LOSS RECORDED</span>
-        </div>
-
-        <div>
-            MISSION CLOCK
-            <span>T+2.3 YEARS</span>
-        </div>
-
-    </div>
-
+<section class="panel wars" id="wars" data-lum="99.40" data-clock="T+1.5 YR" data-title="The resource wars begin">
     <div class="content">
-
-        <div class="mission-time">
-            T+2.3 YEARS
+        <div class="clock">T+1.5 YR<span>Worldwide</span></div>
+        <h1>The resource wars begin</h1>
+        <p class="description">Harvests are already short, the Antarctic melt has redrawn coastlines, and everyone has read the projections. Countries stop exporting food and start guarding it. Fighting breaks out over farmland, fuel and the routes migrants take.</p>
+        <div class="key">Active conflict zones<b>114</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('wars')" data-doc="wars" data-type="Report" data-title="Global resource conflict assessment"><span class="ty">Report</span><span class="ti">Global resource conflict assessment <span class="src">· Resource Observation Network</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            HAIL MARY INTERNAL SYSTEM LOGS
-        </p>
-
-        <h1>
-            YAO LI-JIE<br>DECEASED
-        </h1>
-
-        <p class="description">
-            Recovered Hail Mary medical logs later confirmed
-            that Commander Yao Li-Jie died during
-            the interstellar transit phase of the mission.
-
-            Earth remained unaware of the loss for decades.
-        </p>
-
-        <div class="warning-box">
-            CREW REMAINING:
-            2
-        </div>
-
-        <button class="archive-button" onclick="openArchive('yao')">
-
-            OPEN MEDICAL LOG
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">99.40%</dd></div>
+            <div><dt>Food export bans</dt><dd>61 countries</dd></div>
+            <div><dt>International cooperation</dt><dd class="ir">Failing</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel ily" id="ily">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        ARCHIVAL INSERT — ADDED POST-RECOVERY
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            HAIL MARY STATUS
-            <span>APPROACHING TAU CETI</span>
-        </div>
-
-        <div>
-            CREW STATUS
-            <span>LOSS RECORDED</span>
-        </div>
-
-        <div>
-            MISSION CLOCK
-            <span>T+12 YEARS</span>
-        </div>
-
-    </div>
-
+<section class="panel yao" id="yao" data-lum="99.23" data-clock="T+2.3 YR" data-title="Commander Yao dies in transit">
     <div class="content">
-
-        <div class="mission-time">
-            T+12 YEARS
+        <div class="clock">T+2.3 YR<span>Hail Mary, interstellar space</span></div>
+        <h1>Commander Yao dies in transit</h1>
+        <p class="description">Two years into the voyage the ship&#x27;s medical computer records the death of Commander Yao Li-Jie. No one aboard is awake to see it. Earth will not find out for decades.</p>
+        <div class="key">Crew remaining<b>2</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('yao')" data-doc="yao" data-type="Ship log" data-title="Autonomous care log, bed 1"><span class="ty">Ship log</span><span class="ti">Autonomous care log, bed 1 <span class="src">· Hail Mary medical</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            HAIL MARY MEDICAL ARCHIVE
-        </p>
-
-        <h1>
-            ILYUKHINA DECEASED
-        </h1>
-
-        <p class="description">
-            Recovered medical logs later confirmed
-            that Specialist Olesya Ilyukhina died
-            during the final years of interstellar transit.
-
-            Earth remained unaware of the loss
-            until archival recovery decades later.
-        </p>
-
-        <div class="warning-box">
-            CREW REMAINING:
-            1
-        </div>
-
-        <button class="archive-button" onclick="openArchive('ily')">
-
-            OPEN MEDICAL REPORT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Ship</dt><dd>En route</dd></div>
+            <div><dt>Crew awake</dt><dd>0 of 3</dd></div>
+        </dl>
+        <p class="insert">Added to the record after recovery</p>
+    </aside>
 </section>
-
-<section class="panel tau" id="tau">
-
-    <div class="overlay"></div>
-    <div class="archive-note">
-        RECONSTRUCTED FROM RECOVERED FLIGHT TELEMETRY
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            LOCATION
-            <span>TAU CETI SYSTEM</span>
-        </div>
-
-        <div>
-            CREW STATUS
-            <span>1 SURVIVOR</span>
-        </div>
-
-        <div>
-            MISSION CLOCK
-            <span>T+13 YEARS</span>
-        </div>
-
-    </div>
-
+<section class="panel ily" id="ily" data-lum="95.78" data-clock="T+12.0 YR" data-title="Ilyukhina dies in transit">
     <div class="content">
-
-        <div class="mission-time">
-            T+13 YEARS
+        <div class="clock">T+12.0 YR<span>Hail Mary, interstellar space</span></div>
+        <h1>Ilyukhina dies in transit</h1>
+        <p class="description">A year short of Tau Ceti the medical computer loses engineer Olesya Ilyukhina. It has one patient left in its care.</p>
+        <div class="key">Crew remaining<b>1</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('ily')" data-doc="ily" data-type="Ship log" data-title="Autonomous care log, bed 2"><span class="ty">Ship log</span><span class="ti">Autonomous care log, bed 2 <span class="src">· Hail Mary medical</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            INTERSTELLAR ARRIVAL EVENT
-        </p>
-
-        <h1>
-            HAIL MARY<br>REACHES TAU CETI
-        </h1>
-
-        <p class="description">
-            After thirteen years of interstellar transit,
-            the Hail Mary entered the Tau Ceti system.
-
-            Of the original crew,
-            only Dr. Ryland Grace remained alive.
-        </p>
-
-        <div class="warning-box">
-            ASTROPHAGE RESERVES:
-            38%
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('tau')">
-
-            OPEN NAVIGATION DISPLAY
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Ship</dt><dd>Approaching Tau Ceti</dd></div>
+            <div><dt>Crew awake</dt><dd>0 of 2</dd></div>
+        </dl>
+        <p class="insert">Added to the record after recovery</p>
+    </aside>
 </section>
-
-<section class="panel contact" id="contact">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        CLASSIFICATION REVISED — DECLASSIFIED T+32 YEARS
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            SIGNAL STATUS
-            <span>NON-HUMAN SOURCE</span>
-        </div>
-
-        <div>
-            CONTACT STATUS
-            <span>CONFIRMED</span>
-        </div>
-
-        <div>
-            MISSION CLOCK
-            <span>T+13.2 YEARS</span>
-        </div>
-
-    </div>
-
+<section class="panel tau" id="tau" data-lum="95.42" data-clock="T+13.0 YR" data-title="Hail Mary reaches Tau Ceti">
     <div class="content">
-
-        <div class="mission-time">
-            T+13.2 YEARS
+        <div class="clock">T+13.0 YR<span>Tau Ceti system</span></div>
+        <h1>Hail Mary reaches Tau Ceti</h1>
+        <p class="description">The ship slows into orbit around Tau Ceti and wakes its crew. One of them wakes up. Ryland Grace has been asleep for nearly four years of ship time and cannot remember his own name.</p>
+        <div class="key">Crew alive<b>1 of 3</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('tau')" data-doc="tau" data-type="Ship log" data-title="Arrival and crew revival record"><span class="ty">Ship log</span><span class="ti">Arrival and crew revival record <span class="src">· Hail Mary medical</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            RECOVERED HAIL MARY TRANSMISSION
-        </p>
-
-        <h1>
-            FIRST<br>CONTACT
-        </h1>
-
-        <p class="description">
-            Recovered mission logs confirmed that
-            Dr. Ryland Grace encountered
-            extraterrestrial intelligent life
-            within the Tau Ceti system.
-
-            The discovery represented the first confirmed
-            contact between humanity
-            and another intelligent species.
-        </p>
-
-        <div class="warning-box">
-            SIGNAL SOURCE:
-            UNKNOWN VESSEL
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('contact')">
-
-            DECLASSIFY CONTACT FILE
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Location</dt><dd>Tau Ceti</dd></div>
+            <div><dt>Time aboard</dt><dd>3 yr 9 mo</dd></div>
+            <div><dt>Memory</dt><dd class="ir">Impaired</dd></div>
+        </dl>
+        <p class="insert">Reconstructed from recovered flight data</p>
+    </aside>
 </section>
-
-<section class="panel adrian" id="adrian">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        RECOVERED SCIENTIFIC LOGS
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            PLANETARY STATUS
-            <span>ACTIVE BIOSPHERE</span>
-        </div>
-
-        <div>
-            PETROVA LINE
-            <span>BIOLOGICAL</span>
-        </div>
-
-        <div>
-            MISSION CLOCK
-            <span>T+13.4 YEARS</span>
-        </div>
-
-    </div>
-
+<section class="panel contact" id="contact" data-lum="95.35" data-clock="T+13.2 YR" data-title="First contact">
     <div class="content">
-
-        <div class="mission-time">
-            T+13.4 YEARS
+        <div class="clock">T+13.2 YR<span>Tau Ceti system</span></div>
+        <h1>First contact</h1>
+        <p class="description">Another ship is already in orbit at Tau Ceti, and it is not from Earth. Its one surviving crew member has come from 40 Eridani for the same reason Grace has: his star is dying too. Grace calls him Rocky.</p>
+        <div class="key">Origin of the other vessel<b>40 Eridani</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('contact')" data-doc="contact" data-type="Memo" data-title="Contact file: the Eridian vessel"><span class="ty">Memo</span><span class="ti">Contact file: the Eridian vessel <span class="src">· Recovered mission log</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            TAU CETI SCIENCE LOG
-        </p>
-
-        <h1>
-            LIFE<br>ON ADRIAN
-        </h1>
-
-        <p class="description">
-            During extravehicular collection operations
-            near the Petrova Line surrounding Adrian,
-            Dr. Ryland Grace confirmed the existence
-            of a complete extraterrestrial biosphere.
-
-            The discovery represented the first confirmed
-            alien ecosystem ever documented.
-        </p>
-
-        <!-- BIO SCAN -->
-
-        <div class="warning-box">
-            BIOLOGICAL ACTIVITY:
-            CONFIRMED
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('adrian')">
-
-            INSPECT PETROVA FINDINGS
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Signal</dt><dd>Non-human</dd></div>
+            <div><dt>Contact</dt><dd>Confirmed</dd></div>
+        </dl>
+        <p class="insert">Recovered from the Beetle archive</p>
+    </aside>
 </section>
-
-<section class="panel fishing" id="fishing">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        RECOVERED EMERGENCY TELEMETRY
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            SHIP STATUS
-            <span>CRITICAL</span>
-        </div>
-
-        <div>
-            MISSION PHASE
-            <span>ADRIAN DIVE</span>
-        </div>
-
-        <div>
-            CREW STATUS
-            <span>INJURED</span>
-        </div>
-
-    </div>
-
+<section class="panel adrian" id="adrian" data-lum="95.28" data-clock="T+13.4 YR" data-title="Life on Adrian">
     <div class="content">
-
-        <div class="mission-time">
-            T+13.8 YEARS
+        <div class="clock">T+13.4 YR<span>Tau Ceti e, “Adrian”</span></div>
+        <h1>Life on Adrian</h1>
+        <p class="description">Tau Ceti has its own Petrova line, running to a planet Grace names Adrian. High in its atmosphere, where the Astrophage breed, something is eating them.</p>
+        <div class="key">Astrophage population at Adrian<b>Held in check</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('adrian')" data-doc="adrian" data-type="Paper" data-title="A complete biosphere in the atmosphere of Tau Ceti e"><span class="ty">Paper</span><span class="ti">A complete biosphere in the atmosphere of Tau Ceti e <span class="src">· Recovered science log</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            HAIL MARY INCIDENT REPORT
-        </p>
-
-        <h1>
-            EVA<br>#3
-        </h1>
-
-        <p class="description">
-            Dr. Grace performs an extravehicular activity to collect samples from the .
-            The Hail Mary suffered catastrophic hull damage,
-            pressure loss,
-            thermal overload,
-            and multiple systems failures.
-
-            Recovered telemetry later confirmed
-            the vessel narrowly avoided destruction.
-        </p>
-
-        
-
-        <button class="archive-button"
-        onclick="openArchive('fishing')">
-
-            OPEN INCIDENT REPORT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Biosphere</dt><dd>Confirmed</dd></div>
+            <div><dt>Petrova line</dt><dd>Present</dd></div>
+        </dl>
+        <p class="insert">Recovered from the Beetle archive</p>
+    </aside>
 </section>
-
-<section class="panel taumoeba" id="taumoeba">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        RECOVERED BIOLOGICAL RESEARCH FILES
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            ORGANISM STATUS
-            <span>CONFIRMED</span>
-        </div>
-
-        <div>
-            ASTROPHAGE PREDATOR
-            <span>DISCOVERED</span>
-        </div>
-
-        <div>
-            MISSION STATUS
-            <span>POTENTIAL SOLUTION</span>
-        </div>
-
-    </div>
-
+<section class="panel fishing" id="fishing" data-lum="95.14" data-clock="T+13.8 YR" data-title="The Adrian dive">
     <div class="content">
-
-        <div class="mission-time">
-            T+13.9 YEARS
+        <div class="clock">T+13.8 YR<span>Low orbit, Adrian</span></div>
+        <h1>The Adrian dive</h1>
+        <p class="description">To take a sample, the Hail Mary has to fly low enough to drag a ten-kilometre chain through the air where the Astrophage breed. Its own engine exhaust ignites the atmosphere beneath it. The hull tears, the ship tumbles, and Grace goes outside to save it.</p>
+        <div class="key">Ship status<b>Critical</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('fishing')" data-doc="fishing" data-type="Report" data-title="Atmospheric collection incident"><span class="ty">Report</span><span class="ti">Atmospheric collection incident <span class="src">· Recovered flight data</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            ADRIAN BIOSPHERE RESEARCH
-        </p>
-
-        <h1>
-            TAUMOEBA<br>DISCOVERED
-        </h1>
-
-        <p class="description">
-            Dr. Ryland Grace confirmed the existence
-            of a naturally occurring predator organism
-            capable of consuming astrophage.
-
-            The organism,
-            later designated “Taumoeba,”
-            represented the first viable solution
-            to the astrophage crisis.
-        </p>
-
-        <div class="warning-box">
-            ASTROPHAGE PREDATION:
-            CONFIRMED
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('taumoeba')">
-
-            OPEN EXPERIMENT LOGS
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Hull</dt><dd>Breached</dd></div>
+            <div><dt>Crew</dt><dd class="ir">Injured</dd></div>
+        </dl>
+        <p class="insert">Recovered from the Beetle archive</p>
+    </aside>
 </section>
-
-<section class="panel return" id="return">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        RECOVERED NAVIGATION LOGS
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            MISSION STATUS
-            <span>RETURN TRANSIT</span>
-        </div>
-
-        <div>
-            PRIMARY PAYLOAD
-            <span>TAUMOEBA-35</span>
-        </div>
-
-        <div>
-            CREW STATUS
-            <span>1 SURVIVOR</span>
-        </div>
-
-    </div>
-
+<section class="panel taumoeba" id="taumoeba" data-lum="95.10" data-clock="T+13.9 YR" data-title="Taumoeba discovered">
     <div class="content">
-
-        <div class="mission-time">
-            T+14 YEARS
+        <div class="clock">T+13.9 YR<span>Hail Mary laboratory</span></div>
+        <h1>Taumoeba discovered</h1>
+        <p class="description">The sample contains a microbe that eats Astrophage. Grace names it Taumoeba. Nitrogen kills it, and the air of Venus has nitrogen in it, so Grace and Rocky breed it, generation after generation, until it survives.</p>
+        <div class="key">Final strain<b>Taumoeba-82.5</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('taumoeba')" data-doc="taumoeba" data-type="Paper" data-title="Taumoeba: a natural predator of Astrophage"><span class="ty">Paper</span><span class="ti">Taumoeba: a natural predator of Astrophage <span class="src">· Recovered science log</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            INTERSTELLAR RETURN TRANSIT
-        </p>
-
-        <h1>
-            HAIL MARY<br>EN ROUTE TO EARTH
-        </h1>
-
-        <p class="description">
-            Following successful Taumoeba integration
-            into the Beetle probes,
-            the Hail Mary initiated return trajectory operations.
-
-            Recovered telemetry confirmed
-            Dr. Ryland Grace departed Tau Ceti
-            carrying the only surviving human-crewed
-            interstellar vessel in recorded history.
-        </p>
-
-        <div class="warning-box">
-            EARTH RETURN ETA:
-            4 YEARS, 2 MONTHS, 11 DAYS
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('return')">
-
-            OPEN NAVIGATION DASHBOARD
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Eats Astrophage</dt><dd>Yes</dd></div>
+            <div><dt>Nitrogen tolerance</dt><dd>8.25%</dd></div>
+        </dl>
+        <p class="insert">Recovered from the Beetle archive</p>
+    </aside>
 </section>
-
-<section class="panel contaminant" id="contaminant">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        RECOVERED INTERNAL SHIP ALERTS
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            SHIP STATUS
-            <span>BIOHAZARD EVENT</span>
-        </div>
-
-        <div>
-            LOCATION
-            <span>LABORATORY A</span>
-        </div>
-
-        <div>
-            ALERT LEVEL
-            <span>CRITICAL</span>
-        </div>
-
-    </div>
-
+<section class="panel return" id="return" data-lum="95.07" data-clock="T+14.0 YR" data-title="Hail Mary turns for home">
     <div class="content">
-
-        <div class="mission-time">
-            T+14.2 YEARS
+        <div class="clock">T+14.0 YR<span>Departing Tau Ceti</span></div>
+        <h1>Hail Mary turns for home</h1>
+        <p class="description">With fuel from Rocky&#x27;s ship the Hail Mary can do what it was never built to do: go back. Grace sets course for Earth carrying Taumoeba-82.5.</p>
+        <div class="key">Ship time to Earth<b>4 yr 2 mo</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('return')" data-doc="return" data-type="Display" data-title="Return transit navigation"><span class="ty">Display</span><span class="ti">Return transit navigation <span class="src">· Hail Mary NAV</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            AUTOMATED SHIP EMERGENCY RESPONSE
-        </p>
-
-        <h1>
-            CONTAMINANT<br>DETECTED
-        </h1>
-
-        <p class="description">
-            Recovered Hail Mary telemetry logs
-            documented a critical onboard contamination event
-            during return transit operations.
-
-            Automated emergency systems
-            initiated immediate containment protocols
-            within Laboratory A.
-        </p>
-
-        <div class="warning-box">
-            QUARANTINE PROTOCOL:
-            ACTIVE
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('contaminant')">
-
-            OPEN HAIL MARY LOGS
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Payload</dt><dd>Taumoeba-82.5</dd></div>
+            <div><dt>Crew</dt><dd>1</dd></div>
+        </dl>
+        <p class="insert">Recovered from the Beetle archive</p>
+    </aside>
 </section>
-
-<section class="panel beetles" id="beetles">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        RECOVERED BEETLE TELEMETRY
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            PROBES DEPLOYED
-            <span>4</span>
-        </div>
-
-        <div>
-            PAYLOAD STATUS
-            <span>STABLE</span>
-        </div>
-
-        <div>
-            EARTH ETA
-            <span>13 YEARS</span>
-        </div>
-
-    </div>
-
+<section class="panel contaminant" id="contaminant" data-lum="95.04" data-clock="T+14.1 YR" data-title="Contaminant detected">
     <div class="content">
-
-        <div class="mission-time">
-            T+14.1 YEARS
+        <div class="clock">T+14.1 YR<span>Hail Mary, outbound from Tau Ceti</span></div>
+        <h1>Contaminant detected</h1>
+        <p class="description">Weeks into the trip home the fuel starts to vanish. The Taumoeba that was bred to survive nitrogen has also learned to pass through its container walls. If it is loose on the Hail Mary it is loose on Rocky&#x27;s ship too, and his fuel tanks are made of the same material.</p>
+        <div class="key">Quarantine<b>Active</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('contaminant')" data-doc="contaminant" data-type="Ship log" data-title="Containment alerts, Laboratory A"><span class="ty">Ship log</span><span class="ti">Containment alerts, Laboratory A <span class="src">· Hail Mary systems</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            INTERSTELLAR PROBE DEPLOYMENT
-        </p>
-
-        <h1>
-            BEETLES<br>EN ROUTE TO EARTH
-        </h1>
-
-        <p class="description">
-            Following successful Taumoeba integration,
-            the Hail Mary deployed
-            the four Beetle probes:
-            John, Paul, George, and Ringo.
-
-            Each probe carried
-            astrophage samples,
-            Taumoeba-35 cultures,
-            mission telemetry,
-            and the complete Hail Mary archive
-            back toward Earth.
-        </p>
-
-        <div class="warning-box">
-            BEETLE TRAJECTORIES:
-            CONFIRMED
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('beetles')">
-
-            OPEN BEETLE DASHBOARD
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Location</dt><dd>Laboratory A</dd></div>
+            <div><dt>Alert level</dt><dd class="ir">Critical</dd></div>
+        </dl>
+        <p class="insert">Recovered from the Beetle archive</p>
+    </aside>
 </section>
-
-<section class="panel collapse" id="collapse">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        UNITED NATIONS CRISIS ARCHIVE
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            GLOBAL STATUS
-            <span>DESTABILIZED</span>
-        </div>
-
-        <div>
-            FOOD SECURITY
-            <span>CRITICAL</span>
-        </div>
-
-        <div>
-            CONFLICT INDEX
-            <span>ESCALATING</span>
-        </div>
-
-    </div>
-
+<section class="panel beetles" id="beetles" data-lum="95.00" data-clock="T+14.2 YR" data-title="The Beetles are sent home">
     <div class="content">
-
-        <div class="mission-time">
-            T+18 YEARS
+        <div class="clock">T+14.2 YR<span>Interstellar space</span></div>
+        <h1>The Beetles are sent home</h1>
+        <p class="description">Grace cannot both go home and save Rocky. He loads four small probes, John, Paul, George and Ringo, with Taumoeba and everything the mission has learned, fires them at Earth, and turns the Hail Mary around.</p>
+        <div class="key">Earliest Earth arrival<b>T+26.4 yr</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('beetles')" data-doc="beetles" data-type="Display" data-title="Beetle track"><span class="ty">Display</span><span class="ti">Beetle track <span class="src">· Hail Mary NAV</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            EARTH COLLAPSE PROJECTIONS
-        </p>
-
-        <h1>
-            CLIMATE<br>COLLAPSE
-        </h1>
-
-        <p class="description">
-            By Year 18 of the Hail Mary mission,
-            global agricultural yields had collapsed
-            across multiple continents.
-
-            Resource conflicts,
-            forced migration,
-            famine,
-            and infrastructure breakdowns
-            escalated worldwide as governments
-            struggled to maintain social order.
-        </p>
-
-        <div class="warning-box">
-            PROJECTED POPULATION LOSS:
-            25–50%
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('collapse')">
-
-            OPEN CRISIS REPORTS
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Probes released</dt><dd>4</dd></div>
+            <div><dt>Payload</dt><dd>Sealed, alive</dd></div>
+        </dl>
+        <p class="insert">Recovered from the Beetle archive</p>
+    </aside>
 </section>
-
-<section class="panel lastcontact" id="lastcontact">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        FINAL INTERSTELLAR COMMUNICATION
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            SIGNAL STATUS
-            <span>LOST</span>
-        </div>
-
-        <div>
-            VESSEL
-            <span>HAIL MARY</span>
-        </div>
-
-        <div>
-            CREW STATUS
-            <span>UNKNOWN</span>
-        </div>
-
-    </div>
-
+<section class="panel collapse" id="collapse" data-lum="93.89" data-clock="T+18.0 YR" data-title="Climate collapse">
     <div class="content">
-
-        <div class="mission-time">
-            T+23 YEARS
+        <div class="clock">T+18.0 YR<span>Earth</span></div>
+        <h1>Climate collapse</h1>
+        <p class="description">Harvests have failed on four continents. Famine, forced migration and failing infrastructure spread faster than governments can respond, and several stop trying.</p>
+        <div class="key">Projected population loss<b>25–50%</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('collapse')" data-doc="collapse" data-type="Report" data-title="Earth stability assessment, Year 18"><span class="ty">Report</span><span class="ti">Earth stability assessment, Year 18 <span class="src">· United Nations crisis archive</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            FINAL BEETLE TELEMETRY
-        </p>
-
-        <h1>
-            LAST CONTACT<br>W/HAIL MARY
-        </h1>
-
-        <p class="description">
-            Communication relays between the probes
-            and the Hail Mary permanently ceased.
-
-            At the time of signal loss,
-            the Hail Mary was traveling away from Sol
-            toward the 40 Eridani system.
-
-            No confirmed human interstellar return
-            has ever been recorded.
-        </p>
-
-        <div class="warning-box">
-            SIGNAL TERMINATION:
-            PERMANENT
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('lastcontact')">
-
-            OPEN FINAL TRANSMISSION
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">93.9%</dd></div>
+            <div><dt>Food security</dt><dd class="ir">Critical</dd></div>
+            <div><dt>Conflict</dt><dd class="ir">Escalating</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel earthwaits" id="earthwaits">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        GLOBAL EMERGENCY BROADCAST ARCHIVE
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            GLOBAL DEATH TOLL
-            <span>3.9 BILLION</span>
-        </div>
-
-        <div>
-            BEETLE ETA WINDOW
-            <span>OPEN</span>
-        </div>
-
-        <div>
-            CIVIL STABILITY
-            <span>FAILING</span>
-        </div>
-
-    </div>
-
+<section class="panel lastcontact" id="lastcontact" data-lum="92.89" data-clock="T+23.0 YR" data-title="Last signal from the Hail Mary">
     <div class="content">
-
-        <div class="mission-time">
-            T+24 YEARS
+        <div class="clock">T+23.0 YR<span>Interstellar space</span></div>
+        <h1>Last signal from the Hail Mary</h1>
+        <p class="description">The Beetles record every transmission they receive on the way home. The last one from the Hail Mary reaches them nine years into their flight. By then the ship is far off the road to Sol, heading for 40 Eridani.</p>
+        <div class="key">Signal<b>Lost</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('lastcontact')" data-doc="lastcontact" data-type="Transcript" data-title="Final transmission"><span class="ty">Transcript</span><span class="ti">Final transmission <span class="src">· Recovered from Beetle 1</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            EARTH-SIDE CONDITIONS
-        </p>
-
-        <h1>
-            EARTH WAITS<br>FOR THE BEETLES
-        </h1>
-
-        <p class="description">
-            The earliest possible return window
-            for the Beetle probes officially opened
-            during Year 24 of the Hail Mary mission.
-
-            Widespread famine,
-            riots,
-            conflict,
-            and infrastructure collapse
-            had destabilized much of the planet.
-
-            Public confidence in the mission
-            had sharply declined.
-        </p>
-
-        <div class="warning-box">
-            NO SIGNALS RECEIVED
-            FROM HAIL MARY
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('earthwaits')">
-
-            OPEN NEWS ARCHIVE
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">92.9%</dd></div>
+            <div><dt>Vessel heading</dt><dd>40 Eridani</dd></div>
+            <div><dt>Crew</dt><dd>Unknown</dd></div>
+        </dl>
+        <p class="insert">Reconstructed from Beetle telemetry</p>
+    </aside>
 </section>
-
-<section class="panel signalreceived" id="signalreceived">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        DEEP SPACE NETWORK ALERT
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            SIGNAL STATUS
-            <span>CONFIRMED</span>
-        </div>
-
-        <div>
-            OBJECT COUNT
-            <span>4</span>
-        </div>
-
-        <div>
-            IMPACT ETA
-            <span>34 DAYS</span>
-        </div>
-
-    </div>
-
+<section class="panel earthwaits" id="earthwaits" data-lum="92.49" data-clock="T+26.0 YR" data-title="Earth waits for the Beetles">
     <div class="content">
-
-        <div class="mission-time">
-            T+24.3 YEARS
+        <div class="clock">T+26.0 YR<span>Earth</span></div>
+        <h1>Earth waits for the Beetles</h1>
+        <p class="description">The earliest date a probe from Tau Ceti could reach home has arrived. Nothing has been heard from the Hail Mary since launch. Most people alive have stopped expecting to.</p>
+        <div class="key">Deaths attributed to the dimming<b>3.9 billion</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('earthwaits')" data-doc="earthwaits" data-type="Broadcast" data-title="Evening bulletin, Year 26"><span class="ty">Broadcast</span><span class="ti">Evening bulletin, Year 26 <span class="src">· Rush transcript</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            DEEP SPACE TELEMETRY
-        </p>
-
-        <h1>
-            SIGNAL RECEIVED<br>OUTSIDE SOL
-        </h1>
-
-        <p class="description">
-            Deep-space monitoring arrays
-            near Jupiter confirmed
-            four objects approaching the Solar System
-            at relativistic velocity.
-
-            Eva Stratt was released from prison on contingency.
-            Wars ceased worldwide as peace treaties were signed.
-        </p>
-
-        <div class="warning-box">
-            HUMANITY'S LAST HOPE:
-            INBOUND
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('signalreceived')">
-
-            OPEN ARRIVAL REPORTS
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">92.5%</dd></div>
+            <div><dt>Return window</dt><dd>Open</dd></div>
+            <div><dt>Signals received</dt><dd class="ir">None</dd></div>
+        </dl>
+    </aside>
 </section>
-
-
-<section class="panel splashdown" id="splashdown">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        INDIAN OCEAN RECOVERY OPERATION
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            PROBES RECOVERED
-            <span>4 / 4</span>
-        </div>
-
-        <div>
-            PAYLOAD STATUS
-            <span>INTACT</span>
-        </div>
-
-        <div>
-            RECOVERY TEAMS
-            <span>DEPLOYED</span>
-        </div>
-
-    </div>
-
+<section class="panel signalreceived" id="signalreceived" data-lum="92.46" data-clock="T+26.3 YR" data-title="Four objects inbound">
     <div class="content">
-
-        <div class="mission-time">
-            T+24.4 YEARS
+        <div class="clock">T+26.3 YR<span>Deep Space Network, Jupiter relay</span></div>
+        <h1>Four objects inbound</h1>
+        <p class="description">Antennas near Jupiter pick up four small objects braking hard toward the inner Solar System, exactly where and when the Beetles should be. Ceasefires are signed within days. Eva Stratt is released from prison to run the recovery.</p>
+        <div class="key">Splashdown in<b>34 days</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('signalreceived')" data-doc="signalreceived" data-type="Article" data-title="Four objects, right on time"><span class="ty">Article</span><span class="ti">Four objects, right on time <span class="src">· The World Ledger</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            RETURN PROBE RECOVERY
-        </p>
-
-        <h1>
-            BEETLE SPLASHDOWN<br>& RECOVERY
-        </h1>
-
-        <p class="description">
-            The four Beetle probes
-            successfully splashed down
-            within the Indian Ocean Recovery Zone
-            following a 24-year interstellar journey.
-
-            Recovery crews retrieved
-            thousands of scientific records,
-            biological samples,
-            mission logs,
-            and the first confirmed evidence
-            of extraterrestrial intelligent life.
-        </p>
-
-        <div class="warning-box">
-            PAYLOAD INTEGRITY:
-            CONFIRMED
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('splashdown')">
-
-            OPEN RECOVERY INVENTORY
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">92.5%</dd></div>
+            <div><dt>Objects</dt><dd>4</dd></div>
+            <div><dt>Signal</dt><dd>Confirmed</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel solution" id="solution">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        SOL RECOVERY INITIATIVE
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            TAUMOEBA STATUS
-            <span>VIABLE</span>
-        </div>
-
-        <div>
-            SOL RECOVERY
-            <span>INITIATED</span>
-        </div>
-
-        <div>
-            PUBLIC STATUS
-            <span>HOPE RESTORED</span>
-        </div>
-
-    </div>
-
+<section class="panel splashdown" id="splashdown" data-lum="92.45" data-clock="T+26.4 YR" data-title="Beetle splashdown and recovery">
     <div class="content">
-
-        <div class="mission-time">
-            T+24.7 YEARS
+        <div class="clock">T+26.4 YR<span>Indian Ocean recovery zone</span></div>
+        <h1>Beetle splashdown and recovery</h1>
+        <p class="description">All four Beetles come down in the Indian Ocean after twelve years in flight. Recovery crews lift out live cultures, the Hail Mary&#x27;s complete records, and the first evidence that humanity is not the only intelligent species.</p>
+        <div class="key">Probes recovered<b>4 of 4</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('splashdown')" data-doc="splashdown" data-type="Form" data-title="Recovery inventory and chain of custody"><span class="ty">Form</span><span class="ti">Recovery inventory and chain of custody <span class="src">· Recovery Task Group</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            PLANETARY RECOVERY OPERATIONS
-        </p>
-
-        <h1>
-            THE SOLUTION<br>ARRIVES
-        </h1>
-
-        <p class="description">
-            Following analysis of recovered Beetle payloads,
-            global laboratories confirmed
-            Taumoeba-35 successfully consumed astrophage
-            under Venus-like atmospheric conditions.
-
-            Preparations immediately began
-            to breed Taumoeba at planetary scale
-            for deployment throughout the Solar System.
-        </p>
-
-        <div class="warning-box">
-            SOL LUMINOSITY LOSS:
-            REVERSIBLE
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('solution')">
-
-            OPEN RECOVERY REPORTS
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">92.4%</dd></div>
+            <div><dt>Payload</dt><dd>Intact</dd></div>
+            <div><dt>Cultures</dt><dd>Alive</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel arclight2" id="arclight2">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        SOL RECOVERY MISSION
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            MISSION STATUS
-            <span>LAUNCHED</span>
-        </div>
-
-        <div>
-            PAYLOAD
-            <span>TAUMOEBA-35</span>
-        </div>
-
-        <div>
-            TARGET
-            <span>PETROVA LINE</span>
-        </div>
-
-    </div>
-
+<section class="panel solution" id="solution" data-lum="92.42" data-clock="T+26.7 YR" data-title="The solution arrives">
     <div class="content">
-
-        <div class="mission-time">
-            T+25 YEARS
+        <div class="clock">T+26.7 YR<span>Earth</span></div>
+        <h1>The solution arrives</h1>
+        <p class="description">Laboratories confirm that Taumoeba-82.5 eats Astrophage under Venus conditions and survives. Every breeding tank left on Earth is switched from growing Astrophage to growing the thing that kills it.</p>
+        <div class="key">Loss of solar output<b>Reversible</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('solution')" data-doc="solution" data-type="Article" data-title="It works"><span class="ty">Article</span><span class="ti">It works <span class="src">· The World Ledger</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            VENUS INTERCEPTION MISSION
-        </p>
-
-        <h1>
-            ARCLIGHT II<br>LAUNCHES
-        </h1>
-
-        <p class="description">
-            Following successful replication
-            of Taumoeba-35,
-            the international community launched
-            ArcLight II:
-            the first mission designed
-            to actively destroy astrophage
-            within the Petrova line.
-        </p>
-
-        <div class="warning-box">
-            PRIMARY OBJECTIVE:
-            SAVE SOL
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('arclight2')">
-
-            OPEN MISSION REPORT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">92.4%</dd></div>
+            <div><dt>Taumoeba</dt><dd>Viable</dd></div>
+            <div><dt>Breeding</dt><dd>Planetary scale</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel solsaved" id="solsaved">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        PETROVA TASK FORCE FINAL BULLETIN
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            SOL STATUS
-            <span>RECOVERING</span>
-        </div>
-
-        <div>
-            ASTROPHAGE DENSITY
-            <span>COLLAPSING</span>
-        </div>
-
-        <div>
-            EXTINCTION EVENT
-            <span>AVERTED</span>
-        </div>
-
-    </div>
-
+<section class="panel arclight2" id="arclight2" data-lum="92.38" data-clock="T+27.0 YR" data-title="ArcLight II launches">
     <div class="content">
-
-        <div class="mission-time">
-            T+25.3 YEARS
+        <div class="clock">T+27.0 YR<span>Venus intercept trajectory</span></div>
+        <h1>ArcLight II launches</h1>
+        <p class="description">Twenty-seven years after the first ArcLight went to look at the Petrova line, a second one leaves to destroy it, carrying tanks of Taumoeba to release over Venus.</p>
+        <div class="key">Objective<b>End the Petrova line</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('arclight2')" data-doc="arclight2" data-type="Memo" data-title="ArcLight II mission report"><span class="ty">Memo</span><span class="ti">ArcLight II mission report <span class="src">· Sol Recovery Initiative</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            SOL RECOVERY CONFIRMED
-        </p>
-
-        <h1>
-            SOL IS SAVED
-        </h1>
-
-        <p class="description">
-            Petrova Task Force monitoring stations
-            confirmed ArcLight II successfully dispersed
-            Taumoeba-35 throughout the Petrova line.
-
-            Within weeks,
-            astrophage density rapidly collapsed.
-
-            Solar luminosity decline
-            officially stopped.
-        </p>
-
-        <div class="warning-box">
-            PROJECTED FULL SOL RECOVERY:
-            13 MONTHS
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('solsaved')">
-
-            OPEN FINAL BULLETIN
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">92.4%</dd></div>
+            <div><dt>Payload</dt><dd>Taumoeba-82.5</dd></div>
+            <div><dt>Target</dt><dd>Venus</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel earthheals" id="earthheals">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        GLOBAL RECOVERY PERIOD
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            AGRICULTURE
-            <span>RECOVERING</span>
-        </div>
-
-        <div>
-            GLOBAL TEMPERATURE
-            <span>STABILIZING</span>
-        </div>
-
-        <div>
-            FOOD PRODUCTION
-            <span>INCREASING</span>
-        </div>
-
-    </div>
-
+<section class="panel solsaved" id="solsaved" data-lum="92.36" data-clock="T+27.3 YR" data-title="Sol is saved">
     <div class="content">
-
-        <div class="mission-time">
-            T+26.4 YEARS
+        <div class="clock">T+27.3 YR<span>Petrova Task Force monitoring network</span></div>
+        <h1>Sol is saved</h1>
+        <p class="description">Within weeks of release over Venus, the Astrophage population collapses. The Petrova line fades. For the first time in thirty-three years the Sun&#x27;s output stops falling.</p>
+        <div class="key">Full recovery projected in<b>13 months</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('solsaved')" data-doc="solsaved" data-type="Report" data-title="Sol recovery confirmation"><span class="ty">Report</span><span class="ti">Sol recovery confirmation <span class="src">· Petrova Task Force, final bulletin</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            POST-PETROVA RECOVERY
-        </p>
-
-        <h1>
-            EARTH HEALS
-        </h1>
-
-        <p class="description">
-            As solar output continued to recover,
-            global temperatures slowly stabilized.
-
-            Emergency seed vaults were opened,
-            agricultural zones expanded,
-            and long-abandoned farmland
-            returned to production.
-
-            For the first time in decades,
-            humanity began rebuilding for the future
-            instead of merely surviving the present.
-        </p>
-
-        <div class="warning-box">
-            GLOBAL FAMINE STATUS:
-            DECLINING
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('earthheals')">
-
-            OPEN RECOVERY REPORT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">92.4%</dd></div>
+            <div><dt>Astrophage density</dt><dd>Collapsing</dd></div>
+            <div><dt>Extinction</dt><dd>Averted</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel celebration" id="celebration">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        GLOBAL COMMEMORATION EVENTS
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            GLOBAL STATUS
-            <span>STABLE</span>
-        </div>
-
-        <div>
-            MEMORIAL PROJECTS
-            <span>ONGOING</span>
-        </div>
-
-        <div>
-            PUBLIC RESPONSE
-            <span>WORLDWIDE</span>
-        </div>
-
-    </div>
-
+<section class="panel earthheals" id="earthheals" data-lum="100.00" data-clock="T+28.4 YR" data-title="Earth heals">
     <div class="content">
-
-        <div class="mission-time">
-            T+27 YEARS
+        <div class="clock">T+28.4 YR<span>Earth</span></div>
+        <h1>Earth heals</h1>
+        <p class="description">Temperatures stop falling. Seed vaults are opened, abandoned farmland is planted again, and for the first time in decades people plan for more than the next winter.</p>
+        <div class="key">Famine<b>Receding</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('earthheals')" data-doc="earthheals" data-type="Report" data-title="Earth recovery report"><span class="ty">Report</span><span class="ti">Earth recovery report <span class="src">· Reconstruction programme</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            HUMANITY REMEMBERS
-        </p>
-
-        <h1>
-            THE WORLD<br>CELEBRATES
-        </h1>
-
-        <p class="description">
-            With Earth's recovery underway,
-            nations across the globe
-            honored the crews of Project Hail Mary.
-
-            Public memorials,
-            celebrations,
-            museums,
-            and monuments
-            appeared worldwide
-            as humanity recognized
-            the mission that saved civilization.
-        </p>
-
-        <div class="warning-box">
-            GLOBAL HOLIDAY ESTABLISHED:
-            MARCH 2
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('celebration')">
-
-            OPEN COMMEMORATION ARCHIVE
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">100.00%</dd></div>
+            <div><dt>Agriculture</dt><dd>Recovering</dd></div>
+            <div><dt>Global temperature</dt><dd>Stabilising</dd></div>
+        </dl>
+    </aside>
 </section>
-
-<section class="panel forty" id="forty">
-
-    <div class="overlay"></div>
-
-    <div class="archive-note">
-        DEEP SPACE OBSERVATION REPORT
-    </div>
-
-    <div class="hud-data">
-
-        <div>
-            40 ERIDANI STATUS
-            <span>RECOVERING</span>
-        </div>
-
-        <div>
-            HAIL MARY STATUS
-            <span>UNKNOWN</span>
-        </div>
-
-        <div>
-            SIGNAL DETECTION
-            <span>NONE</span>
-        </div>
-
-    </div>
-
+<section class="panel celebration" id="celebration" data-lum="100.00" data-clock="T+29.0 YR" data-title="The world remembers">
     <div class="content">
-
-        <div class="mission-time">
-            T+34 YEARS
+        <div class="clock">T+29.0 YR<span>Worldwide</span></div>
+        <h1>The world remembers</h1>
+        <p class="description">With recovery under way, countries honour the crew of the Hail Mary. Memorials, museums and a new public holiday mark the mission that saved the species.</p>
+        <div class="key">Sol Day<b>March 2</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('celebration')" data-doc="celebration" data-type="Article" data-title="A holiday for three people who never came back"><span class="ty">Article</span><span class="ti">A holiday for three people who never came back <span class="src">· The World Ledger</span></span><span class="go">Open →</span></button>
         </div>
-
-        <p class="eyebrow">
-            EXTRA-SOLAR OBSERVATIONS
-        </p>
-
-        <h1>
-            A DISTANT SUN<br>BRIGHTENS
-        </h1>
-
-        <p class="description">
-            Long-range observation arrays
-            confirmed increasing luminosity
-            from the 40 Eridani system.
-
-            The recovery pattern matched
-            post-Taumoeba astrophage collapse models,
-            strongly suggesting
-            the Hail Mary successfully reached Erid.
-        </p>
-
-        <div class="warning-box">
-            STATUS OF DR. RYLAND GRACE:
-            UNKNOWN
-        </div>
-
-        <button class="archive-button"
-        onclick="openArchive('forty')">
-
-            OPEN OBSERVATION REPORT
-
-        </button>
-
     </div>
-
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">100.00%</dd></div>
+            <div><dt>Memorials</dt><dd>In 140 countries</dd></div>
+            <div><dt>Crew honoured</dt><dd>Yao, Ilyukhina, Grace</dd></div>
+        </dl>
+    </aside>
+</section>
+<section class="panel forty" id="forty" data-lum="100.00" data-clock="T+44 YR" data-title="A distant sun brightens">
+    <div class="content">
+        <div class="clock">T+44 YR<span>Deep-space observation network</span></div>
+        <h1>A distant sun brightens</h1>
+        <p class="description">Sixteen light-years away, 40 Eridani begins to brighten. The pattern matches what happened to Sol after Taumoeba. Someone carried the cure to Erid. Earth has no way to know who was flying the ship.</p>
+        <div class="key">Status of Dr. Ryland Grace<b>Unknown</b></div>
+        <div class="docs">
+            <button class="doc" type="button" onclick="openArchive('forty')" data-doc="forty" data-type="Paper" data-title="Brightening of 40 Eridani A"><span class="ty">Paper</span><span class="ti">Brightening of 40 Eridani A <span class="src">· Astronomical circular</span></span><span class="go">Open →</span></button>
+        </div>
+    </div>
+    <aside class="side">
+        <dl class="readout">
+            <div><dt>Sol output</dt><dd class="acc">100.00%</dd></div>
+            <div><dt>40 Eridani</dt><dd>Recovering</dd></div>
+            <div><dt>Signal from Hail Mary</dt><dd>None</dd></div>
+        </dl>
+    </aside>
 </section>
 
-<!-- ARCHIVE MODAL -->
-
-<div class="archive-modal" id="archive-modal">
-
-    <div class="archive-modal-content">
-
-        <button class="close-modal" onclick="closeArchive()">
-            ✕
-        </button>
-
-        <div class="archive-modal-header" id="modal-title">
-            ARCHIVE ENTRY
-        </div>
-
-        <div class="archive-modal-body" id="modal-body">
-        </div>
-
+<!-- READING VIEW -->
+<div class="viewer" id="viewer" aria-hidden="true">
+    <div class="viewer-bar">
+        <span class="ty" id="v-type"></span>
+        <span class="ti" id="v-title"></span>
+        <span class="nav">
+            <button type="button" id="v-prev" onclick="stepArchive(-1)">← Prev</button>
+            <button type="button" id="v-next" onclick="stepArchive(1)">Next →</button>
+            <button type="button" id="v-close" onclick="closeArchive()">Close ✕</button>
+        </span>
     </div>
-
+    <div class="viewer-body" id="v-body"></div>
 </div>
 
+<script src="docs/kit.js"></script>
+<script src="docs/1-before-launch.js"></script>
+<script src="docs/2-launch.js"></script>
+<script src="docs/3-voyage.js"></script>
+<script src="docs/4-return.js"></script>
 <script src="script.js"></script>
 
 </body>

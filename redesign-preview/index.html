@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hail Mary Timeline Redesign Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Arimo:wght@400;700&family=B612:wght@400;700&family=B612+Mono:wght@400;700&family=Cousine:wght@400;700&family=Libre+Franklin:wght@400;700&family=Newsreader:opsz,wght@6..72,400..800&family=Reenie+Beanie&family=STIX+Two+Text:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,700;1,400&family=Tinos:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="board.css">
+</head>
+<body>
+<div class="b-wrap">
+
+<header class="b-top">
+    <h1>Hail Mary timeline: redesign proposal</h1>
+    <p>Mockups only. Nothing on the live site has changed. The scroll, the full-screen panels and the left-text / right-readout layout all stay. What changes is the type, the colour, the interface graphics, and every document you click to open: each one now looks like the kind of document it claims to be.</p>
+    <nav class="b-toc">
+        <a href="#home">1 Home screen</a>
+        <a href="#viewer">2 Reading view + email</a>
+        <a href="#transcripts">3 Transcripts</a>
+        <a href="#paper">4 Science paper</a>
+        <a href="#article">5 News article</a>
+        <a href="#personnel">6 Personnel file</a>
+        <a href="#report">7 Projections report</a>
+        <a href="#ship">8 Ship records</a>
+        <a href="#timeline">9 Timeline + dimming fixes</a>
+        <a href="#map">10 All 39 documents</a>
+    </nav>
+</header>
+
+<!-- ===================================================== 1 HOME -->
+<section class="b-sec" id="home">
+    <span class="b-num">01</span>
+    <h2>Home screen</h2>
+    <p class="b-note">Same panel, same positions. <b>Gone:</b> scanlines, star grid, glowing boxes, gold-on-navy, all-caps serif headlines, the "ARCHIVE ACCESS GRANTED" box. <b>New:</b> a heavy condensed grotesque for headlines, a cockpit-display typeface for readouts, ruled rows in place of boxes, and document links that say what you are about to open. A thin rail on the right edge shows where you are in the timeline.</p>
+
+    <div class="desk desk--tight">
+        <div class="hp" style="background-image:url('../assets/line.png'); --lum:99.99%;">
+            <div class="hp-bar">
+                <div class="hp-mark">Project Hail Mary<span>Mission record</span></div>
+                <div class="hp-sol">Sol output <i></i> <b>99.99%</b></div>
+            </div>
+            <div class="hp-body">
+                <div>
+                    <div class="hp-clock">T−6.0 YR<span>Pulkovo Observatory, St. Petersburg</span></div>
+                    <h3>Infrared glow detected</h3>
+                    <p class="hp-desc">A faint arc of infrared light runs from the Sun's north pole to Venus. It emits at 25.984 microns and nowhere else. Dr. Irina Petrova asks a public mailing list to tell her what she got wrong.</p>
+                    <div class="hp-key">Emission wavelength<b>25.984 µm</b></div>
+                    <div class="hp-docs">
+                        <a class="hp-doc"><span class="ty">Email</span><span>The Thin Red Line <span class="src">· I. Petrova to astrocurious</span></span><span class="go">Open →</span></a>
+                    </div>
+                </div>
+                <div class="hp-read">
+                    <dl>
+                        <div><dt>Sol output</dt><dd class="acc">99.99%</dd></div>
+                        <div><dt>Projected, +20 yr</dt><dd class="ir">95.0%</dd></div>
+                        <div><dt>Confirmed by</dt><dd>1 observatory</dd></div>
+                        <div><dt>Public knowledge</dt><dd>None</dd></div>
+                    </dl>
+                </div>
+            </div>
+            <div class="hp-rail">
+                <i class="now" style="top:2%"></i><i style="top:5%"></i><i style="top:8%"></i><i style="top:12%"></i><i style="top:15%"></i><i style="top:19%"></i><i style="top:24%"></i><i style="top:29%"></i><i style="top:33%"></i><i class="t0" style="top:36%"></i><i style="top:38%"></i><i style="top:43%"></i><i style="top:55%"></i><i style="top:58%"></i><i style="top:61%"></i><i style="top:70%"></i><i style="top:84%"></i><i style="top:86%"></i><i style="top:89%"></i><i style="top:92%"></i><i style="top:97%"></i>
+            </div>
+        </div>
+    </div>
+    <p class="b-used">Panel 1 of 37. Accent at full sunlight.</p>
+
+    <div class="desk desk--tight" style="margin-top:22px;">
+        <div class="hp" style="background-image:url('../assets/wait.png'); --accent:var(--sun-cold); --lum:92.6%;">
+            <div class="hp-bar">
+                <div class="hp-mark">Project Hail Mary<span>Mission record</span></div>
+                <div class="hp-sol">Sol output <i></i> <b>92.6%</b></div>
+            </div>
+            <div class="hp-body">
+                <div>
+                    <div class="hp-clock">T+26.0 YR<span>Earth</span></div>
+                    <h3>Earth waits for the Beetles</h3>
+                    <p class="hp-desc">The earliest date a probe from Tau Ceti could reach home has arrived. Nothing has been heard from the Hail Mary since launch. Most people alive have stopped expecting to.</p>
+                    <div class="hp-key">Deaths attributed to the dimming<b>3.9 billion</b></div>
+                    <div class="hp-docs">
+                        <a class="hp-doc"><span class="ty">Broadcast</span><span>Evening bulletin, Year 26 <span class="src">· rush transcript</span></span><span class="go">Open →</span></a>
+                        <a class="hp-doc"><span class="ty">Article</span><span>The window opens on an empty sky <span class="src">· The World Ledger</span></span><span class="go">Open →</span></a>
+                    </div>
+                </div>
+                <div class="hp-read">
+                    <dl>
+                        <div><dt>Sol output</dt><dd class="acc">92.6%</dd></div>
+                        <div><dt>Return window</dt><dd>Open</dd></div>
+                        <div><dt>Signals received</dt><dd class="ir">None</dd></div>
+                        <div><dt>Hail Mary</dt><dd>Status unknown</dd></div>
+                    </dl>
+                </div>
+            </div>
+            <div class="hp-rail">
+                <i style="top:2%"></i><i style="top:5%"></i><i style="top:8%"></i><i style="top:12%"></i><i style="top:15%"></i><i style="top:19%"></i><i style="top:24%"></i><i style="top:29%"></i><i style="top:33%"></i><i class="t0" style="top:36%"></i><i style="top:38%"></i><i style="top:43%"></i><i style="top:55%"></i><i style="top:58%"></i><i style="top:61%"></i><i style="top:70%"></i><i class="now" style="top:84%"></i><i style="top:86%"></i><i style="top:89%"></i><i style="top:92%"></i><i style="top:97%"></i>
+            </div>
+        </div>
+    </div>
+    <p class="b-used">Panel 29 of 37. The accent colour is tied to the Sun: it cools as output falls and warms again when Sol recovers.</p>
+
+    <div class="spec">
+        <div><div class="tf-a">Infrared glow detected</div><small>Archivo, condensed, 800<br>Headlines, sentence case</small></div>
+        <div><div class="tf-b">A faint arc of infrared light runs from the Sun's north pole to Venus.</div><small>Archivo, regular width<br>Narration</small></div>
+        <div><div class="tf-c">T−6.0 YR<br>SOL OUTPUT 99.99%</div><small>B612 (drawn for Airbus cockpit displays)<br>Clock and readouts</small></div>
+        <div><div class="ramp"></div><small>Sunlight accent, 100% to 92% output</small></div>
+        <div><div class="sw" style="background:#0c0d0f;border:1px solid #333"></div><small>Carbon #0C0D0F<br>Base</small></div>
+        <div><div class="sw" style="background:#efebe4"></div><small>Paper white #EFEBE4<br>Text</small></div>
+        <div><div class="sw" style="background:#e0432f"></div><small>Petrova red #E0432F<br>Alarms and key figures only</small></div>
+        <div><div class="sw" style="background:#a39e94"></div><small>Ash #A39E94<br>Labels, secondary text</small></div>
+    </div>
+</section>
+
+<!-- ===================================================== 2 VIEWER + EMAIL -->
+<section class="b-sec" id="viewer">
+    <span class="b-num">02</span>
+    <h2>Reading view, and the Petrova email</h2>
+    <p class="b-note">The navy "National Historical Archive" frame, the stamps and the seals go. The reading view becomes a plain dark desk with one strip on top: what kind of document this is, its title, and previous / next so you can read straight through without going back to the timeline. The email itself is shown the way a mailing-list archive really renders one: default browser fonts, blue links, plain text.</p>
+
+    <div class="viewer">
+        <div class="viewer-bar">
+            <span class="ty">Email</span>
+            <span class="ti">The Thin Red Line &nbsp;·&nbsp; T−6.0 yr</span>
+            <span class="nav"><span>← Prev</span><span>Next →</span><span>Close ✕</span></span>
+        </div>
+        <div class="viewer-body">
+            <div class="sheet mail">
+                <h1>[astrocurious] The Thin Red Line</h1>
+                <span class="from">Irina Petrova</span> <a href="#viewer">ipetrova at gaoran.ru</a><br>
+                <i>Tue Apr 3 02:14:07 UTC</i>
+                <ul>
+                    <li>Previous message: <a href="#viewer">[astrocurious] Re: Collimating a 10" Dob in the cold</a></li>
+                    <li>Next message: <a href="#viewer">[astrocurious] Re: The Thin Red Line</a></li>
+                    <li><b>Messages sorted by:</b> <a href="#viewer">[ date ]</a> <a href="#viewer">[ thread ]</a> <a href="#viewer">[ subject ]</a> <a href="#viewer">[ author ]</a></li>
+                </ul>
+                <hr>
+<pre>Hello, professionals.
+
+My name is Doctor Irina Petrova. I work at the Pulkovo Observatory
+in St. Petersburg. I am writing to ask for help, because I have spent
+two weeks trying to find my own mistake and I cannot find it.
+
+For the past two years I have been studying infrared emissions from
+nebulae. In the course of that work I found something odd. Not in any
+nebula. Here, in our own solar system.
+
+There is a continuous emission line at 25.984 microns, with no
+measurable variance in wavelength, tracing an arc between the Sun
+and Venus.
+
+[...]
+
+Attached are my spreadsheets and several renders of the data. I would
+genuinely be relieved to be told I am wrong.
+
+--
+Irina Petrova
+Pulkovo Observatory, St. Petersburg</pre>
+<pre>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: IR_BAND_SURVEY_FEB-MAR.xlsx
+Size: 2516582 bytes
+Desc: not available</pre>
+                <hr>
+                <ul>
+                    <li>Next message: <a href="#viewer">[astrocurious] Re: The Thin Red Line</a></li>
+                    <li>412 subscribers &nbsp;·&nbsp; 38 replies in thread</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p class="b-used">Used for: <b>Petrova's first report.</b> The "Verification chain" table from the current version becomes the reply thread underneath.</p>
+</section>
+
+<!-- ===================================================== 3 TRANSCRIPTS -->
+<section class="b-sec" id="transcripts">
+    <span class="b-num">03</span>
+    <h2>Transcripts</h2>
+    <p class="b-note">Three kinds, because the real ones look nothing alike. A head of state's remarks come from a press office in Times New Roman. A control-room loop is typed, fixed-width, with elapsed-time stamps and call signs. A tribunal is line-numbered so lawyers can cite "page 41, line 12". No side panels, no stat tiles, no stamps. Context goes in a short note above or below the sheet.</p>
+
+    <div class="desk">
+        <div class="sheet remarks">
+            <div class="ctr house">THE WHITE HOUSE</div>
+            <div class="ctr">Office of the Press Secretary</div>
+            <div class="rule"></div>
+            <div class="rel"><span>For Immediate Release</span><span>T−5.8 yr</span></div>
+            <h1 class="ttl">ADDRESS BY THE PRESIDENT<br>TO THE NATION<br>ON THE PETROVA LINE</h1>
+            <div class="ctr" style="margin-bottom:18px;">Oval Office</div>
+            <p class="time">8:42 P.M. EST</p>
+            <p>THE PRESIDENT: My fellow citizens. Tonight the international scientific community has confirmed the existence of a previously unknown phenomenon in our solar system. It has been named the Petrova Line.</p>
+            <p>It is an arc of infrared light extending from the Sun to Venus. It has been verified independently by observatories on every inhabited continent. I want to be direct with you about what we know and about what we do not.</p>
+            <p>There is no immediate danger to the public. No action is required of you tonight.</p>
+            <p>However, data collected by the Japanese space agency, using its Amaterasu solar probe, has revealed something that concerns us deeply. The Sun's energy output is decreasing. At present that decline measures one one-hundredth of one percent. I am aware that this sounds like a small number. I am told it is not.</p>
+            <p>The rate of decline is accelerating. And the Petrova Line is growing brighter at precisely the rate that our Sun is growing dimmer.</p>
+            <p style="text-indent:0;text-align:center;">*&nbsp;&nbsp;*&nbsp;&nbsp;*</p>
+            <p>Thank you. Good night.</p>
+            <div class="end"><span>END</span><span>8:48 P.M. EST</span></div>
+        </div>
+    </div>
+    <p class="b-used">Used for: <b>the Presidential address.</b> The figure is corrected to the novel's 0.01% (the current page says 0.01%, 0.34% and 99.66% in three different places).</p>
+
+    <div class="desk" style="margin-top:22px;">
+        <div class="sheet loop">
+            <div class="hd"><span>ARCLIGHT MISSION COMMENTARY</span><span>VENUS ORBIT INSERTION</span><span>TAPE 14A / PAGE 1 OF 6</span></div>
+            <div class="hd hd2"><span>GET 187:04:10</span><span>PASADENA 02:11 PDT</span><span>NET 1 + PAO</span></div>
+
+            <div class="ln"><span class="t">187:04:12</span><span>PAO</span><span>This is ArcLight Control. We are four minutes from loss of signal as the spacecraft passes behind Venus. The insertion burn will happen out of contact. If it goes to plan we hear from ArcLight again in twenty-three minutes.</span></div>
+            <div class="ln"><span class="t">187:05:40</span><span>FLIGHT</span><span>Okay, all stations, last look before LOS. Go or no-go for insertion. Prop.</span></div>
+            <div class="ln"><span class="t">187:05:44</span><span>PROP</span><span>Go.</span></div>
+            <div class="ln"><span class="t">187:05:46</span><span>FLIGHT</span><span>GNC.</span></div>
+            <div class="ln"><span class="t">187:05:47</span><span>GNC</span><span>Go, Flight.</span></div>
+            <div class="ln"><span class="t">187:05:49</span><span>FLIGHT</span><span>Sample.</span></div>
+            <div class="ln"><span class="t">187:05:53</span><span>SAMPLE</span><span>Collector door is armed. We're go.</span></div>
+            <div class="los">- - - LOSS OF SIGNAL 187:08:31 - - -</div>
+            <div class="note">(No voice on NET 1 for 22 min 48 sec.)</div>
+            <div class="ln"><span class="t">187:31:19</span><span>INCO</span><span>Flight, INCO. Carrier lock. We have a downlink.</span></div>
+            <div class="ln"><span class="t">187:31:22</span><span>FLIGHT</span><span>Copy carrier. GNC, where are we?</span></div>
+            <div class="ln"><span class="t">187:31:58</span><span>GNC</span><span>Flight, we are in orbit. Apoapsis is eleven kilometers off the plan.</span></div>
+            <div class="note">(Applause in the room. Unintelligible.)</div>
+            <div class="ln"><span class="t">187:33:05</span><span>SAMPLE</span><span>Flight, Sample. The collector is reading mass. That's not in the plan either. We weren't expecting anything you could weigh.</span></div>
+        </div>
+    </div>
+    <p class="b-used">Used for: <b>ArcLight livestream, Launch day, Final transmission.</b></p>
+
+    <div class="desk" style="margin-top:22px;">
+        <div class="sheet court">
+            <div class="top"><span>Trial Hearing (Open Session)</span><span>Page 41</span></div>
+            <div class="cap">UN Special Tribunal &nbsp; Case No. ST-01/04 &nbsp; Witness: STRATT, Eva</div>
+            <ol>
+                <li>PRESIDING JUDGE: The witness is reminded that she remains</li>
+                <li>under solemn declaration. Counsel, continue.</li>
+                <li>MS. ADEYEMI: Thank you, Mr. President.</li>
+                <li class="q">Q. Ms. Stratt, the order to detonate the Antarctic shelf.</li>
+                <li>Whose signature is on it?</li>
+                <li class="q">A. Mine.</li>
+                <li class="q">Q. Did any elected government approve it beforehand?</li>
+                <li class="q">A. Several were informed.</li>
+                <li class="q">Q. That was not my question.</li>
+                <li class="q">A. Then no.</li>
+                <li class="q">Q. You understood that the immunity under which you acted</li>
+                <li>would end when the Hail Mary departed?</li>
+                <li class="q">A. I wrote that clause. I understood it very well.</li>
+                <li class="q">Q. And you proceeded.</li>
+                <li class="q">A. Counsel, the ship had to leave on that date or not at</li>
+                <li>all. I was not going to be the reason it did not.</li>
+                <li>(Pause in the proceedings)</li>
+            </ol>
+            <div class="foot"><span>ST-01/04-T-9-ENG</span><span>(10.14 a.m.)</span></div>
+        </div>
+    </div>
+    <p class="b-used">Used for: <b>the Stratt tribunal.</b> The charge sheet becomes a separate first page in the same typeface.</p>
+</section>
+
+<!-- ===================================================== 4 PAPER -->
+<section class="b-sec" id="paper">
+    <span class="b-num">04</span>
+    <h2>Scientific findings</h2>
+    <p class="b-note">Set like a journal article: running head, title, authors with numbered affiliations, a bold abstract, two justified columns, a real plotted figure, a three-rule table, received / accepted dates. The typeface is STIX Two, the one scientific publishers actually use. Findings are stated the way a paper states them, with numbers and method, in place of "CONFIRMED BIOLOGICAL" tiles.</p>
+
+    <div class="desk">
+        <div class="sheet paper">
+            <div class="run"><span>Petrova Task Force Technical Reports</span><span>Vol. 1, No. 3 &nbsp;|&nbsp; Biology</span></div>
+            <div class="kind">Research Article</div>
+            <h1>Astrophage: a single-celled organism that absorbs stellar radiation and emits at 25.984 µm</h1>
+            <div class="auth">R. Grace<sup>1</sup>*, Petrova Task Force Biology Division<sup>2</sup></div>
+            <div class="aff"><sup>1</sup>Unaffiliated; work performed under Task Force single-investigator protocol. <sup>2</sup>Petrova Task Force, Geneva. *Corresponding author.</div>
+
+            <div class="abs">Material returned from the Petrova line by the ArcLight probe is not dust or plasma. It is alive. We report opaque, motile cells about 10 µm across that hold a constant internal temperature of 96.415 °C, absorb every wavelength we could direct at them, and release stored energy as infrared light at a single wavelength, 25.984 µm, which they use for propulsion. The emission matches the Petrova line exactly. We propose the name <i>Astrophage</i>.</div>
+
+            <div class="cols">
+                <h2>Samples and handling</h2>
+                <p>ArcLight returned 174 particles from Venus orbit. All were transferred under argon to a single sealed laboratory. Because the hazard was unknown, one investigator handled the material for the first eleven days.</p>
+                <p>Optical microscopy at every available magnification showed featureless black dots (Fig. S1). Cells did not respond to visible or ultraviolet illumination and could not be imaged by transmission at any wavelength tested.</p>
+
+                <h2>Emission</h2>
+                <p>Individual cells emit brief pulses of infrared light. Across 2,140 recorded pulses the wavelength did not vary within instrument resolution (Fig. 1). Each pulse displaces the cell in the direction opposite to the emission. The organism is using light as thrust.</p>
+
+                <figure>
+                    <svg viewBox="0 0 360 172" role="img" aria-label="Emission spectrum with a single line at 25.984 micrometres">
+                        <line x1="40" y1="140" x2="345" y2="140" stroke="#161616" stroke-width="1"/>
+                        <line x1="40" y1="12" x2="40" y2="140" stroke="#161616" stroke-width="1"/>
+                        <path d="M40 138 l12 -1 l10 2 l14 -2 l12 1 l15 -1 l11 2 l14 -2 l13 1 l12 0 l10 -1 l12 2 l8 -1 L222 138 L222.6 20 L223.2 138 l10 -1 l14 2 l12 -2 l15 1 l13 -1 l12 2 l14 -1 l12 0 l17 -1" fill="none" stroke="#161616" stroke-width="1.1"/>
+                        <g font-family="Arimo, Arial, sans-serif" font-size="9" fill="#161616">
+                            <text x="229" y="24">25.984 µm</text>
+                            <g text-anchor="middle">
+                                <line x1="83.6" y1="140" x2="83.6" y2="144" stroke="#161616"/><text x="83.6" y="155">10</text>
+                                <line x1="170.7" y1="140" x2="170.7" y2="144" stroke="#161616"/><text x="170.7" y="155">20</text>
+                                <line x1="257.9" y1="140" x2="257.9" y2="144" stroke="#161616"/><text x="257.9" y="155">30</text>
+                                <line x1="345" y1="140" x2="345" y2="144" stroke="#161616"/><text x="345" y="155">40</text>
+                                <text x="192" y="169">Wavelength (µm)</text>
+                            </g>
+                            <text transform="translate(14 76) rotate(-90)" text-anchor="middle">Relative intensity</text>
+                        </g>
+                    </svg>
+                    <figcaption><b>Fig. 1 | Emission spectrum of a single cell.</b> Mean of 2,140 pulses. One line, no measurable width, no secondary emission between 5 and 40 µm.</figcaption>
+                </figure>
+
+                <h2>Temperature</h2>
+                <p>Cells hold 96.415 °C regardless of surroundings. Placed against a 4 °C plate they did not cool. Placed in a furnace they absorbed the excess and remained at 96.415 °C.</p>
+
+                <table>
+                    <caption><b>Table 1 | Measured properties</b></caption>
+                    <thead><tr><th>Property</th><th>Value</th><th>n</th></tr></thead>
+                    <tbody>
+                        <tr><td>Diameter</td><td>≈ 10 µm</td><td>174</td></tr>
+                        <tr><td>Internal temperature</td><td>96.415 °C</td><td>60</td></tr>
+                        <tr><td>Emission line</td><td>25.984 µm</td><td>2,140</td></tr>
+                        <tr><td>Absorption</td><td>All tested bands</td><td>31</td></tr>
+                        <tr><td>Response to CO₂ signature</td><td>Directed motion</td><td>44</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="meta">Received T−4.7 yr; accepted T−4.6 yr; released to all member states without embargo. Supplementary figures S1 to S9 accompany this report. Cite as: PTF Tech. Rep. 1(3), 1–9.</div>
+        </div>
+    </div>
+    <p class="b-used">Used for: <b>the full Astrophage analysis page, Adrian biosphere findings, Taumoeba research, the 40 Eridani observation.</b></p>
+</section>
+
+<!-- ===================================================== 5 ARTICLE -->
+<section class="b-sec" id="article">
+    <span class="b-num">05</span>
+    <h2>News articles</h2>
+    <p class="b-note">A newspaper page: masthead, section line, headline, a standfirst that tells you why to read on, byline, dateline, a photograph with a caption and credit, one pull quote, one fact box. Written as reporting (who said what, who objected) so it reads differently from the official documents around it.</p>
+
+    <div class="desk">
+        <div class="sheet news">
+            <div class="mast"><b>The World Ledger</b><span>International edition &nbsp;·&nbsp; T−5.7 yr</span></div>
+            <div class="sect">World<span>United Nations</span><span>The Petrova Line</span></div>
+            <div class="in">
+                <h1>U.N. hands one administrator command of the Petrova response</h1>
+                <p class="deck">Eva Stratt, a former European Space Agency official, can now direct any laboratory, launch site or budget on Earth. The vote was unanimous. The limits on her authority were left unwritten.</p>
+                <div class="by"><b>By Amara Okafor and Lukas Brandt</b><br>Reporting from New York and Geneva</div>
+                <figure>
+                    <img src="../assets/cars.png" alt="A convoy of vehicles on a wet road">
+                    <figcaption>A convoy carrying task force staff leaves the emergency session on Tuesday night. <span>Photograph: The World Ledger</span></figcaption>
+                </figure>
+                <div class="txt">
+                    <p><span class="dl">NEW YORK</span> — The General Assembly took eleven minutes on Tuesday to do something it has never done: place the scientific resources of every member state under the direction of a single person.</p>
+                    <p>That person is Eva Stratt, a Dutch administrator best known inside the space industry for finishing other people's delayed projects. She was confirmed as director of the new Petrova Task Force without a dissenting vote and, delegates said afterwards, without much discussion of what she would be permitted to do.</p>
+                    <p>The answer, according to the text of the resolution, is nearly anything. The director may requisition transport, manufacturing and personnel, override national regulators on matters connected to the Petrova Line, and spend without a ceiling.</p>
+                    <div class="pull">"The directorship requires an administrator willing to be disliked. The board is satisfied that the nominee meets this requirement."<cite>Minute of the selection board, read into the record</cite></div>
+                    <p>Two delegations asked in committee when the powers would expire. The question was struck from the draft both times. A spokesman for the Secretary-General said only that the arrangement would last "for the duration of the emergency."</p>
+                    <div class="box">
+                        <h4>What the resolution grants</h4>
+                        <ul>
+                            <li>Diplomatic immunity in every cooperating nation</li>
+                            <li>Priority on civil and military transport networks</li>
+                            <li>Direction of all Petrova-related research</li>
+                            <li>An uncapped budget, with no stated end date</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="b-used">Used for: <b>Task force formed, What is Astrophage? (explainer), Signal received, The solution arrives, The world celebrates.</b></p>
+</section>
+
+<!-- ===================================================== 6 PERSONNEL -->
+<section class="b-sec" id="personnel">
+    <span class="b-num">06</span>
+    <h2>Personnel files</h2>
+    <p class="b-note">A government form that someone filled in on a deadline: numbered boxes with tiny labels, typed entries, tick boxes, a form number in the footer, and one handwritten note in the margin. The sealed annex stays as a click-to-open, but it now looks like a page that was stapled shut, and what it reveals contradicts box 11.</p>
+
+    <div class="desk">
+        <div class="sheet form">
+            <div class="fh">
+                <div>
+                    <div class="org">Petrova Task Force &nbsp;·&nbsp; Project Hail Mary<br>Office of Crew Selection</div>
+                    <h1>Crew Member Record</h1>
+                </div>
+                <div class="no">FORM HM-12 (REV. C)<br>FILE NO. HM-030<br>PAGE 1 OF 3</div>
+            </div>
+
+            <div class="grid">
+                <div class="c c5"><label>1. Name (last, first)</label><div class="v">GRACE, RYLAND</div></div>
+                <div class="c"><label>2. Crew position</label><div class="v">SCIENCE (PRIMARY)</div></div>
+                <div class="photo"><label>3. Photograph</label><img src="../assets/images-1.jpeg" alt="Identification photograph"></div>
+                <div class="c c5"><label>4. Nationality</label><div class="v">UNITED STATES</div></div>
+                <div class="c"><label>5. File current at</label><div class="v">T−48 HOURS</div></div>
+                <div class="c c9"><label>6. Education</label><div class="v">PH.D., MOLECULAR BIOLOGY</div></div>
+                <div class="c c9"><label>7. Occupation at recruitment</label><div class="v">SCIENCE TEACHER, MIDDLE SCHOOL, SAN FRANCISCO</div></div>
+                <div class="c c3"><label>8. Flight hours</label><div class="v red">0</div></div>
+                <div class="c c3"><label>9. EVA qualification</label><div class="v red">NONE</div></div>
+                <div class="c c3"><label>10. Coma-resistance marker</label><div class="v">POSITIVE</div></div>
+                <div class="c c3"><label>11. Basis of assignment</label><div class="chk"><span class="on">Volunteer</span><span>Directed</span></div></div>
+
+                <div class="band">Part B — Circumstances of assignment</div>
+                <div class="c c12 partb">
+                    <div class="narr">Primary and reserve science crew killed at Baikonur, T−9 days. No remaining candidate combines coma resistance with working knowledge of Astrophage. Subject has both. Subject has no astronaut training. Coma induction to be performed before ascent at subject's request.</div>
+                    <div class="margin">There is no alternative.<br>He goes. — ES</div>
+                </div>
+
+                <div class="band">Part C — Reviewer's assessment</div>
+                <div class="c c8"><label>12. Summary</label><div class="narr">Exceptional subject knowledge. Adaptive under pressure. Psychological suitability NOT established. Recommend against, absent alternative.</div></div>
+                <div class="c"><label>13. Approved by (director)</label><div class="hand">E. Stratt</div></div>
+
+                <div class="sealed">
+                    <p><b>ANNEX D — SEALED.</b> Deposition of the Director concerning box 11. Closed at filing. Released 32 years later under the Historical Integrity Act.</p>
+                    <button type="button">Open annex</button>
+                </div>
+            </div>
+
+            <div class="ff"><span>HM-12 (Rev. C) &nbsp; Previous editions obsolete</span><span>Handle as crew-confidential</span></div>
+        </div>
+    </div>
+    <p class="b-used">Used for: <b>Dr. Grace's file, Crew biographies (one sheet each for Yao, Ilyukhina, DuBois, Shapiro), Recruitment register, Recovery inventory.</b></p>
+</section>
+
+<!-- ===================================================== 7 REPORT -->
+<section class="b-sec" id="report">
+    <span class="b-num">07</span>
+    <h2>Sun-dimming projections</h2>
+    <p class="b-note">Modelled on a climate assessment "Summary for Policymakers": numbered headline statements with a stated confidence level, then one real chart with a median line and an uncertainty range. The curve is fitted through the three numbers the novel gives (0.01% at disclosure, 1% after nine years, 5% after twenty), so every luminosity figure on the site can be read off the same line.</p>
+
+    <div class="desk">
+        <div class="sheet rep">
+            <div class="cov">
+                <small>Petrova Task Force &nbsp;·&nbsp; Earth Systems Modelling Group</small>
+                <h1>Solar Output Decline and Its Consequences for Human Systems</h1>
+                <p>Summary for Policymakers &nbsp;·&nbsp; First assessment &nbsp;·&nbsp; T−4.0 yr</p>
+            </div>
+            <div class="in">
+                <h2>A. Headline statements</h2>
+                <div class="hs"><b class="n">A.1</b>Solar output has fallen by 0.04% since first measurement and the rate of loss is increasing. It will reach 1% within nine years of disclosure and 5% within twenty <i>(high confidence)</i>.</div>
+                <div class="hs"><b class="n">A.2</b>A 5% loss is enough to begin a glaciation and to end reliable harvests of wheat, rice and maize outside the tropics <i>(high confidence)</i>.</div>
+                <div class="hs"><b class="n">A.3</b>On the median pathway, half of the present human population dies within 19 years, mostly from famine and the conflicts that follow it <i>(medium confidence)</i>.</div>
+                <div class="hs"><b class="n">A.4</b>All 31 contributing models agree on direction. None returns a stable outcome. No mitigation is known <i>(high confidence)</i>.</div>
+
+                <figure>
+                    <div class="ft">Figure SPM.1 | Projected loss of solar output</div>
+                    <div class="fs">Percent below baseline. Median of 31 models with 5–95% range.</div>
+                    <svg viewBox="0 0 730 312" role="img" aria-label="Projected loss of solar output over 32 years, rising from 0.01 percent to a median of 7.5 percent">
+                        <g stroke="#d5dbe0" stroke-width="1">
+                            <line x1="64" y1="224" x2="694" y2="224"/><line x1="64" y1="184" x2="694" y2="184"/><line x1="64" y1="144" x2="694" y2="144"/><line x1="64" y1="104" x2="694" y2="104"/><line x1="64" y1="64" x2="694" y2="64"/><line x1="64" y1="24" x2="694" y2="24"/>
+                        </g>
+                        <line x1="64" y1="264" x2="694" y2="264" stroke="#1a1d21" stroke-width="1"/>
+                        <polygon fill="#12324a" fill-opacity=".14" points="64,263.8 103.4,263 142.8,260.8 182.1,255.7 221.5,246.7 260.9,233 300.3,215.1 339.6,194.1 379,170.8 418.4,147.3 457.8,124 497.1,102.1 536.5,81.7 575.9,63.1 615.3,45.9 654.6,30.7 694,24 694,173.6 654.6,172.9 615.3,173.1 575.9,174.8 536.5,177.8 497.1,182.5 457.8,189 418.4,197.5 379,207.5 339.6,219 300.3,230.5 260.9,241.4 221.5,250.6 182.1,257.2 142.8,261.2 103.4,263.1"/>
+                        <g stroke="#b3261e" stroke-width="1" stroke-dasharray="5 4">
+                            <line x1="64" y1="244" x2="694" y2="244"/><line x1="64" y1="164" x2="694" y2="164"/>
+                        </g>
+                        <polyline fill="none" stroke="#12324a" stroke-width="2.4" stroke-linejoin="round" points="64,263.8 103.4,263.1 142.8,261 182.1,256.6 221.5,249.1 260.9,238.2 300.3,224.6 339.6,209.4 379,193.4 418.4,178.2 457.8,164 497.1,151.6 536.5,140.8 575.9,131.8 615.3,124.2 654.6,118.2 694,113.4"/>
+                        <circle cx="241.2" cy="244" r="4.5" fill="#fff" stroke="#12324a" stroke-width="2"/>
+                        <circle cx="457.8" cy="164" r="4.5" fill="#fff" stroke="#12324a" stroke-width="2"/>
+                        <circle cx="694" cy="113.4" r="4" fill="#12324a"/>
+                        <line x1="99.4" y1="264" x2="99.4" y2="212" stroke="#1a1d21" stroke-width="1"/>
+                        <g font-size="12" fill="#1a1d21">
+                            <text x="104" y="221">This report</text>
+                            <text x="690" y="258" text-anchor="end" fill="#b3261e">1%: growing seasons shorten at high latitudes</text>
+                            <text x="72" y="159" fill="#b3261e">5%: glaciation begins; staple crops fail</text>
+                            <text x="640" y="104" fill="#12324a" font-weight="700">7.5%</text>
+                            <text x="582" y="40" fill="#12324a">5–95% range</text>
+                            <g text-anchor="end" fill="#555">
+                                <text x="56" y="268">0</text><text x="56" y="228">2</text><text x="56" y="188">4</text><text x="56" y="148">6</text><text x="56" y="108">8</text><text x="56" y="68">10</text><text x="56" y="28">12%</text>
+                            </g>
+                            <g text-anchor="middle" fill="#555">
+                                <text x="64" y="282">0</text><text x="142.8" y="282">4</text><text x="221.5" y="282">8</text><text x="300.3" y="282">12</text><text x="379" y="282">16</text><text x="457.8" y="282">20</text><text x="536.5" y="282">24</text><text x="615.3" y="282">28</text><text x="694" y="282">32</text>
+                                <text x="379" y="304">Years after public disclosure</text>
+                            </g>
+                        </g>
+                    </svg>
+                    <figcaption>Open circles mark the two projections announced at disclosure. Growth slows after year 20 in most models because breeding at Venus is limited by how fast the Petrova line can carry cells back to the Sun; the upper range shows models where it is not.</figcaption>
+                </figure>
+
+                <h2>B. Expected consequences by decade</h2>
+                <table>
+                    <thead><tr><th>Years</th><th class="r">Output loss</th><th>Food</th><th>Population</th></tr></thead>
+                    <tbody>
+                        <tr><td>0–10</td><td class="r">up to 1.3%</td><td>Yields fall 5–10%; export bans begin</td><td>Stable</td></tr>
+                        <tr><td>10–20</td><td class="r">1.3–5.0%</td><td>Northern grain belts fail</td><td>−15 to −30%</td></tr>
+                        <tr><td>20–30</td><td class="r">5.0–7.3%</td><td>Tropics only; trade ceases</td><td>−50% (median)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pg"><span>PTF-ESMG/AR1/SPM</span><span>Approved line by line by 31 modelling centres</span><span>SPM-3</span></div>
+        </div>
+    </div>
+    <p class="b-used">Used for: <b>Global impact report, Sahara ethics review, Antarctic intervention, Resource wars, Climate collapse, Sol recovery trend, Earth recovery.</b> The two incident reports (Baikonur, Adrian dive) use the same page with an investigation cover: summary, sequence of events, probable cause, findings.</p>
+</section>
+
+<!-- ===================================================== 8 SHIP -->
+<section class="b-sec" id="ship">
+    <span class="b-num">08</span>
+    <h2>Ship records and flight displays</h2>
+    <p class="b-note">Records that came off the Hail Mary's computers stay dark, but as plain flight software: one typeface, fixed columns, three alert levels, no glow. The medical logs read as what an unattended machine wrote down. The navigation displays are a plot and a table.</p>
+
+    <div class="slog">
+        <div class="hd"><span>HAIL MARY / MED / AUTONOMOUS CARE LOG</span><span>BED 1</span></div>
+        <div class="sub">
+            <div><small>Patient</small>YAO LI-JIE, CDR</div>
+            <div><small>Ship day</small>0839–0840</div>
+            <div><small>State</small>Induced coma</div>
+            <div><small>Crew awake</small>0 of 3</div>
+        </div>
+        <div class="rows">
+            <div class="r adv"><span class="t">0839/04:12:07</span><span class="lv">ADV</span><span class="m">Feed line flush complete. Vitals nominal.</span></div>
+            <div class="r caut"><span class="t">0839/11:40:52</span><span class="lv">CAUT</span><span class="m">Core temperature 38.4 C, rising 0.3 C per hour.</span></div>
+            <div class="r caut"><span class="t">0839/13:02:19</span><span class="lv">CAUT</span><span class="m">Antipyretic given. Culture drawn at IV site 2.</span></div>
+            <div class="r warn"><span class="t">0839/19:27:44</span><span class="lv">WARN</span><span class="m">Sepsis criteria met. Protocol B started.</span></div>
+            <div class="r warn"><span class="t">0840/02:15:30</span><span class="lv">WARN</span><span class="m">Mean arterial pressure 52. Support at maximum.</span></div>
+            <div class="r warn"><span class="t">0840/03:48:11</span><span class="lv">WARN</span><span class="m">Asystole. Resuscitation 1 of 3.</span></div>
+            <div class="r warn"><span class="t">0840/03:59:40</span><span class="lv">WARN</span><span class="m">Resuscitation 3 of 3 unsuccessful.</span></div>
+            <div class="r adv"><span class="t">0840/04:01:02</span><span class="lv">ADV</span><span class="m">Patient deceased. Arms withdrawn. Crew notification deferred: no crew member awake.</span></div>
+        </div>
+        <div class="strip">
+            <svg viewBox="0 0 720 70" role="img" aria-label="Heart rate trace ending in a flat line">
+                <line x1="0" y1="35" x2="720" y2="35" stroke="#1b2025"/>
+                <polyline fill="none" stroke="#c9d0d6" stroke-width="1.3" points="0,38 40,38 46,30 50,38 56,38 60,12 64,52 68,38 110,38 116,30 120,38 126,38 130,12 134,52 138,38 176,38 182,31 186,38 191,38 195,14 199,50 203,38 236,38 241,32 245,38 249,38 253,18 257,48 261,38 288,38 292,33 296,38 299,38 303,22 307,46 311,38 332,38 336,34 340,38 343,38 346,27 350,44 353,38 372,38 378,35 384,41 390,36 396,40 404,37 414,39 426,38 720,38"/>
+                <text x="8" y="14" font-size="10" fill="#7c8791" font-family="B612 Mono, monospace">HR  0840/03:40 to 03:50</text>
+                <text x="640" y="14" font-size="10" fill="#ff6b57" font-family="B612 Mono, monospace">0 BPM</text>
+            </svg>
+        </div>
+        <div class="ft">Recovered from Beetle 2 (PAUL) data core. 3 of 3 stored copies agree.</div>
+    </div>
+    <p class="b-used">Used for: <b>Yao and Ilyukhina medical logs, Tau Ceti arrival and revival record, Contaminant alerts.</b></p>
+
+    <div class="fd" style="margin-top:22px;">
+        <div class="hd"><span>HAIL MARY / NAV 3 / BEETLE TRACK</span><span>SHIP DAY 1602</span></div>
+        <div class="bd">
+            <div class="plot">
+                <svg viewBox="0 0 420 250" role="img" aria-label="Plot of four probe tracks from Tau Ceti toward Sol">
+                    <g stroke="#1b2025"><line x1="0" y1="62" x2="420" y2="62"/><line x1="0" y1="125" x2="420" y2="125"/><line x1="0" y1="188" x2="420" y2="188"/><line x1="105" y1="0" x2="105" y2="250"/><line x1="210" y1="0" x2="210" y2="250"/><line x1="315" y1="0" x2="315" y2="250"/></g>
+                    <circle cx="52" cy="176" r="5" fill="#f2b33d"/>
+                    <circle cx="372" cy="58" r="3" fill="#c9d0d6"/>
+                    <line x1="52" y1="176" x2="372" y2="58" stroke="#3a424a" stroke-dasharray="3 5"/>
+                    <g fill="none" stroke="#8fd694" stroke-width="1.3"><path d="M52 176 L118 152"/><path d="M52 176 L112 154"/><path d="M52 176 L106 156"/><path d="M52 176 L100 158"/></g>
+                    <g fill="#8fd694"><rect x="116" y="150" width="4" height="4"/><rect x="110" y="152" width="4" height="4"/><rect x="104" y="154" width="4" height="4"/><rect x="98" y="156" width="4" height="4"/></g>
+                    <path d="M52 176 Q90 205 150 214" fill="none" stroke="#f2b33d" stroke-width="1.3"/>
+                    <path d="M150 214 l-7 -4 l2 7 z" fill="#f2b33d"/>
+                    <g font-size="10" fill="#7c8791">
+                        <text x="24" y="196">TAU CETI</text><text x="356" y="46">SOL</text><text x="232" y="96">11.9 LY</text>
+                        <text x="124" y="146" fill="#8fd694">BEETLES x4</text><text x="158" y="218" fill="#f2b33d">HAIL MARY</text>
+                    </g>
+                </svg>
+            </div>
+            <div>
+                <table>
+                    <thead><tr><th>Probe</th><th>v/c</th><th>Farm</th><th>Link</th></tr></thead>
+                    <tbody>
+                        <tr><td>1 JOHN</td><td>0.41</td><td class="ok">ALIVE</td><td class="ok">OK</td></tr>
+                        <tr><td>2 PAUL</td><td>0.41</td><td class="ok">ALIVE</td><td class="ok">OK</td></tr>
+                        <tr><td>3 GEORGE</td><td>0.40</td><td class="ok">ALIVE</td><td class="am">WEAK</td></tr>
+                        <tr><td>4 RINGO</td><td>0.40</td><td class="ok">ALIVE</td><td class="ok">OK</td></tr>
+                    </tbody>
+                </table>
+                <div class="cap">Earth arrival, Earth frame: T+26.4 yr.<br>Own-ship heading no longer matches the Sol return corridor.</div>
+            </div>
+        </div>
+    </div>
+    <p class="b-used">Used for: <b>Return transit, Beetle dashboard.</b></p>
+</section>
+
+<!-- ===================================================== 9 TIMELINE -->
+<section class="b-sec" id="timeline">
+    <span class="b-num">09</span>
+    <h2>Timeline and dimming: what I would correct</h2>
+    <p class="b-note">Right now the Sun's output jumps around (99.7 → 99.66 → 99.95 → 99.91 → 96.8) and reaches 86% by launch, which under the novel's own figures would already have ended civilisation. The proposal is one curve for the whole site, shown below, and a pre-launch period shortened from 13 years to 6 so that curve lands in a believable place at every panel. Before launch the number barely moves, which is the point: the fear is in the projection. Each panel shows the current figure next to the projected one.</p>
+
+    <div class="b-chart">
+        <svg viewBox="0 0 760 262" role="img" aria-label="Proposed solar output curve from detection to recovery">
+            <g stroke="rgba(239,235,228,.12)"><line x1="60" y1="20" x2="700" y2="20"/><line x1="60" y1="70" x2="700" y2="70"/><line x1="60" y1="120" x2="700" y2="120"/><line x1="60" y1="170" x2="700" y2="170"/><line x1="60" y1="220" x2="700" y2="220"/></g>
+            <g stroke="rgba(239,235,228,.35)" stroke-dasharray="2 4"><line x1="180.9" y1="20" x2="180.9" y2="220"/><line x1="412" y1="20" x2="412" y2="220"/><line x1="650.3" y1="20" x2="650.3" y2="220"/></g>
+            <defs><linearGradient id="sunramp" x1="60" x2="700" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f2b33d"/><stop offset=".45" stop-color="#d9c08a"/><stop offset=".93" stop-color="#8fa3b8"/><stop offset="1" stop-color="#f2b33d"/></linearGradient></defs>
+            <polyline fill="none" stroke="url(#sunramp)" stroke-width="2.6" stroke-linejoin="round" points="60,20.1 77.8,20.3 113.3,21.1 148.9,23.7 184.5,29.2 220,38.7 255.6,52.3 291.1,69.3 326.7,88.3 362.3,108.3 397.8,127.3 433.4,145 468.9,160.5 504.5,174 540.1,185.3 575.6,194.8 611.2,202.3 646.7,208.3 666.3,211 675.2,132.5 685.8,40 700,21.3"/>
+            <circle cx="666.3" cy="211" r="4" fill="#8fa3b8"/>
+            <g font-size="10.5" fill="#a39e94">
+                <g text-anchor="end"><text x="52" y="24">100%</text><text x="52" y="74">98%</text><text x="52" y="124">96%</text><text x="52" y="174">94%</text><text x="52" y="224">92%</text></g>
+                <g text-anchor="middle">
+                    <text x="74" y="240">T−6</text><text x="180.9" y="240" fill="#efebe4">T0 launch</text><text x="412" y="240">T+13 Tau Ceti</text><text x="640" y="240">T+26.4 splashdown</text>
+                </g>
+                <text x="188" y="48" fill="#efebe4">99.66%</text>
+                <text x="420" y="130" fill="#efebe4">95.4%</text>
+                <text x="655" y="150" fill="#efebe4" text-anchor="end">Sol saved at T+27.3: 92.4%</text>
+                <text x="706" y="24">recovery</text>
+            </g>
+        </svg>
+    </div>
+
+    <div class="b-scroll">
+    <table class="b-table">
+        <thead><tr><th>Panel</th><th>Clock now</th><th>Clock proposed</th><th>Sol now</th><th>Sol proposed</th><th>Why</th></tr></thead>
+        <tbody>
+            <tr><td>Infrared glow detected</td><td class="m old">T–13 yr</td><td class="m new">T−6.0 yr</td><td class="m old">99.7%</td><td class="m new">99.99%</td><td class="why">Detection comes before any measurable loss</td></tr>
+            <tr><td>Presidential address</td><td class="m old">T–12 yr</td><td class="m new">T−5.8 yr</td><td class="m old">99.66%</td><td class="m new">99.99%</td><td class="why">Novel: output down 0.01% at disclosure</td></tr>
+            <tr><td>Task force formed</td><td class="m old">T–12 yr</td><td class="m new">T−5.7 yr</td><td class="m old">99.95%</td><td class="m new">99.99%</td><td class="why">Old value goes back up, which the Sun did not</td></tr>
+            <tr><td>ArcLight returns data</td><td class="m old">T–11 yr</td><td class="m new">T−5.0 yr</td><td class="m old">99.91%</td><td class="m new">99.98%</td><td class="why"></td></tr>
+            <tr><td>Astrophage identified</td><td class="m old">T–9 yr</td><td class="m new">T−4.6 yr</td><td class="m old">96.8%</td><td class="m new">99.97%</td><td class="why"></td></tr>
+            <tr><td>Sun dimming projections</td><td class="m old">T–8 yr</td><td class="m new">T−4.0 yr</td><td class="m old">95.1%</td><td class="m new">99.96%</td><td class="why">Adds "projected +20 yr: 95%" beside it</td></tr>
+            <tr><td>Sahara paved</td><td class="m old">T–7 yr</td><td class="m new">T−3.5 yr</td><td class="m old">94.2%</td><td class="m new">99.94%</td><td class="why"></td></tr>
+            <tr><td>Hail Mary goes public</td><td class="m old">T–6 yr</td><td class="m new">T−3.0 yr</td><td class="m old">92.8%</td><td class="m new">99.92%</td><td class="why">"Return window 26 years" becomes "data return: 26 years"; nobody was coming back</td></tr>
+            <tr><td>Antarctica detonation</td><td class="m old">T–5 yr</td><td class="m new">T−2.0 yr</td><td class="m old">90.6%</td><td class="m new">99.87%</td><td class="why"></td></tr>
+            <tr><td>Astronauts selected</td><td class="m old">T–2 yr</td><td class="m new">T−1.0 yr</td><td class="m old">89.1%</td><td class="m new">99.78%</td><td class="why"></td></tr>
+            <tr><td>Final preparations</td><td class="m old">T–9 days</td><td class="m new">T−30 days</td><td class="m old">87.9%</td><td class="m new">99.67%</td><td class="why">Moved ahead of the accident</td></tr>
+            <tr><td>Laboratory disaster</td><td class="m old">T–3 days, Kraków</td><td class="m new">T−9 days, Baikonur</td><td class="m old">87.2%</td><td class="m new">99.67%</td><td class="why">Novel: research centre at Baikonur, nine days out</td></tr>
+            <tr><td>Grace joins crew</td><td class="m">T−2 days</td><td class="m">T−2 days</td><td class="m old">86.9%</td><td class="m new">99.66%</td><td class="why"></td></tr>
+            <tr class="t0"><td>Hail Mary launches</td><td class="m">T+0</td><td class="m">T+0</td><td class="m old">86.4%</td><td class="m new">99.66%</td><td class="why"></td></tr>
+            <tr><td>Stratt arrested / Resource wars</td><td class="m">T+4 mo / T+1.5 yr</td><td class="m">unchanged</td><td class="m old">84.8% / 81.3%</td><td class="m new">99.61% / 99.40%</td><td class="why">Wars driven by hoarding and the Sahara and Antarctic programmes more than by cold, this early</td></tr>
+            <tr><td>Return, contaminant, Beetles</td><td class="m old">T+14, 14.2, 14.1</td><td class="m new">T+14.0, 14.1, 14.2</td><td class="m">n/a</td><td class="m">n/a</td><td class="why">Clocks currently run backwards between two panels</td></tr>
+            <tr><td>Climate collapse</td><td class="m">T+18 yr</td><td class="m">T+18 yr</td><td class="m">none shown</td><td class="m new">93.9%</td><td class="why"></td></tr>
+            <tr><td>Earth waits / signal / splashdown</td><td class="m old">T+24 to 24.4</td><td class="m new">T+26 to 26.4</td><td class="m">none shown</td><td class="m new">92.6%</td><td class="why">Tau Ceti is 11.9 light-years away. Probes released at T+14.2 cannot arrive before T+26.1</td></tr>
+            <tr><td>Solution, ArcLight II, Sol saved, Earth heals, Celebration</td><td class="m old">T+24.7 to 27</td><td class="m new">T+26.7 to 29</td><td class="m">none shown</td><td class="m new">92.4% then rising</td><td class="why">Shifted by the same two years</td></tr>
+            <tr><td>A distant sun brightens</td><td class="m old">T+34 yr</td><td class="m new">about T+44 yr</td><td class="m">n/a</td><td class="m">n/a</td><td class="why">40 Eridani is 16 light-years from Earth; its recovery cannot be seen sooner. I will check the transit time before fixing the number</td></tr>
+        </tbody>
+    </table>
+    </div>
+
+    <ul class="b-list" style="margin-top:22px;">
+        <li><b>Clock format.</b> One style everywhere (T−6.0 YR, T−9 DAYS, T+13.0 YR) in place of the current mix of "T–13 YEARS", "T–MINUS 12 YEARS" and "T+00:00:00".</li>
+        <li><b>Strain name.</b> The panels say Taumoeba-35. As I remember the novel, the nitrogen-resistant strain sent home was Taumoeba-82.5. I will confirm against the book before changing it.</li>
+        <li><b>Mortality figure.</b> The projections document says 26.5% in 30 years and 50% in 40; the panel says 50% within 19 years. The novel's figure is the 19-year one, so the document will match the panel.</li>
+        <li><b>Unfinished sentence.</b> The EVA panel reads "collect samples from the ." That gets completed.</li>
+    </ul>
+</section>
+
+<!-- ===================================================== 10 MAP -->
+<section class="b-sec" id="map">
+    <span class="b-num">10</span>
+    <h2>Which design each of the 39 documents gets</h2>
+    <p class="b-note">Today the 38 pop-up documents share one parchment template, and the standalone Astrophage report has a third look of its own. After the redesign there are eleven designs, and the label on each timeline button names the type.</p>
+    <div class="b-scroll">
+    <table class="b-table">
+        <thead><tr><th>Design</th><th>Documents</th></tr></thead>
+        <tbody>
+            <tr><td>Mailing-list email</td><td class="why">Petrova's first report</td></tr>
+            <tr><td>Press-office remarks</td><td class="why">Presidential address · Year 26 evening bulletin (broadcast rush transcript, same family)</td></tr>
+            <tr><td>Control-room transcript</td><td class="why">ArcLight livestream · Launch day · Final transmission</td></tr>
+            <tr><td>Tribunal transcript</td><td class="why">Stratt tribunal</td></tr>
+            <tr><td>Journal paper</td><td class="why">Full Astrophage analysis (the separate report.html page) · Adrian biosphere · Taumoeba dossier · 40 Eridani observation</td></tr>
+            <tr><td>News article</td><td class="why">Task force formed · What is Astrophage? · Beetle arrival confirmed · The solution arrives · Commemoration</td></tr>
+            <tr><td>Government form</td><td class="why">Dr. Grace personnel file · Crew biographies · Recruitment register · Beetle recovery inventory</td></tr>
+            <tr><td>Assessment report</td><td class="why">Sun-dimming projections · Sahara ethics review · Antarctic intervention · Resource wars · Climate collapse · Sol recovery confirmation · Earth recovery</td></tr>
+            <tr><td>Investigation report</td><td class="why">Baikonur laboratory accident · Adrian atmospheric dive (EVA 3)</td></tr>
+            <tr><td>Briefing memo</td><td class="why">Hail Mary mission briefing · Orbital assembly final status · ArcLight II mission report · Contact file</td></tr>
+            <tr><td>Ship's log / flight display</td><td class="why">Yao medical log · Ilyukhina medical log · Tau Ceti arrival and revival · Contaminant alerts · Return transit · Beetle dashboard</td></tr>
+        </tbody>
+    </table>
+    </div>
+</section>
+
+</div>
+</body>
+</html>
